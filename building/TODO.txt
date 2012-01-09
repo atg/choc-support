@@ -1,0 +1,93 @@
+                     LANGUAGE   STATUS
+---------------------------------------
+                 ActionScript   unknown
+                          Ada   unknown
+                          APL   unknown
+                  AppleScript   unknown
+                          Arc   unknown
+                          Asm   unknown
+                          Asp   unknown
+                          Awk   unknown
+                        Basic   unknown
+                        Batch   unknown
+                          Boo   unknown
+                    Brainfuck   unknown
+                            C    incomplete: gcc/check.sh only
+                           C#   unknown
+                          C++   unknown
+                   C++ Header   unknown
+                      Clojure    incomplete: repl.sh + run.sh only
+                        COBOL   unknown
+                 CoffeeScript    incomplete: run.sh only
+                  Common Lisp   unknown
+                          CSS   unknown
+                            D   unknown
+                        Dylan   unknown
+                       Eiffel   unknown
+                       Erlang    incomplete: run.sh only
+                           F#   unknown
+                     F-Script   unknown
+                       Factor   unknown
+                        Forth   unknown
+                      Fortran   unknown
+                           Go   unknown
+                       Groovy   unknown
+                         HAML   unknown
+                      Haskell    ghc mostly complete. Missing debug.sh
+                         HTML   unknown
+                           Io    mostly complete. repl.sh and run.sh only
+                         Java   unknown
+                   JavaScript    node/ complete
+                         JSON   unknown
+                        LaTeX   unknown
+                        Lemon   unknown
+                          Lex   unknown
+                          Lua    mostly complete. repl.sh and run.sh only
+                         Make   unknown
+                     Markdown   unknown
+                      Nemerle   unknown
+                           Nu   unknown
+                  Objective-C   unknown
+                Objective-C++   unknown
+                  Objective-J   unknown
+                        OCaml   unknown
+                           Oz   unknown
+                       Pascal   unknown
+                         Paws   unknown
+                         Perl    mostly complete. Missing repl.sh
+                          PHP   unknown
+                         Pike   unknown
+                   Plain Text   unknown
+                    Plaintext   unknown
+                   PostScript   unknown
+                       Prolog   unknown
+                       Python    complete
+                            R   unknown
+                        Ragel   unknown
+                         REXX   unknown
+                         Ruby    mostly complete. Missing debug.sh
+                         SASS   unknown
+                        Scala   unknown
+                       Scheme   unknown
+                         SCSS   unknown
+                          Sed   unknown
+                         Self   unknown
+                      self-ml   unknown
+                        Shell   unknown
+                        SLang   unknown
+                    Smalltalk   unknown
+                       Smarty   unknown
+                          SQL   unknown
+                  Standard ML   unknown
+                          Tcl   unknown
+                          TeX   unknown
+                      Textile   unknown
+                         Vera   unknown
+                      Verilog   unknown
+                         VHDL   unknown
+                          Vim   unknown
+                          XML   unknown
+                         XSLT   unknown
+                         YACC   unknown
+                         YAML   unknown
+

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Python",
+    "home": "http://docs.python.org",
+    "google": "docs.python.org",
+    "hide": [
+      ".related",
+      ".sphinxsidebar"
+    ],
+    "css": ".bodywrapper { margin: inherit !important; }"
+  },
+  {
+    "name": "Django",
+    "home": "http://docs.djangoproject.com",
+    "google": "docs.djangoproject.com",
+    "hide": [
+      "#header",
+      "#billboard"
+    ]
+  }
+]

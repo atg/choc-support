@@ -1,0 +1,10 @@
+# Documentation Glue
+
+Each file's name (without the .json extension) is a scope selector.
+
+The root element is an array of objects. Each object represents a specific search provider, and may have the following keys:
+
+    name: The name to display in the documentation viewer's menu
+    home: A home page to display when no query is present
+    search: A search url. %% is used as a place holder for the user's query.
+

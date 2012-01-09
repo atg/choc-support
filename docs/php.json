@@ -1,0 +1,14 @@
+[
+  {
+    "name": "PHP",
+    "home": "http://www.php.net/manual/en/",
+    "search": "http://www.php.net/manual-lookup.php?pattern=%%&lang=en",
+    "hide": [
+      "#headnav",
+      "#headsearch",
+      ".manualnavbar.manualnavbar_top",
+      "#leftbar"
+    ],
+    "css": "#layout_2 #content, #layout_3 #content { margin-left: 0 !important; }"
+  }
+]

@@ -1,0 +1,2 @@
+javac "$CHOC_FILE"
+#javac -d "$CHOC_BUILD_DESTINATION" "$CHOC_FILE"

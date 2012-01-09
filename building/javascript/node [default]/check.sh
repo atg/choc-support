@@ -1,0 +1,1 @@
+node ./check.js

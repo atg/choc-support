@@ -1,0 +1,1 @@
+scala "$CHOC_FILE"

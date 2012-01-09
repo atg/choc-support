@@ -1,0 +1,1 @@
+lua - "$CHOC_FILE"

@@ -1,0 +1,33 @@
+{
+  "icon": "class",
+  "items": [
+  "std::vector",
+  "std::deque",
+  "std::list",
+  "std::stack",
+  "std::queue",
+  "std::priority_queue",
+  "std::set",
+  "std::multiset",
+  "std::map",
+  "std::multimap",
+  "std::bitset",
+
+  "std::istream",
+  "std::ostream",
+  "std::iostream",
+  "std::ifstream",
+  "std::ofstream",
+  "std::fstream",
+  "std::istringstream",
+  "std::ostringstream",
+  "std::stringstream",
+  "std::streambuf",
+
+  "std::complex",
+  "std::exception",
+  "std::locale",
+  "std::pair",
+  "std::tuple"
+  ]
+}

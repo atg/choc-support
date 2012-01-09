@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Hoogle",
+    "home": "http://haskell.org/ghc/docs/7.0-latest/html/libraries/index.html",
+    "search": "http://www.haskell.org/hoogle/?hoogle=%%"
+  }
+]

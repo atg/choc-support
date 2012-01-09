@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Ruby",
+    "home": "http://ruby-doc.org/",
+    "google": "ruby-doc.org"
+  },
+  {
+    "name": "Rails",
+    "search": "http://www.google.com/search?q=%%+site%3Aguides.rubyonrails.org+OR+site%3Aapi.rubyonrails.org"
+  }
+]

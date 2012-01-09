@@ -1,0 +1,22 @@
+{
+    "icon": "class"
+    , "type": "class"
+    , "items": [
+        "Array"
+        , "Boolean"
+        , "Date"
+        , "Document"
+        , "Event"
+        , "Function"
+        , "Image"
+        , "JSON"
+        , "Math"
+        , "Number"
+        , "Object"
+        , "RegExp"
+        , "String"
+        , "StyleSheet"
+        , "XMLDocument"
+        , "XMLHttpRequest"
+    ]
+}

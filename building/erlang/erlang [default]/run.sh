@@ -1,0 +1,1 @@
+escript "$CHOC_FILE"

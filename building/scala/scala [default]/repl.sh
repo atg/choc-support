@@ -1,0 +1,1 @@
+scala -Yrepl-sync -i "$CHOC_FILE"
