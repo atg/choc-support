@@ -1,2 +1,4 @@
-var next_word;
-next_word = function() {};
+//! event vim.next-word: next_word
+function next_word() {
+    // ...
+}
