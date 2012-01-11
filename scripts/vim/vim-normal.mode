@@ -99,8 +99,8 @@
 (key I vim.insert-at-bol)
 (key i vim.insert)
 
-(key I vim.newline-above)
-(key i vim.newline-below)
+(key O vim.newline-above)
+(key o vim.newline-below)
 
 (key V vim.visual-lines)
 (key v vim.visual)
@@ -114,7 +114,7 @@
 (key ~ vim.toggle-case)
 (key @ vim.play-macro)
 
-# & -- ???
+(key & vim.repeat-extra)
 
 
 (key Y vim.yank-line)

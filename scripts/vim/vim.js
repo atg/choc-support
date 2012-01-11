@@ -92,6 +92,7 @@ function begin_paragraph() {
 //! event vim.end-paragraph: end_paragraph
 function end_paragraph() {
    motion(function(idx, sel, info, rctx) {
+      idx += 1;
       if (idx == 0 || rctx.length() - idx <= 0) {
          return 0;
       }
@@ -128,6 +129,7 @@ function begin_sentence() {
 //! event vim.end-sentence: end_sentence
 function end_sentence() {
    motion(function(idx, sel, info, rctx) {
+      idx += 1;
       if (idx == 0 || rctx.length() - idx <= 0) {
          return 0;
       }
@@ -141,9 +143,40 @@ function end_sentence() {
 }
 
 //! event vim.find-char: find_char
-function find_char() { }
+function find_char() {
+   expect_char(function(c) {   
+      motion(function(idx, sel, info, rctx) {
+         idx += 1;
+         if (idx == 0 || rctx.length() - idx <= 0) {
+            return 0;
+         }
+         
+         var input = rctx.textInRange(Range(idx, rctx.length() - idx));
+         var found_index = input.indexOf(c);
+         if (found_index === -1) {
+            return idx - 1;
+         }
+         return found_index;
+      });
+   });
+}
 //! event vim.find-char-backwards: find_char_backwards
-function find_char_backwards() { }
+function find_char_backwards() {
+   expect_char(function(c) {   
+      motion(function(idx, sel, info, rctx) {
+         if (idx == 0) {
+            return 0;
+         }
+         
+         var input = rctx.textInRange(Range(0, idx));         
+         var found_index = input.indexOf(c);
+         if (found_index === -1) {
+            return idx - 1;
+         }
+         return found_index;
+      });
+   });
+}
 
 //! event vim.document-start: document_start
 function document_start() {
@@ -253,3 +286,150 @@ function previous_line() {
       return rctx.rangeOfLinesInRange(Range(info.line.location - 1, 0)).location;
    });
 }
+
+
+//! event vim.record-macro: record_macro
+function record_macro() {
+   
+}
+//! event vim.change-to-eol: change_to_eol
+function change_to_eol() {
+   
+   delete_to_eol();
+   mode("insert");
+}
+//! event vim.delete-to-eol: delete_to_eol
+function delete_to_eol() {
+   
+}
+//! event vim.append-at-eol: append_at_eol
+function append_at_eol() {
+   
+}
+//! event vim.append: append_normal
+function append_normal() {
+   
+}
+//! event vim.sub-at-eol: sub_at_eol
+function sub_at_eol() {
+   
+}
+//! event vim.sub-character: sub_character
+function sub_character() {
+   
+}
+//! event vim.replace-mode: replace
+function replace_mode() {
+   mode("replace");
+}
+//! event vim.replace-character: replace_character
+function replace_character() {
+   expect_char(function(c) {
+      // substitute the new character
+   });
+}
+
+//! event vim.paste-before: paste_before
+//! event vim.paste-after: paste_after
+function paste_before() {
+   
+}
+function paste_after() {
+   
+}
+
+//! event vim.backspace: backspace
+function backspace() {
+   
+}
+//! event vim.delete-character: delete_character
+function delete_character() {
+   
+}
+//! event vim.insert-at-bol: insert_at_bol
+function insert_at_bol() {
+   
+}
+//! event vim.insert: insert_mode
+function insert_mode() {
+   mode("insert");
+}
+
+//! vim.newline-above: newline_above
+function newline_above() {
+   
+}
+//! vim.newline-below: newline_below
+function newline_below() {
+   
+}
+//! vim.visual-lines: visual_lines
+function visual_lines() {
+   
+}
+//! vim.visual: visual_mode
+function visual_mode() {
+   mode("visual");
+}
+
+//! vim.set-mark: set_mark
+function set_mark() {
+   
+}
+//! vim.repeat: repeat
+function repeat() {
+   
+}
+//! vim.extra-command: extra_command
+function extra_command() {
+   
+}
+//! vim.toggle-case: tOgGlE_cAsE
+function tOgGlE_cAsE() {
+   
+}
+//! vim.play-macro: play_macro
+function play_macro() {
+   
+}
+//! vim.repeat-extra: repeat_extra
+function repeat_extra() {
+   
+}
+//! vim.yank-line: yank_line
+function yank_line() {
+   
+}
+
+
+//! vim.filter: filter_op
+function filter_op() {
+   
+}
+//! vim.auto-format: auto_format
+function auto_format() {
+   
+}
+//! vim.yank: yank
+function yank() {
+   
+}
+//! vim.change: change
+function change() {
+   
+}
+//! vim.delete: delete
+function delete() {
+   
+}
+//! vim.unindent: unindent
+function unindent() {
+   
+}
+//! vim.indent: indent
+function indent() {
+   
+}
+
+
+
