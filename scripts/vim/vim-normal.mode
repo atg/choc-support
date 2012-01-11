@@ -20,26 +20,26 @@
 (key E vim.end-WORD)
 (key B vim.previous-WORD)
 
-
 (key t vim.till)
 (key T vim.back-till)
 
-(key `[` vim.section-next)
-(key `]` vim.section-previous)
+(key `[` vim.next-section)
+(key `]` vim.previous-section)
 
 (key `{` vim.begin-paragraph)
-(key `}` vim.begin-paragraph)
+(key `}` vim.end-paragraph)
+
+(key [(] vim.begin-sentence)
+(key [)] vim.end-sentence)
 
 (key f vim.find-char)
 (key F vim.find-char-backwards)
-
 
 (key G vim.document-end)
 
 (key H vim.screen-top)
 (key M vim.screen-middle)
 (key L vim.screen-bottom)
-
 
 (key h vim.go-left)
 (key j vim.go-down)
@@ -63,9 +63,6 @@
 
 (key % vim.go-to-match)
 
-(key [(] vim.begin-sentence)
-(key [)] vim.end-sentence)
-
 (key ^ vim.beginning-of-line-caret)
 (key 0 vim.beginning-of-line-zero)
 (key | vim.beginning-of-line-pipe)
@@ -77,21 +74,70 @@
 (key - vim.previous-line)
 
 
-
-
-
-
-
-
 # --- Commands ---
-(key C vim.change-to-eol)
-(key D vim.delete-to-eol)
-(key r vim.replace-character)
-(key < vim.unindent)
-(key > vim.indent)
+(key q vim.record-macro)
 
-(key p vim.paste)
+(key C vim.change-to-eol)
+
+(key D vim.delete-to-eol)
+
+(key A vim.append-at-eol)
+(key a vim.append)
+
+(key S vim.sub-at-eol)
+(key s vim.sub-character)
+
+(key R vim.replace-mode)
+(key r vim.replace-character)
+
+(key P vim.paste-before)
+(key p vim.paste-after)
+
+(key X vim.backspace)
+(key x vim.delete-character)
+
+(key I vim.insert-at-bol)
+(key i vim.insert)
+
+(key I vim.newline-above)
+(key i vim.newline-below)
+
+(key V vim.visual-lines)
+(key v vim.visual)
+
+(key m vim.set-mark)
+
+(key . vim.repeat)
+
+(key : vim.extra-command)
+
+(key ~ vim.toggle-case)
+(key @ vim.play-macro)
+
+# & -- ???
+
 
 (key Y vim.yank-line)
 
+
+# --- Operators ---
+(key ! vim.filter)
+(key = vim.auto-format)
+(key y vim.yank)
+(key c vim.change)
+(key d vim.delete)
+(key < vim.unindent)
+(key > vim.indent)
+
+
+# --- Special ---
+(key 1 vim.1)
+(key 2 vim.2)
+(key 3 vim.3)
+(key 4 vim.4)
+(key 5 vim.5)
+(key 6 vim.6)
+(key 7 vim.7)
+(key 8 vim.8)
+(key 9 vim.9)
 
