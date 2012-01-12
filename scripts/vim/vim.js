@@ -1,3 +1,14 @@
+var _registers = {};
+function get_register(k) {
+   return _registers[k];
+}
+function set_register(k, v) {
+   _registers[k] = v;
+}
+
+var _commands = [];
+
+
 function expect_char(f) {
     // I have no idea how this is going to work.
     // Some vim commands take a char argument, like *f*
@@ -312,11 +323,27 @@ function append_normal() {
 }
 //! event vim.sub-at-eol: sub_at_eol
 function sub_at_eol() {
+   Recipe.run(function(rctx) {
+      
+      // Delete up to but not including EOL
+      // Consolidate selection
+      
+   });
    
+   mode("insert");
 }
 //! event vim.sub-character: sub_character
 function sub_character() {
+   Recipe.run(function(rctx) {
+      
+      repeat_find_motion();
+      
+      // Delete this char
+      // Consolidate selection
+      
+   });
    
+   mode("insert");
 }
 //! event vim.replace-mode: replace
 function replace_mode() {
@@ -326,6 +353,11 @@ function replace_mode() {
 function replace_character() {
    expect_char(function(c) {
       // substitute the new character
+      Recipe.run(function(rctx) {
+         var c_repeated = new Array(rctx.selection.length || 1).join(c); 
+         rctx.replaceTextInRange(rctx.selection, c_repeated);
+         rctx.selection = Range(rctx.selection.location, 0);
+      });
    });
 }
 
@@ -356,13 +388,10 @@ function insert_mode() {
 }
 
 //! vim.newline-above: newline_above
-function newline_above() {
-   
-}
+function newline_above() { /* this should be a remap */ }
 //! vim.newline-below: newline_below
-function newline_below() {
-   
-}
+function newline_below() { /* this should be a remap */ }
+
 //! vim.visual-lines: visual_lines
 function visual_lines() {
    
@@ -387,7 +416,12 @@ function extra_command() {
 //! vim.toggle-case: tOgGlE_cAsE
 function tOgGlE_cAsE() {
    
+   // Get the current selected string
+   // Toggle case
+   // If this was singular, then move the cursor to Range(sel.location + 1, 0)
+   // Otherwise keep the selection
 }
+
 //! vim.play-macro: play_macro
 function play_macro() {
    
@@ -397,8 +431,23 @@ function repeat_extra() {
    
 }
 //! vim.yank-line: yank_line
-function yank_line() {
-   
+function yank_line() {   
+   Recipe.run(function(rctx) {
+      
+      var yankrange;
+      // If is singular
+      //   Copy whole line, don't change selection
+      if (rctx.selection.is_singular()) {
+         yankrange = rctx.rangeOfLinesInRange(Range(rctx.selection.location, 0));
+      }
+      // Else
+      //   Copy all lines, reset selection to beginning of first line
+      else {
+         yankrange = rctx.rangeOfLinesInRange(rctx.selection);
+      }
+      
+      Clipboard.copy(rctx.textInRange(yankrange));
+   });
 }
 
 
@@ -412,24 +461,20 @@ function auto_format() {
 }
 //! vim.yank: yank
 function yank() {
-   
+   mode("yank");
 }
 //! vim.change: change
 function change() {
-   
+   mode("change");
 }
 //! vim.delete: delete
 function delete() {
-   
+   mode("delete");
 }
 //! vim.unindent: unindent
-function unindent() {
-   
-}
+function unindent() { /* this should be a remap */ }
 //! vim.indent: indent
-function indent() {
-   
-}
+function indent() { /* this should be a remap */ }
 
 
 
