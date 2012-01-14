@@ -1,0 +1,10 @@
+{
+    "name": "Erlang",
+
+    "extensions": ["erl, hrl"],
+ 
+    "tab-width": 4,
+    "soft-tabs": true,
+
+    "comment.line": "%"
+}

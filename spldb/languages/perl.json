@@ -1,0 +1,7 @@
+{
+    "name": "Python",
+    
+    "extensions": ["pl"],
+    
+    "comment.line": "#"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Lua",
+    
+    "extensions": ["lua"],
+    
+    "comment.line": "--",
+    "comment.block.start": "--[[",
+    "comment.block.end": "--]]"
+}

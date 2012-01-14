@@ -1,0 +1,9 @@
+{
+    "name": "PHP",
+    
+    "extensions": ["php", "inc", "php4", "php5", "php6", "phtml"],
+    
+    "comment.line": ["//", "#"],
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "HTML",
+    
+    "extensions": ["html"],
+    
+    "comment.block.start": "<!--",
+    "comment.block.end": "-->"
+}

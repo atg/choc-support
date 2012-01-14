@@ -1,0 +1,9 @@
+{
+    "name": "ActionScript",
+    
+    "extensions": "as",
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

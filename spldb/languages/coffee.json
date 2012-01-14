@@ -1,0 +1,9 @@
+{
+    "name": "CoffeeScript",
+    
+    "extensions": ["coffee"],
+    
+    "comment.line": "#",
+    "comment.block.start": "///",
+    "comment.block.end": "///"
+}

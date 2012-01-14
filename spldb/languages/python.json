@@ -1,0 +1,9 @@
+{
+    "name": "Python",
+    
+    "extensions": ["py"],
+    
+    "comment.line": "#",
+    "comment.block.start": "\"\"\"",
+    "comment.block.end": "\"\"\""
+}

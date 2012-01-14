@@ -1,0 +1,11 @@
+{
+    "name": "C++",
+    
+    "extensions": ["cpp", "cc", "c++", "cxx"],
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/",
+    "comment.nested.start": "#if 0",
+    "comment.nested.end": "#endif"
+}

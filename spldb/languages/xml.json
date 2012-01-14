@@ -1,0 +1,8 @@
+{
+    "name": "XML",
+    
+    "extensions": ["xml"],
+    
+    "comment.block.start": "<!--",
+    "comment.block.end": "-->"
+}

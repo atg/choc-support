@@ -1,0 +1,9 @@
+{
+    "name": "Clojure",
+    
+    "extensions": ["clj"],
+    
+    "comment.line": ";",
+    "comment.nested.start": "(comment",
+    "comment.nested.end": ")"
+}

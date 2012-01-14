@@ -1,0 +1,7 @@
+{
+    "name": "YAML",
+    
+    "extensions": ["yaml"],
+    
+    "comment.line": "#"
+}

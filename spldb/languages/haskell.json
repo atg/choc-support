@@ -1,0 +1,9 @@
+{
+    "name": "Haskell",
+    
+    "extensions": ["hs"],
+    
+    "comment.line": "--",
+    "comment.block.start": "{-",
+    "comment.block.end": "-}"
+}

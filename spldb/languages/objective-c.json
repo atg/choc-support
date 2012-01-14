@@ -1,0 +1,11 @@
+{
+    "name": "Objective-C",
+    
+    "extensions": ["m"],
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/",
+    "comment.nested.start": "#if 0",
+    "comment.nested.end": "#endif"
+}

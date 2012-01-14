@@ -1,0 +1,8 @@
+{
+    "name": "CSS",
+    
+    "extensions": ["css"],
+    
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

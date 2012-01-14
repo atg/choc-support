@@ -1,0 +1,9 @@
+{
+    "name": "Ruby",
+    
+    "extensions": ["rb"],
+    
+    "comment.line": "#",
+    "comment.block.start": "=begin",
+    "comment.block.end": "=end"
+}

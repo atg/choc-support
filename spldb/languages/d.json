@@ -1,0 +1,11 @@
+{
+    "name": "D",
+    
+    "extensions": ["d"],
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/",
+    "comment.nested.start": "/+",
+    "comment.nested.end": "+/"
+}
