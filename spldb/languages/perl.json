@@ -1,7 +1,7 @@
 {
-    "name": "Python",
+    "name": "Perl",
     
-    "extensions": ["pl"],
+    "extensions": ["pl", "pm", "pod"],
     
     "comment.line": "#"
 }
