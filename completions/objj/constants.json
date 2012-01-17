@@ -1,0 +1,13 @@
+{
+    "icon": "constant"
+    , "type": "constant"
+    , "items": [
+        "@implementation"
+        , "@accessor"
+        , "@end"
+        , "@selector()"
+        , "@import"
+        , "@action"
+        , "@outlet"
+    ]
+}
