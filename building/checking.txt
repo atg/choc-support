@@ -1,0 +1,15 @@
+Python
+    PyFlakes
+JavaScript
+    JSHint
+    Google Closure
+Ruby
+    ruby -c
+HTML
+    w3c validator
+CSS
+    w3c validator
+C/Objective-C/C++/Objective-C++
+    clang
+PHP
+    php -l
