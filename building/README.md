@@ -33,14 +33,14 @@ Note the lack of an implementation directory. It's just `.chocbuild/<language>/<
 
 A few environment variables are provided to scripts:
 
-    $CHOC_BUILD_DIR  # Where to put build products. Defaults to "build"
+    $CHOC_BUILD_DIR  # Where to put build products. Defaults to "$CHOC_PROJECT_DIR/build". Note that this directory is not guaranteed to actually exist. You should do `mkdir -p $CHOC_BUILD_DIR` before relying on it.
     
     $CHOC_FILE           # The path to the file
     $CHOC_FILENAME       # The name of the file
     $CHOC_EXT            # The file's extension
     $CHOC_FILENAME_NOEXT # The name of the file with the extension removed
     
-    $CHOC_BUILD_DESTINATION # If the build product is only one file, this provides a suggestion for its path. Defaults to $CHOC_BUILD_DIR/$CHOC_FILENAME_NOEXT
+    $CHOC_BUILD_DESTINATION # If the build product is only one file, this provides a suggestion for its path. Defaults to "$CHOC_BUILD_DIR/$CHOC_FILENAME_NOEXT"
     
     $CHOC_FILE_DIR       # The directory that contains the file
     $CHOC_PROJECT_DIR    # THe directory of the base project (may not be the same as $CHOC_FILE_DIR)
