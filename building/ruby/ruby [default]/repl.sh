@@ -1,1 +1,1 @@
-irb "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && irb "$CHOC_FILE"

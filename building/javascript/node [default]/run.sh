@@ -1,1 +1,1 @@
-node "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && node "$CHOC_FILE"

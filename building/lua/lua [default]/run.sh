@@ -1,1 +1,1 @@
-lua - "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && lua - "$CHOC_FILE"

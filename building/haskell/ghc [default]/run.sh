@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-runhaskell "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && runhaskell "$CHOC_FILE"

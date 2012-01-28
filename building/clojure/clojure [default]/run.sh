@@ -1,1 +1,1 @@
-clj "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && clj "$CHOC_FILE"

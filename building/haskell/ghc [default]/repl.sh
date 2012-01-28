@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ghci "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && ghci "$CHOC_FILE"

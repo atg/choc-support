@@ -1,1 +1,1 @@
-io -i "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && io -i "$CHOC_FILE"

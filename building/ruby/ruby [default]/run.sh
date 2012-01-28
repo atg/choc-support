@@ -1,1 +1,1 @@
-ruby "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && ruby "$CHOC_FILE"

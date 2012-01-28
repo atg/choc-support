@@ -1,2 +1,2 @@
-javac "$CHOC_FILE"
-#javac -d "$CHOC_BUILD_DESTINATION" "$CHOC_FILE"
+# javac "$CHOC_FILE"
+mkdir -p "$CHOC_BUILD_DIR"; javac -d "$CHOC_BUILD_DIR" "$CHOC_FILE"

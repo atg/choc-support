@@ -1,1 +1,1 @@
-scala "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && scala "$CHOC_FILE"

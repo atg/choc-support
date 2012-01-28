@@ -1,1 +1,1 @@
-scala -Yrepl-sync -i "$CHOC_FILE"
+cd "$CHOC_RUN_DIRECTORY" && scala -Yrepl-sync -i "$CHOC_FILE"
