@@ -21,15 +21,15 @@ def parse_match(match):
     caret_outer = match[3]
     caret_inner = match[4]
     
-    column_index = -1
+    column = -1
     if len(caret_outer) > 0:
-        column_index = len(caret_inner)
+        column = len(caret_inner) + 1
     
     return {
         'path': path,
         'line': line,
         'message': message,
-        'column_index': column_index,
+        'column': column,
         'type': 'error',
     }
 
