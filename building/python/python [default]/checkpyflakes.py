@@ -3,13 +3,10 @@ import re
 import json
 
 def invoke():
-    print commands.getoutput('echo hello')
-    
-    output = str(commands.getoutput("bash pyflakes.sh $CHOC_SOURCE_FILE"))
+    output = str(commands.getoutput("bash pyflakes.sh $CHOC_FILE"))
     parse(output)
 
 def parse(output):
-    print output
     errormessage = r'^([^:\n]+):(\d+): ([^\n]+)'
     caretposition = r'( *)\^ *'
     fullregex_inner = r'%s(\n[^\n]+\n%s)?' % (errormessage, caretposition)
