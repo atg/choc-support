@@ -18,6 +18,7 @@ def invoke():
 
         "asi",
     ]
+    a
     options_arg = ','.join([opt + ':true' for opt in true_options])
     #print "sh env/jsc.sh $CHOC_FILE \"%s\"" % options_arg
     output = str(commands.getoutput("sh env/jsc.sh $CHOC_FILE \"%s\"" % options_arg))
