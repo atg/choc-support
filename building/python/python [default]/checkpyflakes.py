@@ -30,7 +30,7 @@ def parse_match(match):
         'line': line,
         'message': message,
         'column': column,
-        'type': 'error' if 'error' in message else 'warning',
+        'type': 'error' if 'error' in message or 'syntax' in message or 'unexpected' in message else 'warning',
     }
 
 def display(output):
