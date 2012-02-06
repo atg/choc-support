@@ -1,0 +1,1 @@
+gnatmake "$CHOC_BUILD_DESTINATION" "$CHOC_FILE"
