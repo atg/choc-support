@@ -1,0 +1,95 @@
+(name Notebook)
+
+(!default
+    (background BEB69D)
+    (color 000000BF)
+    (caret 000000)
+    (invisibles 85715540)
+    (selection FFFFFFDB)
+    (line-highlight FFFFFF29))
+
+(apply comment
+    Comment
+    (color FFEECE80)
+    (italic))
+
+(apply punctuation.section.embedded
+    Punctuation
+    (color FFFFFF1A)
+    (background FFFFFF4D))
+
+(apply string
+    String
+    (color FFFFFF1A)
+    (background E9D92BBF))
+
+(apply constant.numeric
+    Number
+    (color 000000BF)
+    (background 9AFF42BF))
+
+(apply constant.language
+    [Built-in constant]
+    (color FFFFFF1A)
+    (background 65D8E6BF))
+
+(apply [constant.character, constant.other]
+    [User-defined constant]
+    (color FFFFFF1A)
+    (background 65D8E6BF))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color FFFFFF1A)
+    (background 6693525C))
+
+(apply keyword
+    Keyword
+    (color C52727))
+
+(apply constant.character.entity
+    Entity
+    (color FFFFFF1A)
+    (background 8FE6D3BF))
+
+(apply storage
+    Storage
+    (color FFFFFF1A)
+    (background A69C86BF))
+
+(apply [entity.name.type.class, support.class]
+    [Class name]
+    (color 1D368F))
+
+(apply entity.other.inherited-class [Inherited class])
+
+(apply entity.name.function
+    [Function name]
+    (underline))
+
+(apply variable.parameter [Function argument])
+
+(apply [entity.name.tag, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css]
+    [Tag name]
+    (color 000000BF)
+    (background B1A68FBF))
+
+(apply entity.other.attribute-name
+    [Tag attribute]
+    (underline))
+
+(apply [support.function, support.constant.property-value.css]
+    [Library function]
+    (color FFFFFF1A)
+    (background F9559B6E))
+
+(apply support.constant [Library constant])
+
+(apply [support.type, support.class] [Library class/type])
+
+(apply support.other.variable [Library variable])
+
+(apply invalid
+    Invalid
+    (color FFFFFF)
+    (background BF363B))

@@ -1,0 +1,193 @@
+(name Owl)
+
+(author [Michael Sheets])
+
+(!default
+    (background 141414)
+    (color F8F8F8)
+    (caret A7A7A7)
+    (invisibles FFFFFF40)
+    (selection DDF0FF33)
+    (line-highlight FFFFFF08))
+
+(apply comment
+    Comment
+    (color 666666)
+    (italic))
+
+(apply constant
+    Constant
+    (color 7587A6))
+
+(apply entity
+    Entity
+    (color 9B859D))
+
+(apply entity.name.function
+    Function
+    (color CDA86A))
+
+(apply [keyword, storage]
+    Keyword
+    (color FBF095)
+    (bold))
+
+(apply string
+    String
+    (color CF6A4B))
+
+(apply [constant.character.escape, string source]
+    [String Interpolation]
+    (color FB9876))
+
+(apply support
+    Support
+    (color 9B859D)
+    (bold))
+
+(apply variable
+    Variable
+    (color 8F9D6A))
+
+(apply invalid.deprecated
+    [Invalid – Deprecated]
+    (color D2A8A1)
+    (italic)
+    (underline))
+
+(apply invalid.illegal
+    [Invalid – Illegal]
+    (color F8F8F8)
+    (background BB2F2EBF))
+
+(apply [text source]
+    [♦ Embedded Source]
+    (background B0B3BA14))
+
+(apply [text.html.ruby source]
+    [♦ Embedded Source (Bright)]
+    (background B1B3BA21))
+
+(apply entity.other.inherited-class
+    [♦ Entity inherited-class]
+    (color 9B5C2E)
+    (italic))
+
+(apply [string source]
+    [♦ String embedded-source]
+    (color FB9876))
+
+(apply [string constant]
+    [♦ String constant]
+    (color FB9876))
+
+(apply string.regexp
+    [♦ String.regexp]
+    (color E9C062))
+
+(apply [string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition]
+    [♦ String.regexp.«special»]
+    (color CF7D34))
+
+(apply [string variable]
+    [♦ String variable]
+    (color 8F9D6A))
+
+(apply support.function
+    [♦ Support.function]
+    (color CDA86A))
+
+(apply support.constant
+    [♦ Support.constant]
+    (color 7587A6))
+
+(apply meta.preprocessor.c
+    [c C/C++ Preprocessor Line]
+    (color D88659))
+
+(apply [meta.preprocessor.c keyword]
+    [c C/C++ Preprocessor Directive]
+    (color EA9C6D))
+
+(apply [meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string]
+    [✘ Doctype/XML Processing]
+    (color 494949))
+
+(apply [declaration.tag, declaration.tag entity, meta.tag, meta.tag entity]
+    [✘ Meta.tag.«all»]
+    (color AC885B))
+
+(apply [declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity]
+    [✘ Meta.tag.inline]
+    (color E0C589))
+
+(apply [meta.selector.css entity.name.tag]
+    [§ css tag-name]
+    (color E0C589)
+    (bold))
+
+(apply pseudo-class.attribute-name.css
+    [§ css:pseudo-class]
+    (color 8F9D6A))
+
+(apply [meta.selector.css entity.other.attribute-name.id]
+    [§ css#id]
+    (color FB9876))
+
+(apply [meta.selector.css entity.other.attribute-name.class]
+    [§ css.class]
+    (color 9B859D))
+
+(apply support.type.property-name.css
+    [§ css property-name:]
+    (color CDA86A))
+
+(apply [meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css]
+    [§ css property-value;]
+    (color 8F9D6A))
+
+(apply [meta.preprocessor.at-rule keyword.control.at-rule]
+    [§ css @at-rule]
+    (color FBF095)
+    (bold))
+
+(apply [meta.property-value support.constant.named-color.css, meta.property-value constant]
+    [§ css additional-constants]
+    (color 7587A6))
+
+(apply meta.constructor.argument.css
+    [§ css constructor.argument]
+    (color 8F9D6A))
+
+(apply keyword.other.unit.css
+    [css unit]
+    (color 7587A6))
+
+(apply [meta.diff, meta.diff.header, meta.separator]
+    [⎇ diff.header]
+    (color F8F8F8)
+    (background 0E2231)
+    (italic))
+
+(apply markup.deleted
+    [⎇ diff.deleted]
+    (color F8F8F8)
+    (background 420E09))
+
+(apply markup.changed
+    [⎇ diff.changed]
+    (color F8F8F8)
+    (background 4A410D))
+
+(apply markup.inserted
+    [⎇ diff.inserted]
+    (color F8F8F8)
+    (background 253B22))
+
+(apply markup.list
+    [Markup: List]
+    (color F9EE98))
+
+(apply markup.heading
+    [Markup: Heading]
+    (color CF6A4C))

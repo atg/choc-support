@@ -1,0 +1,98 @@
+(name [Coal Graal])
+
+(!default
+    (background 222222)
+    (color D8D9D1)
+    (caret D8D9D1)
+    (invisibles E5E5B2)
+    (selection 6405D0)
+    (line-highlight 282828))
+
+(apply punctuation.definition.list
+    Parenthesis
+    (color 949494))
+
+(apply comment
+    Comment
+    (color B4DF61))
+
+(apply string
+    String
+    (color ACC6D7))
+
+(apply constant.numeric
+    Number
+    (color E4D962))
+
+(apply [constant.character, constant.other]
+    [User-defined Constant]
+    (color DFCA53))
+
+(apply constant.language
+    [Built-in Constant]
+    (color EDB272))
+
+(apply storage.modifier
+    [Storage Modifier]
+    (color A8A8A8))
+
+(apply storage
+    Storage
+    (color DBBFED))
+
+(apply entity.name.function
+    [Function Name]
+    (color DFCC94))
+
+(apply support.function
+    [Support Function]
+    (color D9C589))
+
+(apply entity.name.function.misc
+    [Misc Function]
+    (color E3E4A9))
+
+(apply entity.name.function.predicate
+    [Predicate Function]
+    (color A5DF93))
+
+(apply entity.name.function.io
+    [Input/Output Function]
+    (color DFB3AC))
+
+(apply variable.other.external-symbol
+    [External Symbol]
+    (color BBDFDD))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color 7AC0ED))
+
+(apply variable.parameter
+    [Parameter Variable]
+    (color 85C6D9))
+
+(apply keyword
+    Keyword
+    (color A3AAD8))
+
+(apply entity.name.class
+    [Class Name]
+    (color B998DF))
+
+(apply entity.name.structure
+    [Structure Name]
+    (color B998DF))
+
+(apply entity.name.type
+    [Type Name]
+    (color B998DF))
+
+(apply support.class
+    [Support Class]
+    (color A9A5D9))
+
+(apply invalid
+    Invalid
+    (color DFDFD5)
+    (background CC1B27))

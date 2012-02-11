@@ -1,0 +1,160 @@
+(name [Mac Classic])
+
+(author [Chris Thomas])
+
+(!default
+    (background FFFFFF)
+    (color 000000)
+    (caret 000000)
+    (invisibles BFBFBF)
+    (selection 4D97FF54)
+    (line-highlight 00000012))
+
+(apply comment
+    Comment
+    (color 0066FF)
+    (italic))
+
+(apply [keyword, storage]
+    Keyword
+    (color 0000FF)
+    (bold))
+
+(apply constant.numeric
+    Number
+    (color 0000CD))
+
+(apply constant
+    [User-defined constant]
+    (color C5060B)
+    (bold))
+
+(apply constant.language
+    [Built-in constant]
+    (color 585CF6)
+    (bold))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color 318495))
+
+(apply string
+    String
+    (color 036A07))
+
+(apply [constant.character.escape, string source]
+    [String interpolation]
+    (color 26B31A))
+
+(apply meta.preprocessor
+    [Preprocessor line]
+    (color 1A921C))
+
+(apply keyword.control.import
+    [Preprocessor directive]
+    (color 0C450D)
+    (bold))
+
+(apply [entity.name.function, support.function.any-method]
+    [Function name]
+    (color 0000A2)
+    (bold))
+
+(apply entity.name.type
+    [Type name]
+    (underline))
+
+(apply entity.other.inherited-class
+    [Inherited class name]
+    (italic))
+
+(apply variable.parameter
+    [Function parameter]
+    (italic))
+
+(apply storage.type.method
+    [Function argument and result types]
+    (color 70727E))
+
+(apply [meta.section entity.name.section, declaration.section entity.name.section]
+    Section
+    (italic))
+
+(apply support.function
+    [Library function]
+    (color 3C4C72)
+    (bold))
+
+(apply [support.class, support.type]
+    [Library object]
+    (color 6D79DE)
+    (bold))
+
+(apply support.constant
+    [Library constant]
+    (color 06960E)
+    (bold))
+
+(apply support.variable
+    [Library variable]
+    (color 21439C)
+    (bold))
+
+(apply keyword.operator.js
+    [JS: Operator]
+    (color 687687))
+
+(apply invalid
+    Invalid
+    (color FFFFFF)
+    (background 990000))
+
+(apply invalid.deprecated.trailing-whitespace
+    [Invalid trailing whitespace]
+    (background FFD0D0))
+
+(apply [text source, string.unquoted]
+    [Embedded source]
+    (background 0000000D))
+
+(apply [text source string.unquoted, text source text source]
+    [Embedded embedded source]
+    (background 0000000F))
+
+(apply meta.tag.preprocessor.xml
+    [Markup XML declaration]
+    (color 68685B))
+
+(apply [meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string]
+    [Markup DOCTYPE]
+    (color 888888))
+
+(apply string.quoted.docinfo.doctype.DTD
+    [Markup DTD]
+    (italic))
+
+(apply [meta.tag, declaration.tag]
+    [Markup tag]
+    (color 1C02FF))
+
+(apply entity.name.tag
+    [Markup name of tag]
+    (bold))
+
+(apply entity.other.attribute-name
+    [Markup tag attribute]
+    (italic))
+
+(apply markup.heading
+    [Markup: Heading]
+    (color 0C07FF)
+    (bold))
+
+(apply markup.quote
+    [Markup: Quote]
+    (color 000000)
+    (italic))
+
+(apply markup.list
+    [Markup: List]
+    (color B90690))

@@ -1,0 +1,221 @@
+(name GitHub)
+
+(!default
+    (background FFFFFF)
+    (color 000000)
+    (caret 000000)
+    (invisibles BFBFBF)
+    (selection BCD5FA)
+    (line-highlight 00000012))
+
+(apply [text source]
+    Source
+    (background F8F8FF))
+
+(apply comment
+    Comment
+    (color 999988)
+    (italic))
+
+(apply [keyword, storage]
+    Keyword
+    (color 000000)
+    (bold))
+
+(apply keyword.operator.assignment
+    [Keyword operator]
+    (color 000000))
+
+(apply keyword.other.special-method [keyword like new])
+
+(apply [entity.name.function, keyword.other.name-of-parameter.objc]
+    [Function (definition)]
+    (color 990000)
+    (bold))
+
+(apply entity.name
+    [Class (definition)]
+    (color 445588)
+    (bold))
+
+(apply constant.numeric
+    Number
+    (color 009999))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color 108888))
+
+(apply constant.language
+    [Built-in constant]
+    (color 000000)
+    (bold))
+
+(apply variable.other.constant.ruby
+    Variable
+    (color 0F8787))
+
+(apply constant.language
+    [Built-in constant]
+    (color 000000)
+    (bold))
+
+(apply string
+    String
+    (color DD1144))
+
+(apply entity.other.inherited-class
+    [Inherited class]
+    (color 0F8787))
+
+(apply punctuation.separator.inheritance
+    [Inherited class seperator]
+    (color 000000)
+    (bold))
+
+(apply punctuation.separator.variable
+    [punctuation block]
+    (color 000000)
+    (bold))
+
+(apply punctuation.section.array
+    [array brackets]
+    (color 000000)
+    (bold))
+
+(apply punctuation.separator.key-value
+    [hash separator]
+    (color 000000)
+    (bold))
+
+(apply punctuation.section.function
+    [() brackets]
+    (color 000000))
+
+(apply punctuation.section.scope
+    [hash brackets]
+    (color 000000))
+
+(apply keyword.other.special-method.ruby
+    [Special ruby method]
+    (bold))
+
+(apply constant.other.symbol
+    symbol
+    (color AA2C8C))
+
+(apply support.class.ruby
+    [Support class]
+    (color 008080))
+
+(apply string.regexp
+    String.regexp
+    (color 009926))
+
+(apply [string.quoted source]
+    [String embedded source]
+    (color 000000))
+
+(apply meta.tag.sgml.html
+    [doctype punctation]
+    (color 999999)
+    (bold))
+
+(apply entity.name.tag.doctype
+    [doctype declaration]
+    (color 999999)
+    (bold))
+
+(apply string.quoted.double.doctype
+    [doctype string]
+    (color 999999)
+    (bold))
+
+(apply punctuation.definition.tag
+    [html tag punctuation]
+    (color 121289))
+
+(apply entity.name.tag
+    [html tag punctuation]
+    (color 121289))
+
+(apply entity.other.attribute-name
+    [html attribute]
+    (color 0A8585))
+
+(apply entity.other.attribute-name
+    [html attribute punctation]
+    (color 0A8585))
+
+(apply punctuation.section.embedded.ruby
+    [erb tags]
+    (color 999999)
+    (bold))
+
+(apply [source.ruby.embedded.source punctuation.section.embedded.ruby]
+    [ruby string interpolation]
+    (color CF1040))
+
+(apply punctuation.section.property-list.css [css brackets])
+
+(apply support.type.property-name.css
+    [css property]
+    (bold))
+
+(apply punctuation.separator.key-value.css
+    [css property punctuation]
+    (color 000000))
+
+(apply [meta.property-value, constant.other.color]
+    [css property value]
+    (color 009999))
+
+(apply punctuation.terminator.rule.css
+    [css ending]
+    (color 000000))
+
+(apply support.constant.font-name
+    [css font]
+    (color 000000))
+
+(apply keyword.other.unit
+    [css keyword]
+    (color 009999))
+
+(apply entity.other.attribute-name.pseudo-class
+    [pseudo class]
+    (color 000000))
+
+(apply support.constant.property-value
+    [css constant property value]
+    (color 000000)
+    (bold))
+
+(apply entity.other.attribute-name.class
+    [css attribute class]
+    (color 445588)
+    (bold))
+
+(apply entity.other.attribute-name.id
+    [css attribute id]
+    (color 990000)
+    (bold))
+
+(apply meta.diff.header.from-file
+    [diff header from]
+    (color 000000)
+    (background FFDDDD))
+
+(apply meta.diff.header.to-file
+    [diff header to]
+    (color 000000)
+    (background DDFFDD))
+
+(apply markup.inserted.diff
+    [diff inserted]
+    (background DDFFDD))
+
+(apply markup.deleted.diff
+    [diff deleted]
+    (color 000000)
+    (background FFDDDD))

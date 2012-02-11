@@ -1,0 +1,241 @@
+(name zenburn)
+
+(author [William D. Neumann])
+
+(!default
+    (background 393939)
+    (color DEDEDE)
+    (caret D6D6D6)
+    (invisibles A5A5A552)
+    (selection 8383833B)
+    (line-highlight 30303052))
+
+(apply comment
+    Comment
+    (color 87AE86))
+
+(apply keyword.other.phpdoc
+    phpdoc
+    (color 568E4D))
+
+(apply punctuation.definition.comment
+    [/*, #, //]
+    (bold))
+
+(apply keyword.other.directive
+    Directive
+    (color DEDEDE)
+    (bold))
+
+(apply keyword.other.directive.line-number
+    [Line-number directives]
+    (underline))
+
+(apply constant.character
+    Characters
+    (color FF8080))
+
+(apply [string, string.unquoted]
+    String
+    (color D68686))
+
+(apply string.unquoted.heredoc
+    Heredoc
+    (color D6D6D6))
+
+(apply constant.numeric
+    Number
+    (color 87D6D5))
+
+(apply [constant.language, support.constant.core]
+    [Built-in constant]
+    (color D6D6AE)
+    (bold))
+
+(apply [constant.character, constant.other, support.constant]
+    [User-defined constant]
+    (color CC9495))
+
+(apply keyword
+    [Language Keyword]
+    (color FED6AF))
+
+(apply [keyword.control , meta.selector.css , entity.other.attribute-name]
+    [Language Control Keyword]
+    (color FED6AF))
+
+(apply entity.name.module,support.other.module
+    [Module Keyword]
+    (color FF8000)
+    (bold))
+
+(apply [keyword.operator , punctuation - punctuation.definition.comment]
+    Operators
+    (color FEFED6))
+
+(apply [source.ocaml keyword.operator.symbol.infix.floating-point]
+    [Floating-point infix operators]
+    (underline))
+
+(apply [source.ocaml keyword.operator.symbol.prefix.floating-point]
+    [Floating-point prefix operators]
+    (underline))
+
+(apply [storage.type , storage.modifier , support.type]
+    [Storage Types]
+    (color FFFB9D))
+
+(apply entity.name.class.variant
+    [Variant Types]
+    (color 4080A0))
+
+(apply storage Storage)
+
+(apply [entity.name.type , entity.other]
+    [Type name]
+    (color D6D6D6))
+
+(apply entity.other.inherited-class
+    [Inherited class]
+    (color D78D1B))
+
+(apply [storage.type.user-defined , meta.property-list]
+    [Type name]
+    (color FFE000))
+
+(apply entity.name.type,entity.other.attribute-name.class.css
+    [Class type name]
+    (color F4A020)
+    (underline))
+
+(apply variable.parameter [Function argument])
+
+(apply invalid
+    Invalid
+    (color FF5274)
+    (italic)
+    (bold)
+    (underline))
+
+(apply entity.other.attribute-name.html
+    [html attribute]
+    (color D6D7AF)
+    (bold))
+
+(apply entity.name.tag
+    [html entity]
+    (color D6D7AF))
+
+(apply punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php
+    <?php
+    (color 898989))
+
+(apply [variable.parameter, variable.other]
+    variable
+    (color FED6AF)
+    (bold))
+
+(apply support.function.construct
+    [php function]
+    (color FED6AF))
+
+(apply punctuation.definition.variable
+    [$variable prefix]
+    (color FEFED6))
+
+(apply support.function,meta.function-call
+    function/method
+    (color FFFD87))
+
+(apply support.function
+    [built-in function]
+    (color C7BA18))
+
+(apply meta.brace
+    braces
+    (color 78CECC80))
+
+(apply punctuation.definition.string.begin,punctuation.definition.string.end
+    [string begin]
+    (color D6D6D680))
+
+(apply punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html,meta.tag.structure.any.html
+    [html tag begin/end]
+    (color FED5AE94)
+    (bold))
+
+(apply entity.name.tag.yaml
+    [yaml entity]
+    (color FED6AF)
+    (bold))
+
+(apply punctuation.definition.entry
+    [unquoted yaml string]
+    (color D6D6D6))
+
+(apply [keyword.other.DML.sql, keyword.other.data-integrity.sql]
+    SQL
+    (color B7B7B7)
+    (bold))
+
+(apply [source.sql, constant.other.database-name.sql, constant.other.table-name.sql, keyword.operator.star]
+    [other SQL]
+    (color 95BFF3)
+    (bold))
+
+(apply source.diff
+    diff
+    (color FFFFFF)
+    (background 393939))
+
+(apply [source.diff meta.diff.comment, source.diff meta.toc-list.comment.diff]
+    diff.toc
+    (color FFFFFF)
+    (background 9F9D15))
+
+(apply meta.diff.header.from-file
+    [diff from-file]
+    (color CA7172)
+    (background 393939)
+    (bold))
+
+(apply meta.diff.header.to-file
+    [diff to-file]
+    (color 60B38A)
+    (background 393939)
+    (bold))
+
+(apply meta.diff.range.unified
+    [diff range]
+    (color 8CD0D3)
+    (background 393939))
+
+(apply markup.inserted.diff
+    [diff inserted]
+    (color 60B38A)
+    (background 393939))
+
+(apply markup.deleted.diff
+    [diff deleted]
+    (color CA7172)
+    (background 393939))
+
+(apply string.regexp
+    regex
+    (color C76F41))
+
+(apply string.regexp.arbitrary-repitition
+    [regex - repitition]
+    (color 9E6A5F))
+
+(apply punctuation.definition.arbitrary-repitition
+    [regex - repitition {}]
+    (color FFFFFF5E))
+
+(apply string.regexp.character-class
+    [regex - character class]
+    (color CB8E81))
+
+(apply punctuation.definition.character-class
+    [regex - character class []]
+    (color FFFFFF5E))

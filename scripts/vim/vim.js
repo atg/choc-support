@@ -13,6 +13,7 @@ function expect_char(f) {
     // I have no idea how this is going to work.
     // Some vim commands take a char argument, like *f*
     // We need to consume the next char the user types
+    
 }
 function expect_line(f) {
     // Show a text field (somewhere) that the user can type in

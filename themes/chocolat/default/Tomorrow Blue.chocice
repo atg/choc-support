@@ -1,0 +1,61 @@
+(name [Tomorrow Night - Blue])
+
+(!default
+    (background 002451)
+    (color FFFFFF)
+    (caret FFFFFF)
+    (invisibles 404F7D)
+    (selection 003F8E)
+    (line-highlight 00346E))
+
+(apply comment
+    Comment
+    (italic)
+    (color 7285B7))
+
+(apply [keyword.operator.class, keyword.operator, constant.other, source.php.embedded.line]
+    [Foreground, Operator]
+    (color FFFFFF))
+
+(apply [variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag]
+    [Variable, String Link, Regular Expression, Tag Name]
+    (color FF9DA4))
+
+(apply [constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit]
+    [Number, Constant, Function Argument, Tag Attribute, Embedded]
+    (color FFC58F))
+
+(apply [entity.name.class, entity.name.type.class, support.type, support.class]
+    [Class, Support]
+    (color FFEEAD))
+
+(apply [string, constant.other.symbol, entity.other.inherited-class, markup.heading]
+    [String, Symbols, Inherited Class, Markup Heading]
+    (color D1F1A9))
+
+(apply [keyword.operator, constant.other.color]
+    [Operator, Misc]
+    (color 99FFFF))
+
+(apply [entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level]
+    [Function, Special Method, Block Level]
+    (color BBDAFF))
+
+(apply [keyword, storage, storage.type, entity.name.tag.css]
+    [Keyword, Storage]
+    (color EBBBFF))
+
+(apply invalid
+    Invalid
+    (color FFFFFF)
+    (background F99DA5))
+
+(apply meta.separator
+    Separator
+    (color FFFFFF)
+    (background BBDAFE))
+
+(apply invalid.deprecated
+    Deprecated
+    (color FFFFFF)
+    (background EBBBFF))

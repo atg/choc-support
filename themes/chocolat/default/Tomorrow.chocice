@@ -1,0 +1,61 @@
+(name Tomorrow)
+
+(!default
+    (background FFFFFF)
+    (color 4D4D4C)
+    (caret AEAFAD)
+    (invisibles D1D1D1)
+    (selection D6D6D6)
+    (line-highlight EFEFEF))
+
+(apply comment
+    Comment
+    (italic)
+    (color 8E908C))
+
+(apply [keyword.operator.class, constant.other, source.php.embedded.line]
+    Foreground
+    (color 666969))
+
+(apply [variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag]
+    [Variable, String Link, Regular Expression, Tag Name]
+    (color C82829))
+
+(apply [constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit]
+    [Number, Constant, Function Argument, Tag Attribute, Embedded]
+    (color F5871F))
+
+(apply [entity.name.class, entity.name.type.class, support.type, support.class]
+    [Class, Support]
+    (color C99E00))
+
+(apply [string, constant.other.symbol, entity.other.inherited-class, markup.heading]
+    [String, Symbols, Inherited Class, Markup Heading]
+    (color 718C00))
+
+(apply [keyword.operator, constant.other.color]
+    [Operator, Misc]
+    (color 3E999F))
+
+(apply [entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level]
+    [Function, Special Method, Block Level]
+    (color 4271AE))
+
+(apply [keyword, storage, storage.type]
+    [Keyword, Storage]
+    (color 8959A8))
+
+(apply invalid
+    Invalid
+    (color FFFFFF)
+    (background C82829))
+
+(apply meta.separator
+    Separator
+    (color FFFFFF)
+    (background 4271AE))
+
+(apply invalid.deprecated
+    Deprecated
+    (color FFFFFF)
+    (background 8959A8))

@@ -1,0 +1,95 @@
+(name [Birds of Paradise])
+
+(!default
+    (background 372725)
+    (color E6E1C4)
+    (caret E6E1C4)
+    (invisibles 42302D)
+    (selection 16120E)
+    (line-highlight 1F1611))
+
+(apply source
+    Source
+    (color E6E1C4)
+    (background 322323))
+
+(apply comment
+    Comment
+    (color 6B4E32)
+    (italic))
+
+(apply [keyword, storage]
+    Keyword
+    (color EF5D32))
+
+(apply [entity.name.function, keyword.other.name-of-parameter.objc]
+    [Function (definition)]
+    (color EFAC32))
+
+(apply entity.name
+    [Class (definition)]
+    (color EFAC32)
+    (bold))
+
+(apply constant.numeric
+    Number
+    (color 6C99BB))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color 7DAF9C))
+
+(apply constant
+    Constant
+    (color 6C99BB))
+
+(apply variable.other.constant
+    [Constant (other variable)]
+    (color EFAC32))
+
+(apply constant.language
+    [Constant (built-in)]
+    (color 6C99BB))
+
+(apply string
+    String
+    (color D9D762))
+
+(apply support.function
+    [Library function]
+    (color EFAC32))
+
+(apply support.type
+    [Library type]
+    (color EFAC32))
+
+(apply support.constant
+    [Library constant]
+    (color 6C99BB))
+
+(apply [meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name]
+    [Markup tag]
+    (color EFCB43))
+
+(apply invalid
+    Invalid
+    (color FFFFFF)
+    (background 990000))
+
+(apply [constant.character.escaped, constant.character.escape, string source, string source.ruby]
+    [String interpolation]
+    (color 7DAF9C))
+
+(apply markup.inserted
+    [Diff Add]
+    (color E6E1DC)
+    (background 144212))
+
+(apply markup.deleted
+    [Diff Remove]
+    (color E6E1DC)
+    (background 660000))
+
+(apply [meta.diff.header, meta.separator.diff, meta.diff.index, meta.diff.range]
+    [Diff Header]
+    (background 2F33AB))

@@ -1,0 +1,138 @@
+(name [Ruby Blue])
+
+(!default
+    (background 121E31)
+    (color FFFFFF)
+    (caret FFFFFF)
+    (invisibles 404040)
+    (selection 38566F)
+    (line-highlight 253E5A))
+
+(apply text
+    [Text base]
+    (color 8AA6C1)
+    (background 0D151EF2))
+
+(apply source
+    [Source base]
+    (color FFFFFF)
+    (background 233244E6))
+
+(apply comment
+    Comment
+    (color 428BDD)
+    (italic))
+
+(apply constant
+    Constant
+    (color 8AA6C1))
+
+(apply keyword
+    Keyword
+    (color F8BB00))
+
+(apply other.preprocessor.c
+    [Pre-processor Line]
+    (color B6B9F9)
+    (background 0C151E))
+
+(apply entity.name.preprocessor [Pre-processor Directive])
+
+(apply entity.name.function [Function name])
+
+(apply variable.parameter
+    [Function argument]
+    (color FFFFFF)
+    (italic))
+
+(apply [source comment.block]
+    [Block comment]
+    (color 438AD7)
+    (background 21374FF2))
+
+(apply [string - meta.embedded]
+    String
+    (color 1DC116))
+
+(apply string.quoted.single
+    [String (single quote)]
+    (color 7CFF3C))
+
+(apply [string constant.character.escape]
+    [String escapes]
+    (color EDDD37))
+
+(apply string.interpolated
+    [String (executed)]
+    (color 080808)
+    (background CACACA))
+
+(apply string.regexp
+    [Regular expression]
+    (color CA4344))
+
+(apply string.literal
+    [String (literal)]
+    (color E2CE00))
+
+(apply constant.numeric
+    Numbers
+    (color EDDD3D))
+
+(apply constant.other
+    Symbols
+    (color B53B3C))
+
+(apply keyword.operator
+    Operators
+    (color 8AA6C1))
+
+(apply [punctuation.definition - comment - constant]
+    Punctuation
+    (color 8AA6C1))
+
+(apply variable
+    Variables
+    (color 8AA6C1))
+
+(apply [string.interpolated constant.character.escape]
+    [String escapes (executed)]
+    (color 468434))
+
+(apply entity.name.class [Class name])
+
+(apply entity.other.inherited-class
+    [Class inheritance]
+    (italic))
+
+(apply entity.name.tag [Tag name])
+
+(apply entity.other.attribute-name [Tag attribute])
+
+(apply support.function
+    [Support function]
+    (color B43D3D))
+
+(apply [meta.diff, meta.diff.header]
+    [diff header]
+    (color FFFFFF)
+    (background 344668))
+
+(apply markup.deleted
+    [diff deleted]
+    (color FFFFFF)
+    (background 7A3942))
+
+(apply markup.inserted
+    [diff inserted]
+    (color FFFFFF)
+    (background 6DB04E))
+
+(apply markup.changed
+    [diff changed]
+    (color FFFFFF)
+    (background 968C44))
+
+(apply [meta.tag.haml, meta.section.attributes.haml, entity.name.tag.class.haml, entity.name.tag.id.haml]
+    [haml tag]
+    (color 65798C))

@@ -1,0 +1,178 @@
+(name choco)
+
+(!default
+    (background 180C0C)
+    (color C3BE98)
+    (caret A7A7A7)
+    (invisibles FFFFFF40)
+    (selection DDF0FF61)
+    (line-highlight FF9C7521))
+
+(apply comment
+    Comment
+    (color 679D47)
+    (background 17201300))
+
+(apply constant
+    Constant
+    (color DA5659))
+
+(apply entity
+    Entity
+    (color 6D4C2F))
+
+(apply keyword
+    Keyword
+    (color B3935C))
+
+(apply storage
+    Storage
+    (color F1E694))
+
+(apply string
+    String
+    (color 7CA563))
+
+(apply support
+    Support
+    (color A8799C))
+
+(apply variable
+    Variable
+    (color 7989A6))
+
+(apply invalid.deprecated
+    [Invalid – Deprecated]
+    (color D2A8A1)
+    (italic)
+    (underline))
+
+(apply invalid.illegal
+    [Invalid – Illegal]
+    (color F8F8F8)
+    (background 562D56BF))
+
+(apply [text source]
+    [♦ Embedded Source]
+    (background CDA26712))
+
+(apply [text.html.ruby source]
+    [♦ Embedded Source (Bright)]
+    (background BA9C793B))
+
+(apply entity.other.inherited-class
+    [♦ Entity inherited-class]
+    (color 9B5C2E))
+
+(apply [string source]
+    [♦ String embedded-source]
+    (color DAEFA3))
+
+(apply [string constant]
+    [♦ String constant]
+    (color DDF2A4))
+
+(apply string.regexp
+    [♦ String.regexp]
+    (color E9C062))
+
+(apply [string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition]
+    [♦ String.regexp.«special»]
+    (color CF7D34))
+
+(apply [string variable]
+    [♦ String variable]
+    (color 5E828D))
+
+(apply support.function
+    [♦ Support.function]
+    (color C29863))
+
+(apply support.constant
+    [♦ Support.constant]
+    (color D77261))
+
+(apply meta.preprocessor.c
+    [c C/C++ Preprocessor Line]
+    (color 8996A8))
+
+(apply [meta.preprocessor.c keyword]
+    [c C/C++ Preprocessor Directive]
+    (color AFC4DB))
+
+(apply [meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string]
+    [✘ Doctype/XML Processing]
+    (color 494949))
+
+(apply [declaration.tag, declaration.tag entity, meta.tag, meta.tag entity]
+    [✘ Meta.tag.«all»]
+    (color 9F785B))
+
+(apply [declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity]
+    [✘ Meta.tag.inline]
+    (color C8A573))
+
+(apply [meta.selector.css entity.name.tag]
+    [§ css tag-name]
+    (color B48F62))
+
+(apply [meta.selector.css entity.other.attribute-name.tag.pseudo-class]
+    [§ css:pseudo-class]
+    (color 999D63))
+
+(apply [meta.selector.css entity.other.attribute-name.id]
+    [§ css#id]
+    (color 7690A4))
+
+(apply [meta.selector.css entity.other.attribute-name.class]
+    [§ css.class]
+    (color 79A660))
+
+(apply support.type.property-name.css
+    [§ css property-name:]
+    (color AF977B))
+
+(apply [meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css]
+    [§ css property-value;]
+    (color D3CBA1))
+
+(apply [meta.preprocessor.at-rule keyword.control.at-rule]
+    [§ css @at-rule]
+    (color 8693A5))
+
+(apply [meta.property-value support.constant.named-color.css, meta.property-value constant]
+    [§ css additional-constants]
+    (color C9584F))
+
+(apply meta.constructor.argument.css
+    [§ css constructor.argument]
+    (color 8F9D6A))
+
+(apply [meta.diff, meta.diff.header, meta.separator]
+    [⎇ diff.header]
+    (color F8F8F8)
+    (background 0E2231)
+    (italic))
+
+(apply markup.deleted
+    [⎇ diff.deleted]
+    (color F8F8F8)
+    (background 420E09))
+
+(apply markup.changed
+    [⎇ diff.changed]
+    (color F8F8F8)
+    (background 4A410D))
+
+(apply markup.inserted
+    [⎇ diff.inserted]
+    (color F8F8F8)
+    (background 253B22))
+
+(apply markup.list
+    [Markup: List]
+    (color F9EE98))
+
+(apply markup.heading
+    [Markup: Heading]
+    (color CF6A4C))

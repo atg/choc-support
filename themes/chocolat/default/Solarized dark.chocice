@@ -1,0 +1,680 @@
+(name [Solarized (dark)])
+
+(!default
+    (background 042029)
+    (color 839496)
+    (caret 819090)
+    (invisibles 0A2933)
+    (selection 0A2933)
+    (line-highlight 0A2933))
+
+(apply comment
+    Comment
+    (color 586E75))
+
+(apply string
+    String
+    (color 2AA198))
+
+(apply string
+    StringNumber
+    (color 586E75))
+
+(apply string.regexp
+    Regexp
+    (color D30102))
+
+(apply constant.numeric
+    Number
+    (color D33682))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color 268BD2))
+
+(apply keyword
+    Keyword
+    (color 859900))
+
+(apply storage
+    Storage
+    (color 738A05))
+
+(apply [entity.name.class, entity.name.type.class]
+    [Class name]
+    (color 268BD2))
+
+(apply entity.name.function
+    [Function name]
+    (color 268BD2))
+
+(apply punctuation.definition.variable
+    [Variable start]
+    (color 859900))
+
+(apply [punctuation.section.embedded.begin, punctuation.section.embedded.end]
+    [Embedded code markers]
+    (color D30102))
+
+(apply [constant.language, meta.preprocessor]
+    [Built-in constant]
+    (color B58900))
+
+(apply [support.function.construct, keyword.other.new]
+    Support.construct
+    (color D30102))
+
+(apply [constant.character, constant.other]
+    [User-defined constant]
+    (color CB4B16))
+
+(apply entity.other.inherited-class [Inherited class])
+
+(apply variable.parameter [Function argument])
+
+(apply entity.name.tag
+    [Tag name]
+    (color 268BD2)
+    (bold))
+
+(apply [punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end]
+    [Tag start/end]
+    (color 586E75))
+
+(apply entity.other.attribute-name
+    [Tag attribute]
+    (color 93A1A1))
+
+(apply support.function
+    [Library function]
+    (color 268BD2))
+
+(apply punctuation.separator.continuation
+    Continuation
+    (color D30102))
+
+(apply support.constant [Library constant])
+
+(apply [support.type, support.class]
+    [Library class/type]
+    (color 859900))
+
+(apply support.type.exception
+    [Library Exception]
+    (color CB4B16))
+
+(apply keyword.other.special-method
+    Special
+    (color CB4B16))
+
+(apply support.other.variable [Library variable])
+
+(apply invalid Invalid)
+
+(apply [string.quoted.double, string.quoted.single]
+    [Quoted String]
+    (color 269186))
+
+(apply [punctuation.definition.string.begin, punctuation.definition.string.end]
+    Quotes
+    (color C60000))
+
+(apply [entity.name.tag.css, support.type.property-name.css, meta.property-name.css]
+    [CSS: Property]
+    (color A57800))
+
+(apply source.css
+    [CSS: @font-face]
+    (color D01F1E))
+
+(apply meta.selector.css
+    [CSS: Selector]
+    (color 536871))
+
+(apply punctuation.section.property-list.css
+    [CSS: {}]
+    (color 5A74CF))
+
+(apply [meta.property-value.css constant.numeric.css, keyword.other.unit.css,constant.other.color.rgb-value.css]
+    [CSS: Numeric Value]
+    (color 269186))
+
+(apply meta.property-value.css
+    [CSS: Value]
+    (color 269186))
+
+(apply keyword.other.important.css
+    [CSS: !Important]
+    (color D01F1E))
+
+(apply support.constant.color
+    [CSS: Standard Value]
+    (color 269186))
+
+(apply entity.name.tag.css
+    [CSS: Tag]
+    (color 738A13))
+
+(apply [punctuation.separator.key-value.css, punctuation.terminator.rule.css]
+    [CSS: : ,]
+    (color 536871))
+
+(apply entity.other.attribute-name.class.css
+    [CSS .class]
+    (color 268BD2))
+
+(apply [entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css]
+    [CSS :pseudo]
+    (color BD3800))
+
+(apply entity.other.attribute-name.id.css
+    [CSS: #id]
+    (color 268BD2))
+
+(apply [meta.function.js, entity.name.function.js, support.function.dom.js]
+    [JS: Function Name]
+    (color A57800))
+
+(apply [text.html.basic source.js.embedded.html]
+    [JS: Source]
+    (color A57800))
+
+(apply storage.type.function.js
+    [JS: Function]
+    (color 268BD2))
+
+(apply constant.numeric.js
+    [JS: Numeric Constant]
+    (color 269186))
+
+(apply meta.brace.square.js
+    [JS: []]
+    (color 268BD2))
+
+(apply storage.type.js
+    [JS: Storage Type]
+    (color 268BD2))
+
+(apply [meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js]
+    [()]
+    (color 93A1A1))
+
+(apply meta.brace.curly.js
+    [{}]
+    (color 268BD2))
+
+(apply [entity.name.tag.doctype.html, meta.tag.sgml.html, string.quoted.double.doctype.identifiers-and-DTDs.html]
+    [HTML: Doctype]
+    (color 899090)
+    (italic))
+
+(apply comment.block.html
+    [HTML: Comment Block]
+    (color 839496)
+    (italic))
+
+(apply entity.name.tag.script.html
+    [HTML: Script]
+    (italic))
+
+(apply [source.css.embedded.html string.quoted.double.html]
+    [HTML: Style]
+    (color 269186))
+
+(apply text.html.ruby
+    [HTML: Text]
+    (color BD3800)
+    (bold))
+
+(apply [text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, punctuation.separator.key-value.html]
+    [HTML: =]
+    (color 708284))
+
+(apply [text.html.basic entity.other.attribute-name.html]
+    [HTML: something=]
+    (color 708284))
+
+(apply [text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html ]
+    [HTML: "]
+    (color 269186))
+
+(apply entity.name.tag.block.any.html
+    [HTML: <tag>]
+    (color 268BD2)
+    (bold))
+
+(apply [source.css.embedded.html entity.name.tag.style.html]
+    [HTML: style]
+    (italic))
+
+(apply entity.name.tag.style.html [HTML: <style>])
+
+(apply [text.html.basic punctuation.section.property-list.css] [HTML: {}])
+
+(apply [source.css.embedded.html, comment.block.html]
+    [HTML: Embeddable]
+    (color 819090)
+    (italic))
+
+(apply punctuation.definition.variable.ruby
+    [Ruby: Variable definition]
+    (color 268BD2))
+
+(apply meta.function.method.with-arguments.ruby
+    [Ruby: Function Name]
+    (color 708284))
+
+(apply variable.language.ruby
+    [Ruby: Variable]
+    (color 469186))
+
+(apply entity.name.function.ruby
+    [Ruby: Function]
+    (color 268BD2))
+
+(apply [keyword.control.ruby, keyword.control.def.ruby]
+    [Ruby: Keyword Control]
+    (color 738A05)
+    (bold))
+
+(apply [keyword.control.class.ruby, meta.class.ruby]
+    [Ruby: Class]
+    (color 748B00))
+
+(apply entity.name.type.class.ruby
+    [Ruby: Class Name]
+    (color A57800))
+
+(apply keyword.control.ruby
+    [Ruby: Keyword]
+    (color 748B00))
+
+(apply support.class.ruby
+    [Ruby: Support Class]
+    (color A57800))
+
+(apply keyword.other.special-method.ruby
+    [Ruby: Special Method]
+    (color 748B00))
+
+(apply [constant.language.ruby, constant.numeric.ruby]
+    [Ruby: Constant]
+    (color 269186))
+
+(apply variable.other.constant.ruby
+    [Ruby: Constant Other]
+    (color A57800))
+
+(apply constant.other.symbol.ruby
+    [Ruby: :symbol]
+    (color 269186))
+
+(apply [punctuation.section.embedded.ruby, punctuation.definition.string.begin.ruby, punctuation.definition.string.end.ruby]
+    [Ruby: Punctuation Section '']
+    (color D01F1E))
+
+(apply keyword.other.special-method.ruby
+    [Ruby: Special Method]
+    (color BD3800))
+
+(apply keyword.control.import.include.php
+    [PHP: Include]
+    (color BD3800))
+
+(apply [text.html.ruby meta.tag.inline.any.html]
+    [Ruby: erb =]
+    (color 819090))
+
+(apply [text.html.ruby punctuation.definition.string.begin, text.html.ruby punctuation.definition.string.end]
+    [Ruby: erb ""]
+    (color 269186))
+
+(apply [punctuation.definition.string.begin, punctuation.definition.string.end]
+    [PHP: Quoted Single]
+    (color 839496))
+
+(apply support.class.php
+    [PHP: Class Names]
+    (color 839496))
+
+(apply [keyword.operator.index-start.php, keyword.operator.index-end.php]
+    [PHP: []]
+    (color D31E1E))
+
+(apply meta.array.php
+    [PHP: Array]
+    (color 536871))
+
+(apply [meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php]
+    [PHP: Array()]
+    (color A57800))
+
+(apply support.function.construct.php
+    [PHP: Array Construct]
+    (color A57800))
+
+(apply [punctuation.definition.array.begin, punctuation.definition.array.end]
+    [PHP: Array Begin]
+    (color D31E1E))
+
+(apply constant.numeric.php
+    [PHP: Numeric Constant]
+    (color 269186))
+
+(apply keyword.other.new.php
+    [PHP: New]
+    (color CB4B16))
+
+(apply keyword.operator.class
+    [PHP: ::]
+    (color 839496))
+
+(apply variable.other.property.php
+    [PHP: Other Property]
+    (color 899090))
+
+(apply [storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php]
+    [PHP: Class]
+    (color A57800))
+
+(apply punctuation.terminator.expression.php
+    [PHP: Semicolon]
+    (color 839496))
+
+(apply meta.other.inherited-class.php
+    [PHP: Inherited Class]
+    (color 536871))
+
+(apply storage.type.php
+    [PHP: Storage Type]
+    (color 748B00))
+
+(apply entity.name.function.php
+    [PHP: Function]
+    (color 899090))
+
+(apply support.function.construct.php
+    [PHP: Function Construct]
+    (color 748B00))
+
+(apply [entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php]
+    [PHP: Function Call]
+    (color 839496))
+
+(apply keyword.other.phpdoc
+    [PHP: Comment]
+    (color 899090))
+
+(apply source.php.embedded.block.html
+    [PHP: Source Emebedded]
+    (color BD3613))
+
+(apply storage.type.function.php
+    [PHP: Storage Type Function]
+    (color BD3800))
+
+(apply constant.numeric.c
+    [C: constant]
+    (color 269186))
+
+(apply [meta.preprocessor.c.include, meta.preprocessor.macro.c]
+    [C: Meta Preprocessor]
+    (color BB3700))
+
+(apply [keyword.control.import.define.c, keyword.control.import.include.c]
+    [C: Keyword]
+    (color BB3700))
+
+(apply entity.name.function.preprocessor.c
+    [C: Function Preprocessor]
+    (color BB3700))
+
+(apply [meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c]
+    [C: include <something.c>]
+    (color 269186))
+
+(apply [support.function.C99.c, support.function.any-method.c, entity.name.function.c]
+    [C: Function]
+    (color 536871))
+
+(apply [punctuation.definition.string.begin.c, punctuation.definition.string.end.c]
+    [C: "]
+    (color 269186))
+
+(apply storage.type.c
+    [C: Storage Type]
+    (color A57800))
+
+(apply [meta.diff, meta.diff.header]
+    [diff: header]
+    (color E0EDDD)
+    (background A57706)
+    (italic))
+
+(apply markup.deleted
+    [diff: deleted]
+    (color D3201F)
+    (background EAE3CA))
+
+(apply markup.changed
+    [diff: changed]
+    (color BF3904)
+    (background EAE3CA))
+
+(apply markup.inserted
+    [diff: inserted]
+    (color 219186)
+    (background EAE3CA))
+
+(apply [text.html.markdown meta.dummy.line-break]
+    [Markdown: Linebreak]
+    (color E0EDDD)
+    (background A57706))
+
+(apply [text.html.markdown markup.raw.inline]
+    [Markdown: Raw]
+    (color 269186))
+
+(apply [text.restructuredtext markup.raw]
+    [reST raw]
+    (color 269186))
+
+(apply [other.package.exclude, other.remove]
+    [Other: Removal]
+    (color D3201F))
+
+(apply other.add
+    [Other: Add]
+    (color 269186))
+
+(apply [punctuation.section.group.tex , punctuation.definition.arguments.begin.latex, punctuation.definition.arguments.end.latex, punctuation.definition.arguments.latex]
+    [Tex: {}]
+    (color B81D1C))
+
+(apply meta.group.braces.tex
+    [Tex: {text}]
+    (color A57705))
+
+(apply string.other.math.tex
+    [Tex: Other Math]
+    (color A57705))
+
+(apply variable.parameter.function.latex
+    [Tex: {var}]
+    (color BD3800))
+
+(apply punctuation.definition.constant.math.tex
+    [Tex: Math \\]
+    (color D01F1E))
+
+(apply [text.tex.latex constant.other.math.tex, constant.other.general.math.tex, constant.other.general.math.tex, constant.character.math.tex]
+    [Tex: Constant Math]
+    (color 269186))
+
+(apply string.other.math.tex
+    [Tex: Other Math String]
+    (color A57800))
+
+(apply [punctuation.definition.string.begin.tex, punctuation.definition.string.end.tex]
+    [Tex: $]
+    (color D3201F))
+
+(apply [keyword.control.label.latex, text.tex.latex constant.other.general.math.tex]
+    [Tex: \label]
+    (color 269186))
+
+(apply variable.parameter.definition.label.latex
+    [Tex: \label { }]
+    (color D01F1E))
+
+(apply support.function.be.latex
+    [Tex: Function ]
+    (color 748B00))
+
+(apply support.function.section.latex
+    [Tex: Support Function Section]
+    (color BD3800))
+
+(apply support.function.general.tex
+    [Tex: Support Function]
+    (color 269186))
+
+(apply [punctuation.definition.comment.tex, comment.line.percentage.tex]
+    [Tex: Comment]
+    (italic))
+
+(apply keyword.control.ref.latex
+    [Tex: Reference Label]
+    (color 269186))
+
+(apply [storage.type.class.python, storage.type.function.python, storage.modifier.global.python]
+    [Python: storage]
+    (color 748B00))
+
+(apply [keyword.control.import.python, keyword.control.import.from.python]
+    [Python: import]
+    (color BD3800))
+
+(apply support.type.exception.python
+    [Python: Support.exception]
+    (color A57800))
+
+(apply support.function.builtin.shell
+    [Shell: builtin]
+    (color 748B00))
+
+(apply variable.other.normal.shell
+    [Shell: variable]
+    (color BD3800))
+
+(apply source.shell
+    [Shell: DOT_FILES]
+    (color 268BD2))
+
+(apply [meta.scope.for-in-loop.shell, variable.other.loop.shell]
+    [Shell: meta scope in loop]
+    (color 536871))
+
+(apply [punctuation.definition.string.end.shell, punctuation.definition.string.begin.shell]
+    [Shell: ""]
+    (color 748B00))
+
+(apply [meta.scope.case-block.shell, meta.scope.case-body.shell]
+    [Shell: Meta Block]
+    (color 536871))
+
+(apply punctuation.definition.logical-expression.shell
+    [Shell: []]
+    (color CD1E1D))
+
+(apply comment.line.number-sign.shell
+    [Shell: Comment]
+    (italic))
+
+(apply keyword.other.import.java
+    [Java: import]
+    (color BD3800))
+
+(apply storage.modifier.import.java
+    [Java: meta-import]
+    (color 586E75))
+
+(apply [meta.class.java storage.modifier.java]
+    [Java: Class]
+    (color A57800))
+
+(apply [source.java comment.block]
+    [Java: /* comment */]
+    (color 536871))
+
+(apply [comment.block meta.documentation.tag.param.javadoc keyword.other.documentation.param.javadoc]
+    [Java: /* @param */]
+    (color 536871))
+
+(apply [punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl]
+    [Perl: variables]
+    (color B58900))
+
+(apply support.function.perl
+    [Perl: functions]
+    (color 859900))
+
+(apply comment.line.number-sign.perl
+    [Perl: comments]
+    (color 586E75)
+    (italic))
+
+(apply [punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl]
+    [Perl: quotes]
+    (color 2AA198))
+
+(apply constant.character.escape.perl
+    [Perl: \char]
+    (color DC322F))
+
+(apply punctuation.definition.list_item.markdown
+    [Markdown: List]
+    (color 268bd2))
+
+(apply markup.heading
+    [Markup: Heading]
+    (color b58900))
+
+(apply [meta.link.inline.markdown,  string.other.link.title.markdown]
+    [Markdown: Link]
+    (color 859900))
+
+(apply [
+			meta.image.inline.markdown, string.other.link.description.markdown
+			]
+    [Markdown: Image]
+    (color 859900))
+
+(apply entity.name.section.markdown
+    [Markdown: Heading entity name]
+    (color CB4B16))
+
+(apply [meta.separator.markdown
+			]
+    [Markdown: separator]
+    (color 268bd2)
+    (background 042029))
+
+(apply markup.raw.block.markdown
+    [Markdown: code block]
+    (color b58900))
+
+(apply markup.raw.inline.markdown
+    [Markdown: code inline]
+    (color b58900))
+
+(apply [punctuation.definition.raw.markdown, punctuation.definition.italic.markdown, punctuation.definition.bold.markdown, punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown
+			
+			]
+    [Markdown: punctuation definition]
+    (color 586e75))
+
+(apply [punctuation.definition.blockquote.markdown
+			]
+    [Markdown: blockquote punctuation definition]
+    (color 2aa198))

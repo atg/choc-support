@@ -1,0 +1,118 @@
+(name Sidetracked)
+
+(author [Nicholas Penree])
+
+(!default
+    (background 1A1A1A)
+    (color F8F8F8)
+    (caret FFFFFFA6)
+    (invisibles FFFFFF40)
+    (selection 38566F)
+    (line-highlight FFFFFF0F))
+
+(apply comment
+    Comment
+    (color 6A5A3CDE))
+
+(apply constant
+    Constant
+    (color D8B778))
+
+(apply entity
+    Entity
+    (color 658AAF))
+
+(apply keyword
+    Keyword
+    (color C87936))
+
+(apply storage
+    Storage
+    (color C87936))
+
+(apply [string, meta.verbatim]
+    String
+    (color A4C261))
+
+(apply support
+    Support
+    (color 658AAF))
+
+(apply variable
+    Variable
+    (color FFFFFF))
+
+(apply invalid.deprecated
+    [Invalid – Deprecated]
+    (color AB2A1D)
+    (italic))
+
+(apply invalid.illegal
+    [Invalid – Illegal]
+    (color F8F8F8)
+    (background 9D1E15))
+
+(apply entity.other.inherited-class
+    Superclass
+    (color FF6400)
+    (italic))
+
+(apply [string constant.other.placeholder]
+    [String interpolation]
+    (color FF6400))
+
+(apply meta.function-call.py
+    meta.function-call.py
+    (color BECDE6))
+
+(apply [meta.tag, meta.tag entity]
+    meta.tag
+    (color 7F90AA))
+
+(apply entity.name.section
+    entity.name.section
+    (color FFFFFF))
+
+(apply keyword.type.variant
+    [OCaml variant]
+    (color D5E0F3))
+
+(apply [source.ocaml keyword.operator.symbol]
+    [OCaml operator]
+    (color F8F8F8))
+
+(apply [source.ocaml keyword.operator.symbol.infix]
+    [OCaml infix operator]
+    (color 8DA6CE))
+
+(apply [source.ocaml keyword.operator.symbol.prefix]
+    [OCaml prefix operator]
+    (color 8DA6CE))
+
+(apply [source.ocaml keyword.operator.symbol.infix.floating-point]
+    [OCaml f-p infix operator]
+    (underline))
+
+(apply [source.ocaml keyword.operator.symbol.prefix.floating-point]
+    [OCaml f-p prefix operator]
+    (underline))
+
+(apply [source.ocaml constant.numeric.floating-point]
+    [OCaml f-p constant]
+    (underline))
+
+(apply [text.tex.latex meta.function.environment]
+    [LaTeX environment]
+    (background FFFFFF08))
+
+(apply [text.tex.latex meta.function.environment meta.function.environment]
+    [LaTeX environment (nested)]
+    (background 7A96FA08))
+
+(apply [text.tex.latex support.function]
+    [Latex support]
+    (color E90EFB))
+
+(apply [source.plist string.unquoted, source.plist keyword.operator]
+    [PList unquoted string]
+    (color FFFFFF))

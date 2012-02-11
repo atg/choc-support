@@ -1,0 +1,60 @@
+(name [Tomorrow Night - Eighties])
+
+(!default
+    (background 2D2D2D)
+    (color CCCCCC)
+    (caret CCCCCC)
+    (invisibles 6A6A6A)
+    (selection 515151)
+    (line-highlight 393939))
+
+(apply comment
+    Comment
+    (color 999999))
+
+(apply [keyword.operator.class, constant.other, source.php.embedded.line]
+    Foreground
+    (color CCCCCC))
+
+(apply [variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag]
+    [Variable, String Link, Tag Name]
+    (color F2777A))
+
+(apply [constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit]
+    [Number, Constant, Function Argument, Tag Attribute, Embedded]
+    (color F99157))
+
+(apply [entity.name.class, entity.name.type.class, support.type, support.class]
+    [Class, Support]
+    (color FFCC66))
+
+(apply [string, constant.other.symbol, entity.other.inherited-class, markup.heading]
+    [String, Symbols, Inherited Class, Markup Heading]
+    (color 99CC99))
+
+(apply [keyword.operator, constant.other.color]
+    [Operator, Misc]
+    (color 66CCCC))
+
+(apply [entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level]
+    [Function, Special Method, Block Level]
+    (color 6699CC))
+
+(apply [keyword, storage, storage.type, entity.name.tag.css]
+    [Keyword, Storage]
+    (color CC99CC))
+
+(apply invalid
+    Invalid
+    (color CDCDCD)
+    (background F2777A))
+
+(apply meta.separator
+    Separator
+    (color CDCDCD)
+    (background 99CCCC))
+
+(apply invalid.deprecated
+    Deprecated
+    (color CDCDCD)
+    (background CC99CC))

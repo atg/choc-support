@@ -1,0 +1,190 @@
+(name [minimal Theme])
+
+(!default
+    (background 302D26)
+    (color FCFFE0)
+    (caret FF9900)
+    (invisibles FFB16F52)
+    (selection 180024)
+    (line-highlight 232826))
+
+(apply constant
+    Constant
+    (color D27518C2))
+
+(apply entity
+    Entity
+    (color A89100B5))
+
+(apply entity.other
+    [Entity Other]
+    (color BA6912))
+
+(apply keyword
+    Keyword
+    (color 949C8B))
+
+(apply storage
+    Storage
+    (color FFEE80))
+
+(apply [string -string.unquoted.old-plist -string.unquoted.heredoc, string.unquoted.heredoc string]
+    String
+    (color C7A4A1B5))
+
+(apply comment
+    Comment
+    (color 706D5B)
+    (italic))
+
+(apply support
+    Support
+    (color 9FC28A))
+
+(apply variable
+    Variable
+    (color D1A796))
+
+(apply variable.language
+    [Lang Variable]
+    (color FF80E1))
+
+(apply meta.function-call
+    [Function Call]
+    (color FFEE80))
+
+(apply invalid
+    Invalid
+    (color F8F8F8)
+    (background 800F00))
+
+(apply [text source, string.unquoted.heredoc]
+    [Embedded Source]
+    (color D9D59F)
+    (background 24231D))
+
+(apply entity.other.inherited-class
+    [Entity inherited-class]
+    (color 7EFCFF))
+
+(apply [string.quoted source]
+    [String embedded-source]
+    (color 439740BA))
+
+(apply [string constant]
+    [String constant]
+    (color 60DB5DBA))
+
+(apply string.regexp
+    String.regexp
+    (color 7DFFC0A6))
+
+(apply [string variable]
+    [String variable]
+    (color B8B960))
+
+(apply support.function
+    Support.function
+    (color 85873A))
+
+(apply support.constant
+    Support.constant
+    (color C27E66))
+
+(apply support.class.exception
+    Exception
+    (color FF1E00))
+
+(apply meta.preprocessor.c
+    [C/C++ Preprocessor Line]
+    (color 8996A8))
+
+(apply [meta.preprocessor.c keyword]
+    [C/C++ Preprocessor Directive]
+    (color AFC4DB))
+
+(apply [meta.sgml.html meta.doctype, meta.sgml.html meta.doctype entity, meta.sgml.html meta.doctype string, meta.xml-processing, meta.xml-processing entity, meta.xml-processing string]
+    [Doctype/XML Processing]
+    (color 73817D))
+
+(apply [meta.tag, meta.tag entity]
+    Meta.tag.A
+    (color BABD9C))
+
+(apply [meta.selector.css entity.name.tag]
+    [css tag-name]
+    (color 99A190))
+
+(apply [meta.selector.css entity.other.attribute-name.id]
+    [css#id]
+    (color CC8844))
+
+(apply [meta.selector.css entity.other.attribute-name.class]
+    css.class
+    (color CFB958))
+
+(apply support.type.property-name.css
+    [css property-name:]
+    (color E0DDAD))
+
+(apply [meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css]
+    [css property-value;]
+    (color AEB14B))
+
+(apply [meta.preprocessor.at-rule keyword.control.at-rule]
+    [css @at-rule]
+    (color FFB010))
+
+(apply [meta.property-value support.constant.named-color.css, meta.property-value constant]
+    [css additional-constants]
+    (color 999179))
+
+(apply meta.constructor.argument.css
+    [css constructor.argument]
+    (color EB939A))
+
+(apply [meta.diff, meta.diff.header]
+    diff.header
+    (color F8F8F8)
+    (background 000E1A))
+
+(apply markup.deleted
+    diff.deleted
+    (color F8F8F8)
+    (background 800F00))
+
+(apply markup.changed
+    diff.changed
+    (color F8F8F8)
+    (background 806F00))
+
+(apply markup.inserted
+    diff.inserted
+    (color F8F8F8)
+    (background 228000))
+
+(apply markup.raw
+    [Raw Markup]
+    (background 8FDDF630))
+
+(apply markup.quote
+    [Block Quote]
+    (background 005BAA))
+
+(apply markup.list
+    List
+    (background 0F0040))
+
+(apply markup.bold
+    [Bold Markup]
+    (color 9D80FF)
+    (bold))
+
+(apply markup.italic
+    [Italic Markup]
+    (color 80FFBB)
+    (italic))
+
+(apply markup.heading
+    [Heading Markup]
+    (bold))

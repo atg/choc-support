@@ -1,0 +1,93 @@
+(name Railscasts)
+
+(!default
+    (background 232323)
+    (color E6E1DC)
+    (caret FFFFFF)
+    (invisibles 404040)
+    (selection 5A647EE0)
+    (line-highlight 333435))
+
+(apply text source
+    Source
+    (background 2B2B2B))
+
+(apply comment
+    Comment
+    (color BC9458)
+    (italic))
+
+(apply [keyword, storage]
+    Keyword
+    (color CC7833))
+
+(apply [entity.name.function, keyword.other.name-of-parameter.objc]
+    [Function (definition)]
+    (color FFC66D))
+
+(apply entity.name
+    [Class (definition)]
+    (color FFFFFF))
+
+(apply constant.numeric
+    Number
+    (color A5C261))
+
+(apply [variable.language, variable.other]
+    Variable
+    (color D0D0FF))
+
+(apply constant
+    Constant
+    (color 6D9CBE))
+
+(apply variable.other.constant
+    [Constant (other variable)]
+    (color DA4939))
+
+(apply constant.language
+    [Constant (built-in)]
+    (color 6E9CBE))
+
+(apply string
+    String
+    (color A5C261))
+
+(apply support.function
+    [Library function]
+    (color DA4939))
+
+(apply support.type
+    [Library type]
+    (color 6E9CBE))
+
+(apply support.constant
+    [Library constant]
+    (color A5C261))
+
+(apply [meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name]
+    [Markup tag]
+    (color E8BF6A))
+
+(apply invalid
+    Invalid
+    (color FFFFFF)
+    (background 990000))
+
+(apply [constant.character.escaped, constant.character.escape, string source, string source.ruby]
+    [String interpolation]
+    (color 519F50))
+
+(apply markup.inserted
+    [Diff Add]
+    (color E6E1DC)
+    (background 144212))
+
+(apply markup.deleted
+    [Diff Remove]
+    (color E6E1DC)
+    (background 660000))
+
+(apply [meta.diff.header, meta.separator.diff, meta.diff.index, meta.diff.range]
+    [Diff Header]
+    (background 2F33AB))
