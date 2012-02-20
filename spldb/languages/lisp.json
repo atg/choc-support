@@ -2,5 +2,5 @@
     "name": "Lisp",
 
     "extensions": ["lisp"],    
-    "comment.line": ";",
+    "comment.line": ";"
 }
