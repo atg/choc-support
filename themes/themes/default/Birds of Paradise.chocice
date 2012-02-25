@@ -1,17 +1,17 @@
 (name [Birds of Paradise])
 
 (!default
-    (background 372725)
+    (background 322323)
     (color E6E1C4)
     (caret E6E1C4)
     (invisibles 42302D)
     (selection 16120E)
     (line-highlight 1F1611))
 
-(apply source
+(apply [text source]
     Source
     (color E6E1C4)
-    (background 322323))
+    (background 372725))
 
 (apply comment
     Comment
