@@ -1,0 +1,7 @@
+{
+    "name": "Tcl",
+    
+    "extensions": "tcl",
+    
+    "comment.line": "#"
+}

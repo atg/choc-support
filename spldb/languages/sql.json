@@ -1,0 +1,9 @@
+{
+    "name": "SQL",
+    
+    "extensions": "sql",
+    
+    "comment.line": "--",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

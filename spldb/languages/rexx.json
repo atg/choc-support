@@ -1,0 +1,8 @@
+{
+    "name": "REXX",
+    
+    "extensions": "rexx",
+    
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

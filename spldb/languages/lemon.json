@@ -1,0 +1,9 @@
+{
+    "name": "Lemon",
+    
+    "extensions": ["lm", "lemon"],
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

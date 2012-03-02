@@ -1,0 +1,7 @@
+{
+    "name": "Bash",
+    
+    "extensions": ["sh", "bash"},
+    
+    "comment.line": "#"
+}

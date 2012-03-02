@@ -1,0 +1,9 @@
+{
+    "name": "Self-ml",
+    
+    "extensions": "selfml",
+    
+    "comment.line": "#",
+    "comment.block.start": "{#",
+    "comment.block.end": "#}"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Textile",
+    
+    "extensions": "textile",
+    
+    "comment.block.start": "<!--",
+    "comment.block.end": "-->"
+}

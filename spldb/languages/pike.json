@@ -1,0 +1,9 @@
+{
+    "name": "Pike",
+    
+    "extensions": "pike",
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Verilog",
+    
+    "extensions": "verilog",
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

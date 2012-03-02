@@ -1,0 +1,8 @@
+{
+    "name": "OCaml",
+    
+    "extensions": "ml",
+    
+    "comment.block.start": "(*",
+    "comment.block.end": "*)"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "SCSS",
+    
+    "extensions": "scss",
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

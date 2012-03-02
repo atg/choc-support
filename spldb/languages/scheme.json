@@ -1,7 +1,9 @@
 {
     "name": "Scheme",
     
-    "extensions": ["scm"],
+    "extensions": "scm",
     
     "comment.line": ";",
+    "comment.block.start": "#|",
+    "comment.block.end": "|#"
 }

@@ -1,0 +1,9 @@
+{
+    "name": "Scala",
+    
+    "extensions": "scala",
+    
+    "comment.line": "//",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "XSLT",
+    
+    "extensions": ["xslt"],
+    
+    "comment.block.start": "<!--",
+    "comment.block.end": "-->"
+}

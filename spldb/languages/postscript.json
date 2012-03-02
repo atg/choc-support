@@ -1,0 +1,7 @@
+{
+    "name": "PostScript",
+    
+    "extensions": "ps",
+    
+    "comment.line": "%"
+}

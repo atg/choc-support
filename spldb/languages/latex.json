@@ -1,0 +1,7 @@
+{
+    "name": "LaTeX",
+    
+    "extensions": "latex",
+    
+    "comment.line": "%"
+}

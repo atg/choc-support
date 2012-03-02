@@ -1,0 +1,9 @@
+{
+    "name": "F#",
+    
+    "extensions": "fs",
+    
+    "comment.line": "//",
+    "comment.block.start": "(*",
+    "comment.block.end": "*)"
+}

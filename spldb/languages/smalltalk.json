@@ -1,0 +1,8 @@
+{
+    "name": "Smalltalk",
+    
+    "extensions": "sm",
+    
+    "comment.block.start": "\"",
+    "comment.block.end": "\""
+}

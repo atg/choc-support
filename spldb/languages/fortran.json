@@ -1,0 +1,7 @@
+{
+    "name": "Fortran",
+    
+    "extensions": "f90",
+    
+    "comment.line": "!"
+}

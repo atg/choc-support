@@ -1,0 +1,9 @@
+{
+    "name": "Io",
+    
+    "extensions": "io",
+    
+    "comment.line": "#",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

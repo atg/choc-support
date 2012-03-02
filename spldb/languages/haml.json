@@ -1,0 +1,7 @@
+{
+    "name": "Haml",
+    
+    "extensions": "haml",
+    
+    "comment.line": "-#"
+}

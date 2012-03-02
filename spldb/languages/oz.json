@@ -1,0 +1,9 @@
+{
+    "name": "Oz",
+    
+    "extensions": "oz",
+    
+    "comment.line": "%",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}

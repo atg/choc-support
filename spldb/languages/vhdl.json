@@ -1,0 +1,7 @@
+{
+    "name": "VHDL",
+    
+    "extensions": "vhdl",
+    
+    "comment.line": "--"
+}

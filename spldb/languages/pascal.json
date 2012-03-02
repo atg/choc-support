@@ -1,0 +1,9 @@
+{
+    "name": "Pascal",
+    
+    "extensions": "p",
+    
+    "comment.line": "//",
+    "comment.block.start": "{",
+    "comment.block.end": "}"
+}

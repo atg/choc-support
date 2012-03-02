@@ -1,0 +1,7 @@
+{
+    "name": "Prolog",
+        
+    "comment.line": "%",
+    "comment.block.start": "/*",
+    "comment.block.end": "*/"
+}
