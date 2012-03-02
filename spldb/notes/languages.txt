@@ -66,6 +66,7 @@ Ragel
 REXX
 Ruby
 SASS
+SCSS
 Scala
 Scheme
 Sed
