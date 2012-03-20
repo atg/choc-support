@@ -3,11 +3,8 @@ import re
 import json
 
 def invoke():
-    output = str(commands.getoutput("ruby -c $CHOC_FILE"))
+    output = str(commands.getoutput("""bash -cl 'ruby -c "$CHOC_FILE"'"""))
     parse(output)
-
-# PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in test.php on line 3
-# Errors parsing test.php
 
 def parse(output):
     errormessage = r'^([^\n:]+):(\d+):\s+([^\n]+)'
