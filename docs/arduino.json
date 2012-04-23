@@ -1,0 +1,13 @@
+{
+    "home": "http://arduino.cc/en/Reference",
+    "google": "arduino.cc/en/Reference",
+    "name": "Arduino",
+    "hide": [
+      "#ssotoolbar",
+      "#pageheader",
+      "#pagenav",
+      "#pagefooter",
+      ".addthis_container"
+    ],
+    "css": "#page { width: 100% !important; } h2 { margin-top: 17px !important; } p:first-child { display: none; }"
+}

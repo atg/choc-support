@@ -1,0 +1,17 @@
+[
+  {
+    "type": "interface",
+    "regex": "^\\s*@interface (IDENT)",
+    "extractname": 1
+  },
+  {
+    "type": "class",
+    "regex": "^\\s*@implementation (IDENT)",
+    "extractname": 1
+  },
+  {
+    "type": "method",
+    "rawregex": "^([+\\-][a-zA-Z0-9&$:()^*\\[\\]<>\\s]+)[{;]",
+    "extractname": 1
+  }
+]
