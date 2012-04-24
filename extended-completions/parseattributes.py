@@ -2,7 +2,7 @@ import csv, pprint, json, re
 
 # http://www.whatwg.org/specs/web-apps/current-work/multipage/section-index.html#attributes-1
 
-isminified = False
+isminified = True
 
 extra_data = {
     "": ""
@@ -184,7 +184,7 @@ for t in sorted(list(tags)):
 
 # pprint.pprint(tags)
 if isminified:
-    pass #print json.dumps(tags, sort_keys=True)
+    print json.dumps(tags, sort_keys=True)
 else:
     print json.dumps(tags, sort_keys=True, indent=4)
 
