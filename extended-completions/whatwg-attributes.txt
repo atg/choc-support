@@ -1,0 +1,739 @@
+
+  <table><caption>List of attributes (excluding event handler content attributes)</caption>
+   <thead><tr><th> Attribute
+     </th><th> Element(s)
+     </th><th> Description
+     </th><th> Value
+   </th></tr></thead><tbody><tr><th> <code title="">accept</code>
+     </th><td> <code title="attr-input-accept"><a href="states-of-the-type-attribute.html#attr-input-accept">input</a></code>
+     </td><td> Hint for expected file type in <a href="states-of-the-type-attribute.html#file-upload-state-(type=file)" title="attr-input-type-file">file upload controls</a>
+     </td><td> <a href="common-microsyntaxes.html#set-of-comma-separated-tokens">Set of comma-separated tokens</a>* consisting of <a href="infrastructure.html#valid-mime-type" title="valid MIME type">valid MIME types with no parameters</a> or <code title="">audio/*</code>, <code title="">video/*</code>, or <code title="">image/*</code>
+    </td></tr><tr><th> <code title="">accept-charset</code>
+     </th><td> <code title="attr-form-accept-charset"><a href="forms.html#attr-form-accept-charset">form</a></code>
+     </td><td> Character encodings to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="common-microsyntaxes.html#ordered-set-of-unique-space-separated-tokens">Ordered set of unique space-separated tokens</a>, <a href="infrastructure.html#ascii-case-insensitive">ASCII case-insensitive</a>, consisting of <a href="infrastructure.html#preferred-mime-name" title="preferred MIME name">preferred MIME names</a> of <a href="infrastructure.html#ascii-compatible-character-encoding" title="ASCII-compatible character encoding">ASCII-compatible character encodings</a>*
+    </td></tr><tr><th> <code title="">accesskey</code>
+     </th><td> <a href="editing.html#the-accesskey-attribute" title="attr-accesskey">HTML elements</a>
+     </td><td> Keyboard shortcut to activate or focus element
+     </td><td> <a href="common-microsyntaxes.html#ordered-set-of-unique-space-separated-tokens">Ordered set of unique space-separated tokens</a>, <a href="infrastructure.html#case-sensitive">case-sensitive</a>, consisting of one Unicode code point in length
+    </td></tr><tr><th> <code title="">action</code>
+     </th><td> <code title="attr-fs-action"><a href="association-of-controls-and-forms.html#attr-fs-action">form</a></code>
+     </td><td> <a href="urls.html#url">URL</a> to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">alt</code>
+     </th><td> <code title="attr-area-alt"><a href="the-map-element.html#attr-area-alt">area</a></code>;
+          <code title="attr-img-alt"><a href="embedded-content-1.html#attr-img-alt">img</a></code>;
+          <code title="attr-input-alt"><a href="states-of-the-type-attribute.html#attr-input-alt">input</a></code>
+     </td><td> Replacement text for use when images are not available
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">async</code>
+     </th><td> <code title="attr-script-async"><a href="scripting-1.html#attr-script-async">script</a></code>
+     </td><td> Execute script asynchronously
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">autocomplete</code>
+     </th><td> <code title="attr-form-autocomplete"><a href="forms.html#attr-form-autocomplete">form</a></code>;
+          <code title="attr-input-autocomplete"><a href="common-input-element-attributes.html#attr-input-autocomplete">input</a></code>
+     </td><td> Prevent the user agent from providing autocompletions for the form control(s)
+     </td><td> "<code title="">on</code>"; "<code title="">off</code>"
+    </td></tr><tr><th> <code title="">autofocus</code>
+     </th><td> <code title="attr-fe-autofocus"><a href="association-of-controls-and-forms.html#attr-fe-autofocus">button</a></code>;
+          <code title="attr-fe-autofocus"><a href="association-of-controls-and-forms.html#attr-fe-autofocus">input</a></code>;
+          <code title="attr-fe-autofocus"><a href="association-of-controls-and-forms.html#attr-fe-autofocus">keygen</a></code>;
+          <code title="attr-fe-autofocus"><a href="association-of-controls-and-forms.html#attr-fe-autofocus">select</a></code>;
+          <code title="attr-fe-autofocus"><a href="association-of-controls-and-forms.html#attr-fe-autofocus">textarea</a></code>
+     </td><td> Automatically focus the form control when the page is loaded
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">autoplay</code>
+     </th><td> <code title="attr-media-autoplay"><a href="the-video-element.html#attr-media-autoplay">audio</a></code>;
+          <code title="attr-media-autoplay"><a href="the-video-element.html#attr-media-autoplay">video</a></code>
+     </td><td> Hint that the <a href="the-video-element.html#media-resource">media resource</a> can be started automatically when the page is loaded
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">border</code>
+     </th><td> <code title="attr-table-border"><a href="tabular-data.html#attr-table-border">table</a></code>
+     </td><td> Explicit indication that the <code><a href="tabular-data.html#the-table-element">table</a></code> element is not being used for layout purposes
+     </td><td> The empty string, or "<code title="">1</code>"
+    </td></tr><tr><th> <code title="">challenge</code>
+     </th><td> <code title="attr-keygen-challenge"><a href="the-button-element.html#attr-keygen-challenge">keygen</a></code>
+     </td><td> String to package with the generated and signed public key
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">charset</code>
+     </th><td> <code title="attr-meta-charset"><a href="semantics.html#attr-meta-charset">meta</a></code>
+     </td><td> <a href="semantics.html#character-encoding-declaration">Character encoding declaration</a>
+     </td><td> <a href="infrastructure.html#preferred-mime-name">Preferred MIME name</a> of an encoding*
+    </td></tr><tr><th> <code title="">charset</code>
+     </th><td> <code title="attr-script-charset"><a href="scripting-1.html#attr-script-charset">script</a></code>
+     </td><td> Character encoding of the external script resource
+     </td><td> <a href="infrastructure.html#preferred-mime-name">Preferred MIME name</a> of an encoding*
+    </td></tr><tr><th> <code title="">checked</code>
+     </th><td> <code title="attr-command-checked"><a href="interactive-elements.html#attr-command-checked">command</a></code>;
+          <code title="attr-input-checked"><a href="the-input-element.html#attr-input-checked">input</a></code>
+     </td><td> Whether the command or control is checked
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">cite</code>
+     </th><td> <code title="attr-blockquote-cite"><a href="grouping-content.html#attr-blockquote-cite">blockquote</a></code>;
+          <code title="attr-mod-cite"><a href="edits.html#attr-mod-cite">del</a></code>;
+          <code title="attr-mod-cite"><a href="edits.html#attr-mod-cite">ins</a></code>;
+          <code title="attr-q-cite"><a href="text-level-semantics.html#attr-q-cite">q</a></code>
+     </td><td> Link to the source of the quotation or more information about the edit
+     </td><td> <a href="urls.html#valid-url-potentially-surrounded-by-spaces">Valid URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">class</code>
+     </th><td> <a href="elements.html#classes" title="attr-class">HTML elements</a>
+     </td><td> Classes to which the element belongs
+     </td><td> <a href="common-microsyntaxes.html#set-of-space-separated-tokens">Set of space-separated tokens</a>
+    </td></tr><tr><th> <code title="">cols</code>
+     </th><td> <code title="attr-textarea-cols"><a href="the-button-element.html#attr-textarea-cols">textarea</a></code>
+     </td><td> Maximum number of characters per line
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a> greater than zero
+    </td></tr><tr><th> <code title="">colspan</code>
+     </th><td> <code title="attr-tdth-colspan"><a href="tabular-data.html#attr-tdth-colspan">td</a></code>;
+          <code title="attr-tdth-colspan"><a href="tabular-data.html#attr-tdth-colspan">th</a></code>
+     </td><td> Number of columns that the cell is to span
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a> greater than zero
+    </td></tr><tr><th> <code title="">command</code>
+     </th><td> <code title="attr-command-command"><a href="interactive-elements.html#attr-command-command">command</a></code>
+     </td><td> Command definition
+     </td><td> <a href="infrastructure.html#concept-id" title="concept-id">ID</a>*
+    </td></tr><tr><th> <code title="">content</code>
+     </th><td> <code title="attr-meta-content"><a href="semantics.html#attr-meta-content">meta</a></code>
+     </td><td> Value of the element
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">contenteditable</code>
+     </th><td> <a href="editing.html#attr-contenteditable" title="attr-contenteditable">HTML elements</a>
+     </td><td> Whether the element is editable
+     </td><td> "<code title="">true</code>"; "<code title="">false</code>"
+    </td></tr><tr><th> <code title="">contextmenu</code>
+     </th><td> <a href="interactive-elements.html#attr-contextmenu" title="attr-contextmenu">HTML elements</a>
+     </td><td> The element's context menu
+     </td><td> <a href="infrastructure.html#concept-id" title="concept-id">ID</a>*
+    </td></tr><tr><th> <code title="">controls</code>
+     </th><td> <code title="attr-media-controls"><a href="the-video-element.html#attr-media-controls">audio</a></code>;
+          <code title="attr-media-controls"><a href="the-video-element.html#attr-media-controls">video</a></code>
+     </td><td> Show user agent controls
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">coords</code>
+     </th><td> <code title="attr-area-coords"><a href="the-map-element.html#attr-area-coords">area</a></code>
+     </td><td> Coordinates for the shape to be created in an <a href="the-map-element.html#image-map">image map</a>
+     </td><td> <a href="common-microsyntaxes.html#valid-list-of-integers">Valid list of integers</a>*
+    </td></tr><tr><th> <code title="">crossorigin</code>
+     </th><td> <code title="attr-media-crossorigin"><a href="the-video-element.html#attr-media-crossorigin">audio</a></code>;
+          <code title="attr-img-crossorigin"><a href="embedded-content-1.html#attr-img-crossorigin">img</a></code>;
+          <code title="attr-media-crossorigin"><a href="the-video-element.html#attr-media-crossorigin">video</a></code>
+     </td><td> How the element handles crossorigin requests.
+     </td><td> "<code title="attr-crossorigin-anonymous-keyword"><a href="fetching-resources.html#attr-crossorigin-anonymous-keyword">anonymous</a></code>"; "<code title="attr-crossorigin-use-credentials-keyword"><a href="fetching-resources.html#attr-crossorigin-use-credentials-keyword">use-credentials</a></code>"
+    </td></tr><tr><th> <code title="">data</code>
+     </th><td> <code title="attr-object-data"><a href="the-iframe-element.html#attr-object-data">object</a></code>
+     </td><td> Address of the resource
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">datetime</code>
+     </th><td> <code title="attr-mod-datetime"><a href="edits.html#attr-mod-datetime">del</a></code>;
+          <code title="attr-mod-datetime"><a href="edits.html#attr-mod-datetime">ins</a></code>
+     </td><td> Date and (optionally) time of the change
+     </td><td> <a href="common-microsyntaxes.html#valid-date-string-with-optional-time">Valid date string with optional time</a>
+    </td></tr><tr><th> <code title="">datetime</code>
+     </th><td> <code title="attr-time-datetime"><a href="text-level-semantics.html#attr-time-datetime">time</a></code>
+     </td><td> Machine-readable value
+     </td><td> <a href="common-microsyntaxes.html#valid-month-string">Valid month string</a>,
+          <a href="common-microsyntaxes.html#valid-date-string">valid date string</a>,
+          <a href="common-microsyntaxes.html#valid-yearless-date-string">valid yearless date string</a>,
+          <a href="common-microsyntaxes.html#valid-time-string">valid time string</a>,
+          <a href="common-microsyntaxes.html#valid-local-date-and-time-string">valid local date and time string</a>,
+          <a href="common-microsyntaxes.html#valid-time-zone-offset-string">valid time-zone offset string</a>,
+          <a href="common-microsyntaxes.html#valid-global-date-and-time-string">valid global date and time string</a>,
+          <a href="common-microsyntaxes.html#valid-week-string">valid week string</a>,
+          <a href="common-microsyntaxes.html#valid-non-negative-integer">valid non-negative integer</a>, or
+          <a href="common-microsyntaxes.html#valid-duration-string">valid duration string</a>
+    </td></tr><tr><th> <code title="">default</code>
+     </th><td> <code title="attr-track-default"><a href="the-video-element.html#attr-track-default">track</a></code>
+     </td><td> Enable the track if no other <a href="the-video-element.html#text-track">text track</a> is more suitable.
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">defer</code>
+     </th><td> <code title="attr-script-defer"><a href="scripting-1.html#attr-script-defer">script</a></code>
+     </td><td> Defer script execution
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">dir</code>
+     </th><td> <a href="elements.html#the-dir-attribute" title="attr-dir">HTML elements</a>
+     </td><td> <a href="elements.html#the-directionality" title="the directionality">The text directionality</a> of the element
+     </td><td> "<code title="attr-dir-ltr"><a href="elements.html#attr-dir-ltr">ltr</a></code>"; "<code title="attr-dir-rtl"><a href="elements.html#attr-dir-rtl">rtl</a></code>"; "<code title="attr-dir-auto"><a href="elements.html#attr-dir-auto">auto</a></code>"
+    </td></tr><tr><th> <code title="">dirname</code>
+     </th><td> <code title="attr-input-dirname"><a href="common-input-element-attributes.html#attr-input-dirname">input</a></code>;
+          <code title="attr-textarea-dirname"><a href="the-button-element.html#attr-textarea-dirname">textarea</a></code>
+     </td><td> Name of form field to use for sending the element's <a href="elements.html#the-directionality" title="the directionality">directionality</a> in <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">disabled</code>
+     </th><td> <code title="attr-fe-disabled"><a href="association-of-controls-and-forms.html#attr-fe-disabled">button</a></code>;
+          <code title="attr-command-disabled"><a href="interactive-elements.html#attr-command-disabled">command</a></code>;
+          <code title="attr-fieldset-disabled"><a href="forms.html#attr-fieldset-disabled">fieldset</a></code>;
+          <code title="attr-fe-disabled"><a href="association-of-controls-and-forms.html#attr-fe-disabled">input</a></code>;
+          <code title="attr-fe-disabled"><a href="association-of-controls-and-forms.html#attr-fe-disabled">keygen</a></code>;
+          <code title="attr-optgroup-disabled"><a href="the-button-element.html#attr-optgroup-disabled">optgroup</a></code>;
+          <code title="attr-option-disabled"><a href="the-button-element.html#attr-option-disabled">option</a></code>;
+          <code title="attr-fe-disabled"><a href="association-of-controls-and-forms.html#attr-fe-disabled">select</a></code>;
+          <code title="attr-fe-disabled"><a href="association-of-controls-and-forms.html#attr-fe-disabled">textarea</a></code>
+     </td><td> Whether the form control is disabled
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+<!--DOWNLOAD-->
+    </td></tr><tr><th> <code title="">download</code>
+     </th><td> <code title="attr-hyperlink-download"><a href="links.html#attr-hyperlink-download">a</a></code>;
+          <code title="attr-hyperlink-download"><a href="links.html#attr-hyperlink-download">area</a></code>
+     </td><td> Whether to download the resource instead of navigating to it, and its filename if so
+     </td><td> Text
+<!--DOWNLOAD-->
+    </td></tr><tr><th> <code title="">draggable</code>
+     </th><td> <a href="dnd.html#the-draggable-attribute" title="attr-draggable">HTML elements</a>
+     </td><td> Whether the element is draggable
+     </td><td> "<code title="">true</code>"; "<code title="">false</code>"
+    </td></tr><tr><th> <code title="">dropzone</code>
+     </th><td> <a href="dnd.html#the-dropzone-attribute" title="attr-dropzone">HTML elements</a>
+     </td><td> Accepted item types for drag-and-drop
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#ascii-case-insensitive">ASCII case-insensitive</a>, consisting of accepted types and drag feedback*
+    </td></tr><tr><th> <code title="">enctype</code>
+     </th><td> <code title="attr-fs-enctype"><a href="association-of-controls-and-forms.html#attr-fs-enctype">form</a></code>
+     </td><td> Form data set encoding type to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> "<code title="attr-fs-enctype-urlencoded"><a href="association-of-controls-and-forms.html#attr-fs-enctype-urlencoded">application/x-www-form-urlencoded</a></code>"; "<code title="attr-fs-enctype-formdata"><a href="association-of-controls-and-forms.html#attr-fs-enctype-formdata">multipart/form-data</a></code>"; "<code title="attr-fs-enctype-text"><a href="association-of-controls-and-forms.html#attr-fs-enctype-text">text/plain</a></code>"
+    </td></tr><tr><th> <code title="">for</code>
+     </th><td> <code title="attr-label-for"><a href="forms.html#attr-label-for">label</a></code>
+     </td><td> Associate the label with form control
+     </td><td> <a href="infrastructure.html#concept-id" title="concept-id">ID</a>*
+    </td></tr><tr><th> <code title="">for</code>
+     </th><td> <code title="attr-output-for"><a href="the-button-element.html#attr-output-for">output</a></code>
+     </td><td> Specifies controls from which the output was calculated
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#case-sensitive">case-sensitive</a>, consisting of IDs*
+    </td></tr><tr><th> <code title="">form</code>
+     </th><td> <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">button</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">fieldset</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">input</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">keygen</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">label</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">object</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">output</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">select</a></code>;
+          <code title="attr-fae-form"><a href="association-of-controls-and-forms.html#attr-fae-form">textarea</a></code>
+     </td><td> Associates the control with a <code><a href="forms.html#the-form-element">form</a></code> element
+     </td><td> <a href="infrastructure.html#concept-id" title="concept-id">ID</a>*
+    </td></tr><tr><th> <code title="">formaction</code>
+     </th><td> <code title="attr-fs-formaction"><a href="association-of-controls-and-forms.html#attr-fs-formaction">button</a></code>;
+          <code title="attr-fs-formaction"><a href="association-of-controls-and-forms.html#attr-fs-formaction">input</a></code>
+     </td><td> <a href="urls.html#url">URL</a> to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">formenctype</code>
+     </th><td> <code title="attr-fs-formenctype"><a href="association-of-controls-and-forms.html#attr-fs-formenctype">button</a></code>;
+          <code title="attr-fs-formenctype"><a href="association-of-controls-and-forms.html#attr-fs-formenctype">input</a></code>
+     </td><td> Form data set encoding type to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> "<code title="attr-fs-enctype-urlencoded"><a href="association-of-controls-and-forms.html#attr-fs-enctype-urlencoded">application/x-www-form-urlencoded</a></code>"; "<code title="attr-fs-enctype-formdata"><a href="association-of-controls-and-forms.html#attr-fs-enctype-formdata">multipart/form-data</a></code>"; "<code title="attr-fs-enctype-text"><a href="association-of-controls-and-forms.html#attr-fs-enctype-text">text/plain</a></code>"
+    </td></tr><tr><th> <code title="">formmethod</code>
+     </th><td> <code title="attr-fs-formmethod"><a href="association-of-controls-and-forms.html#attr-fs-formmethod">button</a></code>;
+          <code title="attr-fs-formmethod"><a href="association-of-controls-and-forms.html#attr-fs-formmethod">input</a></code>
+     </td><td> HTTP method to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> "<code title="">GET</code>"; "<code title="">POST</code>"
+    </td></tr><tr><th> <code title="">formnovalidate</code>
+     </th><td> <code title="attr-fs-formnovalidate"><a href="association-of-controls-and-forms.html#attr-fs-formnovalidate">button</a></code>;
+          <code title="attr-fs-formnovalidate"><a href="association-of-controls-and-forms.html#attr-fs-formnovalidate">input</a></code>
+     </td><td> Bypass form control validation for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">formtarget</code>
+     </th><td> <code title="attr-fs-formtarget"><a href="association-of-controls-and-forms.html#attr-fs-formtarget">button</a></code>;
+          <code title="attr-fs-formtarget"><a href="association-of-controls-and-forms.html#attr-fs-formtarget">input</a></code>
+     </td><td> <a href="browsers.html#browsing-context">Browsing context</a> for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="browsers.html#valid-browsing-context-name-or-keyword">Valid browsing context name or keyword</a>
+    </td></tr><tr><th> <code title="">headers</code>
+     </th><td> <code title="attr-tdth-headers"><a href="tabular-data.html#attr-tdth-headers">td</a></code>;
+          <code title="attr-tdth-headers"><a href="tabular-data.html#attr-tdth-headers">th</a></code>
+     </td><td> The header cells for this cell
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#case-sensitive">case-sensitive</a>, consisting of IDs*
+    </td></tr><tr><th> <code title="">height</code>
+     </th><td> <code title="attr-canvas-height"><a href="the-canvas-element.html#attr-canvas-height">canvas</a></code>;
+          <code title="attr-dim-height"><a href="the-map-element.html#attr-dim-height">embed</a></code>;
+          <code title="attr-dim-height"><a href="the-map-element.html#attr-dim-height">iframe</a></code>;
+          <code title="attr-dim-height"><a href="the-map-element.html#attr-dim-height">img</a></code>;
+          <code title="attr-dim-height"><a href="the-map-element.html#attr-dim-height">input</a></code>;
+          <code title="attr-dim-height"><a href="the-map-element.html#attr-dim-height">object</a></code>;
+          <code title="attr-dim-height"><a href="the-map-element.html#attr-dim-height">video</a></code>
+     </td><td> Vertical dimension
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a>
+    </td></tr><tr><th> <code title="">hidden</code>
+     </th><td> <a href="editing.html#the-hidden-attribute" title="attr-hidden">HTML elements</a>
+     </td><td> Whether the element is relevant
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">high</code>
+     </th><td> <code title="attr-meter-high"><a href="the-button-element.html#attr-meter-high">meter</a></code>
+     </td><td> Low limit of high range
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a>*
+    </td></tr><tr><th> <code title="">href</code>
+     </th><td> <code title="attr-hyperlink-href"><a href="links.html#attr-hyperlink-href">a</a></code>;
+          <code title="attr-hyperlink-href"><a href="links.html#attr-hyperlink-href">area</a></code>
+     </td><td> Address of the <a href="links.html#hyperlink">hyperlink</a>
+     </td><td> <a href="urls.html#valid-url-potentially-surrounded-by-spaces">Valid URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">href</code>
+     </th><td> <code title="attr-link-href"><a href="semantics.html#attr-link-href">link</a></code>
+     </td><td> Address of the <a href="links.html#hyperlink">hyperlink</a>
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">href</code>
+     </th><td> <code title="attr-base-href"><a href="semantics.html#attr-base-href">base</a></code>
+     </td><td> <a href="urls.html#document-base-url">Document base URL</a>
+     </td><td> <a href="urls.html#valid-url-potentially-surrounded-by-spaces">Valid URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">hreflang</code>
+     </th><td> <code title="attr-hyperlink-hreflang"><a href="links.html#attr-hyperlink-hreflang">a</a></code>;
+          <code title="attr-hyperlink-hreflang"><a href="links.html#attr-hyperlink-hreflang">area</a></code>;
+          <code title="attr-link-hreflang"><a href="semantics.html#attr-link-hreflang">link</a></code>
+     </td><td> Language of the linked resource
+     </td><td> Valid BCP 47 language tag
+    </td></tr><tr><th> <code title="">http-equiv</code>
+     </th><td> <code title="attr-meta-http-equiv"><a href="semantics.html#attr-meta-http-equiv">meta</a></code>
+     </td><td> Pragma directive
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">icon</code>
+     </th><td> <code title="attr-command-icon"><a href="interactive-elements.html#attr-command-icon">command</a></code>
+     </td><td> Icon for the command
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">id</code>
+     </th><td> <a href="elements.html#the-id-attribute" title="attr-id">HTML elements</a>
+     </td><td> The element's <a href="infrastructure.html#concept-id" title="concept-id">ID</a>
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+<!--INERT-->
+    </td></tr><tr><th> <code title="">inert</code>
+     </th><td> <a href="editing.html#the-inert-attribute" title="attr-inert">HTML elements</a>
+     </td><td> Whether the element is inert
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+<!--INERT-->
+    </td></tr><tr><th> <code title="">ismap</code>
+     </th><td> <code title="attr-img-ismap"><a href="embedded-content-1.html#attr-img-ismap">img</a></code>
+     </td><td> Whether the image is a server-side image map
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+<!--MD-->
+    </td></tr><tr><th> <code title="">itemid</code>
+     </th><td> <a href="microdata.html#attr-itemid" title="attr-itemid">HTML elements</a>
+     </td><td> <a href="microdata.html#global-identifier">Global identifier</a> for a microdata item
+     </td><td> <a href="urls.html#valid-url-potentially-surrounded-by-spaces">Valid URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">itemprop</code>
+     </th><td> <a href="microdata.html#names:-the-itemprop-attribute" title="attr-itemprop">HTML elements</a>
+     </td><td> <a href="microdata.html#property-names">Property names</a> of a microdata item
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#case-sensitive">case-sensitive</a>, consisting of <a href="urls.html#absolute-url" title="absolute URL">valid absolute URLs</a>, <a href="microdata.html#defined-property-name" title="defined property name">defined property names</a>, or text*
+    </td></tr><tr><th> <code title="">itemref</code>
+     </th><td> <a href="microdata.html#attr-itemref" title="attr-itemref">HTML elements</a>
+     </td><td> Referenced elements
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#case-sensitive">case-sensitive</a>, consisting of IDs*
+    </td></tr><tr><th> <code title="">itemscope</code>
+     </th><td> <a href="microdata.html#attr-itemscope" title="attr-itemscope">HTML elements</a>
+     </td><td> Introduces a microdata item
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">itemtype</code>
+     </th><td> <a href="microdata.html#attr-itemtype" title="attr-itemtype">HTML elements</a>
+     </td><td> <a href="microdata.html#item-types">Item types</a> of a microdata item
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#case-sensitive">case-sensitive</a>, consisting of <a href="urls.html#absolute-url" title="absolute URL">valid absolute URL</a>*
+<!--MD-->
+    </td></tr><tr><th> <code title="">keytype</code>
+     </th><td> <code title="attr-keygen-keytype"><a href="the-button-element.html#attr-keygen-keytype">keygen</a></code>
+     </td><td> The type of cryptographic key to generate
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">kind</code>
+     </th><td> <code title="attr-track-kind"><a href="the-video-element.html#attr-track-kind">track</a></code>
+     </td><td> The type of text track
+     </td><td> "<code title="attr-track-kind-subtitles"><a href="the-video-element.html#attr-track-kind-subtitles">subtitles</a></code>";
+          "<code title="attr-track-kind-captions"><a href="the-video-element.html#attr-track-kind-captions">captions</a></code>";
+          "<code title="attr-track-kind-descriptions"><a href="the-video-element.html#attr-track-kind-descriptions">descriptions</a></code>";
+          "<code title="attr-track-kind-chapters"><a href="the-video-element.html#attr-track-kind-chapters">chapters</a></code>";
+          "<code title="attr-track-kind-metadata"><a href="the-video-element.html#attr-track-kind-metadata">metadata</a></code>"
+    </td></tr><tr><th> <code title="">label</code>
+     </th><td> <code title="attr-command-label"><a href="interactive-elements.html#attr-command-label">command</a></code>;
+          <code title="attr-menu-label"><a href="interactive-elements.html#attr-menu-label">menu</a></code>;
+          <code title="attr-optgroup-label"><a href="the-button-element.html#attr-optgroup-label">optgroup</a></code>;
+          <code title="attr-option-label"><a href="the-button-element.html#attr-option-label">option</a></code>;
+          <code title="attr-track-label"><a href="the-video-element.html#attr-track-label">track</a></code>
+     </td><td> User-visible label
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">lang</code>
+     </th><td> <a href="elements.html#attr-lang" title="attr-lang">HTML elements</a>
+     </td><td> <a href="elements.html#language">Language</a> of the element
+     </td><td> Valid BCP 47 language tag or the empty string
+    </td></tr><tr><th> <code title="">list</code>
+     </th><td> <code title="attr-input-list"><a href="common-input-element-attributes.html#attr-input-list">input</a></code>
+     </td><td> List of autocomplete options
+     </td><td> <a href="infrastructure.html#concept-id" title="concept-id">ID</a>*
+    </td></tr><tr><th> <code title="">loop</code>
+     </th><td> <code title="attr-media-loop"><a href="the-video-element.html#attr-media-loop">audio</a></code>;
+          <code title="attr-media-loop"><a href="the-video-element.html#attr-media-loop">video</a></code>
+     </td><td> Whether to loop the <a href="the-video-element.html#media-resource">media resource</a>
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">low</code>
+     </th><td> <code title="attr-meter-low"><a href="the-button-element.html#attr-meter-low">meter</a></code>
+     </td><td> High limit of low range
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a>*
+    </td></tr><tr><th> <code title="">manifest</code>
+     </th><td> <code title="attr-html-manifest"><a href="semantics.html#attr-html-manifest">html</a></code>
+     </td><td> <a href="offline.html#concept-appcache-manifest" title="concept-appcache-manifest">Application cache manifest</a>
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">max</code>
+     </th><td> <code title="attr-input-max"><a href="common-input-element-attributes.html#attr-input-max">input</a></code>
+     </td><td> Maximum value
+     </td><td> Varies*
+    </td></tr><tr><th> <code title="">max</code>
+     </th><td> <code title="attr-meter-max"><a href="the-button-element.html#attr-meter-max">meter</a></code>;
+          <code title="attr-progress-max"><a href="the-button-element.html#attr-progress-max">progress</a></code>
+     </td><td> Upper bound of range
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a>*
+    </td></tr><tr><th> <code title="">maxlength</code>
+     </th><td> <code title="attr-input-maxlength"><a href="common-input-element-attributes.html#attr-input-maxlength">input</a></code>;
+          <code title="attr-textarea-maxlength"><a href="the-button-element.html#attr-textarea-maxlength">textarea</a></code>
+     </td><td> Maximum length of value
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a>
+    </td></tr><tr><th> <code title="">media</code>
+     </th><td> <code title="attr-hyperlink-media"><a href="links.html#attr-hyperlink-media">a</a></code>;
+          <code title="attr-hyperlink-media"><a href="links.html#attr-hyperlink-media">area</a></code>;
+          <code title="attr-link-media"><a href="semantics.html#attr-link-media">link</a></code>;
+          <code title="attr-source-media"><a href="the-video-element.html#attr-source-media">source</a></code>;
+          <code title="attr-style-media"><a href="semantics.html#attr-style-media">style</a></code>
+     </td><td> Applicable media
+     </td><td> <a href="common-microsyntaxes.html#valid-media-query">Valid media query</a>
+    </td></tr><tr><th> <code title="">mediagroup</code>
+     </th><td> <code title="attr-media-mediagroup"><a href="the-video-element.html#attr-media-mediagroup">audio</a></code>;
+          <code title="attr-media-mediagroup"><a href="the-video-element.html#attr-media-mediagroup">video</a></code>
+     </td><td> Groups <a href="the-video-element.html#media-element" title="media element">media elements</a> together with an implicit <code><a href="the-video-element.html#mediacontroller">MediaController</a></code>
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">method</code>
+     </th><td> <code title="attr-fs-method"><a href="association-of-controls-and-forms.html#attr-fs-method">form</a></code>
+     </td><td> HTTP method to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> "<code title="attr-fs-method-GET-keyword"><a href="association-of-controls-and-forms.html#attr-fs-method-get-keyword">GET</a></code>";
+          "<code title="attr-fs-method-POST-keyword"><a href="association-of-controls-and-forms.html#attr-fs-method-post-keyword">POST</a></code>";
+<!--FORM-DIALOG-->
+          "<code title="attr-fs-method-dialog-keyword"><a href="association-of-controls-and-forms.html#attr-fs-method-dialog-keyword">dialog</a></code>"
+<!--FORM-DIALOG-->
+    </td></tr><tr><th> <code title="">min</code>
+     </th><td> <code title="attr-input-min"><a href="common-input-element-attributes.html#attr-input-min">input</a></code>
+     </td><td> Minimum value
+     </td><td> Varies*
+    </td></tr><tr><th> <code title="">min</code>
+     </th><td> <code title="attr-meter-min"><a href="the-button-element.html#attr-meter-min">meter</a></code>
+     </td><td> Lower bound of range
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a>*
+    </td></tr><tr><th> <code title="">multiple</code>
+     </th><td> <code title="attr-input-multiple"><a href="common-input-element-attributes.html#attr-input-multiple">input</a></code>;
+          <code title="attr-select-multiple"><a href="the-button-element.html#attr-select-multiple">select</a></code>
+     </td><td> Whether to allow multiple values
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">muted</code>
+     </th><td> <code title="attr-media-muted"><a href="the-video-element.html#attr-media-muted">audio</a></code>;
+          <code title="attr-media-muted"><a href="the-video-element.html#attr-media-muted">video</a></code>
+     </td><td> Whether to mute the <a href="the-video-element.html#media-resource">media resource</a> by default
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">name</code>
+     </th><td> <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">button</a></code>;
+          <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">fieldset</a></code>;
+          <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">input</a></code>;
+          <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">keygen</a></code>;
+          <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">output</a></code>;
+          <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">select</a></code>;
+          <code title="attr-fe-name"><a href="association-of-controls-and-forms.html#attr-fe-name">textarea</a></code>
+     </td><td> Name of form control to use for <a href="association-of-controls-and-forms.html#form-submission">form submission</a> and in the <code title="dom-form-elements"><a href="forms.html#dom-form-elements">form.elements</a></code> API
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">name</code>
+     </th><td> <code title="attr-form-name"><a href="forms.html#attr-form-name">form</a></code>
+     </td><td> Name of form to use in the <code title="dom-document-forms"><a href="dom.html#dom-document-forms">document.forms</a></code> API
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">name</code>
+     </th><td> <code title="attr-iframe-name"><a href="the-iframe-element.html#attr-iframe-name">iframe</a></code>;
+          <code title="attr-object-name"><a href="the-iframe-element.html#attr-object-name">object</a></code>
+     </td><td> Name of <a href="browsers.html#nested-browsing-context">nested browsing context</a>
+     </td><td> <a href="browsers.html#valid-browsing-context-name-or-keyword">Valid browsing context name or keyword</a>
+    </td></tr><tr><th> <code title="">name</code>
+     </th><td> <code title="attr-map-name"><a href="the-map-element.html#attr-map-name">map</a></code>
+     </td><td> Name of <a href="the-map-element.html#image-map">image map</a> to reference from the <code title="attr-hyperlink-usemap"><a href="the-map-element.html#attr-hyperlink-usemap">usemap</a></code> attribute
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">name</code>
+     </th><td> <code title="attr-meta-name"><a href="semantics.html#attr-meta-name">meta</a></code>
+     </td><td> Metadata name
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">name</code>
+     </th><td> <code title="attr-param-name"><a href="the-iframe-element.html#attr-param-name">param</a></code>
+     </td><td> Name of parameter
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">novalidate</code>
+     </th><td> <code title="attr-fs-novalidate"><a href="association-of-controls-and-forms.html#attr-fs-novalidate">form</a></code>
+     </td><td> Bypass form control validation for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">open</code>
+     </th><td> <code title="attr-details-open"><a href="interactive-elements.html#attr-details-open">details</a></code>
+     </td><td> Whether the details are visible
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">open</code>
+     </th><td> <code title="attr-dialog-open"><a href="commands.html#attr-dialog-open">dialog</a></code>
+     </td><td> Whether the dialog box is showing
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">optimum</code>
+     </th><td> <code title="attr-meter-optimum"><a href="the-button-element.html#attr-meter-optimum">meter</a></code>
+     </td><td> Optimum value in gauge
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a>*
+    </td></tr><tr><th> <code title="">pattern</code>
+     </th><td> <code title="attr-input-pattern"><a href="common-input-element-attributes.html#attr-input-pattern">input</a></code>
+     </td><td> Pattern to be matched by the form control's value
+     </td><td> Regular expression matching the JavaScript <i title="">Pattern</i> production
+<!--PING-->
+    </td></tr><tr><th> <code title="">ping</code>
+     </th><td> <code title="attr-hyperlink-ping"><a href="links.html#ping">a</a></code>;
+          <code title="attr-hyperlink-ping"><a href="links.html#ping">area</a></code>
+     </td><td> <a href="urls.html#url" title="URL">URLs</a> to ping
+     </td><td> <a href="common-microsyntaxes.html#set-of-space-separated-tokens">Set of space-separated tokens</a> consisting of <a href="urls.html#valid-non-empty-url" title="valid non-empty URL">valid non-empty URLs</a>
+<!--PING-->
+    </td></tr><tr><th> <code title="">placeholder</code>
+     </th><td> <code title="attr-input-placeholder"><a href="common-input-element-attributes.html#attr-input-placeholder">input</a></code>;
+          <code title="attr-textarea-placeholder"><a href="the-button-element.html#attr-textarea-placeholder">textarea</a></code>
+     </td><td> User-visible label to be placed within the form control
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">poster</code>
+     </th><td> <code title="attr-video-poster"><a href="the-video-element.html#attr-video-poster">video</a></code>
+     </td><td> Poster frame to show prior to video playback
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">preload</code>
+     </th><td> <code title="attr-media-preload"><a href="the-video-element.html#attr-media-preload">audio</a></code>;
+          <code title="attr-media-preload"><a href="the-video-element.html#attr-media-preload">video</a></code>
+     </td><td> Hints how much buffering the <a href="the-video-element.html#media-resource">media resource</a> will likely need
+     </td><td> "<code title="attr-media-preload-none"><a href="the-video-element.html#attr-media-preload-none">none</a></code>";
+          "<code title="attr-media-preload-metadata"><a href="the-video-element.html#attr-media-preload-metadata">metadata</a></code>";
+          "<code title="attr-media-preload-auto"><a href="the-video-element.html#attr-media-preload-auto">auto</a></code>"
+    </td></tr><tr><th> <code title="">radiogroup</code>
+     </th><td> <code title="attr-command-radiogroup"><a href="interactive-elements.html#attr-command-radiogroup">command</a></code>
+     </td><td> Name of group of commands to treat as a radio button group
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">readonly</code>
+     </th><td> <code title="attr-input-readonly"><a href="common-input-element-attributes.html#attr-input-readonly">input</a></code>;
+          <code title="attr-textarea-readonly"><a href="the-button-element.html#attr-textarea-readonly">textarea</a></code>
+     </td><td> Whether to allow the value to be edited by the user
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">rel</code>
+     </th><td> <code title="attr-hyperlink-rel"><a href="links.html#attr-hyperlink-rel">a</a></code>;
+          <code title="attr-hyperlink-rel"><a href="links.html#attr-hyperlink-rel">area</a></code>;
+          <code title="attr-link-rel"><a href="semantics.html#attr-link-rel">link</a></code>
+     </td><td> Relationship between the document containing the hyperlink and the destination resource
+     </td><td> <a href="common-microsyntaxes.html#set-of-space-separated-tokens">Set of space-separated tokens</a>*
+    </td></tr><tr><th> <code title="">required</code>
+     </th><td> <code title="attr-input-required"><a href="common-input-element-attributes.html#attr-input-required">input</a></code>;
+          <code title="attr-select-required"><a href="the-button-element.html#attr-select-required">select</a></code>;
+          <code title="attr-textarea-required"><a href="the-button-element.html#attr-textarea-required">textarea</a></code>
+     </td><td> Whether the control is required for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">reversed</code>
+     </th><td> <code title="attr-ol-reversed"><a href="grouping-content.html#attr-ol-reversed">ol</a></code>
+     </td><td> Number the list backwards
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">rows</code>
+     </th><td> <code title="attr-textarea-rows"><a href="the-button-element.html#attr-textarea-rows">textarea</a></code>
+     </td><td> Number of lines to show
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a> greater than zero
+    </td></tr><tr><th> <code title="">rowspan</code>
+     </th><td> <code title="attr-tdth-rowspan"><a href="tabular-data.html#attr-tdth-rowspan">td</a></code>;
+          <code title="attr-tdth-rowspan"><a href="tabular-data.html#attr-tdth-rowspan">th</a></code>
+     </td><td> Number of rows that the cell is to span
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a>
+    </td></tr><tr><th> <code title="">sandbox</code>
+     </th><td> <code title="attr-iframe-sandbox"><a href="the-iframe-element.html#attr-iframe-sandbox">iframe</a></code>
+     </td><td> Security rules for nested content
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#ascii-case-insensitive">ASCII case-insensitive</a>, consisting of
+          "<code title="attr-iframe-sandbox-allow-forms"><a href="origin-0.html#attr-iframe-sandbox-allow-forms">allow-forms</a></code>",
+          "<code title="attr-iframe-sandbox-allow-popups"><a href="origin-0.html#attr-iframe-sandbox-allow-popups">allow-popups</a></code>",
+          "<code title="attr-iframe-sandbox-allow-same-origin"><a href="origin-0.html#attr-iframe-sandbox-allow-same-origin">allow-same-origin</a></code>",
+          "<code title="attr-iframe-sandbox-allow-scripts"><a href="origin-0.html#attr-iframe-sandbox-allow-scripts">allow-scripts</a></code> and
+          "<code title="attr-iframe-sandbox-allow-top-navigation"><a href="origin-0.html#attr-iframe-sandbox-allow-top-navigation">allow-top-navigation</a></code>"
+    </td></tr><tr><th> <code title="">spellcheck</code>
+     </th><td> <a href="editing.html#attr-spellcheck" title="attr-spellcheck">HTML elements</a>
+     </td><td> Whether the element is to have its spelling and grammar checked
+     </td><td> "<code title="">true</code>"; "<code title="">false</code>"
+    </td></tr><tr><th> <code title="">scope</code>
+     </th><td> <code title="attr-th-scope"><a href="tabular-data.html#attr-th-scope">th</a></code>
+     </td><td> Specifies which cells the header cell applies to
+     </td><td> "<code title="attr-th-scope-row"><a href="tabular-data.html#attr-th-scope-row">row</a></code>";
+          "<code title="attr-th-scope-col"><a href="tabular-data.html#attr-th-scope-col">col</a></code>";
+          "<code title="attr-th-scope-rowgroup"><a href="tabular-data.html#attr-th-scope-rowgroup">rowgroup</a></code>";
+          "<code title="attr-th-scope-colgroup"><a href="tabular-data.html#attr-th-scope-colgroup">colgroup</a></code>"
+    </td></tr><tr><th> <code title="">scoped</code>
+     </th><td> <code title="attr-style-scoped"><a href="semantics.html#attr-style-scoped">style</a></code>
+     </td><td> Whether the styles apply to the entire document or just the parent subtree
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">seamless</code>
+     </th><td> <code title="attr-iframe-seamless"><a href="the-iframe-element.html#attr-iframe-seamless">iframe</a></code>
+     </td><td> Whether to apply the document's styles to the nested content
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">selected</code>
+     </th><td> <code title="attr-option-selected"><a href="the-button-element.html#attr-option-selected">option</a></code>
+     </td><td> Whether the option is selected by default
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">shape</code>
+     </th><td> <code title="attr-area-shape"><a href="the-map-element.html#attr-area-shape">area</a></code>
+     </td><td> The kind of shape to be created in an <a href="the-map-element.html#image-map">image map</a>
+     </td><td> "<code title="attr-area-shape-keyword-circle"><a href="the-map-element.html#attr-area-shape-keyword-circle">circle</a></code>";
+          "<code title="attr-area-shape-keyword-default"><a href="the-map-element.html#attr-area-shape-keyword-default">default</a></code>";
+          "<code title="attr-area-shape-keyword-poly"><a href="the-map-element.html#attr-area-shape-keyword-poly">poly</a></code>";
+          "<code title="attr-area-shape-keyword-rect"><a href="the-map-element.html#attr-area-shape-keyword-rect">rect</a></code>"
+    </td></tr><tr><th> <code title="">size</code>
+     </th><td> <code title="attr-input-size"><a href="common-input-element-attributes.html#attr-input-size">input</a></code>;
+          <code title="attr-select-size"><a href="the-button-element.html#attr-select-size">select</a></code>
+     </td><td> Size of the control
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a> greater than zero
+    </td></tr><tr><th> <code title="">sizes</code>
+     </th><td> <code title="attr-link-sizes"><a href="links.html#attr-link-sizes">link</a></code>
+     </td><td> Sizes of the icons (for <code title="attr-link-rel"><a href="semantics.html#attr-link-rel">rel</a></code>="<code title="rel-icon"><a href="links.html#rel-icon">icon</a></code>")
+     </td><td> <a href="common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens">Unordered set of unique space-separated tokens</a>, <a href="infrastructure.html#ascii-case-insensitive">ASCII case-insensitive</a>, consisting of sizes*
+    </td></tr><tr><th> <code title="">span</code>
+     </th><td> <code title="attr-col-span"><a href="tabular-data.html#attr-col-span">col</a></code>;
+          <code title="attr-colgroup-span"><a href="tabular-data.html#attr-colgroup-span">colgroup</a></code>
+     </td><td> Number of columns spanned by the element
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a> greater than zero
+    </td></tr><tr><th> <code title="">src</code>
+     </th><td> <code title="attr-media-src"><a href="the-video-element.html#attr-media-src">audio</a></code>;
+          <code title="attr-embed-src"><a href="the-iframe-element.html#attr-embed-src">embed</a></code>;
+          <code title="attr-iframe-src"><a href="the-iframe-element.html#attr-iframe-src">iframe</a></code>;
+          <code title="attr-img-src"><a href="embedded-content-1.html#attr-img-src">img</a></code>;
+          <code title="attr-input-src"><a href="states-of-the-type-attribute.html#attr-input-src">input</a></code>;
+          <code title="attr-script-src"><a href="scripting-1.html#attr-script-src">script</a></code>;
+          <code title="attr-source-src"><a href="the-video-element.html#attr-source-src">source</a></code>;
+          <code title="attr-track-src"><a href="the-video-element.html#attr-track-src">track</a></code>;
+          <code title="attr-media-src"><a href="the-video-element.html#attr-media-src">video</a></code>
+     </td><td> Address of the resource
+     </td><td> <a href="urls.html#valid-non-empty-url-potentially-surrounded-by-spaces">Valid non-empty URL potentially surrounded by spaces</a>
+    </td></tr><tr><th> <code title="">srcdoc</code>
+     </th><td> <code title="attr-iframe-srcdoc"><a href="the-iframe-element.html#attr-iframe-srcdoc">iframe</a></code>
+     </td><td> A document to render in the <code><a href="the-iframe-element.html#the-iframe-element">iframe</a></code>
+     </td><td> The source of <a href="the-iframe-element.html#an-iframe-srcdoc-document">an <code>iframe</code> <code title="attr-iframe-srcdoc">srcdoc</code> document</a>*
+    </td></tr><tr><th> <code title="">srclang</code>
+     </th><td> <code title="attr-track-srclang"><a href="the-video-element.html#attr-track-srclang">track</a></code>
+     </td><td> Language of the text track
+     </td><td> Valid BCP 47 language tag
+    </td></tr><tr><th> <code title="">start</code>
+     </th><td> <code title="attr-ol-start"><a href="grouping-content.html#attr-ol-start">ol</a></code>
+     </td><td> <a href="grouping-content.html#ordinal-value">Ordinal value</a> of the first item
+     </td><td> <a href="common-microsyntaxes.html#valid-integer">Valid integer</a>
+    </td></tr><tr><th> <code title="">step</code>
+     </th><td> <code title="attr-input-step"><a href="common-input-element-attributes.html#attr-input-step">input</a></code>
+     </td><td> Granularity to be matched by the form control's value
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a> greater than zero, or "<code title="">any</code>"
+    </td></tr><tr><th> <code title="">style</code>
+     </th><td> <a href="elements.html#the-style-attribute" title="attr-style">HTML elements</a>
+     </td><td> Presentational and formatting instructions
+     </td><td> CSS declarations*
+    </td></tr><tr><th> <code title="">tabindex</code>
+     </th><td> <a href="editing.html#attr-tabindex" title="attr-tabindex">HTML elements</a>
+     </td><td> Whether the element is focusable, and the relative order of the element for the purposes of sequential focus navigation
+     </td><td> <a href="common-microsyntaxes.html#valid-integer">Valid integer</a>
+    </td></tr><tr><th> <code title="">target</code>
+     </th><td> <code title="attr-hyperlink-target"><a href="links.html#attr-hyperlink-target">a</a></code>;
+          <code title="attr-hyperlink-target"><a href="links.html#attr-hyperlink-target">area</a></code>
+     </td><td> <a href="browsers.html#browsing-context">Browsing context</a> for <a href="links.html#hyperlink">hyperlink</a> <a href="history.html#navigate" title="navigate">navigation</a>
+     </td><td> <a href="browsers.html#valid-browsing-context-name-or-keyword">Valid browsing context name or keyword</a>
+    </td></tr><tr><th> <code title="">target</code>
+     </th><td> <code title="attr-base-target"><a href="semantics.html#attr-base-target">base</a></code>
+     </td><td> Default <a href="browsers.html#browsing-context">browsing context</a> for <a href="links.html#hyperlink">hyperlink</a> <a href="history.html#navigate" title="navigate">navigation</a> and <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="browsers.html#valid-browsing-context-name-or-keyword">Valid browsing context name or keyword</a>
+    </td></tr><tr><th> <code title="">target</code>
+     </th><td> <code title="attr-fs-target"><a href="association-of-controls-and-forms.html#attr-fs-target">form</a></code>
+     </td><td> <a href="browsers.html#browsing-context">Browsing context</a> for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="browsers.html#valid-browsing-context-name-or-keyword">Valid browsing context name or keyword</a>
+    </td></tr><tr><th> <code title="">title</code>
+     </th><td> <a href="elements.html#the-title-attribute" title="attr-title">HTML elements</a>
+     </td><td> Advisory information for the element
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">title</code>
+     </th><td> <code title="attr-abbr-title"><a href="text-level-semantics.html#attr-abbr-title">abbr</a></code>;
+          <code title="attr-dfn-title"><a href="text-level-semantics.html#attr-dfn-title">dfn</a></code>
+     </td><td> Full term or expansion of abbreviation
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">title</code>
+     </th><td> <code title="attr-command-title"><a href="interactive-elements.html#attr-command-title">command</a></code>
+     </td><td> Hint describing the command
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">title</code>
+     </th><td> <code title="attr-link-title"><a href="semantics.html#attr-link-title">link</a></code>
+     </td><td> Title of the link
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">title</code>
+     </th><td> <code title="attr-link-title"><a href="semantics.html#attr-link-title">link</a></code>;
+          <code title="attr-style-title"><a href="semantics.html#attr-style-title">style</a></code>
+     </td><td> Alternative style sheet set name
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">translate</code>
+     </th><td> <a href="elements.html#attr-translate" title="attr-translate">HTML elements</a>
+     </td><td> Whether the element is to be translated when the page is localized
+     </td><td> "<code title="">yes</code>"; "<code title="">no</code>"
+    </td></tr><tr><th> <code title="">type</code>
+     </th><td> <code title="attr-hyperlink-type"><a href="links.html#attr-hyperlink-type">a</a></code>;
+          <code title="attr-hyperlink-type"><a href="links.html#attr-hyperlink-type">area</a></code>;
+          <code title="attr-link-type"><a href="semantics.html#attr-link-type">link</a></code>
+     </td><td> Hint for the type of the referenced resource
+     </td><td> <a href="infrastructure.html#valid-mime-type">Valid MIME type</a>
+    </td></tr><tr><th> <code title="">type</code>
+     </th><td> <code title="attr-button-type"><a href="the-button-element.html#attr-button-type">button</a></code>
+     </td><td> Type of button
+     </td><td> "<code title="attr-button-type-submit"><a href="the-button-element.html#attr-button-type-submit">submit</a></code>";
+          "<code title="attr-button-type-reset"><a href="the-button-element.html#attr-button-type-reset">reset</a></code>";
+          "<code title="attr-button-type-button"><a href="the-button-element.html#attr-button-type-button">button</a></code>"
+    </td></tr><tr><th> <code title="">type</code>
+     </th><td> <code title="attr-command-type"><a href="interactive-elements.html#attr-command-type">command</a></code>
+     </td><td> Type of command
+     </td><td> "<code title="attr-command-type-keyword-command"><a href="interactive-elements.html#attr-command-type-keyword-command">command</a></code>";
+          "<code title="attr-command-type-keyword-checkbox"><a href="interactive-elements.html#attr-command-type-keyword-checkbox">checkbox</a></code>";
+          "<code title="attr-command-type-keyword-radio"><a href="interactive-elements.html#attr-command-type-keyword-radio">radio</a></code>"
+    </td></tr><tr><th> <code title="">type</code>
+     </th><td> <code title="attr-embed-type"><a href="the-iframe-element.html#attr-embed-type">embed</a></code>;
+          <code title="attr-object-type"><a href="the-iframe-element.html#attr-object-type">object</a></code>;
+          <code title="attr-script-type"><a href="scripting-1.html#attr-script-type">script</a></code>;
+          <code title="attr-source-type"><a href="the-video-element.html#attr-source-type">source</a></code>;
+          <code title="attr-style-type"><a href="semantics.html#attr-style-type">style</a></code>
+     </td><td> Type of embedded resource
+     </td><td> <a href="infrastructure.html#valid-mime-type">Valid MIME type</a>
+    </td></tr><tr><th> <code title="">type</code>
+     </th><td> <code title="attr-input-type"><a href="the-input-element.html#attr-input-type">input</a></code>
+     </td><td> Type of form control
+     </td><td> <a href="the-input-element.html#attr-input-type" title="attr-input-type"><code>input</code> type keyword</a>
+    </td></tr><tr><th> <code title="">type</code>
+     </th><td> <code title="attr-menu-type"><a href="interactive-elements.html#attr-menu-type">menu</a></code>
+     </td><td> Type of menu
+     </td><td> "<code title="context menu state"><a href="interactive-elements.html#context-menu-state">context</a></code>"; "<code title="toolbar state"><a href="interactive-elements.html#toolbar-state">toolbar</a></code>"
+    </td></tr><tr><th> <code title="">typemustmatch</code>
+     </th><td> <code title="attr-object-typemustmatch"><a href="the-iframe-element.html#attr-object-typemustmatch">object</a></code>
+     </td><td> Whether the <code title="attr-object-type"><a href="the-iframe-element.html#attr-object-type">type</a></code> attribute and the <a href="fetching-resources.html#content-type">Content-Type</a> value need to match for the resource to be used
+     </td><td> <a href="common-microsyntaxes.html#boolean-attribute">Boolean attribute</a>
+    </td></tr><tr><th> <code title="">usemap</code>
+     </th><td> <code title="attr-hyperlink-usemap"><a href="the-map-element.html#attr-hyperlink-usemap">img</a></code>;
+          <code title="attr-hyperlink-usemap"><a href="the-map-element.html#attr-hyperlink-usemap">object</a></code>
+     </td><td> Name of <a href="the-map-element.html#image-map">image map</a> to use
+     </td><td> <a href="common-microsyntaxes.html#valid-hash-name-reference">Valid hash-name reference</a>*
+    </td></tr><tr><th> <code title="">value</code>
+     </th><td> <code title="attr-button-value"><a href="the-button-element.html#attr-button-value">button</a></code>;
+          <code title="attr-option-value"><a href="the-button-element.html#attr-option-value">option</a></code>
+     </td><td> Value to be used for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">value</code>
+     </th><td> <code title="attr-data-value"><a href="text-level-semantics.html#attr-data-value">data</a></code>
+     </td><td> Machine-readable value
+     </td><td> <a href="elements.html#attribute-text">Text</a>*
+    </td></tr><tr><th> <code title="">value</code>
+     </th><td> <code title="attr-input-value"><a href="the-input-element.html#attr-input-value">input</a></code>
+     </td><td> Value of the form control
+     </td><td> Varies*
+    </td></tr><tr><th> <code title="">value</code>
+     </th><td> <code title="attr-li-value"><a href="grouping-content.html#attr-li-value">li</a></code>
+     </td><td> <a href="grouping-content.html#ordinal-value">Ordinal value</a> of the list item
+     </td><td> <a href="common-microsyntaxes.html#valid-integer">Valid integer</a>
+    </td></tr><tr><th> <code title="">value</code>
+     </th><td> <code title="attr-meter-value"><a href="the-button-element.html#attr-meter-value">meter</a></code>;
+          <code title="attr-progress-value"><a href="the-button-element.html#attr-progress-value">progress</a></code>
+     </td><td> Current value of the element
+     </td><td> <a href="common-microsyntaxes.html#valid-floating-point-number">Valid floating point number</a>
+    </td></tr><tr><th> <code title="">value</code>
+     </th><td> <code title="attr-param-value"><a href="the-iframe-element.html#attr-param-value">param</a></code>
+     </td><td> Value of parameter
+     </td><td> <a href="elements.html#attribute-text">Text</a>
+    </td></tr><tr><th> <code title="">width</code>
+     </th><td> <code title="attr-canvas-width"><a href="the-canvas-element.html#attr-canvas-width">canvas</a></code>;
+          <code title="attr-dim-width"><a href="the-map-element.html#attr-dim-width">embed</a></code>;
+          <code title="attr-dim-width"><a href="the-map-element.html#attr-dim-width">iframe</a></code>;
+          <code title="attr-dim-width"><a href="the-map-element.html#attr-dim-width">img</a></code>;
+          <code title="attr-dim-width"><a href="the-map-element.html#attr-dim-width">input</a></code>;
+          <code title="attr-dim-width"><a href="the-map-element.html#attr-dim-width">object</a></code>;
+          <code title="attr-dim-width"><a href="the-map-element.html#attr-dim-width">video</a></code>
+     </td><td> Horizontal dimension
+     </td><td> <a href="common-microsyntaxes.html#valid-non-negative-integer">Valid non-negative integer</a>
+    </td></tr><tr><th> <code title="">wrap</code>
+     </th><td> <code title="attr-textarea-wrap"><a href="the-button-element.html#attr-textarea-wrap">textarea</a></code>
+     </td><td> How the value of the form control is to be wrapped for <a href="association-of-controls-and-forms.html#form-submission">form submission</a>
+     </td><td> "<code title="attr-textarea-wrap-soft"><a href="the-button-element.html#attr-textarea-wrap-soft">soft</a></code>";
+          "<code title="attr-textarea-wrap-hard"><a href="the-button-element.html#attr-textarea-wrap-hard">hard</a></code>"
+  </td></tr></tbody>
+  

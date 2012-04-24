@@ -1,0 +1,235 @@
+
+Tuesday, 24 April 2012 03:19	
+
+I was going to get an early night actually, just in case alextgordon @ 03:19	
+
+why ? Silvertab @ 03:20
+i.e. why would it be today? 03:20
+
+it's a tuesday alextgordon @ 03:21	
+
+ah Silvertab @ 03:21	
+Silvertab came back 17:13	
+
+clients... Silvertab @ 17:38
+I fuckin hate them... 17:38
+ 
+well.. talk about non-useful feedback.. that's a bummer lol Silvertab @ 18:03	
+
+haha alextgordon @ 18:03
+yeah 18:03
+so the takeaways are 18:04
+better code completion 18:04
+web inspector button? 18:04
+ 
+something like that yeah Silvertab @ 18:04	
+
+so what can we do about code completion? alextgordon @ 18:05
+it would be nice if it supported CSS better 18:05
+ 
+that's the thing.. I'm not really sure…  I mean every time I complained about it you basically told me I WAS WRONG Silvertab @ 18:05
+18:05
+ 
+it depends alextgordon @ 18:05
+for python, there's a thin line we have to walk 18:06
+between annoying and not 18:06
+but for CSS it's easier 18:06
+ 
+not for CSS Silvertab @ 18:06
+I want it to be THERE ALL THE TIME 18:06
+lol 18:06
+ 
+ok then alextgordon @ 18:06	
+
+not on backg[round-co]lor Silvertab @ 18:06
+18:06
+also, it should be smarter about the scopes 18:07
+http://d.pr/i/40bb 18:07
+this makes no sense 18:07
+ 
+yeah alextgordon @ 18:07	
+
+any way we could extend CTags without opening our veins? Silvertab @ 18:11
+i.e. it could easily show CSS selectors 18:11
+ 
+yeah it's easy alextgordon @ 18:11
+diglett is extensible 18:11
+you can have different indexers 18:11
+ 
+cool Silvertab @ 18:13
+what 18:13
+would 18:13
+be 18:13
+cool 18:13
+is for digglet to be able to use scope selectors 18:13
+this way the work would already be done 18:13
+haha 18:13
+ 
+impossible alextgordon @ 18:13
+18:13
+diglett is a separate process 18:14
+and has to index files which may not be opened 18:14
+the only way you could do it would be to have it part of chocolat, completely separate from diglett 18:14
+ 
+oh no but I meant.. for digglet to parse chocolat's truffle for example… i.e. you specify a scope in some config file Silvertab @ 18:15
+and digglet gets the regex from the truffle 18:15
+i.e.  "function" : "source.function.name" 18:15
+and it would check out (for example) the javascript truffle to find out this selector, get the regex 18:15
+and know that this should be a "function" in the symbol list 18:16
+not sure if you get what I'm saying at all LOL 18:16
+ 
+I see alextgordon @ 18:16
+pretty much impossible though 18:16
+truffles are very complex 18:16
+ 
+I mean if themes can make use of scopes... Silvertab @ 18:16	
+
+they don't alextgordon @ 18:17
+scopes make use of themes 18:17
+ 
+oh well, could be impossible, just thought it would be nice to not have to redefine regex twice... Silvertab @ 18:19	
+
+it'll probably need a different regex, you see alextgordon @ 18:19	
+
+in this case… nevermind I guess haha Silvertab @ 18:19	
+
+so it seems like we should totally pimp code completion and web preview alextgordon @ 18:20	
+
+yeah…although I mean Silvertab @ 18:21
+web preview is sick 18:21
+let's just add an inspector butotn 18:22
+we already have that slick toolbar 18:22
+ 
+almost done with that alextgordon @ 18:22
+stylesheet overriding would be awesome 18:22
+ 
+yeah Silvertab @ 18:22
+mmm as for code completion.. yeah… like I said the context is being ignored, I don't know if it's something we can fix 18:22
+ 
+brb lunch, but when I get back, let's do code completion alextgordon @ 18:23	
+
+but it would help TREMENDOUSLY for code completion to be relevant Silvertab @ 18:23
+any idea for that guy in the channel? 18:23
+ 
+so alextgordon @ 18:40
+code completion 18:41
+let's list all the things wrong/needed 18:41
+ 
+mmmm Silvertab @ 18:45	
+
+so for one, when you're in CSS it should show immediately after you type a letter alextgordon @ 18:50
+eg 18:50
+.foo {
+   x|
+} 18:50
+ 
+b: BACKGROUND ALL THE THINGS Silvertab @ 18:50
+agreed... 18:50
+ 
+so there's three places really alextgordon @ 18:50
+A {
+   B: C;
+} 18:50
+ 
+can we make it smarter though? with scopes? Silvertab @ 18:50
+can we Mr. Gordon? CAN WE? 18:51
+ 
+yep alextgordon @ 18:51	
+
+sweet Silvertab @ 18:51	
+
+it already uses scopes alextgordon @ 18:51
+so what else 18:53
+ 
+well besides being there all the time, and having proper scopes Silvertab @ 18:53
+there's not much we can do! 18:53
+imho, in CSS it should be there at the first letter…and stay there, unless I press "enter" 18:54
+or whatever dismisses it 18:54
+ 
+I think CSSEdit has the best code completion of anything alextgordon @ 18:54	
+
+it does Silvertab @ 18:54
+(or espresso) 18:54
+ 
+I think we just have to be unprincipled and special case the fuck out of it alextgordon @ 18:55
+18:55
+ 
+I guess yeah Silvertab @ 18:57
+imho: 18:57
+the way Espresso does both html and css completion is stellar… but html might be a bit trickier 18:58
+ 
+how does it do html completion? alextgordon @ 18:58
+actually I've always liked Dreamweaver's html completion 18:58
+that sounds crazy 18:58
+dreamweaver has great html completion! 18:58
+ 
+you have to try it out to understand Silvertab @ 18:59
+type `<b` you will see a list of tags: http://d.pr/i/bfVf
+type `<bo` it will narrow it down to the only tag: http://d.pr/i/qHiH
+Press "enter" you get this: http://d.pr/i/LXO9 19:00
+ 
+we can do that alextgordon @ 19:01	
+
+what's better: our auto-indent is better Silvertab @ 19:01
+although, Espresso's completion is entirely snippets based 19:02
+i.e. insert Div and you get: http://d.pr/i/qpVw 19:02
+with placeholders etc. 19:02
+but, really, it makes typing html effortless 19:02
+ 
+cool alextgordon @ 19:03
+so what we need 19:03
+is to work on the statics 19:04
+list of tags, plus what they expand into 19:04
+same for css 19:06
+it would be good if CSS expanded properly 19:06
+b[enter] -> background-color: |; 19:06
+but only if the rest of the line after the cursor is empty 19:07
+ 
+k Silvertab @ 19:07
+mmm 19:07
+html should be simple enough…in most case it's just completing the tag 19:08
+i.e.   <small>|</small> 19:08
+*some* have additional args… like div 19:08
+ 
+we should make a list of those alextgordon @ 19:08
+we need a list of all html tags (which we have I think) 19:09
+ 
+espresso is also smart about completing arguments Silvertab @ 19:09	
+
+mmm? alextgordon @ 19:09	
+
+http://d.pr/i/A9G Silvertab @ 19:09	
+
+also, now that snippets work, we can use those alextgordon @ 19:09
+yeah 19:09
+we need a list of which attributes apply to which tags 19:09
+ 
+another thing which I like, but…I doubt we can do it Silvertab @ 19:10	
+
+w3 has one for html4: http://www.w3.org/TR/html4/index/attributes.html alextgordon @ 19:10	
+
+</  completes the proper tag Silvertab @ 19:10
+I know we have a command to do it 19:10
+but invoking it with </  is genius 19:10
+ 
+we can do that alextgordon @ 19:10
+lets write all of this down before it's forever lost in adium's transcript 19:11
+https://piratenpad.de/p/nK1186e0lM 19:11
+ 
+there's only one area where Espresso will always be smarter but I don't mind personally Silvertab @ 19:13	
+
+mmm? alextgordon @ 19:13	
+
+and its in… nested completion…  i.e. it will not complete <div   if you are not inside a <body>  tag, etc... Silvertab @ 19:14	
+
+I'm confused? alextgordon @ 19:15
+won't complete div inside body 19:15
+? 19:15
+ 
+typing <d   will not yield anything if you are not inside <body></body> tags Silvertab @ 19:15	
+
+ahh right alextgordon @ 19:16
+yeah that's quite tricky 19:16
+ 
+I don't really mind however Silvertab @ 19:16
+it's nice but…not essential 19:16

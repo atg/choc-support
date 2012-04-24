@@ -1,0 +1,105 @@
+a	Hyperlink	flow; phrasing*; interactive	phrasing	transparent*	globals; href; target; download; ping; rel; media; hreflang; type	HTMLAnchorElement
+abbr	Abbreviation	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+address	Contact information for a page or article element	flow	flow	flow*	globals	HTMLElement
+area	Hyperlink or dead area on an image map	flow; phrasing	phrasing*	empty	globals; alt; coords; shape; href; target; download; ping; rel; media; hreflang; type	HTMLAreaElement
+article	Self-contained syndicatable or reusable composition	flow; sectioning	flow	flow	globals	HTMLElement
+aside	Sidebar for tangentially related content	flow; sectioning	flow	flow	globals	HTMLElement
+audio	Audio player	flow; phrasing; embedded; interactive	phrasing	source*; transparent*	globals; src; crossorigin; preload; autoplay; mediagroup; loop; muted; controls	HTMLAudioElement
+b	Keywords	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+base	Base URL and default target browsing context for hyperlinks and forms	metadata	head	empty	globals; href; target	HTMLBaseElement
+bdi	Text directionality isolation	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+bdo	Text directionality formatting	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+blockquote	A section quoted from another source	flow; sectioning root	flow	flow	globals; cite	HTMLQuoteElement
+body	Document body	sectioning root	html	flow	globals; onafterprint; onbeforeprint; onbeforeunload; onblur; onerror; onfocus; onhashchange; onload; onmessage; onoffline; ononline; onpagehide; onpageshow; onpopstate; onresize; onscroll; onstorage; onunload	HTMLBodyElement
+br	Line break, e.g. in poem or postal address	flow; phrasing	phrasing	empty	globals	HTMLBRElement
+button	Button control	flow; phrasing; interactive; listed; labelable; submittable; form-associated	phrasing	phrasing*	globals; autofocus; disabled; form; formaction; formenctype; formmethod; formnovalidate; formtarget; name; type; value	HTMLButtonElement
+canvas	Scriptable bitmap canvas	flow; phrasing; embedded	phrasing	transparent	globals; width; height	HTMLCanvasElement
+caption	Table caption	none	table	flow*	globals	HTMLTableCaptionElement
+cite	Title of a work	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+code	Computer code	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+col	Table column	none	colgroup	empty	globals; span	HTMLTableColElement
+colgroup	Group of columns in a table	none	table	col	globals; span	HTMLTableColElement
+command	Menu command	metadata; flow; phrasing	head; phrasing	empty	globals; type; label; icon; disabled; checked; radiogroup; command	HTMLCommandElement
+data	Machine-readable equivalent	flow; phrasing	phrasing	phrasing	globals; value	HTMLDataElement
+datalist	Container for options for combo box control	flow; phrasing	phrasing	phrasing; option	globals	HTMLDataListElement
+dd	Content for corresponding dt element(s)	none	dl	flow	globals	HTMLElement
+del	A removal from the document	flow; phrasing*	phrasing	transparent	globals; cite; datetime	HTMLModElement
+details	Disclosure control for hiding details	flow; sectioning root; interactive	flow	summary*; flow	globals; open	HTMLDetailsElement
+dfn	Defining instance	flow; phrasing	phrasing	phrasing*	globals	HTMLElement
+dialog	Dialog box or window	flow; sectioning root	dt; th; flow	flow	globals; open	HTMLDialogElement
+div	Generic flow container	flow	flow	flow	globals	HTMLDivElement
+dl	Association list consisting of zero or more name-value groups	flow	flow	dt*; dd*	globals	HTMLDListElement
+dt	Legend for corresponding dd element(s)	none	dl	flow*	globals	HTMLElement
+em	Stress emphasis	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+embed	Plugin	flow; phrasing; embedded; interactive	phrasing	empty	globals; src; type; width; height; any*	HTMLEmbedElement
+fieldset	Group of form controls	flow; sectioning root; listed; form-associated	flow	legend*; flow	globals; disabled; form; name	HTMLFieldSetElement
+figcaption	Caption for figure	none	figure	flow	globals	HTMLElement
+figure	Figure with optional caption	flow; sectioning root	flow	figcaption*; flow	globals	HTMLElement
+footer	Footer for a page or section	flow	flow	flow*	globals	HTMLElement
+form	User-submittable form	flow	flow	flow*	globals; accept-charset; action; autocomplete; enctype; method; name; novalidate; target	HTMLFormElement
+h1, h2, h3, h4, h5, h6	Section heading	flow; heading	hgroup; flow	phrasing	globals	HTMLHeadingElement
+head	Container for document metadata	none	html	metadata content*	globals	HTMLHeadElement
+header	Introductory or navigational aids for a page or section	flow	flow	flow*	globals	HTMLElement
+hgroup	heading group	flow; heading	flow	One or more h1, h2, h3, h4, h5, and/or h6	globals	HTMLElement
+hr	Thematic break	flow	flow	empty	globals	HTMLHRElement
+html	Root element	none	none*	head*; body*	globals; manifest	HTMLHtmlElement
+i	Alternate voice	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+iframe	Nested browsing context	flow; phrasing; embedded; interactive	phrasing	text*	globals; src; srcdoc; name; sandbox; seamless; width; height	HTMLIFrameElement
+img	Image	flow; phrasing; embedded; interactive*	phrasing	empty	globals; alt; src; crossorigin; usemap; ismap; width; height	HTMLImageElement
+input	Form control	flow; phrasing; interactive*; listed; labelable; submittable; resettable; form-associated	phrasing	empty	globals; accept; alt; autocomplete; autofocus; checked; dirname; disabled; form; formaction; formenctype; formmethod; formnovalidate; formtarget; height; list; max; maxlength; min; multiple; name; pattern; placeholder; readonly; required; size; src; step; type; value; width	HTMLInputElement
+ins	An addition to the document	flow; phrasing*	phrasing	transparent	globals; cite; datetime	HTMLModElement
+kbd	User input	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+keygen	Cryptographic key-pair generator form control	flow; phrasing; interactive; listed; labelable; submittable; resettable; form-associated	phrasing	empty	globals; autofocus; challenge; disabled; form; keytype; name	HTMLKeygenElement
+label	Caption for a form control	flow; phrasing; interactive; form-associated	phrasing	phrasing*	globals; form; for	HTMLLabelElement
+legend	Caption for fieldset	none	fieldset	phrasing	globals	HTMLLegendElement
+li	List item	none	ol; ul; menu	flow	globals; value*	HTMLLIElement
+link	Link metadata	metadata; flow*; phrasing*	head; noscript*; phrasing*	empty	globals; href; rel; media; hreflang; type; sizes	HTMLLinkElement
+map	Image map	flow; phrasing*	phrasing	transparent; area*	globals; name	HTMLMapElement
+mark	Highlight	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+menu	Menu of commands	flow; interactive*	flow	li*; flow	globals; type; label	HTMLMenuElement
+meta	Text metadata	metadata; flow*; phrasing*	head; noscript*; phrasing*	empty	globals; name; http-equiv; content; charset	HTMLMetaElement
+meter	Gauge	flow; phrasing; labelable	phrasing	phrasing*	globals; value; min; max; low; high; optimum; form	HTMLMeterElement
+nav	Section with navigational links	flow; sectioning	flow	flow	globals	HTMLElement
+noscript	Fallback content for script	metadata; flow; phrasing	head*; phrasing*	varies*	globals	HTMLElement
+object	Image, nested browsing context, or plugin	flow; phrasing; embedded; interactive*; listed; submittable; form-associated	phrasing	param*; transparent	globals; data; type; typemustmatch; name; usemap; form; width; height	HTMLObjectElement
+ol	Ordered list	flow	flow	li	globals; reversed; start	HTMLOListElement
+optgroup	Group of options in a list box	none	select	option	globals; disabled; label	HTMLOptGroupElement
+option	Option in a list box or combo box control	none	select; datalist; optgroup	text	globals; disabled; label; selected; value	HTMLOptionElement
+output	Calculated output value	flow; phrasing; listed; labelable; resettable; form-associated	phrasing	phrasing	globals; for; form; name	HTMLOutputElement
+p	Paragraph	flow	flow	phrasing	globals	HTMLParagraphElement
+param	Parameter for object	none	object	empty	globals; name; value	HTMLParamElement
+pre	Block of preformatted text	flow	flow	phrasing	globals	HTMLPreElement
+progress	Progress bar	flow; phrasing; labelable	phrasing	phrasing*	globals; value; max; form	HTMLProgressElement
+q	Quotation	flow; phrasing	phrasing	phrasing	globals; cite	HTMLQuoteElement
+rp	Parenthesis for ruby annotation text	none	ruby	phrasing	globals	HTMLElement
+rt	Ruby annotation text	none	ruby	phrasing	globals	HTMLElement
+ruby	Ruby annotation(s)	flow; phrasing	phrasing	phrasing; rt; rp*	globals	HTMLElement
+s	Inaccurate text	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+samp	Computer output	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+script	Embedded script	metadata; flow; phrasing	head; phrasing	script, data, or script documentation*	globals; src; async; defer; type; charset	HTMLScriptElement
+section	Generic document or application section	flow; sectioning	flow	flow	globals	HTMLElement
+select	List box control	flow; phrasing; interactive; listed; labelable; submittable; resettable; form-associated	phrasing	option, optgroup	globals; autofocus; disabled; form; multiple; name; required; size	HTMLSelectElement
+small	Side comment	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+source	Media source for video or audio	none	video; audio	empty	globals; src; type; media	HTMLSourceElement
+span	Generic phrasing container	flow; phrasing	phrasing	phrasing	globals	HTMLSpanElement
+strong	Importance	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+style	Embedded styling information	metadata; flow	head; noscript*; flow*	varies*	globals; media; type; scoped	HTMLStyleElement
+sub	Subscript	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+summary	Caption for details	none	details	phrasing	globals	HTMLElement
+sup	Superscript	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+table	Table	flow	flow	caption*; colgroup*; thead*; tbody*; tfoot*; tr*	globals; border	HTMLTableElement
+tbody	Group of rows in a table	none	table	tr	globals	HTMLTableSectionElement
+td	Table cell	sectioning root	tr	flow	globals; colspan; rowspan; headers	HTMLTableDataCellElement
+textarea	Multiline text field	flow; phrasing; interactive; listed; labelable; submittable; resettable; form-associated	phrasing	text	globals; autofocus; cols; dirname; disabled; form; maxlength; name; placeholder; readonly; required; rows; wrap	HTMLTextAreaElement
+tfoot	Group of footer rows in a table	none	table	tr	globals	HTMLTableSectionElement
+th	Table header cell	none	tr	flow*	globals; colspan; rowspan; headers; scope	HTMLTableHeaderCellElement
+thead	Group of heading rows in a table	none	table	tr	globals	HTMLTableSectionElement
+time	Machine-readable equivalent of date- or time-related data	flow; phrasing	phrasing	phrasing	globals; datetime	HTMLTimeElement
+title	Document title	metadata	head	text	globals	HTMLTitleElement
+tr	Table row	none	table; thead; tbody; tfoot	th*; td	globals	HTMLTableRowElement
+track	Timed text track	none	audio; video	empty	globals; default; kind; label; src; srclang	HTMLTrackElement
+u	Keywords	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+ul	List	flow	flow	li	globals	HTMLUListElement
+var	Variable	flow; phrasing	phrasing	phrasing	globals	HTMLElement
+video	Video player	flow; phrasing; embedded; interactive	phrasing	source*; transparent*	globals; src; crossorigin; poster; preload; autoplay; mediagroup; loop; muted; controls; width; height	HTMLVideoElement
+wbr	Line breaking opportunity	flow; phrasing	phrasing	empty	globals	HTMLElement
