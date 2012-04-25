@@ -77,7 +77,7 @@ snippets = {
     
     "input": '<input name="%{1}" type="%{0="text"}">',
     
-    "div": '<div class="%{1}">%{0}</div>',
+    "div": '<div class="%{1}">\n\t%{0}\n</div>',
     
     "span": '<span class="%{1}">%{0}</span>',
     
@@ -110,9 +110,7 @@ snippets = {
     # style
     "style": '''<style>
 
-%{1} {
-\t%{0}
-}
+%{0}
 
 </style>''',
     
@@ -127,14 +125,16 @@ snippets = {
     "head": '''<head>
 \t<meta charset="utf-8">
 \t<title>%{1}</title>
-
+\t
 \t<link href="style.css" rel="stylesheet" type="text/css">
-
+\t
 </head>''',
     
     # body
     "body": '''<body>
-%{0}
+\t
+\t%{0}
+\t
 </body>''',
     
     # html
@@ -142,12 +142,14 @@ snippets = {
 <head>
 \t<meta charset="utf-8">
 \t<title>%{1}</title>
-
+\t
 \t<link href="style.css" rel="stylesheet" type="text/css">
-
+\t
 </head>
 <body>
-%{0}
+\t
+\t%{0}
+\t
 </body>
 </html>''',
     
@@ -158,7 +160,7 @@ for t in sorted(list(tags)):
     if 'children' in tags[t]:
         # print t
         ch = tags[t]['children']
-        if 'flow' in ch or 'flow*' in ch or t in ['colgroup', 'hgroup', 'html', 'head', 'body', 'ol', 'ul', 'dl', 'style', 'select', 'optgroup', 'script', 'table', 'tbody', 'tfoot', 'thead', 'tr']:
+        if t not in ['li', 'th', 'blockquote'] and ('flow' in ch or 'flow*' in ch or t in ['colgroup', 'hgroup', 'html', 'head', 'body', 'ol', 'ul', 'dl', 'style', 'select', 'optgroup', 'script', 'table', 'tbody', 'tfoot', 'thead', 'tr', 'div', 'datalist']):
             block_tags.append(t)
             tags[t]['kind'] = 'block'
         elif 'empty' in ch:
@@ -177,10 +179,10 @@ for t in sorted(list(tags)):
     if t in snippets:
         tags[t]['snippet'] = snippets[t]
 
-#print empty_tags
-#print block_tags
-#print inline_tags
-#print unknown_tags
+# print empty_tags
+# print block_tags
+# print inline_tags
+# print unknown_tags
 
 # pprint.pprint(tags)
 if isminified:
