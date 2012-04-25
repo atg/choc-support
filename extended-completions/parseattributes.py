@@ -4,10 +4,6 @@ import csv, pprint, json, re
 
 isminified = True
 
-extra_data = {
-    "": ""
-}
-
 d = open("attributes.tsv", "r")
 d2 = open("tags.tsv", "r")
 reader = csv.reader(d, delimiter="\t")

@@ -1,0 +1,59 @@
+import csv, pprint, json, re
+
+isminified = False
+
+def uniq(input):
+    output = []
+    for x in input:
+        if x not in output:
+            output.append(x)
+    return output
+
+isminified = True
+
+f = open("css-original.json", "r")
+d = json.loads(f.read())
+
+recursive_values = ['background-attachment', 'background-color', 'background-image', 'background-position', 'background-repeat', 'cue-after', 'cue-before', 'font-family', 'font-size', 'font-style', 'font-weight', 'font-weight', 'line-height', 'list-style-image', 'list-style-position', 'list-style-type', 'outline-color', 'outline-style', 'outline-width']
+
+allvals = set()
+allkeys = set()
+for k in d:
+    # print d[k]['values']
+    for v in d[k]['values'][:]:
+        if v in recursive_values:
+            d[k]['values'].extend(d[v]['values'])
+            d[k]['values'].remove(v)
+        try:
+            if int(v, 10) < 50:
+                d[k]['values'].remove(v)
+        except:
+            pass
+    
+    d[k]['values'] = uniq(d[k]['values'])
+
+for k in d.copy():
+    d2 = d[k]
+    del d[k]
+    for k2 in k.split():
+        d[k2] = d2
+
+# for k in d:
+#     allkeys.add(k)
+#     print k
+#     for v in d[k]['values']:
+#         print '  ' + v
+#         allvals.add(v)
+#     print ''
+
+# keyvals = allvals & allkeys
+
+#for v in sorted(list(keyvals)):
+#    print v
+
+
+if isminified:
+    print json.dumps(d, sort_keys=True)
+else:
+    print json.dumps(d, sort_keys=True, indent=4)
+
