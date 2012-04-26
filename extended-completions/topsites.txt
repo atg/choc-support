@@ -1,0 +1,1000 @@
+1	 facebook.com	Social Networks	880,000,000	51.3%	1,000,000,000,000	Yes
+2	 youtube.com	Online Video	800,000,000	46.8%	100,000,000,000	Yes
+3	 yahoo.com	Web Portals	590,000,000	34.4%	77,000,000,000	Yes
+4	 live.com	Search Engines	490,000,000	28.7%	84,000,000,000	Yes
+5	 msn.com	Web Portals	440,000,000	25.8%	20,000,000,000	Yes
+6	 wikipedia.org	Dictionaries & Encyclopedias	410,000,000	23.7%	6,000,000,000	No
+7	 blogspot.com	Blogging Resources & Services	340,000,000	19.6%	4,900,000,000	Yes
+8	 baidu.com	Search Engines	300,000,000	17.5%	110,000,000,000	Yes
+9	 microsoft.com	Software	250,000,000	14.5%	2,500,000,000	Yes
+10	 qq.com	Web Portals	250,000,000	14.7%	39,000,000,000	Yes
+11	 bing.com	Search Engines	230,000,000	13.1%	9,500,000,000	Yes
+12	 ask.com	Search Engines	190,000,000	11.2%	2,000,000,000	Yes
+13	 adobe.com	Multimedia Software	160,000,000	9.2%	1,000,000,000	No
+14	 taobao.com	Classifieds	160,000,000	9.1%	11,000,000,000	Yes
+15	 twitter.com	Email & Messaging	160,000,000	9.3%	5,900,000,000	No
+16	 youku.com	Online Video	140,000,000	8.2%	4,000,000,000	Yes
+17	 soso.com	Search Engines	140,000,000	8.3%	3,600,000,000	Yes
+18	 wordpress.com	Blogging Resources & Services	130,000,000	7.5%	960,000,000	Yes
+19	 sohu.com	Web Portals	120,000,000	6.9%	5,800,000,000	Yes
+20	 hao123.com	Web Portals	120,000,000	6.8%	6,500,000,000	Yes
+21	 windows.com	Windows OS	110,000,000	6.3%	500,000,000	Yes
+22	 163.com	Web Portals	110,000,000	6.2%	5,300,000,000	Yes
+23	 tudou.com	Online Video	110,000,000	6.3%	2,700,000,000	Yes
+24	 amazon.com	Shopping Portals & Search Engines	110,000,000	6.2%	4,900,000,000	Yes
+25	 apple.com	Mac OS	98,000,000	5.7%	1,000,000,000	Yes
+26	 ebay.com	Auctions	88,000,000	5.1%	10,000,000,000	Yes
+27	 4399.com	Online Games	82,000,000	4.8%	7,000,000,000	Yes
+28	 yahoo.co.jp	Web Portals	81,000,000	4.7%	36,000,000,000	Yes
+29	 linkedin.com	Social Networks	80,000,000	4.7%	2,500,000,000	Yes
+30	 go.com	Web Portals	74,000,000	4.3%	3,300,000,000	Yes
+31	 tmall.com	Apparel	73,000,000	4.2%	1,300,000,000	Yes
+32	 paypal.com	Merchant Services & Payment Systems	73,000,000	4.2%	1,700,000,000	Yes
+33	 sogou.com	Search Engines	72,000,000	4.2%	2,100,000,000	Yes
+34	 ifeng.com	Web Portals	67,000,000	3.9%	5,400,000,000	Yes
+35	 aol.com	Web Portals	66,000,000	3.8%	5,400,000,000	Yes
+36	 xunlei.com	File Sharing & Hosting	66,000,000	3.8%	2,300,000,000	Yes
+37	 craigslist.org	Classifieds	66,000,000	3.8%	24,000,000,000	No
+38	 orkut.com	Social Networks	66,000,000	3.8%	4,000,000,000	No
+39	 56.com	Online Media	66,000,000	3.9%	960,000,000	Yes
+40	 orkut.com.br	Social Networks	62,000,000	3.6%	43,000,000,000	No
+41	 about.com	How-To‚ DIY & Expert Content	61,000,000	3.6%	550,000,000	Yes
+42	 skype.com	Voice & Video Chat	61,000,000	3.5%	540,000,000	Yes
+43	 7k7k.com	Casual Games	61,000,000	3.5%	4,800,000,000	Yes
+44	 dailymotion.com	Online Media	61,000,000	3.5%	870,000,000	Yes
+45	 flickr.com	Photo & Image Sharing	60,000,000	3.5%	1,700,000,000	Yes
+46	 pps.tv	Online Video	60,000,000	3.5%	500,000,000	Yes
+47	 qiyi.com	Movies	59,000,000	3.5%	1,400,000,000	Yes
+48	 bbc.co.uk	World News	56,000,000	3.2%	2,500,000,000	Yes
+49	 4shared.com	File Sharing & Hosting	56,000,000	3.2%	2,500,000,000	Yes
+50	 mozilla.com	Internet Clients & Browsers	55,000,000	3.2%	340,000,000	No
+51	 ku6.com	Online Media	51,000,000	2.9%	410,000,000	Yes
+52	 imdb.com	Movie Reference	50,000,000	2.9%	1,000,000,000	Yes
+53	 cnet.com	Consumer Electronics	50,000,000	2.9%	370,000,000	Yes
+54	 babylon.com	Translation Tools & Resources	50,000,000	2.9%	1,100,000,000	Yes
+55	 mywebsearch.com	Search Engines	50,000,000	2.9%	1,200,000,000	Yes
+56	 alibaba.com	Import & Export	50,000,000	2.9%	1,100,000,000	Yes
+57	 mail.ru	Email & Messaging	49,000,000	2.9%	17,000,000,000	Yes
+58	 uol.com.br	Web Portals	49,000,000	2.9%	5,800,000,000	Yes
+59	 badoo.com	Dating & Personals	46,000,000	2.7%	6,500,000,000	Yes
+60	 cnn.com	Broadcast & Network News	46,000,000	2.7%	1,300,000,000	Yes
+61	 myspace.com		46,000,000	2.7%	1,100,000,000	Yes
+62	 netflix.com	DVD & Video Rentals	46,000,000	2.7%	2,300,000,000	Yes
+63	 weather.com	Weather	45,000,000	2.6%	950,000,000	Yes
+64	 soku.com	Online Video	45,000,000	2.6%	790,000,000	Yes
+65	 weibo.com	Social Networks	42,000,000	2.4%	2,800,000,000	Yes
+66	 renren.com	Social Networks	42,000,000	2.4%	3,300,000,000	Yes
+67	 rakuten.co.jp	Shopping Portals & Search Engines	42,000,000	2.4%	4,400,000,000	Yes
+68	 17kuxun.com		42,000,000	2.4%	160,000,000	No
+69	 yandex.ru	Search Engines	41,000,000	2.4%	11,000,000,000	Yes
+70	 booking.com	Hotels & Accommodations	41,000,000	2.4%	790,000,000	Yes
+71	 ehow.com	How-To‚ DIY & Expert Content	41,000,000	2.4%	210,000,000	Yes
+72	 bankofamerica.com	Banking	41,000,000	2.4%	2,500,000,000	Yes
+73	 58.com	Classifieds	41,000,000	2.4%	1,200,000,000	Yes
+74	 zedo.com	Advertising & Marketing	41,000,000	2.4%	230,000,000	Yes
+75	 2345.com	Web Portals	41,000,000	2.4%	1,900,000,000	Yes
+76	 globo.com	Web Portals	38,000,000	2.2%	3,700,000,000	Yes
+77	 mapquest.com	Maps	38,000,000	2.2%	250,000,000	Yes
+78	 goo.ne.jp	Web Portals	38,000,000	2.2%	960,000,000	Yes
+79	 answers.com		38,000,000	2.2%	160,000,000	Yes
+80	 360.cn	Antivirus & Malware	37,000,000	2.2%	1,100,000,000	No
+81	 chase.com	Banking	37,000,000	2.2%	2,500,000,000	Yes
+82	 naver.com	Search Engines	37,000,000	2.2%	24,000,000,000	Yes
+83	 hp.com	Computer Hardware	37,000,000	2.1%	660,000,000	Yes
+84	 odnoklassniki.ru	Social Networks	37,000,000	2.2%	13,000,000,000	Yes
+85	 alipay.com	Merchant Services & Payment Systems	35,000,000	2%	970,000,000	Yes
+86	 huffingtonpost.com	News	35,000,000	2%	980,000,000	Yes
+87	 ameblo.jp	Blogging Resources & Services	35,000,000	2%	2,100,000,000	Yes
+88	 ganji.com	Shopping Portals & Search Engines	35,000,000	2%	970,000,000	Yes
+89	 alot.com	Web Apps & Online Tools	34,000,000	2%	410,000,000	Yes
+90	 scribd.com	Social Networks	34,000,000	2%	140,000,000	Yes
+91	 megaupload.com	File Sharing & Hosting	34,000,000	2%	500,000,000	Yes
+92	 tumblr.com	Online Journals & Personal Sites	34,000,000	2%	1,700,000,000	Yes
+93	 softonic.com	Software	34,000,000	2%	330,000,000	Yes
+94	 camzap.com	Webcams & Virtual Tours	34,000,000	2%	130,000,000	No
+95	 vkontakte.ru	Social Networks	34,000,000	2%	48,000,000,000	Yes
+96	 avg.com	Antivirus & Malware	34,000,000	2%	340,000,000	Yes
+97	 walmart.com	Mass Merchants & Department Stores	34,000,000	2%	870,000,000	Yes
+98	 pptv.com	TV Networks & Stations	32,000,000	1.8%	540,000,000	Yes
+99	 xinhuanet.com	News	31,000,000	1.8%	880,000,000	Yes
+100	 mediafire.com	File Sharing & Hosting	31,000,000	1.8%	370,000,000	Yes
+101	 paipai.com	Apparel	31,000,000	1.8%	600,000,000	No
+102	 zol.com.cn	Computer Hardware	31,000,000	1.8%	670,000,000	Yes
+103	 daum.net	Web Portals	31,000,000	1.8%	7,000,000,000	Yes
+104	 photobucket.com	Photo & Video Sharing	31,000,000	1.8%	530,000,000	Yes
+105	 cntv.cn	TV Networks & Stations	31,000,000	1.8%	540,000,000	Yes
+106	 terra.com.br	News	31,000,000	1.8%	2,100,000,000	Yes
+107	 blogger.com	Blogging Resources & Services	31,000,000	1.8%	860,000,000	No
+108	 amazon.co.jp	Shopping Portals & Search Engines	31,000,000	1.8%	1,300,000,000	No
+109	 joy.cn	Online Video	31,000,000	1.8%	250,000,000	Yes
+110	 youdao.com	Blogging Resources & Services	31,000,000	1.8%	230,000,000	Yes
+111	 filestube.com	File Sharing & Hosting	29,000,000	1.7%	280,000,000	Yes
+112	 funshion.com	Movies	28,000,000	1.6%	210,000,000	Yes
+113	 discoverbing.com	Search Engines	28,000,000	1.6%	110,000,000	Yes
+114	 wellsfargo.com	Banking	28,000,000	1.6%	1,900,000,000	Yes
+115	 ebay.co.uk	Auctions	28,000,000	1.6%	6,600,000,000	Yes
+116	 pconline.com.cn	Local News	28,000,000	1.6%	410,000,000	Yes
+117	 target.com	Mass Merchants & Department Stores	28,000,000	1.6%	600,000,000	Yes
+118	 livedoor.jp	Web Portals	28,000,000	1.6%	650,000,000	Yes
+119	 miniclip.com	Online Games	28,000,000	1.6%	660,000,000	Yes
+120	 tripadvisor.com	Travel	28,000,000	1.7%	340,000,000	Yes
+121	 ebay.de	Auctions	28,000,000	1.6%	6,500,000,000	Yes
+122	 partypoker.com		28,000,000	1.6%	89,000,000	Yes
+123	 tianya.cn	Online Communities	28,000,000	1.6%	410,000,000	Yes
+124	 nytimes.com	Newspapers	28,000,000	1.6%	450,000,000	Yes
+125	 att.com	Phone Service Providers	28,000,000	1.6%	970,000,000	Yes
+126	 groupon.com	Coupons & Discount Offers	28,000,000	1.6%	280,000,000	Yes
+127	 iminent.com	Clip Art & Animated GIFs	26,000,000	1.5%	1,300,000,000	Yes
+128	 imageshack.us		26,000,000	1.5%	190,000,000	Yes
+129	 megavideo.com	Online Video	26,000,000	1.5%	300,000,000	Yes
+130	 metacafe.com	Video Sharing	26,000,000	1.5%	300,000,000	Yes
+131	 baixing.com	Classifieds	26,000,000	1.5%	960,000,000	Yes
+132	 comcast.net	Web Portals	25,000,000	1.5%	4,100,000,000	Yes
+133	 3366.com	Arts & Entertainment	25,000,000	1.5%	1,200,000,000	No
+134	 10086.cn	Web Apps & Online Tools	25,000,000	1.5%	600,000,000	Yes
+135	 dell.com	Computer Hardware	25,000,000	1.5%	360,000,000	Yes
+136	 people.com.cn	News	24,000,000	1.4%	370,000,000	Yes
+137	 amazon.co.uk	Shopping Portals & Search Engines	24,000,000	1.4%	1,200,000,000	No
+138	 nih.gov	Health	24,000,000	1.4%	300,000,000	Yes
+139	 mcafee.com	Antivirus & Malware	24,000,000	1.4%	140,000,000	Yes
+140	 nifty.com	Web Portals	24,000,000	1.4%	970,000,000	Yes
+141	 peeplo.com	Search Engines	24,000,000	1.4%	96,000,000	Yes
+142	 verizonwireless.com	Phone Service Providers	24,000,000	1.4%	800,000,000	Yes
+143	 foxsports.com	Sports News	23,000,000	1.4%	500,000,000	Yes
+144	 ikea.com	Home Furnishings	23,000,000	1.4%	1,100,000,000	No
+145	 hotmail.com	Email & Messaging	23,000,000	1.3%	140,000,000	Yes
+146	 inbox.com	Email & Messaging	23,000,000	1.4%	300,000,000	Yes
+147	 wikimedia.org	Dictionaries & Encyclopedias	23,000,000	1.3%	110,000,000	No
+148	 seesaa.net	Blogging Resources & Services	23,000,000	1.4%	230,000,000	Yes
+149	 letv.com	Online Media	23,000,000	1.4%	280,000,000	Yes
+150	 dailymail.co.uk	Newspapers	23,000,000	1.3%	410,000,000	Yes
+151	 expedia.com	Travel	23,000,000	1.4%	500,000,000	Yes
+152	 bigpoint.com	Online Games	23,000,000	1.4%	960,000,000	Yes
+153	 netlog.com	Social Networks	22,000,000	1.3%	1,300,000,000	Yes
+154	 iegallery.com	Reference	22,000,000	1.3%	50,000,000	No
+155	 match.com	Dating & Personals	21,000,000	1.2%	1,300,000,000	Yes
+156	 96pk.com	Games	21,000,000	1.2%	99,000,000	No
+157	 yellowpages.com	Business & Personal Listings	21,000,000	1.2%	170,000,000	Yes
+158	 amazon.de	Entertainment Media	21,000,000	1.2%	1,200,000,000	No
+159	 orange.fr	Web Portals	21,000,000	1.2%	6,500,000,000	Yes
+160	 americanexpress.com	Credit Cards	21,000,000	1.2%	400,000,000	Yes
+161	 zynga.com	Casual Games	21,000,000	1.2%	460,000,000	Yes
+162	 foxnews.com	Broadcast & Network News	21,000,000	1.2%	720,000,000	Yes
+163	 thepiratebay.org	File Sharing & Hosting	21,000,000	1.2%	660,000,000	Yes
+164	 taringa.net	Social Networks	21,000,000	1.2%	330,000,000	Yes
+165	 wo.com.cn	Ringtones & Mobile Goodies	21,000,000	1.2%	130,000,000	Yes
+166	 yelp.com	Directories & Listings	21,000,000	1.2%	190,000,000	Yes
+167	 thefreedictionary.com	Dictionaries & Encyclopedias	21,000,000	1.2%	80,000,000	Yes
+168	 friv.com	Online Games	21,000,000	1.2%	450,000,000	Yes
+169	 rapidshare.com	File Sharing & Hosting	21,000,000	1.2%	280,000,000	Yes
+170	 samsung.com	Consumer Electronics	21,000,000	1.2%	210,000,000	Yes
+171	 livingsocial.com	Coupons & Discount Offers	20,000,000	1.1%	160,000,000	Yes
+172	 douban.com	Social Networks	20,000,000	1.1%	370,000,000	Yes
+173	 maktoob.com	Web Portals	19,000,000	1.1%	380,000,000	Yes
+174	 narod.ru	Web Hosting & Domain Registration	19,000,000	1.1%	210,000,000	Yes
+175	 jiayuan.com	Dating & Personals	19,000,000	1.1%	870,000,000	Yes
+176	 hi5.com	Social Networks	19,000,000	1.1%	2,500,000,000	Yes
+177	 wikia.com	Online Communities	19,000,000	1.1%	370,000,000	Yes
+178	 360buy.com	E-Commerce Services	19,000,000	1.1%	540,000,000	No
+179	 comcast.com	Service Providers	19,000,000	1.1%	170,000,000	Yes
+180	 reference.com	Dictionaries & Encyclopedias	19,000,000	1.1%	160,000,000	Yes
+181	 free.fr	ISPs	19,000,000	1.1%	800,000,000	Yes
+182	 facemoods.com	Social Network Apps & Add-Ons	19,000,000	1.1%	280,000,000	Yes
+183	 xdwan.cn		19,000,000	1.1%	61,000,000	No
+184	 726.com	Internet Clients & Browsers	19,000,000	1.1%	720,000,000	Yes
+185	 gougou.com	Search Engines	19,000,000	1.1%	450,000,000	Yes
+186	 china.com	Web Portals	19,000,000	1.1%	1,000,000,000	Yes
+187	 nate.com	Web Portals	19,000,000	1.1%	3,300,000,000	Yes
+188	 126.com	Educational Resources	19,000,000	1.1%	880,000,000	No
+189	 hotels.com	Hotels & Accommodations	19,000,000	1.1%	310,000,000	Yes
+190	 capitalone.com	Credit Cards	19,000,000	1.1%	590,000,000	Yes
+191	 sourceforge.net	Open Source	19,000,000	1.1%	99,000,000	Yes
+192	 y8.com	Flash-Based Entertainment	19,000,000	1.1%	1,400,000,000	Yes
+193	 uuzu.com	Computer & Video Games	19,000,000	1.1%	60,000,000	No
+194	 pandora.com	Radio	18,000,000	1%	1,400,000,000	Yes
+195	 imesh.com	Music Streams & Downloads	18,000,000	1%	150,000,000	Yes
+196	 onet.pl	Web Portals	18,000,000	1%	3,300,000,000	Yes
+197	 nextag.com	Shopping	18,000,000	1%	120,000,000	Yes
+198	 t-online.de	Web Portals	18,000,000	1%	1,300,000,000	Yes
+199	 mlb.com	Baseball	18,000,000	1%	440,000,000	Yes
+200	 livejournal.com	Blogging Resources & Services	18,000,000	1%	450,000,000	Yes
+201	 baixaki.com.br	Internet & Telecom	18,000,000	1%	340,000,000	Yes
+202	 51wan.com	Games	18,000,000	1%	61,000,000	Yes
+203	 huanqiu.com	News	18,000,000	1%	490,000,000	Yes
+204	 slideshare.net	Business Plans & Presentations	18,000,000	1%	73,000,000	Yes
+205	 bestbuy.com	Consumer Electronics	17,000,000	1%	410,000,000	Yes
+206	 kugou.com	Movies	17,000,000	1%	89,000,000	Yes
+207	 51.com	Social Networks	17,000,000	1%	540,000,000	Yes
+208	 autohome.com.cn	Vehicle Shopping	17,000,000	1%	1,400,000,000	Yes
+209	 glispa.com	Search Engine Optimization & Marketing	17,000,000	1%	46,000,000	No
+210	 soufun.com	Real Estate	17,000,000	1%	490,000,000	Yes
+211	 java.com	Java	17,000,000	1%	97,000,000	No
+212	 ups.com	Mail & Package Delivery	17,000,000	1%	330,000,000	Yes
+213	 mercadolivre.com.br	Auctions	17,000,000	1%	880,000,000	Yes
+214	 vimeo.com		17,000,000	1%	120,000,000	Yes
+215	 reuters.com	News	17,000,000	1%	210,000,000	Yes
+216	 biglobe.ne.jp	Web Portals	17,000,000	1%	660,000,000	Yes
+217	 wushen.com	Fan Fiction	17,000,000	1%	73,000,000	Yes
+218	 indeed.com	Jobs	17,000,000	1%	540,000,000	Yes
+219	 syyx.com	Computer & Video Games	16,000,000	0.9%	51,000,000	Yes
+220	 ig.com.br	Web Portals	16,000,000	0.9%	1,300,000,000	Yes
+221	 fileserve.com	File Sharing & Hosting	16,000,000	0.9%	190,000,000	No
+222	 cyworld.com	Celebrities & Entertainment News	16,000,000	0.9%	1,700,000,000	No
+223	 usps.com	Mail & Package Delivery	16,000,000	0.9%	310,000,000	No
+224	 geocities.jp	Web Hosting & Domain Registration	16,000,000	0.9%	210,000,000	Yes
+225	 leboncoin.fr	Classifieds	16,000,000	0.9%	5,900,000,000	Yes
+226	 tripod.com	Web Design & Development	16,000,000	0.9%	73,000,000	Yes
+227	 exoplanetwar.com	Strategy Games	16,000,000	0.9%	46,000,000	No
+228	 6.cn	Online Video	16,000,000	0.9%	120,000,000	Yes
+229	 nk.pl	Social Networks	16,000,000	0.9%	5,300,000,000	Yes
+230	 musica.com	Music & Audio	16,000,000	0.9%	280,000,000	Yes
+231	 tenpay.com	Merchant Services & Payment Systems	16,000,000	0.9%	210,000,000	Yes
+232	 wp.pl		16,000,000	0.9%	2,000,000,000	Yes
+233	 hatena.ne.jp	Blogging Resources & Services	16,000,000	0.9%	140,000,000	Yes
+234	 brothersoft.com	Freeware & Shareware	16,000,000	0.9%	89,000,000	Yes
+235	 kaixin001.com	Social Networks	16,000,000	0.9%	960,000,000	No
+236	 chinanews.com	Newspapers	16,000,000	0.9%	490,000,000	Yes
+237	 guardian.co.uk	Newspapers	16,000,000	0.9%	190,000,000	Yes
+238	 9223.com	Directories & Listings	16,000,000	0.9%	540,000,000	Yes
+239	 nicovideo.jp	Online Video	16,000,000	0.9%	2,200,000,000	Yes
+240	 web.de	Web Portals	16,000,000	0.9%	1,300,000,000	Yes
+241	 allrecipes.com	Cooking & Recipes	16,000,000	0.9%	230,000,000	Yes
+242	 webmd.com	Medical Literature & Resources	16,000,000	0.9%	160,000,000	Yes
+243	 pog.com	Online Games	16,000,000	0.9%	170,000,000	Yes
+244	 careerbuilder.com	Job Listings	16,000,000	0.9%	400,000,000	Yes
+245	 oyunlar1.com	Online Games	16,000,000	0.9%	880,000,000	Yes
+246	 zing.vn	Viet Nam	16,000,000	0.9%	1,900,000,000	Yes
+247	 ameba.jp	Blogging Resources & Services	16,000,000	0.9%	2,300,000,000	Yes
+248	 whitepages.com	Search Engines	16,000,000	0.9%	190,000,000	Yes
+249	 southwest.com	Air Travel	16,000,000	0.9%	370,000,000	Yes
+250	 duowan.com	Online Games	16,000,000	0.9%	450,000,000	Yes
+251	 moonbasa.com	Fashion & Style	16,000,000	0.9%	97,000,000	No
+252	 docin.com	Advertising & Marketing	16,000,000	0.9%	80,000,000	Yes
+253	 allegro.pl	Auctions	16,000,000	0.9%	3,600,000,000	Yes
+254	 baomihua.com	Arts & Entertainment	16,000,000	0.9%	110,000,000	Yes
+255	 mop.com	Roleplaying Games	16,000,000	0.9%	230,000,000	Yes
+256	 homedepot.com	Home Improvement	16,000,000	0.9%	310,000,000	No
+257	 mylife.com	People Search	15,000,000	0.9%	97,000,000	Yes
+258	 ilivid.com	Software Utilities	15,000,000	0.8%	37,000,000	Yes
+259	 commentcamarche.net	Computers & Electronics	15,000,000	0.8%	140,000,000	Yes
+260	 eastmoney.com	Investing	15,000,000	0.9%	720,000,000	Yes
+261	 zhenai.com	Dating & Personals	15,000,000	0.8%	370,000,000	No
+262	 ocn.ne.jp	Web Portals	15,000,000	0.8%	370,000,000	Yes
+263	 torrentz.eu	File Sharing & Hosting	15,000,000	0.9%	370,000,000	No
+264	 1616.net	Directories & Listings	15,000,000	0.8%	370,000,000	Yes
+265	 39.net	Health	15,000,000	0.8%	280,000,000	Yes
+266	 gyyx.cn	Online Games	15,000,000	0.9%	81,000,000	No
+267	 clubpenguin.com	Virtual Worlds	15,000,000	0.9%	400,000,000	Yes
+268	 microsofttranslator.com	Translation Tools & Resources	15,000,000	0.8%	74,000,000	Yes
+269	 vancl.com	Apparel	15,000,000	0.8%	370,000,000	No
+270	 marketgid.com	Shopping Portals & Search Engines	15,000,000	0.9%	190,000,000	Yes
+271	 ccb.com.cn	Banking	15,000,000	0.9%	190,000,000	No
+272	 sweetim.com	Clip Art & Animated GIFs	15,000,000	0.8%	250,000,000	Yes
+273	 tagged.com	Social Networks	15,000,000	0.8%	4,400,000,000	Yes
+274	 verizon.com	Service Providers	15,000,000	0.8%	870,000,000	Yes
+275	 kakaku.com	Price Comparisons	14,000,000	0.8%	730,000,000	Yes
+276	 norton.com	Network Security	14,000,000	0.8%	120,000,000	No
+277	 17173.com	Roleplaying Games	14,000,000	0.8%	310,000,000	Yes
+278	 twitpic.com	Microblogging	14,000,000	0.8%	160,000,000	Yes
+279	 real.com	Media Players	14,000,000	0.8%	73,000,000	Yes
+280	 bizrate.com	Apparel	14,000,000	0.8%	110,000,000	Yes
+281	 so-net.ne.jp	Web Portals	14,000,000	0.8%	190,000,000	Yes
+282	 61.com	Family-Oriented Games & Activities	14,000,000	0.8%	190,000,000	No
+283	 zoosk.com	Dating & Personals	14,000,000	0.8%	650,000,000	Yes
+284	 dangdang.com	Book Retailers	14,000,000	0.8%	370,000,000	No
+285	 abril.com.br	Web Portals	14,000,000	0.8%	300,000,000	Yes
+286	 cocolog-nifty.com	Blogging Resources & Services	14,000,000	0.8%	140,000,000	Yes
+287	 priceline.com	Travel	14,000,000	0.8%	340,000,000	Yes
+288	 asahi.com	News	14,000,000	0.8%	370,000,000	Yes
+289	 wsj.com	Newspapers	14,000,000	0.8%	190,000,000	Yes
+290	 iciba.com	Language Resources	13,000,000	0.8%	130,000,000	Yes
+291	 picnik.com	Photographic & Digital Arts	13,000,000	0.8%	1,000,000,000	Yes
+292	 gmx.net	Web Portals	13,000,000	0.8%	720,000,000	Yes
+293	 macys.com	Mass Merchants & Department Stores	13,000,000	0.8%	540,000,000	Yes
+294	 caixa.gov.br	Banking	13,000,000	0.8%	720,000,000	No
+295	 zimbio.com	Celebrities & Entertainment News	13,000,000	0.8%	160,000,000	Yes
+296	 rediff.com	Web Portals	13,000,000	0.8%	1,400,000,000	Yes
+297	 in.com	Web Portals	13,000,000	0.8%	160,000,000	Yes
+298	 local.com	Business & Personal Listings	13,000,000	0.8%	67,000,000	Yes
+299	 95599.cn	Banking	13,000,000	0.8%	170,000,000	No
+300	 5pk.com	E-Books	13,000,000	0.8%	38,000,000	Yes
+301	 skycn.com	Software	13,000,000	0.8%	73,000,000	Yes
+302	 telegraph.co.uk	Newspapers	13,000,000	0.8%	190,000,000	Yes
+303	 rr.com	Web Portals	13,000,000	0.8%	1,100,000,000	Yes
+304	 ucoz.ru	Web Design & Development	13,000,000	0.8%	230,000,000	Yes
+305	 windowslivehelp.com	Email & Messaging	13,000,000	0.8%	110,000,000	No
+306	 weather.com.cn	Weather	13,000,000	0.8%	110,000,000	Yes
+307	 fedex.com	Mail & Package Delivery	13,000,000	0.8%	340,000,000	No
+308	 monster.com	Jobs	13,000,000	0.8%	300,000,000	Yes
+309	 hulu.com	Online Video	13,000,000	0.8%	400,000,000	Yes
+310	 dianping.com	Dining Guides	13,000,000	0.8%	140,000,000	Yes
+311	 nhk.or.jp	TV Networks & Stations	13,000,000	0.8%	250,000,000	No
+312	 shopathome.com	Coupons & Discount Offers	13,000,000	0.8%	140,000,000	Yes
+313	 szgla.com	Video Game Retailers	13,000,000	0.8%	38,000,000	No
+314	 verycd.com	File Sharing & Hosting	13,000,000	0.8%	130,000,000	Yes
+315	 abcnews.go.com	Broadcast & Network News	13,000,000	0.8%	120,000,000	Yes
+316	 qunar.com	Air Travel	13,000,000	0.8%	120,000,000	Yes
+317	 yomiuri.co.jp	Newspapers	13,000,000	0.8%	380,000,000	Yes
+318	 wowan365.com	Games	13,000,000	0.8%	45,000,000	No
+319	 pagesjaunes.fr	Business & Personal Listings	13,000,000	0.8%	280,000,000	Yes
+320	 bitauto.com	Autos & Vehicles	13,000,000	0.8%	710,000,000	Yes
+321	 hotfile.com	File Sharing & Hosting	13,000,000	0.8%	89,000,000	Yes
+322	 accountonline.com	Credit Cards	13,000,000	0.8%	250,000,000	Yes
+323	 manta.com	Business & Industrial	13,000,000	0.8%	55,000,000	Yes
+324	 sears.com	Mass Merchants & Department Stores	13,000,000	0.8%	280,000,000	Yes
+325	 lowes.com	Home Improvement	13,000,000	0.8%	330,000,000	No
+326	 agame.com	Computer & Video Games	13,000,000	0.8%	300,000,000	Yes
+327	 sdo.com	Online Games	13,000,000	0.8%	150,000,000	Yes
+328	 okwave.jp	Forum & Chat Providers	13,000,000	0.8%	50,000,000	Yes
+329	 mozilla.org	Internet Clients & Browsers	13,000,000	0.8%	74,000,000	No
+330	 amazon.cn	Shopping Portals & Search Engines	13,000,000	0.8%	230,000,000	No
+331	 jcpenney.com	Mass Merchants & Department Stores	13,000,000	0.8%	490,000,000	Yes
+332	 sponichi.co.jp	Sports News	13,000,000	0.8%	150,000,000	Yes
+333	 metrolyrics.com	Music & Audio	13,000,000	0.8%	51,000,000	Yes
+334	 qidian.com	Fan Fiction	12,000,000	0.7%	660,000,000	Yes
+335	 exblog.jp	Blogging Resources & Services	12,000,000	0.7%	190,000,000	Yes
+336	 avast.com		12,000,000	0.7%	60,000,000	Yes
+337	 libero.it	Web Portals	12,000,000	0.7%	1,700,000,000	Yes
+338	 depositfiles.com	File Sharing & Hosting	12,000,000	0.7%	120,000,000	Yes
+339	 surveymonkey.com	Web Apps & Online Tools	12,000,000	0.7%	140,000,000	Yes
+340	 typepad.com	Blogging Resources & Services	12,000,000	0.7%	81,000,000	Yes
+341	 wn.com	World News	12,000,000	0.7%	31,000,000	Yes
+342	 taleo.net	Management	12,000,000	0.7%	410,000,000	Yes
+343	 addictinggames.com	Online Games	12,000,000	0.7%	250,000,000	Yes
+344	 pogo.com	Casual Games	12,000,000	0.7%	1,300,000,000	Yes
+345	 abchina.com	Banking	12,000,000	0.7%	190,000,000	No
+346	 yzz.cn	Online Games	12,000,000	0.7%	72,000,000	Yes
+347	 wikimapia.org	Maps	12,000,000	0.7%	280,000,000	Yes
+348	 27.cn	Beauty & Fitness	12,000,000	0.7%	280,000,000	Yes
+349	 kuxun.cn	Bus & Rail	12,000,000	0.7%	130,000,000	Yes
+350	 cartoonnetwork.com	Cartoons	12,000,000	0.7%	490,000,000	Yes
+351	 juegos.com	Online Games	12,000,000	0.7%	600,000,000	Yes
+352	 partycasino.com		12,000,000	0.7%	31,000,000	Yes
+353	 yfrog.com		12,000,000	0.7%	140,000,000	Yes
+354	 hexun.com	Investing	12,000,000	0.7%	170,000,000	Yes
+355	 over-blog.com	Blogging Resources & Services	12,000,000	0.7%	130,000,000	Yes
+356	 1ting.com	Music & Audio	12,000,000	0.7%	180,000,000	Yes
+357	 girlsgogames.com	Flash-Based Entertainment	12,000,000	0.7%	610,000,000	Yes
+358	 squidoo.com	Web Services	12,000,000	0.7%	61,000,000	Yes
+359	 sparkstudios.com	Marketing Services	12,000,000	0.7%	60,000,000	Yes
+360	 wan71.com	Games	12,000,000	0.7%	51,000,000	No
+361	 legacy.com		12,000,000	0.7%	230,000,000	Yes
+362	 acrobat.com	Business & Productivity Software	12,000,000	0.7%	61,000,000	No
+363	 people.com	Celebrities & Entertainment News	12,000,000	0.7%	650,000,000	Yes
+364	 jugem.jp	Blogging Resources & Services	12,000,000	0.7%	110,000,000	Yes
+365	 wretch.cc	Online Journals & Personal Sites	12,000,000	0.7%	3,300,000,000	Yes
+366	 foodnetwork.com	Cooking & Recipes	12,000,000	0.7%	210,000,000	Yes
+367	 nick.com	Online Games	12,000,000	0.7%	530,000,000	Yes
+368	 ynet.com	News	12,000,000	0.7%	450,000,000	Yes
+369	 latimes.com	Newspapers	12,000,000	0.7%	98,000,000	Yes
+370	 washingtonpost.com	Newspapers	12,000,000	0.7%	190,000,000	Yes
+371	 sakura.ne.jp	Web Hosting & Domain Registration	12,000,000	0.7%	230,000,000	Yes
+372	 deviantart.com	Photographic & Digital Arts	12,000,000	0.7%	800,000,000	Yes
+373	 fandango.com	Movie Listings & Theater Showtimes	12,000,000	0.7%	160,000,000	Yes
+374	 etao.com	Apparel	12,000,000	0.7%	50,000,000	No
+375	 tabelog.com	Dining Guides	12,000,000	0.7%	310,000,000	Yes
+376	 vevo.com	Music Streams & Downloads	12,000,000	0.7%	60,000,000	Yes
+377	 m18.com	Apparel	11,000,000	0.6%	190,000,000	No
+378	 softpedia.com	Software	11,000,000	0.6%	74,000,000	Yes
+379	 allabout.co.jp	General Reference	11,000,000	0.6%	110,000,000	Yes
+380	 lashou.com	Coupons & Discount Offers	11,000,000	0.6%	160,000,000	No
+381	 mynet.com	Web Portals	11,000,000	0.6%	1,400,000,000	Yes
+382	 nikkansports.com	Sports News	11,000,000	0.6%	140,000,000	Yes
+383	 webs.com	Web Design & Development	11,000,000	0.6%	150,000,000	Yes
+384	 constantcontact.com	Email & Messaging	11,000,000	0.6%	170,000,000	Yes
+385	 univision.com	Web Portals	11,000,000	0.6%	340,000,000	Yes
+386	 2ch.net	Forum & Chat Providers	11,000,000	0.6%	600,000,000	No
+387	 dropbox.com	File Sharing & Hosting	11,000,000	0.6%	230,000,000	No
+388	 toshiba.com	Computers & Electronics	11,000,000	0.6%	310,000,000	Yes
+389	 bild.de	News	11,000,000	0.6%	450,000,000	Yes
+390	 groupon.com.br	Coupons & Discount Offers	11,000,000	0.6%	74,000,000	Yes
+391	 itau.com.br	Credit & Lending	11,000,000	0.6%	1,300,000,000	No
+392	 national-lottery.co.uk		11,000,000	0.6%	490,000,000	Yes
+393	 delta.com	Air Travel	11,000,000	0.6%	440,000,000	Yes
+394	 videobash.com	Humor	11,000,000	0.6%	60,000,000	Yes
+395	 android.com	Mobile Apps & Add-Ons	11,000,000	0.6%	160,000,000	No
+396	 gmarket.co.kr	Shopping	11,000,000	0.6%	790,000,000	No
+397	 usatoday.com	Newspapers	11,000,000	0.6%	170,000,000	Yes
+398	 wunderground.com	Weather	11,000,000	0.6%	230,000,000	Yes
+399	 armorgames.com	Online Games	11,000,000	0.6%	130,000,000	Yes
+400	 gazeta.pl	Newspapers	11,000,000	0.6%	370,000,000	Yes
+401	 tmz.com	Celebrities & Entertainment News	11,000,000	0.6%	280,000,000	Yes
+402	 mobile.de	Vehicle Shopping	11,000,000	0.6%	1,500,000,000	Yes
+403	 iza.ne.jp	News	11,000,000	0.6%	110,000,000	Yes
+404	 interia.pl	Web Portals	11,000,000	0.6%	730,000,000	Yes
+405	 ctrip.com	Travel	11,000,000	0.6%	170,000,000	Yes
+406	 babycenter.com	Baby Care & Hygiene	11,000,000	0.6%	170,000,000	Yes
+407	 51test.net	Standardized & Admissions Tests	11,000,000	0.6%	140,000,000	Yes
+408	 mainichi.jp	Newspapers	11,000,000	0.6%	130,000,000	Yes
+409	 wordreference.com		11,000,000	0.6%	130,000,000	Yes
+410	 r7.com	News	11,000,000	0.6%	370,000,000	Yes
+411	 m1905.com	Movies	11,000,000	0.6%	130,000,000	Yes
+412	 orbitz.com	Travel	11,000,000	0.6%	230,000,000	Yes
+413	 rakuten.ne.jp	Shopping Portals & Search Engines	11,000,000	0.6%	120,000,000	Yes
+414	 liutilities.com	Software Utilities	11,000,000	0.6%	23,000,000	Yes
+415	 all.biz	Directories & Listings	11,000,000	0.6%	50,000,000	Yes
+416	 sfr.fr	Mobile & Wireless	11,000,000	0.6%	1,300,000,000	Yes
+417	 auction.co.kr	Price Comparisons	11,000,000	0.6%	610,000,000	No
+418	 ryanair.com	Air Travel	11,000,000	0.6%	110,000,000	Yes
+419	 wetter.com	Weather	11,000,000	0.6%	230,000,000	Yes
+420	 joqoo.com	Casual Games	11,000,000	0.6%	29,000,000	Yes
+421	 indiatimes.com	Newspapers	11,000,000	0.6%	380,000,000	Yes
+422	 2144.cn	Online Games	11,000,000	0.6%	340,000,000	Yes
+423	 altervista.org	Blogging Resources & Services	11,000,000	0.6%	120,000,000	Yes
+424	 shopping.com	Price Comparisons	11,000,000	0.6%	55,000,000	Yes
+425	 passport.net	Email & Messaging	11,000,000	0.6%	82,000,000	Yes
+426	 changyou.com	E-Books	11,000,000	0.6%	72,000,000	No
+427	 zillow.com	Real Estate	11,000,000	0.6%	450,000,000	Yes
+428	 freeonlinegames.com	Casual Games	11,000,000	0.6%	130,000,000	Yes
+429	 ign.com	Computer & Video Games	11,000,000	0.6%	130,000,000	Yes
+430	 freeze.com	Freeware & Shareware	11,000,000	0.6%	73,000,000	Yes
+431	 overstock.com	Mass Merchants & Department Stores	10,000,000	0.6%	250,000,000	Yes
+432	 rincondelvago.com	Education	10,000,000	0.6%	55,000,000	Yes
+433	 sp.gov.br	State & Local Government	10,000,000	0.6%	540,000,000	Yes
+434	 boosj.com	Online Video	10,000,000	0.6%	88,000,000	Yes
+435	 sky.com	Web Portals	10,000,000	0.6%	730,000,000	Yes
+436	 medicinenet.com	Health Conditions	10,000,000	0.6%	120,000,000	Yes
+437	 mapion.co.jp	Maps	10,000,000	0.6%	89,000,000	Yes
+438	 plentyoffish.com	Online Communities	10,000,000	0.6%	3,000,000,000	Yes
+439	 marketgid.info		10,000,000	0.6%	60,000,000	No
+440	 pronto.com	Price Comparisons	10,000,000	0.6%	54,000,000	Yes
+441	 mtv.com	Music & Audio	10,000,000	0.6%	120,000,000	Yes
+442	 evite.com	Gifts & Special Event Items	10,000,000	0.6%	170,000,000	Yes
+443	 barnesandnoble.com	Book Retailers	10,000,000	0.6%	210,000,000	Yes
+444	 costco.com	Mass Merchants & Department Stores	10,000,000	0.6%	190,000,000	No
+445	 blackberry.com	Smart Phones	9,900,000	0.6%	180,000,000	Yes
+446	 acer.com	Desktop Computers	9,900,000	0.6%	97,000,000	No
+447	 vzw.com	Service Providers	9,900,000	0.6%	81,000,000	Yes
+448	 kohls.com	Apparel	9,900,000	0.6%	450,000,000	No
+449	 orkut.co.in	Social Networks	9,900,000	0.6%	800,000,000	No
+450	 moshimonsters.com	Simulation Games	9,900,000	0.6%	280,000,000	Yes
+451	 mtime.com	Movies	9,900,000	0.6%	110,000,000	Yes
+452	 sprint.com	Mobile & Wireless	9,900,000	0.6%	340,000,000	Yes
+453	 focus.cn	Dictionaries & Encyclopedias	9,900,000	0.6%	160,000,000	Yes
+454	 firstload.com	File Sharing & Hosting	9,900,000	0.6%	45,000,000	No
+455	 citibank.com	Finance	9,900,000	0.6%	280,000,000	Yes
+456	 ournba.net	Online Video	9,900,000	0.6%	81,000,000	Yes
+457	 livedoor.com	Web Portals	9,900,000	0.6%	340,000,000	Yes
+458	 wizard101.com	Massive Multiplayer	9,900,000	0.6%	73,000,000	Yes
+459	 ning.com	Web Design & Development	9,900,000	0.6%	170,000,000	Yes
+460	 tao123.com	Shopping	9,900,000	0.6%	160,000,000	Yes
+461	 addthis.com	Internet Clients & Browsers	9,900,000	0.6%	41,000,000	No
+462	 ebuddy.com	Email & Messaging	9,900,000	0.6%	210,000,000	Yes
+463	 kat.ph	Game Cheats & Hints	9,900,000	0.6%	170,000,000	Yes
+464	 beemp3.com	Music Streams & Downloads	9,900,000	0.6%	99,000,000	Yes
+465	 pcauto.com.cn	Vehicle Shopping	9,900,000	0.6%	410,000,000	Yes
+466	 superpages.com	Business & Personal Listings	9,900,000	0.6%	45,000,000	Yes
+467	 citysearch.com	City & Local Guides	9,900,000	0.6%	42,000,000	Yes
+468	 hilton.com	Hotels & Accommodations	9,900,000	0.6%	210,000,000	No
+469	 marriott.com	Hotels & Accommodations	9,900,000	0.6%	230,000,000	No
+470	 isohunt.com	Search Engines	9,900,000	0.6%	280,000,000	Yes
+471	 monografias.com	Web Portals	9,900,000	0.6%	50,000,000	Yes
+472	 realtor.com	Real Estate Listings	9,900,000	0.6%	360,000,000	Yes
+473	 pc120.com	Antivirus & Malware	9,900,000	0.6%	50,000,000	No
+474	 pingan.com	Insurance	9,800,000	0.6%	49,000,000	No
+475	 opendns.com	Network Security	9,800,000	0.6%	97,000,000	Yes
+476	 888.com		9,800,000	0.6%	26,000,000	Yes
+477	 521g.org		9,800,000	0.6%	21,000,000	No
+478	 filesonic.com	File Sharing & Hosting	9,800,000	0.6%	80,000,000	No
+479	 jiji.com	News	9,800,000	0.6%	190,000,000	Yes
+480	 imvu.com	Social Networks	9,800,000	0.6%	210,000,000	Yes
+481	 tistory.com	Blogging Resources & Services	9,800,000	0.6%	81,000,000	Yes
+482	 labellezadeinternet.com	Internet Clients & Browsers	9,800,000	0.6%	37,000,000	No
+483	 kioskea.net	Computers & Electronics	9,800,000	0.6%	73,000,000	Yes
+484	 chosun.com	Newspapers	9,800,000	0.6%	300,000,000	Yes
+485	 hotwire.com	Travel	9,800,000	0.6%	120,000,000	Yes
+486	 sonico.com	Social Networks	9,800,000	0.6%	450,000,000	Yes
+487	 ticketmaster.com	Ticket Sales	9,800,000	0.6%	190,000,000	Yes
+488	 foxtab.com	Internet Clients & Browsers	9,800,000	0.6%	25,000,000	Yes
+489	 pixnet.net	Online Journals & Personal Sites	9,800,000	0.6%	170,000,000	Yes
+490	 51job.com	Jobs	9,800,000	0.6%	300,000,000	No
+491	 t-mobile.com	Mobile Phones	9,800,000	0.6%	280,000,000	Yes
+492	 kijiji.ca	Shopping	9,800,000	0.6%	1,300,000,000	Yes
+493	 mixi.jp	Social Networks	9,700,000	0.6%	2,500,000,000	Yes
+494	 gap.com	Apparel	9,700,000	0.6%	340,000,000	No
+495	 excite.co.jp	Web Portals	9,700,000	0.6%	230,000,000	Yes
+496	 yihaodian.com	E-Books	9,100,000	0.5%	73,000,000	No
+497	 vesti.ru	News	9,100,000	0.5%	74,000,000	Yes
+498	 11st.co.kr	Word Processing Software	9,100,000	0.5%	410,000,000	Yes
+499	 91.com	Flash-Based Entertainment	9,100,000	0.5%	110,000,000	Yes
+500	 travelocity.com	Travel Agencies & Services	9,100,000	0.5%	230,000,000	Yes
+501	 ledu.com	Games	9,100,000	0.5%	21,000,000	Yes
+502	 aipai.com	Online Games	9,100,000	0.5%	160,000,000	Yes
+503	 tiexue.net	Military	9,100,000	0.5%	210,000,000	Yes
+504	 rising.cn	Web Portals	9,100,000	0.5%	280,000,000	Yes
+505	 tom.com	News	9,100,000	0.5%	280,000,000	Yes
+506	 wan5d.com	E-Books	9,100,000	0.5%	26,000,000	No
+507	 linternaute.com	Magazines	9,100,000	0.5%	190,000,000	Yes
+508	 gamespot.com	Computer & Video Games	9,000,000	0.5%	97,000,000	Yes
+509	 skyrock.com	Social Networks	9,000,000	0.5%	720,000,000	Yes
+510	 49you.com		9,000,000	0.5%	19,000,000	No
+511	 24h.com.vn	News	9,000,000	0.5%	790,000,000	Yes
+512	 suning.com	Laptops & Notebooks	9,000,000	0.5%	67,000,000	No
+513	 wikihow.com	How-To‚ DIY & Expert Content	9,000,000	0.5%	31,000,000	Yes
+514	 qqgexing.com	Social Network Apps & Add-Ons	9,000,000	0.5%	790,000,000	Yes
+515	 laredoute.fr	Apparel	9,000,000	0.5%	370,000,000	Yes
+516	 sanspo.com	Sports News	9,000,000	0.5%	160,000,000	Yes
+517	 tuenti.com	Social Networks	9,000,000	0.5%	12,000,000,000	No
+518	 barbie.com	Dress-Up & Fashion Games	9,000,000	0.5%	370,000,000	Yes
+519	 zzsf.com		9,000,000	0.5%	26,000,000	No
+520	 rbc.ru	Business News	9,000,000	0.5%	190,000,000	Yes
+521	 groupalia.com	Theme Parks	9,000,000	0.5%	67,000,000	No
+522	 virgilio.it	Web Portals	9,000,000	0.5%	800,000,000	Yes
+523	 ca.gov	State & Local Government	9,000,000	0.5%	370,000,000	Yes
+524	 liveinternet.ru	Web Portals	9,000,000	0.5%	230,000,000	Yes
+525	 stardoll.com	Dress-Up & Fashion Games	9,000,000	0.5%	1,100,000,000	Yes
+526	 ebay.com.au	Auctions	9,000,000	0.5%	1,400,000,000	Yes
+527	 americanas.com.br	Shopping	9,000,000	0.5%	210,000,000	Yes
+528	 lenovo.com	Computer Hardware	9,000,000	0.5%	170,000,000	Yes
+529	 speedtest.net	Web Apps & Online Tools	9,000,000	0.5%	38,000,000	Yes
+530	 etsy.com	Crafts	9,000,000	0.5%	650,000,000	No
+531	 logsoku.com	Online Communities	9,000,000	0.5%	41,000,000	Yes
+532	 yiqifa.com	Web Services	9,000,000	0.5%	26,000,000	No
+533	 jalan.net	Hotels & Accommodations	9,000,000	0.5%	450,000,000	Yes
+534	 liveperson.net	Customer Relationship Management (CRM)	9,000,000	0.5%	45,000,000	No
+535	 aufeminin.com	Women's Interests	9,000,000	0.5%	140,000,000	Yes
+536	 accuweather.com	Weather	9,000,000	0.5%	190,000,000	Yes
+537	 bukade.com	Anime & Manga	9,000,000	0.5%	190,000,000	Yes
+538	 sympatico.ca	Web Portals	8,900,000	0.5%	170,000,000	Yes
+539	 aa.com	Air Travel	8,900,000	0.5%	280,000,000	Yes
+540	 izlesene.com	Photo & Video Sharing	8,900,000	0.5%	160,000,000	Yes
+541	 zylom.com	Online Games	8,900,000	0.5%	170,000,000	Yes
+542	 hubpages.com	Investing	8,900,000	0.5%	46,000,000	Yes
+543	 ninemsn.com.au	Celebrities & Entertainment News	8,900,000	0.5%	490,000,000	Yes
+544	 kayak.com	Air Travel	8,900,000	0.5%	130,000,000	Yes
+545	 chip.de	Computers & Electronics	8,900,000	0.5%	120,000,000	Yes
+546	 justin.tv	Online Video	8,900,000	0.5%	410,000,000	Yes
+547	 aibang.com	Directories & Listings	8,900,000	0.5%	49,000,000	Yes
+548	 makepolo.com	E-Commerce Services	8,900,000	0.5%	80,000,000	Yes
+549	 thepostgame.com	Sports News	8,900,000	0.5%	24,000,000	Yes
+550	 domaintools.com	Web Hosting & Domain Registration	8,900,000	0.5%	37,000,000	Yes
+551	 gutefrage.net	How-To‚ DIY & Expert Content	8,900,000	0.5%	55,000,000	Yes
+552	 tiancity.com	Online Games	8,900,000	0.5%	97,000,000	No
+553	 letitbit.net	File Sharing & Hosting	8,900,000	0.5%	170,000,000	Yes
+554	 credit-agricole.fr	Banking	8,900,000	0.5%	450,000,000	Yes
+555	 gd118114.cn	Web Services	8,900,000	0.5%	34,000,000	Yes
+556	 meituan.com	Coupons & Discount Offers	8,900,000	0.5%	66,000,000	No
+557	 buscape.com.br	Shopping Portals & Search Engines	8,900,000	0.5%	97,000,000	Yes
+558	 qire123.com	Online Video	8,900,000	0.5%	140,000,000	Yes
+559	 shoplocal.com	Shopping Portals & Search Engines	8,800,000	0.5%	66,000,000	Yes
+560	 discovercard.com	Credit Cards	8,800,000	0.5%	260,000,000	Yes
+561	 apontador.com.br	City & Local Guides	8,300,000	0.5%	42,000,000	Yes
+562	 eol.cn	Education	8,300,000	0.5%	230,000,000	Yes
+563	 zhaopin.com	Job Listings	8,300,000	0.5%	280,000,000	Yes
+564	 vagalume.com.br	Song Lyrics & Tabs	8,300,000	0.5%	170,000,000	Yes
+565	 icq.com	Forum & Chat Providers	8,300,000	0.5%	170,000,000	Yes
+566	 naver.jp	Search Engines	8,300,000	0.5%	82,000,000	Yes
+567	 my4399.com	Online Games	8,300,000	0.5%	46,000,000	No
+568	 fixya.com		8,300,000	0.5%	41,000,000	Yes
+569	 godaddy.com	Web Hosting & Domain Registration	8,300,000	0.5%	190,000,000	Yes
+570	 howstuffworks.com	How-To‚ DIY & Expert Content	8,300,000	0.5%	66,000,000	Yes
+571	 ezinearticles.com	Dating & Personals	8,200,000	0.5%	50,000,000	Yes
+572	 xe.com	Travel	8,200,000	0.5%	120,000,000	Yes
+573	 dipan.com	Computer & Video Games	8,200,000	0.5%	31,000,000	No
+574	 wiktionary.org	Dictionaries & Encyclopedias	8,200,000	0.5%	26,000,000	No
+575	 bigfishgames.com	Computer & Video Games	8,200,000	0.5%	160,000,000	Yes
+576	 videosurf.com	Online Video	8,200,000	0.5%	89,000,000	Yes
+577	 informer.com	Web Design & Development	8,200,000	0.5%	38,000,000	Yes
+578	 hyves.nl	Social Networks	8,200,000	0.5%	3,000,000,000	Yes
+579	 speeddate.com	Dating & Personals	8,200,000	0.5%	210,000,000	Yes
+580	 symantec.com	Antivirus & Malware	8,200,000	0.5%	56,000,000	No
+581	 staples.com	Office Supplies	8,200,000	0.5%	120,000,000	Yes
+582	 01net.com	Technology News	8,200,000	0.5%	130,000,000	Yes
+583	 daily.co.jp	Newspapers	8,200,000	0.5%	55,000,000	Yes
+584	 thesun.co.uk	Newspapers	8,200,000	0.5%	170,000,000	Yes
+585	 direct.gov.uk	Law & Government	8,200,000	0.5%	450,000,000	Yes
+586	 cmbchina.com	Banking	8,200,000	0.5%	90,000,000	No
+587	 olx.com.br	Classifieds	8,200,000	0.5%	60,000,000	Yes
+588	 foass.com	TV & Video	8,200,000	0.5%	73,000,000	Yes
+589	 docstoc.com		8,200,000	0.5%	28,000,000	Yes
+590	 duote.com	Software	8,200,000	0.5%	45,000,000	Yes
+591	 shopzilla.com		8,200,000	0.5%	62,000,000	Yes
+592	 forbes.com	Business News	8,200,000	0.5%	97,000,000	Yes
+593	 doctissimo.fr	Health	8,200,000	0.5%	98,000,000	Yes
+594	 righthealth.com	Medical Literature & Resources	8,200,000	0.5%	38,000,000	Yes
+595	 lego.com	Toys	8,200,000	0.5%	590,000,000	No
+596	 trulia.com	Real Estate Listings	8,200,000	0.5%	400,000,000	Yes
+597	 mundodastribos.com	Arts & Entertainment	8,200,000	0.5%	34,000,000	Yes
+598	 fazenda.gov.br	Public Finance	8,200,000	0.5%	370,000,000	No
+599	 hoopchina.com	Sports	8,200,000	0.5%	210,000,000	Yes
+600	 qqwangming.org	Online Goodies	8,200,000	0.5%	97,000,000	Yes
+601	 zappos.com	Apparel	8,200,000	0.5%	260,000,000	No
+602	 bloomberg.com	Business News	8,200,000	0.5%	110,000,000	Yes
+603	 classmates.com	Alumni & Reunions	8,200,000	0.5%	98,000,000	Yes
+604	 wupload.com	File Sharing & Hosting	8,200,000	0.5%	55,000,000	No
+605	 alexa.com	Advertising & Marketing	8,200,000	0.5%	120,000,000	Yes
+606	 marktplaats.nl	Classifieds	8,200,000	0.5%	1,900,000,000	Yes
+607	 coupons.com	Coupons & Discount Offers	8,200,000	0.5%	210,000,000	Yes
+608	 spiegel.de	News	8,200,000	0.5%	340,000,000	Yes
+609	 cbsnews.com	News	8,100,000	0.5%	130,000,000	Yes
+610	 60photos.com	TV Soap Operas	8,100,000	0.5%	41,000,000	No
+611	 travelzoo.com	Travel Agencies & Services	8,100,000	0.5%	90,000,000	Yes
+612	 intel.com	Chips & Processors	8,100,000	0.5%	61,000,000	No
+613	 ebay.fr	Auctions	8,100,000	0.5%	970,000,000	Yes
+614	 buycheapr.com	Consumer Electronics	8,100,000	0.5%	50,000,000	Yes
+615	 nordstrom.com	Mass Merchants & Department Stores	8,100,000	0.5%	280,000,000	No
+616	 oricon.co.jp	Music & Audio	8,100,000	0.5%	97,000,000	Yes
+617	 332h.com		8,100,000	0.5%	21,000,000	No
+618	 fidelity.com	Retirement & Pension	8,100,000	0.5%	490,000,000	No
+619	 citi.com	Finance	8,100,000	0.5%	55,000,000	Yes
+620	 gismeteo.ru	Weather	8,100,000	0.5%	160,000,000	Yes
+621	 angelfire.com	Web Hosting & Domain Registration	8,100,000	0.5%	34,000,000	Yes
+622	 optmd.com	Advertising & Marketing	8,100,000	0.5%	21,000,000	Yes
+623	 pcgames.com.cn	Online Games	8,100,000	0.5%	82,000,000	Yes
+624	 nickjr.com	TV Family-Oriented Shows	8,100,000	0.5%	540,000,000	Yes
+625	 lehecai.com		8,100,000	0.5%	99,000,000	Yes
+626	 yoka.com	Fashion & Style	8,100,000	0.5%	210,000,000	Yes
+627	 115.com	Search Engines	8,100,000	0.5%	88,000,000	Yes
+628	 vnexpress.net	News	8,100,000	0.5%	600,000,000	Yes
+629	 ustream.tv	Online Video	8,100,000	0.5%	73,000,000	Yes
+630	 flingvibe.com		8,100,000	0.5%	24,000,000	No
+631	 juegosjuegos.com	Games	8,100,000	0.5%	370,000,000	Yes
+632	 boc.cn	Currencies & Foreign Exchange	8,100,000	0.5%	140,000,000	No
+633	 pcpop.com	Search Engines	8,100,000	0.5%	120,000,000	Yes
+634	 webcrawler.com	Search Engines	8,100,000	0.5%	45,000,000	Yes
+635	 japanpost.jp	Mail & Package Delivery	8,100,000	0.5%	230,000,000	No
+636	 usbank.com	Banking	8,100,000	0.5%	500,000,000	No
+637	 yiqiwin.com	Acupuncture & Chinese Medicine	8,100,000	0.5%	28,000,000	No
+638	 timeanddate.com	Time & Calendars	8,100,000	0.5%	37,000,000	Yes
+639	 pch.com		8,100,000	0.5%	410,000,000	Yes
+640	 mercadolibre.com.mx	Classifieds	8,100,000	0.5%	400,000,000	Yes
+641	 novoteka.ru	Newspapers	8,100,000	0.5%	97,000,000	Yes
+642	 marca.com	Sports News	8,100,000	0.5%	400,000,000	Yes
+643	 kboing.com.br	Music Streams & Downloads	8,100,000	0.5%	370,000,000	Yes
+644	 gnavi.co.jp	Dining Guides	8,100,000	0.5%	190,000,000	Yes
+645	 argos.co.uk	Mass Merchants & Department Stores	8,000,000	0.5%	360,000,000	Yes
+646	 ct10000.com	Phone Service Providers	8,000,000	0.5%	120,000,000	Yes
+647	 haodf.com	Hospitals & Treatment Centers	7,600,000	0.4%	88,000,000	No
+648	 pbskids.org		7,600,000	0.4%	880,000,000	Yes
+649	 intelius.com	People Search	7,600,000	0.4%	87,000,000	Yes
+650	 noaa.gov	Water & Marine Sciences	7,600,000	0.4%	140,000,000	No
+651	 topix.com	Local News	7,600,000	0.4%	98,000,000	Yes
+652	 filehippo.com	Software	7,500,000	0.4%	60,000,000	Yes
+653	 multiply.com	Photo & Image Sharing	7,500,000	0.4%	170,000,000	Yes
+654	 toysrus.com	Toys	7,500,000	0.4%	250,000,000	No
+655	 autotrader.com	Vehicle Shopping	7,500,000	0.4%	370,000,000	Yes
+656	 hurriyet.com.tr	Newspapers	7,500,000	0.4%	960,000,000	Yes
+657	 meteofrance.com	Weather	7,500,000	0.4%	130,000,000	Yes
+658	 justanswer.com	General Reference	7,500,000	0.4%	42,000,000	Yes
+659	 formspring.me	Social Networks	7,500,000	0.4%	190,000,000	No
+660	 elmundo.es	Newspapers	7,500,000	0.4%	230,000,000	Yes
+661	 goalunited.org	Sports Games	7,500,000	0.4%	28,000,000	Yes
+662	 pchome.net	Computers & Electronics	7,500,000	0.4%	66,000,000	Yes
+663	 usaa.com	Finance	7,500,000	0.4%	370,000,000	Yes
+664	 victoriassecret.com	Undergarments	7,500,000	0.4%	400,000,000	Yes
+665	 vk.com	Social Networks	7,500,000	0.4%	1,400,000,000	No
+666	 instagr.am	Photo & Image Sharing	7,500,000	0.4%	26,000,000	No
+667	 cbslocal.com	TV Networks & Stations	7,500,000	0.4%	67,000,000	Yes
+668	 plala.or.jp	ISPs	7,500,000	0.4%	81,000,000	Yes
+669	 livestrong.com	Health	7,500,000	0.4%	50,000,000	Yes
+670	 duba.net	Antivirus & Malware	7,500,000	0.4%	130,000,000	Yes
+671	 mt.co.kr	Investing	7,500,000	0.4%	90,000,000	Yes
+672	 jma.go.jp	Weather	7,500,000	0.4%	260,000,000	No
+673	 tesco.com	Mass Merchants & Department Stores	7,500,000	0.4%	340,000,000	Yes
+674	 goal.com	Soccer	7,500,000	0.4%	160,000,000	Yes
+675	 milliyet.com.tr	Newspapers	7,500,000	0.4%	1,000,000,000	Yes
+676	 windowsmedia.com	Music & Audio	7,500,000	0.4%	23,000,000	Yes
+677	 blogcu.com	Blogging Resources & Services	7,500,000	0.4%	54,000,000	Yes
+678	 cooks.com	Cooking & Recipes	7,500,000	0.4%	97,000,000	Yes
+679	 vnet.cn	Web Portals	7,500,000	0.4%	42,000,000	Yes
+680	 hm.com	Apparel	7,500,000	0.4%	550,000,000	No
+681	 groupon.co.uk	Coupons & Discount Offers	7,400,000	0.4%	74,000,000	Yes
+682	 ed.gov	Education	7,400,000	0.4%	310,000,000	No
+683	 robtex.com		7,400,000	0.4%	21,000,000	Yes
+684	 120ask.com	Health	7,400,000	0.4%	41,000,000	Yes
+685	 cookpad.com	Cooking & Recipes	7,400,000	0.4%	410,000,000	Yes
+686	 51la.com	Economics	7,400,000	0.4%	26,000,000	Yes
+687	 yam.com	Web Portals	7,400,000	0.4%	230,000,000	Yes
+688	 china.com.cn	Internet & Telecom	7,400,000	0.4%	68,000,000	Yes
+689	 weebly.com	Web Design & Development	7,400,000	0.4%	66,000,000	Yes
+690	 mayoclinic.com	Health Conditions	7,400,000	0.4%	67,000,000	Yes
+691	 sanook.com	Web Portals	7,400,000	0.4%	600,000,000	Yes
+692	 weather.gov	Weather	7,400,000	0.4%	170,000,000	No
+693	 infoseek.co.jp	Web Portals	7,400,000	0.4%	250,000,000	Yes
+694	 ojogos.com.br	Online Games	7,400,000	0.4%	310,000,000	Yes
+695	 qip.ru	Web Portals	7,400,000	0.4%	230,000,000	Yes
+696	 opera.com	Internet Clients & Browsers	7,400,000	0.4%	38,000,000	Yes
+697	 zhcw.com		7,400,000	0.4%	88,000,000	Yes
+698	 mp3raid.com	Music Streams & Downloads	7,400,000	0.4%	80,000,000	Yes
+699	 webry.info	Computers & Electronics	7,400,000	0.4%	60,000,000	Yes
+700	 merriam-webster.com	Dictionaries & Encyclopedias	7,400,000	0.4%	56,000,000	Yes
+701	 easyjet.com	Travel	7,400,000	0.4%	170,000,000	Yes
+702	 360doc.com	Social Sciences	7,400,000	0.4%	60,000,000	Yes
+703	 sapo.pt	Web Portals	7,400,000	0.4%	530,000,000	Yes
+704	 kuwan8.com	Games	7,400,000	0.4%	16,000,000	No
+705	 everydayhealth.com	Health	7,400,000	0.4%	90,000,000	Yes
+706	 nike.com	Athletic Apparel	7,400,000	0.4%	190,000,000	Yes
+707	 cafemom.com	Pregnancy & Maternity	7,400,000	0.4%	66,000,000	Yes
+708	 ip138.com	Directories & Listings	7,400,000	0.4%	50,000,000	Yes
+709	 3839.com	Online Games	7,400,000	0.4%	140,000,000	Yes
+710	 nokia.com	Mobile Phones	7,400,000	0.4%	160,000,000	No
+711	 friend.ly	Friendship	7,400,000	0.4%	46,000,000	No
+712	 directv.com	Cable & Satellite Providers	7,400,000	0.4%	140,000,000	No
+713	 yahoo.com.tw	Web Portals	7,400,000	0.4%	490,000,000	Yes
+714	 buenastareas.com	Educational Resources	7,400,000	0.4%	73,000,000	Yes
+715	 kapook.com	Web Portals	7,400,000	0.4%	170,000,000	Yes
+716	 fifa.com	Soccer	7,400,000	0.4%	120,000,000	Yes
+717	 bt.com	Service Providers	7,400,000	0.4%	190,000,000	Yes
+718	 esmas.com	Web Portals	7,400,000	0.4%	140,000,000	Yes
+719	 netshoes.com.br	Footwear	7,400,000	0.4%	150,000,000	Yes
+720	 readnovel.com	E-Books	7,400,000	0.4%	660,000,000	Yes
+721	 catho.com.br	Jobs	7,400,000	0.4%	110,000,000	Yes
+722	 amazon.fr	Shopping Portals & Search Engines	7,400,000	0.4%	230,000,000	No
+723	 bohelady.com	Women's Interests	7,400,000	0.4%	51,000,000	Yes
+724	 last.fm	Music Streams & Downloads	7,300,000	0.4%	73,000,000	Yes
+725	 hc360.com	E-Commerce Services	7,300,000	0.4%	96,000,000	Yes
+726	 wachovia.com	Banking	7,300,000	0.4%	370,000,000	Yes
+727	 mercadolibre.com.ar	Classifieds	7,300,000	0.4%	590,000,000	Yes
+728	 xdating.com	Dating & Personals	7,300,000	0.4%	61,000,000	No
+729	 52vali.com	Computer & Video Games	7,300,000	0.4%	31,000,000	Yes
+730	 tripadvisor.co.uk	Travel	6,900,000	0.4%	110,000,000	Yes
+731	 it168.com	Computers & Electronics	6,900,000	0.4%	60,000,000	Yes
+732	 ibm.com	Computers & Electronics	6,900,000	0.4%	140,000,000	No
+733	 infospace.com	Search Engines	6,900,000	0.4%	66,000,000	No
+734	 state.gov	Government	6,900,000	0.4%	210,000,000	No
+735	 alice.it	News	6,900,000	0.4%	280,000,000	Yes
+736	 utorrent.com	Multimedia Software	6,900,000	0.4%	42,000,000	Yes
+737	 rutube.ru	Video Sharing	6,900,000	0.4%	66,000,000	Yes
+738	 zaycev.net	Music Streams & Downloads	6,800,000	0.4%	310,000,000	Yes
+739	 ancestry.com	Ancestry & Genealogy	6,800,000	0.4%	800,000,000	Yes
+740	 urbandictionary.com	Humor	6,800,000	0.4%	38,000,000	Yes
+741	 msn.com.cn	Travel	6,800,000	0.4%	99,000,000	Yes
+742	 bb.com.br	Banking	6,800,000	0.4%	330,000,000	No
+743	 gamesgames.com	Flash-Based Entertainment	6,800,000	0.4%	130,000,000	Yes
+744	 337.com	Flash-Based Entertainment	6,800,000	0.4%	50,000,000	Yes
+745	 jiuwan.com		6,800,000	0.4%	19,000,000	Yes
+746	 seznam.cz	Web Portals	6,800,000	0.4%	2,300,000,000	Yes
+747	 discovery.com	TV Networks & Stations	6,800,000	0.4%	59,000,000	Yes
+748	 a67.com	Online Video	6,800,000	0.4%	160,000,000	Yes
+749	 onlinedown.net	Software	6,800,000	0.4%	26,000,000	Yes
+750	 9ku.com	Music & Audio	6,800,000	0.4%	98,000,000	Yes
+751	 teacup.com	Forum & Chat Providers	6,800,000	0.4%	110,000,000	Yes
+752	 walgreens.com	Mass Merchants & Department Stores	6,800,000	0.4%	210,000,000	Yes
+753	 made-in-china.com	Business & Industrial	6,800,000	0.4%	61,000,000	Yes
+754	 usafis.org	Visa & Immigration	6,800,000	0.4%	16,000,000	No
+755	 ivillage.com	Web Portals	6,800,000	0.4%	67,000,000	Yes
+756	 letmewatchthis.ch	Online Video	6,800,000	0.4%	400,000,000	Yes
+757	 84232.com		6,800,000	0.4%	21,000,000	No
+758	 3suisses.fr	Apparel	6,800,000	0.4%	210,000,000	Yes
+759	 bodisparking.com	Arts & Entertainment	6,800,000	0.4%	23,000,000	Yes
+760	 oi.com.br	Web Portals	6,800,000	0.4%	210,000,000	Yes
+761	 nhaccuatui.com	Viet Nam	6,800,000	0.4%	310,000,000	Yes
+762	 logmein.com	Networking	6,800,000	0.4%	330,000,000	Yes
+763	 otomoto.pl	Vehicle Shopping	6,800,000	0.4%	540,000,000	Yes
+764	 xici.net	Online Communities	6,800,000	0.4%	120,000,000	Yes
+765	 sahibinden.com	Classifieds	6,800,000	0.4%	1,500,000,000	Yes
+766	 break.com	Humor	6,800,000	0.4%	110,000,000	Yes
+767	 bahn.de	Bus & Rail	6,800,000	0.4%	190,000,000	Yes
+768	 usmagazine.com	Celebrities & Entertainment News	6,800,000	0.4%	210,000,000	Yes
+769	 mappy.com	Maps	6,800,000	0.4%	96,000,000	Yes
+770	 euroresidentes.com	Web Portals	6,800,000	0.4%	41,000,000	Yes
+771	 wix.com	East Asian Music	6,800,000	0.4%	81,000,000	No
+772	 mobifiesta.com	Mobile Apps & Add-Ons	6,800,000	0.4%	42,000,000	Yes
+773	 xcar.com.cn	Autos & Vehicles	6,800,000	0.4%	270,000,000	Yes
+774	 yxdown.com	Online Games	6,800,000	0.4%	74,000,000	Yes
+775	 skysports.com	Sports News	6,800,000	0.4%	190,000,000	Yes
+776	 tinypic.com	Photo & Video Sharing	6,800,000	0.4%	38,000,000	Yes
+777	 uuu9.com	Online Games	6,800,000	0.4%	170,000,000	Yes
+778	 nasa.gov	Astronomy	6,800,000	0.4%	99,000,000	No
+779	 unkar.org	Forum & Chat Providers	6,800,000	0.4%	21,000,000	Yes
+780	 warnerbros.com	Film & TV Industry	6,800,000	0.4%	56,000,000	Yes
+781	 21cn.com	Web Portals	6,800,000	0.4%	73,000,000	Yes
+782	 battle.net	Online Games	6,800,000	0.4%	280,000,000	Yes
+783	 ebay.it	E-Commerce Services	6,800,000	0.4%	660,000,000	Yes
+784	 issuu.com	Software Utilities	6,700,000	0.4%	31,000,000	Yes
+785	 114la.com	Directories & Listings	6,700,000	0.4%	210,000,000	Yes
+786	 juegosdiarios.com	Casual Games	6,700,000	0.4%	250,000,000	Yes
+787	 irs.gov	Accounting & Auditing	6,700,000	0.4%	120,000,000	No
+788	 juchang.com	Arts & Entertainment	6,700,000	0.4%	73,000,000	Yes
+789	 kp.ru	News	6,700,000	0.4%	72,000,000	Yes
+790	 vsemtube.ru	Pregnancy & Maternity	6,700,000	0.4%	19,000,000	Yes
+791	 time.com	News	6,700,000	0.4%	81,000,000	Yes
+792	 aweber.com	Email & Messaging	6,700,000	0.4%	61,000,000	Yes
+793	 drugs.com	Health	6,700,000	0.4%	41,000,000	Yes
+794	 xilu.com	News	6,700,000	0.4%	170,000,000	Yes
+795	 cri.cn	News	6,700,000	0.4%	97,000,000	Yes
+796	 stumbleupon.com	Web Apps & Online Tools	6,700,000	0.4%	210,000,000	Yes
+797	 europa.eu	Multilateral Organizations	6,700,000	0.4%	96,000,000	No
+798	 xpg.com.br	Web Portals	6,700,000	0.4%	98,000,000	Yes
+799	 popcap.com	Casual Games	6,700,000	0.4%	45,000,000	Yes
+800	 yesky.com	Computers & Electronics	6,700,000	0.4%	73,000,000	Yes
+801	 impress.co.jp	Technology News	6,700,000	0.4%	89,000,000	Yes
+802	 exam8.com	Standardized & Admissions Tests	6,700,000	0.4%	89,000,000	Yes
+803	 chinadaily.com.cn	News	6,700,000	0.4%	41,000,000	Yes
+804	 gamezer.com	Massive Multiplayer	6,700,000	0.4%	130,000,000	Yes
+805	 pandora.tv	Arts & Entertainment	6,700,000	0.4%	130,000,000	Yes
+806	 dantri.com.vn	Southeast Asians & Pacific Islanders	6,700,000	0.4%	400,000,000	Yes
+807	 virginmedia.com	News	6,700,000	0.4%	330,000,000	Yes
+808	 udn.com	News	6,700,000	0.4%	190,000,000	Yes
+809	 piriform.com		6,700,000	0.4%	31,000,000	Yes
+810	 ria.ru	Online Image Galleries	6,700,000	0.4%	56,000,000	Yes
+811	 clickon.com.br	Coupons & Discount Offers	6,700,000	0.4%	38,000,000	Yes
+812	 disneylatino.com		6,700,000	0.4%	300,000,000	Yes
+813	 poco.cn	Photo & Image Sharing	6,700,000	0.4%	46,000,000	Yes
+814	 groupon.ru	Hotels & Accommodations	6,700,000	0.4%	50,000,000	Yes
+815	 xt918.com	Beauty & Fitness	6,700,000	0.4%	15,000,000	No
+816	 lloydstsb.com	Finance	6,700,000	0.4%	82,000,000	Yes
+817	 elpais.com	Newspapers	6,700,000	0.4%	210,000,000	Yes
+818	 pchome.com.tw	Web Portals	6,700,000	0.4%	300,000,000	Yes
+819	 hinet.net	Web Portals	6,700,000	0.4%	250,000,000	Yes
+820	 ya.ru	Search Engines	6,700,000	0.4%	80,000,000	Yes
+821	 hsbccreditcard.com	Credit Cards	6,700,000	0.4%	130,000,000	Yes
+822	 bedbathandbeyond.com	Bed & Bath	6,700,000	0.4%	160,000,000	No
+823	 information.com	Search Engines	6,700,000	0.4%	26,000,000	Yes
+824	 ea.com	Computer & Video Games	6,700,000	0.4%	98,000,000	Yes
+825	 htc.com	Mobile Phones	6,700,000	0.4%	74,000,000	Yes
+826	 aeriagames.com	Online Games	6,700,000	0.4%	50,000,000	Yes
+827	 nikkeibp.co.jp	Business News	6,700,000	0.4%	110,000,000	Yes
+828	 shockwave.com	Casual Games	6,700,000	0.4%	80,000,000	Yes
+829	 4738.com	Fashion & Style	6,700,000	0.4%	80,000,000	Yes
+830	 me.com	Mobile Apps & Add-Ons	6,700,000	0.4%	170,000,000	Yes
+831	 dion.ne.jp	ISPs	6,600,000	0.4%	62,000,000	Yes
+832	 nydailynews.com	Gossip & Tabloid News	6,600,000	0.4%	67,000,000	Yes
+833	 ziddu.com	Photo & Video Sharing	6,600,000	0.4%	66,000,000	Yes
+834	 playstation.com	Sony PlayStation	6,600,000	0.4%	80,000,000	Yes
+835	 aljazeera.net	Broadcast & Network News	6,200,000	0.4%	110,000,000	Yes
+836	 atwiki.jp	Web Hosting & Domain Registration	6,200,000	0.4%	190,000,000	Yes
+837	 snapdeal.com	Coupons & Discount Offers	6,200,000	0.4%	31,000,000	Yes
+838	 retailmenot.com	Coupons & Discount Offers	6,200,000	0.4%	31,000,000	Yes
+839	 poptropica.com	Virtual Worlds	6,200,000	0.4%	960,000,000	Yes
+840	 jimdo.com	Web Design & Development	6,200,000	0.4%	89,000,000	Yes
+841	 yoo7.com	Forum & Chat Providers	6,200,000	0.4%	41,000,000	Yes
+842	 wat.tv	Online Video	6,200,000	0.4%	50,000,000	Yes
+843	 cox.net	ISPs	6,200,000	0.4%	540,000,000	Yes
+844	 btjunkie.org	File Sharing & Hosting	6,200,000	0.4%	190,000,000	Yes
+845	 yaplog.jp	Blogging Resources & Services	6,200,000	0.4%	67,000,000	Yes
+846	 city-data.com	Real Estate	6,200,000	0.4%	35,000,000	Yes
+847	 gumtree.com	Classifieds	6,200,000	0.4%	370,000,000	Yes
+848	 85play.com	Games	6,200,000	0.4%	50,000,000	Yes
+849	 tomtom.com	GPS & Navigation	6,200,000	0.4%	130,000,000	Yes
+850	 bleacherreport.com	American Football	6,200,000	0.4%	270,000,000	Yes
+851	 usagc.org	Visa & Immigration	6,200,000	0.4%	19,000,000	Yes
+852	 yardbarker.com	American Football	6,200,000	0.4%	28,000,000	Yes
+853	 otto.de	Apparel	6,200,000	0.4%	370,000,000	No
+854	 playpickle.com	Games	6,200,000	0.4%	26,000,000	Yes
+855	 songs.pk	South Asian Music	6,200,000	0.4%	140,000,000	Yes
+856	 minijuegos.com	Casual Games	6,200,000	0.4%	160,000,000	Yes
+857	 drudgereport.com	Gossip & Tabloid News	6,200,000	0.4%	250,000,000	Yes
+858	 appspot.com	Web Apps & Online Tools	6,200,000	0.4%	45,000,000	Yes
+859	 pole-emploi.fr	Welfare & Unemployment	6,200,000	0.4%	800,000,000	No
+860	 moviefone.com	Movie Listings & Theater Showtimes	6,200,000	0.4%	74,000,000	Yes
+861	 cdiscount.com	Consumer Electronics	6,200,000	0.4%	210,000,000	Yes
+862	 sbs.co.kr	TV Networks & Stations	6,200,000	0.4%	130,000,000	Yes
+863	 att.net	Service Providers	6,200,000	0.4%	60,000,000	Yes
+864	 corriere.it	Newspapers	6,200,000	0.4%	450,000,000	Yes
+865	 barclays.co.uk	Banking	6,200,000	0.4%	410,000,000	Yes
+866	 wer-kennt-wen.de	Social Networks	6,200,000	0.4%	2,500,000,000	Yes
+867	 news.cn	Anime & Manga	6,200,000	0.4%	50,000,000	Yes
+868	 didigames.com	Dress-Up & Fashion Games	6,200,000	0.4%	260,000,000	Yes
+869	 5d6d.com	Movies	6,200,000	0.4%	89,000,000	Yes
+870	 cnbc.com	Business News	6,200,000	0.4%	210,000,000	Yes
+871	 edmunds.com	Vehicle Shopping	6,200,000	0.4%	72,000,000	Yes
+872	 766.com	Online Games	6,200,000	0.4%	74,000,000	Yes
+873	 newgrounds.com	Casual Games	6,200,000	0.4%	87,000,000	Yes
+874	 putlocker.com	Social Network Apps & Add-Ons	6,200,000	0.4%	210,000,000	No
+875	 qvc.com	Clothing Accessories	6,200,000	0.4%	500,000,000	No
+876	 letour.fr	Cycling	6,200,000	0.4%	99,000,000	Yes
+877	 shutterfly.com	Photo & Video Services	6,200,000	0.4%	340,000,000	Yes
+878	 stackoverflow.com	Programming	6,200,000	0.4%	51,000,000	Yes
+879	 rutracker.org		6,200,000	0.4%	310,000,000	Yes
+880	 oracle.com	Data Management	6,100,000	0.4%	110,000,000	Yes
+881	 immobilienscout24.de	Real Estate Listings	6,100,000	0.4%	490,000,000	Yes
+882	 gametop.com	Arts & Entertainment	6,100,000	0.4%	73,000,000	Yes
+883	 24quan.com	Coupons & Discount Offers	6,100,000	0.4%	42,000,000	No
+884	 adp.com	Human Resources	6,100,000	0.4%	490,000,000	No
+885	 archive.org	General Reference	6,100,000	0.4%	98,000,000	No
+886	 engadget.com	Consumer Electronics	6,100,000	0.4%	37,000,000	Yes
+887	 cheapoair.com	Travel	6,100,000	0.4%	88,000,000	Yes
+888	 buienradar.nl	Weather	6,100,000	0.4%	190,000,000	Yes
+889	 yaodian100.com	Apparel	6,100,000	0.4%	34,000,000	Yes
+890	 repubblica.it	Politics	6,100,000	0.4%	460,000,000	Yes
+891	 kbb.com	Motorcycles	6,100,000	0.4%	210,000,000	Yes
+892	 letsbonus.com		6,100,000	0.4%	61,000,000	Yes
+893	 weblio.jp	Dictionaries & Encyclopedias	6,100,000	0.4%	41,000,000	Yes
+894	 patch.com	Christianity	6,100,000	0.4%	60,000,000	Yes
+895	 wildtangent.com	Online Games	6,100,000	0.4%	50,000,000	Yes
+896	 ekolay.net	Web Portals	6,100,000	0.4%	370,000,000	Yes
+897	 nexon.com	Computer & Video Games	6,100,000	0.4%	600,000,000	Yes
+898	 buzzle.com	Web Portals	6,100,000	0.4%	26,000,000	Yes
+899	 kmart.com	Mass Merchants & Department Stores	6,100,000	0.4%	140,000,000	Yes
+900	 qqtn.com	Social Network Apps & Add-Ons	6,100,000	0.4%	55,000,000	Yes
+901	 shentime.com	Movies	6,100,000	0.4%	28,000,000	Yes
+902	 ovi.com	Mobile Apps & Add-Ons	6,100,000	0.4%	190,000,000	Yes
+903	 zumi.pl	Business & Personal Listings	6,100,000	0.4%	50,000,000	Yes
+904	 natwest.com	Banking	6,100,000	0.4%	130,000,000	Yes
+905	 peixeurbano.com.br	Coupons & Discount Offers	6,100,000	0.4%	80,000,000	Yes
+906	 soundcloud.com	Music Equipment & Technology	6,100,000	0.4%	73,000,000	No
+907	 interpark.com	Shopping	6,100,000	0.4%	230,000,000	No
+908	 hotpepper.jp	Dining Guides	6,100,000	0.4%	140,000,000	Yes
+909	 enfemenino.com	Women's Interests	6,100,000	0.4%	50,000,000	Yes
+910	 gry.pl	Flash-Based Entertainment	6,100,000	0.4%	400,000,000	Yes
+911	 fanpop.com	Celebrities & Entertainment News	6,100,000	0.4%	50,000,000	Yes
+912	 sony.jp	Computers & Electronics	6,100,000	0.4%	170,000,000	Yes
+913	 ilmeteo.it	Weather	6,100,000	0.4%	230,000,000	Yes
+914	 zwinky.com	Dress-Up & Fashion Games	6,100,000	0.4%	42,000,000	Yes
+915	 nationalgeographic.com	Magazines	6,100,000	0.4%	73,000,000	Yes
+916	 browserchoice.eu	Internet Clients & Browsers	6,100,000	0.4%	18,000,000	No
+917	 veoh.com	Online Video	6,100,000	0.4%	55,000,000	Yes
+918	 52pk.com	Online Games	6,100,000	0.4%	81,000,000	Yes
+919	 pnc.com	Finance	6,100,000	0.4%	120,000,000	Yes
+920	 intuit.com	Business Operations	6,100,000	0.4%	140,000,000	Yes
+921	 rightmove.co.uk	Real Estate Listings	6,100,000	0.4%	720,000,000	Yes
+922	 businessweek.com	Business & Industrial	6,100,000	0.4%	28,000,000	Yes
+923	 jxedt.com	Vehicle Licensing & Registration	6,100,000	0.4%	190,000,000	Yes
+924	 blinkx.com	Online Video	6,000,000	0.4%	120,000,000	Yes
+925	 xuite.net	Blogging Resources & Services	6,000,000	0.4%	97,000,000	Yes
+926	 viamichelin.fr	Maps	6,000,000	0.4%	61,000,000	Yes
+927	 azlyrics.com	Song Lyrics & Tabs	6,000,000	0.4%	28,000,000	Yes
+928	 cnmk.cc		6,000,000	0.4%	15,000,000	Yes
+929	 mashable.com	Technology News	6,000,000	0.4%	38,000,000	Yes
+930	 espncricinfo.com	Cricket	6,000,000	0.4%	160,000,000	Yes
+931	 zoosnet.net	Software	6,000,000	0.4%	46,000,000	No
+932	 trialpay.com	Merchant Services & Payment Systems	5,700,000	0.3%	34,000,000	Yes
+933	 chomikuj.pl	File Sharing & Hosting	5,700,000	0.3%	87,000,000	Yes
+934	 gifts.com	Gifts	5,700,000	0.3%	25,000,000	Yes
+935	 cbs.com	TV Shows & Programs	5,700,000	0.3%	80,000,000	Yes
+936	 geocities.co.jp	Web Hosting & Domain Registration	5,700,000	0.3%	37,000,000	Yes
+937	 rabobank.nl	Banking	5,700,000	0.3%	490,000,000	No
+938	 myplaycity.com	Casual Games	5,700,000	0.3%	67,000,000	Yes
+939	 grooveshark.com	Online Media	5,700,000	0.3%	160,000,000	Yes
+940	 xbox.com	Xbox	5,700,000	0.3%	110,000,000	Yes
+941	 pcworld.com	Technology News	5,700,000	0.3%	26,000,000	Yes
+942	 ztgame.com	E-Books	5,700,000	0.3%	26,000,000	No
+943	 pclady.com.cn	Fashion & Style	5,600,000	0.3%	120,000,000	Yes
+944	 bradesco.com.br	Banking	5,600,000	0.3%	280,000,000	Yes
+945	 autoscout24.de	Vehicle Shopping	5,600,000	0.3%	790,000,000	Yes
+946	 ing.nl	Investing	5,600,000	0.3%	410,000,000	No
+947	 mthai.com	Web Portals	5,600,000	0.3%	190,000,000	Yes
+948	 sony.com	Consumer Electronics	5,600,000	0.3%	81,000,000	Yes
+949	 webex.com	Teleconferencing	5,600,000	0.3%	88,000,000	Yes
+950	 gidepark.ru	Educational Resources	5,600,000	0.3%	20,000,000	Yes
+951	 searchina.ne.jp	News	5,600,000	0.3%	130,000,000	Yes
+952	 bancobrasil.com.br	Banking	5,600,000	0.3%	410,000,000	No
+953	 vkeke.com	Movies	5,600,000	0.3%	88,000,000	Yes
+954	 next.co.uk	Mass Merchants & Department Stores	5,600,000	0.3%	1,100,000,000	No
+955	 hsbc.co.uk	Banking	5,600,000	0.3%	490,000,000	Yes
+956	 198game.net	Games	5,600,000	0.3%	13,000,000	Yes
+957	 voyages-sncf.com	Bus & Rail	5,600,000	0.3%	210,000,000	Yes
+958	 allocine.fr	Movie Listings & Theater Showtimes	5,600,000	0.3%	97,000,000	Yes
+959	 cncn.com	Travel	5,600,000	0.3%	50,000,000	Yes
+960	 pagerage.com	Social Network Apps & Add-Ons	5,600,000	0.3%	130,000,000	Yes
+961	 submarino.com.br	Shopping Portals & Search Engines	5,600,000	0.3%	88,000,000	Yes
+962	 samsclub.com	Mass Merchants & Department Stores	5,600,000	0.3%	130,000,000	Yes
+963	 eonline.com	Arts & Entertainment	5,600,000	0.3%	130,000,000	Yes
+964	 partypoker.it		5,600,000	0.3%	31,000,000	Yes
+965	 webkinz.com	Simulation Games	5,600,000	0.3%	160,000,000	Yes
+966	 united.com	Air Travel	5,600,000	0.3%	130,000,000	Yes
+967	 dragonfable.com	Roleplaying Games	5,600,000	0.3%	18,000,000	Yes
+968	 giveawayoftheday.com	Software	5,600,000	0.3%	28,000,000	Yes
+969	 csdn.net	Computers & Electronics	5,600,000	0.3%	50,000,000	Yes
+970	 o2.pl	Web Portals	5,600,000	0.3%	210,000,000	Yes
+971	 worldstarhiphop.com	Rap & Hip-Hop	5,600,000	0.3%	250,000,000	Yes
+972	 iwon.com		5,600,000	0.3%	50,000,000	Yes
+973	 food.com	Cooking & Recipes	5,600,000	0.3%	37,000,000	Yes
+974	 theweathernetwork.com	Weather	5,600,000	0.3%	110,000,000	Yes
+975	 vietbao.vn	Newspapers	5,600,000	0.3%	61,000,000	Yes
+976	 redbox.com	DVD & Video Rentals	5,600,000	0.3%	110,000,000	No
+977	 jetblue.com	Air Travel	5,600,000	0.3%	130,000,000	Yes
+978	 windowslive.com.br	Email & Messaging	5,600,000	0.3%	32,000,000	No
+979	 lowermybills.com	Price Comparisons	5,600,000	0.3%	31,000,000	Yes
+980	 v8.cn		5,600,000	0.3%	11,000,000	No
+981	 readme.ru	News	5,600,000	0.3%	66,000,000	Yes
+982	 meishichina.com	Cooking & Recipes	5,600,000	0.3%	110,000,000	Yes
+983	 newhua.com	Software Utilities	5,600,000	0.3%	21,000,000	Yes
+984	 55tuan.com	Bus & Rail	5,600,000	0.3%	50,000,000	No
+985	 aoltv.com	Cartoons	5,600,000	0.3%	23,000,000	Yes
+986	 teamviewer.com	Software	5,600,000	0.3%	19,000,000	Yes
+987	 associatedcontent.com	General Reference	5,600,000	0.3%	25,000,000	Yes
+988	 wwe.com	Sports	5,600,000	0.3%	110,000,000	Yes
+989	 programas-gratis.net	Software	5,600,000	0.3%	34,000,000	Yes
+990	 king.com	Online Games	5,600,000	0.3%	970,000,000	Yes
+991	 letao.com	Footwear	5,600,000	0.3%	41,000,000	No
+992	 autotrader.co.uk	Vehicle Shopping	5,600,000	0.3%	490,000,000	Yes
+993	 rivals.com	College Sports	5,600,000	0.3%	190,000,000	Yes
+994	 pho.to	Photo & Video Software	5,500,000	0.3%	46,000,000	Yes
+995	 joins.com	People & Society	5,500,000	0.3%	130,000,000	Yes
+996	 chinaz.com	Search Engines	5,500,000	0.3%	160,000,000	Yes
+997	 wordpress.org	Blogging Resources & Services	5,500,000	0.3%	80,000,000	No
+998	 bankrate.com	Investing	5,500,000	0.3%	46,000,000	Yes
+999	 continental.com	Air Travel	5,500,000	0.3%	170,000,000	Yes
+1000	 tvguide.com	TV Shows & Programs	5,500,000	0.3%	61,000,000	Yes

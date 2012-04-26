@@ -8,3 +8,5 @@ cd docs && python compile.py && cd ..
 cd completions && python compile.py && cd ..
 cd SPLDB && python compiler.py && cd ..
 
+cd extended-completions && python parseattributes.py >html.min.json && cd ..
+cd extended-completions && python cssgen.py >css.min.json && cd ..

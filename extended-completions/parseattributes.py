@@ -9,6 +9,8 @@ d2 = open("tags.tsv", "r")
 reader = csv.reader(d, delimiter="\t")
 reader2 = csv.reader(d2, delimiter="\t")
 
+tophtml = json.loads(open("tophtmltags.json", "r").read())
+
 tags = {}
 for row in reader:
     # print row
@@ -153,16 +155,21 @@ snippets = {
 
 
 for t in sorted(list(tags)):
+    if t in tophtml:
+        tags[t]['popularity'] = tophtml[t]
+    else:
+        tags[t]['popularity'] = 0.0
+    
     if 'children' in tags[t]:
         # print t
         ch = tags[t]['children']
-        if t not in ['li', 'th', 'blockquote'] and ('flow' in ch or 'flow*' in ch or t in ['colgroup', 'hgroup', 'html', 'head', 'body', 'ol', 'ul', 'dl', 'style', 'select', 'optgroup', 'script', 'table', 'tbody', 'tfoot', 'thead', 'tr', 'div', 'datalist']):
+        if t not in ['li', 'th', 'blockquote', 'td', 'caption'] and ('flow' in ch or 'flow*' in ch or t in ['colgroup', 'hgroup', 'html', 'head', 'body', 'ol', 'ul', 'dl', 'style', 'select', 'optgroup', 'script', 'table', 'tbody', 'tfoot', 'thead', 'tr', 'th', 'div', 'datalist']):
             block_tags.append(t)
             tags[t]['kind'] = 'block'
         elif 'empty' in ch:
             empty_tags.append(t)
             tags[t]['kind'] = 'empty'
-        elif 'phrasing' in ch or 'phrasing*' in ch or 'transparent*' in ch or 'transparent' in ch or t in ['iframe', 'noscript', 'textarea', 'option', 'title']:
+        elif 'phrasing' in ch or 'phrasing*' in ch or 'transparent*' in ch or 'transparent' in ch or t in ['iframe', 'noscript', 'textarea', 'option', 'title', 'td', 'th', 'blockquote', 'li', 'caption']:
             inline_tags.append(t)
             tags[t]['kind'] = 'inline'
         else:
@@ -170,15 +177,16 @@ for t in sorted(list(tags)):
             # print '  ' + ', '.join(ch)
             
             unknown_tags.append(t)
-            tags[t]['kind'] = 'unknown'
+            tags[t]['kind'] = 'inline'
     
     if t in snippets:
         tags[t]['snippet'] = snippets[t]
 
-# print empty_tags
-# print block_tags
-# print inline_tags
-# print unknown_tags
+#print empty_tags
+#print block_tags
+#print inline_tags
+#print ''
+#print unknown_tags
 
 # pprint.pprint(tags)
 if isminified:

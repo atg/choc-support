@@ -47,8 +47,11 @@ for k in d.copy():
 #     print ''
 
 # keyvals = allvals & allkeys
-
-#for v in sorted(list(keyvals)):
+# allvals = set()
+# for k in d:
+#     for v in d[k]['values']:
+#         allvals.add(v)
+# for v in sorted(list(allvals)):
 #    print v
 
 
