@@ -10,6 +10,7 @@ reader = csv.reader(d, delimiter="\t")
 reader2 = csv.reader(d2, delimiter="\t")
 
 tophtml = json.loads(open("tophtmltags.json", "r").read())
+tophtmlattrs = json.loads(open("tophtmlattributes.json", "r").read())
 
 tags = {}
 for row in reader:
@@ -159,6 +160,16 @@ for t in sorted(list(tags)):
         tags[t]['popularity'] = tophtml[t]
     else:
         tags[t]['popularity'] = 0.0
+    
+    if 'attributes' not in tags[t]:
+        tags[t]['attributes'] = { }
+    
+    for a in list(tags[t]['attributes']):
+        attrdict = tags[t]['attributes'][a]
+        if a in tophtmlattrs:
+            attrdict['popularity'] = tophtmlattrs[a]
+        else:
+            attrdict['popularity'] = 0.0
     
     if 'children' in tags[t]:
         # print t

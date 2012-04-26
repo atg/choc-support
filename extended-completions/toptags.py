@@ -29,8 +29,12 @@ allcontent = [ open('topsitehtml/' + name, 'r').read() for name in os.listdir('t
 
 tallied = { }
 tags = []
+
+TAGS_RE = '<([a-zA-Z]+)[\s>]'
+ATTR_RE = ' ([a-zA-Z]+)=["\']'
+
 for content in allcontent:
-    contenttallied = dict(tally([x.lower() for x in re.findall('<([a-zA-Z]+)[\s>]', content)]))
+    contenttallied = dict(tally([x.lower() for x in re.findall(ATTR_RE, content)]))
     
     contenttallied = { k: logorzero(contenttallied[k]) for k in contenttallied }
     
