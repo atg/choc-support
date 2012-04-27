@@ -34,7 +34,6 @@
 
 (apply [variable.language, variable.other]
     Variable
-    (italic)
     (color [rgba(0.245127, 0.524299, 0.249063, 1.000000)]))
 
 (apply string
