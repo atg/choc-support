@@ -46,7 +46,8 @@
             "none", 
             "<uri>", 
             "inherit"
-        ]
+        ],
+        "snippet": "%{1=\"url('%{2}')\"}"
     }, 
     "background-position": {
         "values": [
@@ -421,7 +422,8 @@
             "none", 
             "<uri>", 
             "inherit"
-        ]
+        ],
+        "snippet": "%{1=\"url('%{2}')\"}"
     }, 
     "list-style-position": {
         "values": [
@@ -457,7 +459,7 @@
             "inherit", 
             "<margin-width>"
         ],
-        "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{4=\"left\"}\"}"
+        "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{5=\"left\"}\"}"
     }, 
     "margin-right margin-left": {
         "values": [
@@ -550,7 +552,7 @@
             "4", 
             "inherit"
         ],
-        "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{4=\"left\"}\"}"
+        "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{5=\"left\"}\"}"
     }, 
     "padding-top padding-right padding-bottom padding-left": {
         "values": [
