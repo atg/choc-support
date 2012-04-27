@@ -76,7 +76,7 @@
             "<border-style>", 
             "<border-width>"
         ],
-        "snippet": "%{1=\"%{2=\"1px\"} %{3=\"#000\"} %{4=\"solid\"} \"}"
+        "snippet": "%{1=\"%{2=\"1px\"} %{3=\"#000\"} %{4=\"solid\"}\"}"
     }, 
     "border-collapse": {
         "values": [
@@ -324,7 +324,8 @@
             "font-weight", 
             "line-height", 
             "icon"
-        ]
+        ],
+        "snippet": "%{1=\"%{2=\"style\"} %{3=\"size\"} %{4=\"family\"}\"}"
     }, 
     "font-family": {
         "values": [
@@ -455,7 +456,8 @@
             "4", 
             "inherit", 
             "<margin-width>"
-        ]
+        ],
+        "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{4=\"left\"}\"}"
     }, 
     "margin-right margin-left": {
         "values": [
@@ -547,7 +549,8 @@
             "<padding-width>", 
             "4", 
             "inherit"
-        ]
+        ],
+        "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{4=\"left\"}\"}"
     }, 
     "padding-top padding-right padding-bottom padding-left": {
         "values": [

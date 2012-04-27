@@ -76,7 +76,7 @@ snippets = {
     
     "input": '<input name="%{1}" type="%{0="text"}">',
     
-    "div": '<div class="%{1}">\n\t%{0}\n</div>',
+    "div": '<div %{1="class"}="%{2}">\n\t%{0}\n</div>',
     
     "span": '<span class="%{1}">%{0}</span>',
     
@@ -84,6 +84,8 @@ snippets = {
     
     "source": '<source src="%{0}">',
 
+    "img": '<img src="%{0}">',
+    
     "link": '<link href="%{1}" rel="%{2="stylesheet"}" type="%{3="text/css"}">',
     
     # ol
