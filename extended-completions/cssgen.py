@@ -11,6 +11,8 @@ def uniq(input):
 
 isminified = True
 
+topcss = json.loads(open("csstop.json", "r").read())
+
 f = open("css-original.json", "r")
 d = json.loads(f.read())
 
@@ -37,6 +39,14 @@ for k in d.copy():
     del d[k]
     for k2 in k.split():
         d[k2] = d2
+
+for k in list(d):
+    p = 0.0
+    if k in topcss:
+        p = topcss[k]
+    
+    d[k]['popularity'] = p
+
 
 # for k in d:
 #     allkeys.add(k)
