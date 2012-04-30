@@ -108,11 +108,12 @@ snippets = {
 \t<tr>%{0}</tr>
 </table>''',
     
+    # script
+    "script": '''<script>%{0}</script>''',
+    
     # style
     "style": '''<style>
-
 %{0}
-
 </style>''',
     
     
