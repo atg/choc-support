@@ -105,7 +105,7 @@ snippets = {
     
     # table
     "table": '''<table>
-\t<tr>%{0}</tr>
+\t%{0}
 </table>''',
     
     # script
@@ -118,7 +118,7 @@ snippets = {
     
     
     # form
-    "form": '''<form action="%{1}" method="%{2="post"}" accept-charset="utf-8">
+    "form": '''<form action="%{1}" method="%{2="post"}">
 \t%{0}
 \t<p><input type="submit" value="Next"></p>
 </form>''',
