@@ -115,7 +115,8 @@
             "inherit", 
             "<border-style>", 
             "<border-width>"
-        ]
+        ],
+        "snippet": "%{1=\"%{2=\"1px\"} %{3=\"#000\"} %{4=\"solid\"}\"}"
     }, 
     "border-top-color border-right-color border-bottom-color border-left-color": {
         "values": [
