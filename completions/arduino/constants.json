@@ -1,0 +1,29 @@
+{
+	"icon": "constant",
+	"type": "constant",
+	"selector": "constant.language.c",
+	"items": [
+		"HIGH",
+		"LOW",
+		"INPUT",
+		"OUTPUT",
+		"DEC",
+		"BIN",
+		"HEX",
+		"OCT",
+		"BYTE",
+		"PI",
+		"HALF_PI",
+		"TWO_PI",
+		"LSBFIRST",
+		"MSBFIRST",
+		"CHANGE",
+		"FALLING",
+		"RISING",
+		"DEFAULT",
+		"EXTERNAL",
+		"INTERNAL",
+		"INTERNAL1V1",
+		"INTERNAL2V56"
+	]
+}

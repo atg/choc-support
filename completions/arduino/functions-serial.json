@@ -1,0 +1,27 @@
+{
+	"icon": "function",
+	"type": "function",
+	"selector": "serial.arduino.function.c",
+	"items": [
+		"begin",
+		"end",
+		"peek",
+		"read",
+		"print",
+		"println",
+		"available",
+		"flush",
+		"write"
+	],
+	"prototypes": [
+		"begin(baud)",
+		"end()",
+		"peek()",
+		"read()",
+		"print(value)",
+		"println(value)",
+		"available()",
+		"flush()",
+		"write(value)"
+	]
+}

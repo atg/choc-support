@@ -1,0 +1,23 @@
+{
+	"icon": "function",
+	"type": "function",
+	"selector": "function.c",
+	"items": [
+		"bitRead",
+		"bitWrite",
+		"bitSet",
+		"bitClear",
+		"bit",
+		"highByte",
+		"lowByte"
+	],
+	"prototypes": [
+		"bitRead(x, n)",
+		"bitWrite(x, n, b)",
+		"bitSet(x, n)",
+		"bitClear(x, n)",
+		"bit(n)",
+		"highByte(x)",
+		"lowByte(x)"
+	]
+}
