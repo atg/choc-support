@@ -1,0 +1,31 @@
+{
+	"icon": "function",
+	"type": "function",
+	"selector": "stream.arduino.function.c",
+	"items": [
+		"available",
+		"read",
+		"flush",
+		"find",
+		"findUntil",
+		"peek",
+		"readBytes",
+		"readBytesUntil",
+		"parseInt",
+		"parseFloat",
+		"setTimeout"
+	],
+	"prototypes": [
+		"available()",
+		"read()",
+		"flush()",
+		"find(target)",
+		"findUntil(target, terminus)",
+		"peek()",
+		"readBytes(buffer, length)",
+		"readBytesUntil(character, buffer, length)",
+		"parseInt(list)",
+		"parseFloat(list)",
+		"setTimeout(time)"
+	]
+}

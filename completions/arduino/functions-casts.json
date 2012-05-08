@@ -1,0 +1,23 @@
+{
+	"icon": "function",
+	"type": "function",
+	"selector": "function.c",
+	"items": [
+		"boolean",
+		"byte",
+		"char",
+		"float",
+		"int",
+		"long",
+		"word"
+	],
+	"prototypes": [
+		"boolean(x)",
+		"byte(x)",
+		"char(x)",
+		"float(x)",
+		"int(x)",
+		"long(x)",
+		"word(x)"
+	]
+}
