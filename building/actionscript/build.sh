@@ -26,4 +26,4 @@ relativePath () {
 
 BUILD_PATH=`relativePath $CHOC_FILE_DIR $CHOC_BUILD_DIR`;
 
-mxmlc "$CHOC_FILE" -sp "$CHOC_FILE_DIR" -o "$BUILD_PATH/Main.swf" -static-link-runtime-shared-libraries=true;
+mxmlc "$CHOC_FILE" -sp "$CHOC_FILE_DIR" -o "$BUILD_PATH/$CHOC_FILENAME_NOEXT.swf" -static-link-runtime-shared-libraries=true;
