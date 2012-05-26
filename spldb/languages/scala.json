@@ -3,6 +3,9 @@
     
     "extensions": "scala",
     
+    "tab-width": 2,
+    "soft-tabs": true,
+
     "comment.line": "//",
     "comment.block.start": "/*",
     "comment.block.end": "*/"
