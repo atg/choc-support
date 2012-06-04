@@ -14,7 +14,7 @@ if [[ -f setup.py ]]; then
 else
     # while [[ "$PWD" != "$CHOC_PROJECT_DIR" ]]; do
     while [[ "$PWD" != "/" ]]; do
-        cd ..
+        cd .. || break
         
         if [[ -f setup.py ]]; then
             SETUP="$PWD/setup.py"
@@ -33,7 +33,7 @@ if [[ -f bin/activate ]]; then
 else
     # while [[ "$PWD" != "$CHOC_PROJECT_DIR" ]]; do
     while [[ "$PWD" != "/" ]]; do
-        cd ..
+        cd .. || break
         if [[ -f bin/activate ]]; then
             echo -e ">>> Activating virtual environment:\n>>>\t$PWD/bin/activate"
             source bin/activate
