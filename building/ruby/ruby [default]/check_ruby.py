@@ -3,7 +3,7 @@ import re
 import json
 
 def invoke():
-    output = str(commands.getoutput("""bash -cl 'ruby -c "$CHOC_FILE"'"""))
+    output = str(commands.getoutput("""sh -cl 'ruby -c "$CHOC_FILE"'"""))
     parse(output)
 
 def parse(output):
