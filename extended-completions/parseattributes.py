@@ -15,7 +15,7 @@ tophtmlattrs = json.loads(open("tophtmlattributes.json", "r").read())
 tags = {}
 for row in reader:
     # print row
-    valuedescription = row[3].strip()
+    valuedescription = row[3].strip() if len(row) >= 4 else ""
     attrvalues = []
     if 'oolean attribute' in valuedescription:
         attrvalues.append(row[0].strip())

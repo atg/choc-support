@@ -14,7 +14,13 @@ isminified = True
 topcss = json.loads(open("csstop.json", "r").read())
 
 f = open("css-original.json", "r")
-d = json.loads(f.read())
+fcss3 = open("css3-original.do-not-edit-by-hand.json", "r")
+
+d = json.loads(fcss3.read())
+# Prefer original ones to css3 ones
+d.update(json.loads(f.read()))
+
+
 
 recursive_values = ['background-attachment', 'background-color', 'background-image', 'background-position', 'background-repeat', 'cue-after', 'cue-before', 'font-family', 'font-size', 'font-style', 'font-weight', 'font-weight', 'line-height', 'list-style-image', 'list-style-position', 'list-style-type', 'outline-color', 'outline-style', 'outline-width']
 
