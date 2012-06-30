@@ -1,0 +1,107 @@
+(author [Alex Gordon, orig. Chris Thomas])
+
+(!default
+    (caret [rgba(1.000000, 1.000000, 1.000000, 1.000000)])
+    (selection [rgba(0.243000, 0.276000, 0.277000, 1.000000)])
+    (line-highlight [rgba(0.243000, 0.276000, 0.277000, 1.000000)])
+    (invisibles [rgba(0.500000, 0.500000, 0.500000, 1.000000)])
+    (bold)
+    (color [rgba(0.912411, 0.912586, 0.912381, 1.000000)])
+    (background [rgba(0.076215, 0.076229, 0.076212, 1.000000)]))
+
+(apply comment
+    Comment
+    (bold)
+    (color [rgba(0.376787, 0.347034, 0.374695, 1.000000)]))
+
+(apply [keyword, storage]
+    Keyword
+    (bold)
+    (color [rgba(0.968000, 0.856000, 0.486000, 1.000000)]))
+
+(apply constant.numeric
+    Number
+    (bold)
+    (color [rgba(0.469000, 0.426000, 0.770000, 1.000000)]))
+
+(apply constant
+    [User-defined constant]
+    (bold)
+    (color [rgba(0.512000, 0.754000, 0.343000, 1.000000)]))
+
+(apply constant.language
+    [Built-in constant]
+    (bold)
+    (color [rgba(0.587000, 0.837000, 0.948000, 1.000000)]))
+
+(apply [variable.language, variable.other]
+    Variable
+    (bold)
+    (color [rgba(0.912411, 0.912586, 0.912381, 1.000000)]))
+
+(apply string
+    String
+    (bold)
+    (color [rgba(0.893000, 0.505000, 0.506000, 1.000000)]))
+
+(apply [constant.character.escape, string source]
+    [String interpolation]
+    (bold)
+    (color [rgba(0.893000, 0.505000, 0.506000, 1.000000)])
+    (background [rgba(0.782577, 0.000000, 0.239700, 0.030000)]))
+
+(apply meta.preprocessor
+    [Preprocessor line]
+    (bold)
+    (color [rgba(0.778000, 0.488000, 0.284000, 1.000000)]))
+
+(apply keyword.control.import
+    [Preprocessor directive]
+    (bold)
+    (color [rgba(0.778000, 0.488000, 0.284000, 1.000000)]))
+
+(apply [entity.name.function, support.function.any-method]
+    [Function name]
+    (bold)
+    (color [rgba(0.512000, 0.754000, 0.343000, 1.000000)]))
+
+(apply entity.name.type
+    [Type name]
+    (bold)
+    (color [rgba(0.512000, 0.754000, 0.343000, 1.000000)]))
+
+(apply entity.other.inherited-class
+    [Inherited class name]
+    (bold)
+    (color [rgba(0.587000, 0.837000, 0.948000, 1.000000)]))
+
+(apply support.function
+    [Library function]
+    (bold)
+    (color [rgba(0.587000, 0.837000, 0.948000, 1.000000)]))
+
+(apply [support.class, support.type]
+    [Library object]
+    (bold)
+    (color [rgba(0.587000, 0.837000, 0.948000, 1.000000)]))
+
+(apply support.constant
+    [Library constant]
+    (bold)
+    (color [rgba(0.587000, 0.837000, 0.948000, 1.000000)]))
+
+(apply support.variable
+    [Library variable]
+    (bold)
+    (color [rgba(0.890000, 0.605000, 0.924000, 1.000000)]))
+
+(apply invalid
+    Invalid
+    (bold)
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)])
+    (background [rgba(0.600000, 0.000000, 0.000000, 1.000000)]))
+
+(apply invalid.deprecated.trailing-whitespace
+    [Invalid trailing whitespace]
+    (bold)
+    (background [rgba(1.000000, 0.815686, 0.815686, 1.000000)]))

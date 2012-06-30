@@ -143,3 +143,79 @@ value	meter; progress	 Current value of the element	Valid floating point number
 value	param	 Value of parameter	Text
 width	canvas; embed; iframe; img; input; object; video	 Horizontal dimension	Valid non-negative integer
 wrap	textarea	 How the value of the form control is to be wrapped for form submission	 "soft"; "hard"
+onabort	audio;embed;img;object;video	Media events
+oncanplay	audio;embed;img;object;video	Media events
+oncanplaythrough	audio;embed;img;object;video	Media events
+ondurationchange	audio;embed;img;object;video	Media events
+onemptied	audio;embed;img;object;video	Media events
+onended	audio;embed;img;object;video	Media events
+onerror	audio;embed;img;object;video	Media events
+onloadeddata	audio;embed;img;object;video	Media events
+onloadedmetadata	audio;embed;img;object;video	Media events
+onloadstart	audio;embed;img;object;video	Media events
+onpause	audio;embed;img;object;video	Media events
+onplay	audio;embed;img;object;video	Media events
+onplaying	audio;embed;img;object;video	Media events
+onprogress	audio;embed;img;object;video	Media events
+onratechange	audio;embed;img;object;video	Media events
+onreadystatechange	audio;embed;img;object;video	Media events
+onseeked	audio;embed;img;object;video	Media events
+onseeking	audio;embed;img;object;video	Media events
+onstalled	audio;embed;img;object;video	Media events
+onsuspend	audio;embed;img;object;video	Media events
+ontimeupdate	audio;embed;img;object;video	Media events
+onvolumechange	audio;embed;img;object;video	Media events
+onwaiting	audio;embed;img;object;video	Media events
+onclick	HTML elements	Basic event
+ondblclick	HTML elements	Basic event
+ondrag	HTML elements	Basic event
+ondragend	HTML elements	Basic event
+ondragenter	HTML elements	Basic event
+ondragleave	HTML elements	Basic event
+ondragover	HTML elements	Basic event
+ondragstart	HTML elements	Basic event
+ondrop	HTML elements	Basic event
+onmousedown	HTML elements	Basic event
+onmousemove	HTML elements	Basic event
+onmouseout	HTML elements	Basic event
+onmouseover	HTML elements	Basic event
+onmouseup	HTML elements	Basic event
+onmousewheel	HTML elements	Basic event
+onscroll	HTML elements	Basic event
+onkeydown	HTML elements	Basic event
+onkeypress	HTML elements	Basic event
+onkeyup	HTML elements	Basic event
+oncopy	HTML elements	Basic event
+oncut	HTML elements	Basic event
+onpaste	HTML elements	Basic event
+onblur	input;textarea;select;keygen	Input event
+onchange	input;textarea;select;keygen	Input event
+oncontextmenu	input;textarea;select;keygen	Input event
+onfocus	input;textarea;select;keygen	Input event
+onformchange	input;textarea;select;keygen	Input event
+onforminput	input;textarea;select;keygen	Input event
+oninput	input;textarea;select;keygen	Input event
+oninvalid	input;textarea;select;keygen	Input event
+onselect	input;textarea;select;keygen	Input event
+onsubmit	input;textarea;select;keygen	Input event
+onafterprint	body	Window event
+onbeforeprint	body	Window event
+onbeforeonload	body	Window event
+onblur	body	Window event
+onerror	body	Window event
+onfocus	body	Window event
+onhaschange	body	Window event
+onload	body	Window event
+onmessage	body	Window event
+onoffline	body	Window event
+ononline	body	Window event
+onpagehide	body	Window event
+onpageshow	body	Window event
+onpopstate	body	Window event
+onredo	body	Window event
+onresize	body	Window event
+onstorage	body	Window event
+onundo	body	Window event
+onunload	body	Window event
+oncontextmenu	body	Window event
+onhashchange	body	Window event
