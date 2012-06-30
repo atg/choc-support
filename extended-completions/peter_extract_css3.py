@@ -17,8 +17,10 @@ a = [x for x in a if not any([
 def dict_for_property(prop):
     
     # ADD PROPERTY SPECIFIC STUFF HERE
-    
-    return { "values": [] }
+    vals = []
+    if '-color' in prop:
+        vals.append("<color>")
+    return { "values": vals }
 
 j = { prop: dict_for_property(prop) for prop in a }
 
