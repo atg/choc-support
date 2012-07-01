@@ -72,7 +72,6 @@
     }, 
     "border": {
         "values": [
-            "border-top-color", 
             "inherit", 
             "<border-style>", 
             "<border-width>"
@@ -88,11 +87,9 @@
     }, 
     "border-color": {
         "values": [
-            "1", 
             "<color>", 
             "transparent", 
             "inherit", 
-            "4"
         ]
     }, 
     "border-spacing": {
@@ -103,15 +100,12 @@
     }, 
     "border-style": {
         "values": [
-            "1", 
             "inherit", 
-            "4", 
             "<border-style>"
         ]
     }, 
     "border-top border-right border-bottom border-left": {
         "values": [
-            "border-top-color", 
             "inherit", 
             "<border-style>", 
             "<border-width>"
@@ -139,8 +133,6 @@
     }, 
     "border-width": {
         "values": [
-            "1", 
-            "4", 
             "inherit", 
             "<border-width>"
         ]
@@ -171,7 +163,7 @@
     }, 
     "clip": {
         "values": [
-            "<shape>", 
+            "<rect>", 
             "auto", 
             "inherit"
         ]
@@ -455,8 +447,6 @@
     }, 
     "margin": {
         "values": [
-            "1", 
-            "4", 
             "inherit", 
             "<margin-width>"
         ],
@@ -548,9 +538,7 @@
     }, 
     "padding": {
         "values": [
-            "1", 
             "<padding-width>", 
-            "4", 
             "inherit"
         ],
         "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{5=\"left\"}\"}"
@@ -590,9 +578,7 @@
     }, 
     "pause": {
         "values": [
-            "1", 
             "inherit", 
-            "2", 
             "<time>", 
             "<percentage>"
         ]
@@ -627,7 +613,7 @@
             "<number>", 
             "inherit"
         ]
-    }, 
+    },
     "play-during": {
         "values": [
             "none", 
