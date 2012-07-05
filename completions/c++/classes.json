@@ -1,16 +1,19 @@
 {
   "icon": "class",
   "items": [
-  "std::vector",
-  "std::deque",
-  "std::list",
-  "std::stack",
-  "std::queue",
-  "std::priority_queue",
-  "std::set",
-  "std::multiset",
-  "std::map",
-  "std::multimap",
+  "std::string",
+  "std::basic_string<T>",
+  
+  "std::vector<T>",
+  "std::deque<T>",
+  "std::list<T>",
+  "std::stack<T>",
+  "std::queue<T>",
+  "std::priority_queue<T>",
+  "std::set<T>",
+  "std::multiset<T>",
+  "std::map<K, V>",
+  "std::multimap<K, V>",
   "std::bitset",
 
   "std::istream",
@@ -24,10 +27,44 @@
   "std::stringstream",
   "std::streambuf",
 
-  "std::complex",
+  "std::complex<T>",
   "std::exception",
   "std::locale",
-  "std::pair",
-  "std::tuple"
+  "std::pair<A, B>",
+  "std::tuple<T...>",
+
+  "std::tr1::unordered_map<K, V>",
+  "std::unordered_map<K, V>",
+  "std::tr1::unordered_set<T>",
+  "std::unordered_set<T>",
+  
+  "std::tr1::unordered_multimap<K, V>",
+  "std::unordered_multimap<K, V>",
+  "std::tr1::unordered_multiset<T>",
+  "std::unordered_multiset<T>",
+  
+  "std::tr1::shared_ptr<T>",
+  "std::shared_ptr<T>",
+  "std::tr1::weak_ptr<T>",
+  "std::weak_ptr<T>",
+  "std::tr1::unique_ptr<T>",
+  "std::unique_ptr<T>",
+  
+  
+  "std::array<T, N>",
+  "std::forward_list<T>",
+  "std::basic_regex",
+  "std::sub_match",
+  "std::match_results",
+  "std::regex_iterator",
+  "std::regex_token_iterator",
+  "std::regex_error",
+  "std::regex_token_iterator",
+  "std::regex_traits<T>",
+  
+  "std::thread",
+  "std::mutex",
+  
+  "std::function<R(T)>"
   ]
 }

@@ -18,8 +18,11 @@ Window events (<body>)
   onstorage
   onundo
   onunload
+  oncontextmenu
+  onhashchange
 
-(<form>, <input>)
+
+(<input>, <textarea>, <select>, <keygen>)
   onblur
   onchange
   oncontextmenu
@@ -54,6 +57,9 @@ Window events (<body>)
   onmouseup
   onmousewheel
   onscroll
+  oncopy
+  oncut
+  
 
 (audio, embed, img, object, video)
   onabort
