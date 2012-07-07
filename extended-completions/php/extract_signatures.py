@@ -16,6 +16,7 @@ j = {
     "items": [],
     "prototypes": [],
     "icon":"function",
+    "extendedConfidence": True,
 }
 r = "php-chunked-xhtml"
 for n in os.listdir(r):
