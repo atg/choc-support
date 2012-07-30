@@ -14,7 +14,7 @@ There are a limited number of allowed script names:
 
 * **run.sh** should run the file found in the environment variable `$CHOC_FILE`.
 * **repl.sh** should load the file found in the environment variable `$CHOC_FILE` into a repl.
-* **check.sh** should should perform syntactic (and optionally semantic) checking on the *standard input* passed to it (it's important that it uses *standard input* if possible and not `$CHOC_FILE` since we want to be able to check as the user is typing).
+* **check.sh** should should perform syntactic (and optionally semantic) checking on `$CHOC_FILE`.
 * **build.sh** should build the file found in the environment variable `$CHOC_FILE` and put its result into `$CHOC_BUILD_DIR`.
 * **debug.sh** should run the file found in the environment variable `$CHOC_FILE` under an interactive debugger.
 
