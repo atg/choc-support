@@ -89,7 +89,7 @@
         "values": [
             "<color>", 
             "transparent", 
-            "inherit", 
+            "inherit"
         ]
     }, 
     "border-spacing": {

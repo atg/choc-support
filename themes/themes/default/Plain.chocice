@@ -1,0 +1,160 @@
+(author [Alex Gordon, orig. Chris Thomas])
+
+(!default
+    (caret [rgba(0.000000, 0.000000, 0.000000, 1.000000)])
+    (selection [rgba(0.301961, 0.592157, 1.000000, 0.329412)])
+    (line-highlight [rgba(0.000000, 0.000000, 0.000000, 0.070588)])
+    (invisibles [rgba(0.749020, 0.749020, 0.749020, 1.000000)])
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)])
+    (background [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
+
+(apply comment
+    Comment
+    (italic)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply [keyword, storage]
+    Keyword
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply constant.numeric
+    Number
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply constant
+    [User-defined constant]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply constant.language
+    [Built-in constant]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply [variable.language, variable.other]
+    Variable
+    (italic)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply string
+    String
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply [constant.character.escape, string source]
+    [String interpolation]
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)])
+    (background [rgba(0.782577, 0.000000, 0.239700, 0.030000)]))
+
+(apply meta.preprocessor
+    [Preprocessor line]
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply keyword.control.import
+    [Preprocessor directive]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply [entity.name.function, support.function.any-method]
+    [Function name]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply entity.name.type
+    [Type name]
+    (underline))
+
+(apply entity.other.inherited-class
+    [Inherited class name]
+    (italic))
+
+(apply variable.parameter
+    [Function parameter]
+    (italic))
+
+(apply storage.type.method
+    [Function argument and result types]
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply [meta.section entity.name.section, declaration.section entity.name.section]
+    Section
+    (italic))
+
+(apply support.function
+    [Library function]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply [support.class, support.type]
+    [Library object]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply support.constant
+    [Library constant]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply support.variable
+    [Library variable]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply keyword.operator.js
+    [JS: Operator]
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply invalid
+    Invalid
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)])
+    (background [rgba(0.600000, 0.000000, 0.000000, 1.000000)]))
+
+(apply invalid.deprecated.trailing-whitespace
+    [Invalid trailing whitespace]
+    (background [rgba(1.000000, 0.815686, 0.815686, 1.000000)]))
+
+(apply [text source, string.unquoted]
+    [Embedded source]
+    (background [rgba(0.000000, 0.000000, 0.000000, 0.050980)]))
+
+(apply [text source string.unquoted, text source text source]
+    [Embedded embedded source]
+    (background [rgba(0.000000, 0.000000, 0.000000, 0.058824)]))
+
+(apply meta.tag.preprocessor.xml
+    [Markup XML declaration]
+    (color [rgba(0.407843, 0.407843, 0.356863, 1.000000)]))
+
+(apply [meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string]
+    [Markup DOCTYPE]
+    (color [rgba(0.533333, 0.533333, 0.533333, 1.000000)]))
+
+(apply string.quoted.docinfo.doctype.DTD
+    [Markup DTD]
+    (italic))
+
+(apply [meta.tag, declaration.tag]
+    [Markup tag]
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply entity.name.tag
+    [Markup name of tag]
+    (bold))
+
+(apply entity.other.attribute-name
+    [Markup tag attribute]
+    (italic))
+
+(apply markup.heading
+    [Markup: Heading]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply markup.quote
+    [Markup: Quote]
+    (italic)
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
+
+(apply markup.list
+    [Markup: List]
+    (color [rgba(0.000000, 0.000000, 0.000000, 1.000000)]))
