@@ -3,5 +3,5 @@
     
     "extensions": "sass",
     
-    "comment.line": "#"
+    "comment.line": "//"
 }
