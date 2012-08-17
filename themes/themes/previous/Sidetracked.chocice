@@ -1,93 +1,91 @@
-(name Sidetracked)
-
 (author [Nicholas Penree])
 
 (!default
-    (background 1A1A1A)
-    (color F8F8F8)
-    (caret FFFFFFA6)
-    (invisibles FFFFFF40)
-    (selection 38566F)
-    (line-highlight FFFFFF0F))
+    (caret [rgba(1.000000, 1.000000, 1.000000, 0.650980)])
+    (selection [rgba(0.219608, 0.337255, 0.435294, 1.000000)])
+    (line-highlight [rgba(1.000000, 1.000000, 1.000000, 0.100000)])
+    (invisibles [rgba(1.000000, 1.000000, 1.000000, 0.250980)])
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)])
+    (background [rgba(0.101961, 0.101961, 0.101961, 1.000000)]))
 
 (apply comment
     Comment
-    (color 6A5A3CDE))
+    (color [rgba(0.415686, 0.352941, 0.235294, 0.870588)]))
 
 (apply constant
     Constant
-    (color D8B778))
+    (color [rgba(0.847059, 0.717647, 0.470588, 1.000000)]))
 
 (apply entity
     Entity
-    (color 658AAF))
+    (color [rgba(0.396078, 0.541176, 0.686275, 1.000000)]))
 
 (apply keyword
     Keyword
-    (color C87936))
+    (color [rgba(0.784314, 0.474510, 0.211765, 1.000000)]))
 
 (apply storage
     Storage
-    (color C87936))
+    (color [rgba(0.784314, 0.474510, 0.211765, 1.000000)]))
 
 (apply [string, meta.verbatim]
     String
-    (color A4C261))
+    (color [rgba(0.643137, 0.760784, 0.380392, 1.000000)]))
 
 (apply support
     Support
-    (color 658AAF))
+    (color [rgba(0.396078, 0.541176, 0.686275, 1.000000)]))
 
 (apply variable
     Variable
-    (color FFFFFF))
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
 
 (apply invalid.deprecated
     [Invalid – Deprecated]
-    (color AB2A1D)
-    (italic))
+    (italic)
+    (color [rgba(0.670588, 0.164706, 0.113725, 1.000000)]))
 
 (apply invalid.illegal
     [Invalid – Illegal]
-    (color F8F8F8)
-    (background 9D1E15))
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)])
+    (background [rgba(0.615686, 0.117647, 0.082353, 1.000000)]))
 
 (apply entity.other.inherited-class
     Superclass
-    (color FF6400)
-    (italic))
+    (italic)
+    (color [rgba(1.000000, 0.392157, 0.000000, 1.000000)]))
 
 (apply [string constant.other.placeholder]
     [String interpolation]
-    (color FF6400))
+    (color [rgba(1.000000, 0.392157, 0.000000, 1.000000)]))
 
 (apply meta.function-call.py
     meta.function-call.py
-    (color BECDE6))
+    (color [rgba(0.745098, 0.803922, 0.901961, 1.000000)]))
 
 (apply [meta.tag, meta.tag entity]
     meta.tag
-    (color 7F90AA))
+    (color [rgba(0.498039, 0.564706, 0.666667, 1.000000)]))
 
 (apply entity.name.section
     entity.name.section
-    (color FFFFFF))
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
 
 (apply keyword.type.variant
     [OCaml variant]
-    (color D5E0F3))
+    (color [rgba(0.835294, 0.878431, 0.952941, 1.000000)]))
 
 (apply [source.ocaml keyword.operator.symbol]
     [OCaml operator]
-    (color F8F8F8))
+    (color [rgba(0.972549, 0.972549, 0.972549, 1.000000)]))
 
 (apply [source.ocaml keyword.operator.symbol.infix]
     [OCaml infix operator]
-    (color 8DA6CE))
+    (color [rgba(0.552941, 0.650980, 0.807843, 1.000000)]))
 
 (apply [source.ocaml keyword.operator.symbol.prefix]
     [OCaml prefix operator]
-    (color 8DA6CE))
+    (color [rgba(0.552941, 0.650980, 0.807843, 1.000000)]))
 
 (apply [source.ocaml keyword.operator.symbol.infix.floating-point]
     [OCaml f-p infix operator]
@@ -103,16 +101,67 @@
 
 (apply [text.tex.latex meta.function.environment]
     [LaTeX environment]
-    (background FFFFFF08))
+    (background [rgba(1.000000, 1.000000, 1.000000, 0.031373)]))
 
 (apply [text.tex.latex meta.function.environment meta.function.environment]
     [LaTeX environment (nested)]
-    (background 7A96FA08))
+    (background [rgba(0.478431, 0.588235, 0.980392, 0.031373)]))
 
 (apply [text.tex.latex support.function]
     [Latex support]
-    (color E90EFB))
+    (color [rgba(0.913725, 0.054902, 0.984314, 1.000000)]))
 
 (apply [source.plist string.unquoted, source.plist keyword.operator]
     [PList unquoted string]
-    (color FFFFFF))
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
+
+(apply [html.markdown.text definition.list_item.markdown.punctuation]
+    [Markdown List Punctuation]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 0.550000)]))
+
+(apply [html.markdown.text markdown.markup.raw]
+    [Markdown Raw]
+    (color [rgba(0.569356, 0.093745, 0.554583, 0.640000)]))
+
+(apply [html.markdown.text heading.markdown.markup definition.heading.markdown.punctuation]
+    [Markdown Header Punctuation]
+    (bold)
+    (color [rgba(0.000000, 0.000000, 0.000000, 0.550000)]))
+
+(apply [html.markdown.text heading.markdown.markup]
+    [Markdown Header]
+    (bold)
+    (color [rgba(0.396078, 0.541176, 0.686275, 1.000000)]))
+
+(apply [html.markdown.text link.markdown.markup]
+    [Markdown Link]
+    (underline)
+    (color [rgba(0.441397, 0.573910, 0.948793, 1.000000)]))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
+
+(apply bold
+    (bold))
+
+(apply italic
+    (italic))
+
+(apply underline
+    (underline))
