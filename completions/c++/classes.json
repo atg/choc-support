@@ -64,7 +64,25 @@
   
   "std::thread",
   "std::mutex",
+  "std::timed_mutex",
+  "std::recursive_mutex",
+  "std::recursive_timed_mutex",
+  "std::lock_guard<Mutex>",
+  "std::unique_lock<Mutex>",
+  "std::future<T>",
+  "std::promise<T>",
+  "std::condition_variable",
+  "std::condition_variable_any",
   
-  "std::function<R(T)>"
+  "std::function<R(T)>",
+  
+  "std::chrono::time_point<Clock>",
+  "std::chrono::system_clock",
+  "std::chrono::steady_clock",
+  "std::chrono::high_resolution_clock",
+  "std::chrono::duration<T>",
+  
+  "std::allocator<T>"
+  
   ]
 }

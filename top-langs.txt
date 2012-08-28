@@ -1,0 +1,89 @@
+Non-Programming:
+  plain
+  markdown
+  html
+  haml
+  textile
+  restructuredtext
+  
+  css
+  less
+  sass
+  scss
+  
+  json
+  
+  xml
+  yaml
+  ini
+  
+  latex
+  tex
+  
+
+Programming:
+  js
+  ruby
+  python
+  shell
+  java
+  php
+  c
+  c++
+  perl
+  objc
+  objc++
+  coffee
+  csharp
+  haskell
+  scala
+  (asm)
+  (actionscript)
+  lua
+  prolog
+  groovy
+  clojure
+  d
+  erlang
+  r
+  lisp
+  go
+  scheme
+  (vb)
+  matlab
+  rust
+  (supercollider)
+  tcl
+  (puppet)
+  ocaml
+  arduino
+  fortran
+  (delphi)
+  (coldfusion)
+  fsharp
+  smalltalk
+  verilog
+  ada
+  racket
+  vhdl
+  objj
+  io
+  ml
+  eiffel
+  coq
+  nemerle
+  dart
+  arc
+  rebol
+  dcpu
+  nu
+  factor
+  dylan
+  julia
+  kotlin
+  self
+  ioke
+  
+  applescript
+  pascal
+

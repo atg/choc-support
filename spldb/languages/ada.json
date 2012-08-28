@@ -1,0 +1,7 @@
+{
+    "name": "Ada",
+    
+    "extensions": ["ada"],
+    
+    "comment.line": "--"
+}
