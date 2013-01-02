@@ -23,6 +23,9 @@ languages = {}
 for d in os.listdir("."):
    if not os.path.isdir(d):
       continue
+   if d.startswith("_old"):
+      continue
+   
    for p in os.listdir(d):
       path = os.path.join(d, p)
       # Get the file's name
