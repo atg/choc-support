@@ -1,0 +1,70 @@
+[python assert]
+assert {0}
+
+[python class]
+class {1}({2=object}):
+	{0}
+
+[python def]
+def {1}({2}):
+	{0}
+
+[python del]
+del {1}[{2}]{0}
+
+[python elif]
+elif {1}:
+	{0}
+
+[python else]
+else:
+	{0}
+
+[python except]
+except {0}:
+	traceback.print_exc()
+
+[python finally]
+finally:
+	{0}
+	
+[python for]
+for {1} in {2}:
+	{0}
+
+[python from]
+from {1} import {0}
+
+[python global]
+global {0}
+
+[python if]
+if {1}:
+	{0}
+
+[python import]
+import {0}
+
+[python lambda]
+lambda {1=x}: {0}
+
+[python not]
+not {0}
+
+[python raise]
+raise {0}
+
+[python return]
+return {0}
+
+[python try]
+try:
+	{0}
+
+[python while]
+while {1}:
+	{0}
+
+[python with]
+with {1}:
+	{0}

@@ -1,0 +1,84 @@
+[c break]
+break;{0}
+
+[c case]
+case {1}:
+	{0}
+	break;
+
+[c continue]
+continue;{0}
+
+[c default]
+default:
+	{0}
+
+[c do]
+do {
+	{0}
+} while ({1});
+
+[c else]
+else {
+	{0}
+}
+
+[c else]
+else if ({1}){0}
+
+[c enum]
+enum {
+	{0}
+}
+
+[c typedef enum]
+typedef enum {
+	{0}
+} {1};
+
+[c for]
+for ({1}; {2}; {3}) {
+	{0}
+}
+
+[c goto]
+goto {1};{0}
+
+[c if]
+if ({1}){0}
+
+[c return]
+return {1};{0}
+
+[c struct]
+struct {1} {
+	{0}
+};
+
+[c typedef struct]
+typedef struct {
+	{0}
+} {1};
+
+[c switch]
+switch ({1}) {
+	{0}
+}
+
+[c typedef]
+typedef {1} {0};
+
+[c union]
+union {1} {
+	{0}
+};
+
+[c typedef union]
+typedef union {
+	{0}
+} {1};
+
+[c while]
+while ({1}) {
+	{0}
+}
