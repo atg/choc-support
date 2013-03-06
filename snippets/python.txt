@@ -21,8 +21,8 @@ else:
 	{0}
 
 [python except]
-except {0}:
-	traceback.print_exc()
+except {1="Exception"}:
+	traceback.print_exc(){0}
 
 [python finally]
 finally:
