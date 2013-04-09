@@ -1,0 +1,15 @@
+{
+	"laxcomma": true,
+	"laxbreak": true,
+	"eqnull": true,
+	
+	"es5": true,
+	"esnext": true,
+	"iterator": true,
+	"multistr": true,
+	"scripturl": true,
+	"smarttabs": true,
+	"supernew": true,
+	
+	"asi": true
+}
