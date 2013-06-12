@@ -1,6 +1,7 @@
 [
   {
     "name": "Clojure",
-    "google": "clojure.org"
+    "home": "http://clojure.org/",
+    "search": "http://clojuredocs.org/search?q=%%"
   }
 ]
