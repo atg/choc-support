@@ -1,0 +1,49 @@
+[ruby begin]
+begin
+	{0}
+end
+
+[ruby case]
+case {1}
+{0}
+end
+
+[ruby class]
+class {1}
+	{0}
+end
+
+[ruby def]
+def {1}
+	{0}
+end
+
+[ruby do]
+do{1}
+	{0}
+end
+
+[ruby if]
+if {1}
+	{0}
+end
+
+[ruby module]
+module {1}
+	{0}
+end
+
+[ruby unless]
+unless {1}
+	{0}
+end
+
+[ruby until]
+until {1}
+	{0}
+end
+
+[ruby while]
+while {1}
+	{0}
+end

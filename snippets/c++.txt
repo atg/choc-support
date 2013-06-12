@@ -1,0 +1,119 @@
+[c++ asm]
+asm("{1}");{0}
+
+[c++ break]
+break;{0}
+
+[c++ case]
+case {1}:
+    {0}
+    break;
+
+[c++ catch]
+catch ({1}) {
+    {0}
+}
+
+[c++ class]
+class {1} {
+    {0}
+};
+
+[c++ const_cast]
+const_cast<{1}>({0})
+
+[c++ continue]
+continue;{0}
+
+[c++ default]
+default:
+    {0}
+
+[c++ do]
+do {
+    {0}
+} while ({1});
+
+[c++ dynamic_cast]
+dynamic_cast<{1}>({0})
+
+[c else if]
+else if ({1}){0}
+
+[c++ enum]
+enum {1} {
+    {0}
+};
+
+[c++ enum class]
+enum class {1} {
+    {0}
+};
+
+[c++ for]
+for ({1}) {
+    {0}
+}
+
+[c++ goto]
+goto {1};{0}
+
+[c++ if]
+if ({1}){0}
+
+[c++ namespace]
+namespace {1} {
+{0}
+}
+
+[c++ reinterpret_cast]
+reinterpret_cast<{1}>({0})
+
+[c++ return]
+return {1};{0}
+
+[c++ static_assert]
+static_assert({1});{0}
+
+[c++ static_cast]
+static_cast<{1}>({0})
+
+[c++ struct]
+struct {1} {
+    {0}
+};
+
+[c++ switch]
+switch ({1}) {
+{0}
+}
+
+[c++ template]
+template<{1}>{0}
+
+[c++ throw]
+throw {1};{0}
+
+[c++ try]
+try {
+    {0}
+}
+
+[c++ typedef]
+typedef {1} {0};
+
+[c++ union]
+union {1} {
+    {0}
+};
+
+[c++ using]
+using {1} = {0};
+
+[c++ using namespace]
+using namespace {1};{0}
+
+[c++ while]
+while ({1}) {
+    {0}
+}

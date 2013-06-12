@@ -1,0 +1,93 @@
+[js break]
+break;{0}
+
+[js case]
+case {1}:
+	{0}
+	break;
+
+[js catch]
+catch ({1}) {
+	{0}
+}
+
+[js continue]
+continue;{0}
+
+[js debugger]
+debugger;{0}
+
+[js default]
+default:
+	{0}
+
+[js delete]
+delete {1};{0}
+
+[js do]
+do {
+	{0}
+} while ({1});
+
+[js else if]
+else if ({1}){0}
+
+[js finally]
+finally {
+	{0}
+}
+
+[js for]
+for ({1}) {
+	{0}
+}
+
+[js function]
+function {1}({2}) {
+	{0}
+}
+
+[js f]
+function({1}) {{0}}
+
+[js if]
+if ({1}){0}
+
+[js new]
+new {1}({0})
+
+[js return]
+return {1};{0}
+
+[js switch]
+switch ({1}) {
+{0}
+}
+
+[js throw]
+throw {1};{0}
+
+[js try]
+try {
+	{0}
+}
+
+[js typeof]
+typeof {1} === {0}
+
+[js var]
+var {1};{0}
+
+[js while]
+while ({1}) {
+	{0}
+}
+
+[js let]
+let {1};{0}
+
+[js yield]
+yield {1};{0}
+
+[js const]
+const {1};{0}

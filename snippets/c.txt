@@ -18,18 +18,13 @@ do {
 	{0}
 } while ({1});
 
-[c else]
-else {
-	{0}
-}
-
-[c else]
+[c else if]
 else if ({1}){0}
 
 [c enum]
-enum {
+enum {1} {
 	{0}
-}
+};
 
 [c typedef enum]
 typedef enum {
@@ -62,7 +57,7 @@ typedef struct {
 
 [c switch]
 switch ({1}) {
-	{0}
+{0}
 }
 
 [c typedef]

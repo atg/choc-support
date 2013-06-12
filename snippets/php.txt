@@ -1,0 +1,135 @@
+[php break]
+break;{0}
+
+[php case]
+case {1}:
+	{0}
+	break;
+
+[php catch]
+catch ({1}) {
+	{0}
+}
+
+[php class]
+class {1} {
+	{0}
+}
+
+[php continue]
+continue;{0}
+
+[php declare]
+declare ({1}){0}
+
+[php default]
+default:
+	{0}
+
+[php do]
+do {
+	{0}
+} while ({1});
+
+[php echo]
+echo {1};{0}
+
+[php elseif]
+elseif{0}
+
+[php else if]
+else if ({1}){0}
+
+[php enddeclare]
+enddeclare;{0}
+
+[php endfor]
+endfor;{0}
+
+[php endforeach]
+endforeach;{0}
+
+[php endif]
+endif;{0}
+
+[php endswitch]
+endswitch;{0}
+
+[php endwhile]
+endwhile;{0}
+
+[php for]
+for ({1}; {2}; {3}) {
+	{0}
+}
+
+[php foreach]
+foreach ({1} as {2}) {
+	{0}
+}
+
+[php function]
+function {1}({2}) {
+	{0}
+}
+
+[php f]
+function({2}) {{0}}
+
+[php global]
+global {1};{0}
+
+[php goto]
+goto {1};{0}
+
+[php if]
+if ({1}){0}
+
+[php include]
+include '{1}';{0}
+
+[php include_once]
+include_once '{1}';{0}
+
+[php interface]
+interface {1} {
+	{0}
+}
+
+[php new]
+new {1}({2}){0}
+
+[php require]
+require '{1}';{0}
+
+[php require_once]
+require_once '{1}';{0}
+
+[php return]
+return {1};{0}
+
+[php switch]
+switch ({1}) {
+{0}
+}
+
+[php throw]
+throw {1};{0}
+
+[php trait]
+trait {1} {
+	{0}
+}
+
+[php try]
+try {1} {
+	{0}
+}
+
+[php var]
+var {1};{0}
+
+[php while]
+while ({1}) {
+	{0}
+}
