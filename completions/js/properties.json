@@ -94,7 +94,7 @@
         , "index"
         , "innerHeight"
         , "innerHTML"
-        , "innerTEXT"
+        , "innerText"
         , "innerWidth"
         , "keyCode"
         , "lang"
