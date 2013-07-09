@@ -13,17 +13,18 @@ module.exports = {
           type = 'error'; break;
       }
       
-      if (error.reason.indexOf('Expected') !== -1 || error.reason.indexOf('Expected') !== -1) {
-          type = 'error'
+      if (error.reason.indexOf('Expected') !== -1 || error.reason.indexOf('Unmatched') !== -1) {
+        type = 'error';
       }
-      if (error.reason.indexOf('Expected a conditional expression and instead saw an assignment') !== -1) {
-          type = 'warning'
+      
+      if (error.code === 'W015' || error.code === 'W084') {
+        type = 'warning';
       }
       
       output.push({
         path: '',
         line: error.line,
-        message: error.reason,
+        message: error.reason + ' (' + error.code + ')',
         column: '' + error.character,
         type: type
       });
