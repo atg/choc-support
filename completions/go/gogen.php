@@ -9,7 +9,7 @@ $src = file_get_contents("go1.1.txt");
 genSource("go1.1_", $src);
 
 function createFile($fpref, $name, $contents) {
-	$out = '{' . "\n    " . '"extendedConfidence": false,' . "\n    " . '"items": [';
+	$out = '{' . "\n    " . '"extendedConfidence": true,' . "\n    " . '"items": [';
 	$pref = "\n";
 	foreach ($contents as $func) {
 		list($fn, $o) = explode("(", $func, 2);

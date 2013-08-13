@@ -1,5 +1,5 @@
 {
-    "extendedConfidence": false,
+    "extendedConfidence": true,
     "items": [
         "AllocsPerRun",
         "Verbose"
