@@ -1,0 +1,37 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "After",
+        "AfterFunc",
+        "Date",
+        "FixedZone",
+        "LoadLocation",
+        "NewTicker",
+        "NewTimer",
+        "Now",
+        "Parse",
+        "ParseDuration",
+        "Since",
+        "Sleep",
+        "Tick",
+        "Unix"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any After ( Duration )",
+        " any AfterFunc ( Duration , func() )",
+        " any Date ( int , Month , int , int , int , int , int , *Location )",
+        " any FixedZone ( string , int )",
+        " any LoadLocation ( string )",
+        " any NewTicker ( Duration )",
+        " any NewTimer ( Duration )",
+        " any Now (  )",
+        " any Parse ( string , string )",
+        " any ParseDuration ( string )",
+        " any Since ( Time )",
+        " any Sleep ( Duration) )",
+        " any Tick ( Duration )",
+        " any Unix ( int64 , int64 )"
+    ],
+    "prefix": "time."
+}

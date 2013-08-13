@@ -1,0 +1,11 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Stop"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Stop ( chan<- os.Signal) )"
+    ],
+    "prefix": "os."
+}

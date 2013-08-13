@@ -1,0 +1,21 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Init",
+        "Pop",
+        "Push",
+        "Remove",
+        "New",
+        "New"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Init ( Interface) )",
+        " any Pop ( Interface )",
+        " any Push ( Interface , interface{}) )",
+        " any Remove ( Interface , int )",
+        " any New (  )",
+        " any New ( int )"
+    ],
+    "prefix": "container."
+}

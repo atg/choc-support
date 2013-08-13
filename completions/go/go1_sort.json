@@ -1,0 +1,33 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Float64s",
+        "Float64sAreSorted",
+        "Ints",
+        "IntsAreSorted",
+        "IsSorted",
+        "Search",
+        "SearchFloat64s",
+        "SearchInts",
+        "SearchStrings",
+        "Sort",
+        "Strings",
+        "StringsAreSorted"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Float64s ( []float64) )",
+        " any Float64sAreSorted ( []float64 )",
+        " any Ints ( []int) )",
+        " any IntsAreSorted ( []int )",
+        " any IsSorted ( Interface )",
+        " any Search ( int , func(int )",
+        " any SearchFloat64s ( []float64 , float64 )",
+        " any SearchInts ( []int , int )",
+        " any SearchStrings ( []string , string )",
+        " any Sort ( Interface) )",
+        " any Strings ( []string) )",
+        " any StringsAreSorted ( []string )"
+    ],
+    "prefix": "sort."
+}

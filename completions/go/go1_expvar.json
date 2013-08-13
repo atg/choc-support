@@ -1,0 +1,23 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Do",
+        "Get",
+        "NewFloat",
+        "NewInt",
+        "NewMap",
+        "NewString",
+        "Publish"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Do ( func(KeyValue)) )",
+        " any Get ( string )",
+        " any NewFloat ( string )",
+        " any NewInt ( string )",
+        " any NewMap ( string )",
+        " any NewString ( string )",
+        " any Publish ( string , Var) )"
+    ],
+    "prefix": "expvar."
+}

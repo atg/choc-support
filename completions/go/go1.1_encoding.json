@@ -1,0 +1,11 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "EscapeText"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any EscapeText ( io.Writer , []uint8 )"
+    ],
+    "prefix": "encoding."
+}

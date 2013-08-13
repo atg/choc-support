@@ -1,0 +1,15 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Alignof",
+        "Offsetof",
+        "Sizeof"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Alignof ( ArbitraryType )",
+        " any Offsetof ( ArbitraryType )",
+        " any Sizeof ( ArbitraryType )"
+    ],
+    "prefix": "unsafe."
+}

@@ -1,0 +1,41 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Checksum",
+        "New",
+        "Checksum",
+        "ChecksumIEEE",
+        "MakeTable",
+        "New",
+        "NewIEEE",
+        "Update",
+        "Checksum",
+        "MakeTable",
+        "New",
+        "Update",
+        "New32",
+        "New32a",
+        "New64",
+        "New64a"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Checksum ( []uint8 )",
+        " any New (  )",
+        " any Checksum ( []uint8 , *Table )",
+        " any ChecksumIEEE ( []uint8 )",
+        " any MakeTable ( uint32 )",
+        " any New ( *Table )",
+        " any NewIEEE (  )",
+        " any Update ( uint32 , *Table , []uint8 )",
+        " any Checksum ( []uint8 , *Table )",
+        " any MakeTable ( uint64 )",
+        " any New ( *Table )",
+        " any Update ( uint64 , *Table , []uint8 )",
+        " any New32 (  )",
+        " any New32a (  )",
+        " any New64 (  )",
+        " any New64a (  )"
+    ],
+    "prefix": "hash."
+}

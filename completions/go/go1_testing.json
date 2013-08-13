@@ -1,0 +1,41 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Benchmark",
+        "Main",
+        "RunBenchmarks",
+        "RunExamples",
+        "RunTests",
+        "Short",
+        "DataErrReader",
+        "HalfReader",
+        "NewReadLogger",
+        "NewWriteLogger",
+        "OneByteReader",
+        "TimeoutReader",
+        "TruncateWriter",
+        "Check",
+        "CheckEqual",
+        "Value"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Benchmark ( func(*B) )",
+        " any Main ( func(string , string )",
+        " any RunBenchmarks ( func(string , string )",
+        " any RunExamples ( func(string , string )",
+        " any RunTests ( func(string , string )",
+        " any Short (  )",
+        " any DataErrReader ( io.Reader )",
+        " any HalfReader ( io.Reader )",
+        " any NewReadLogger ( string , io.Reader )",
+        " any NewWriteLogger ( string , io.Writer )",
+        " any OneByteReader ( io.Reader )",
+        " any TimeoutReader ( io.Reader )",
+        " any TruncateWriter ( io.Writer , int64 )",
+        " any Check ( interface{} , *Config )",
+        " any CheckEqual ( interface{} , interface{} , *Config )",
+        " any Value ( reflect.Type , *rand.Rand )"
+    ],
+    "prefix": "testing."
+}

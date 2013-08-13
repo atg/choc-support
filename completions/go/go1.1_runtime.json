@@ -1,0 +1,19 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "BlockProfile",
+        "SetBlockProfileRate",
+        "FreeOSMemory",
+        "ReadGCStats",
+        "SetGCPercent"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any BlockProfile ( []BlockProfileRecord )",
+        " any SetBlockProfileRate ( int) )",
+        " any FreeOSMemory ( ) )",
+        " any ReadGCStats ( *GCStats) )",
+        " any SetGCPercent ( int )"
+    ],
+    "prefix": "runtime."
+}

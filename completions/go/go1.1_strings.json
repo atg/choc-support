@@ -1,0 +1,13 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "TrimPrefix",
+        "TrimSuffix"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any TrimPrefix ( string , string )",
+        " any TrimSuffix ( string , string )"
+    ],
+    "prefix": "strings."
+}

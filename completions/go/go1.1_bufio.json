@@ -1,0 +1,19 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "NewScanner",
+        "ScanBytes",
+        "ScanLines",
+        "ScanRunes",
+        "ScanWords"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any NewScanner ( io.Reader )",
+        " any ScanBytes ( []uint8 , bool )",
+        " any ScanLines ( []uint8 , bool )",
+        " any ScanRunes ( []uint8 , bool )",
+        " any ScanWords ( []uint8 , bool )"
+    ],
+    "prefix": "bufio."
+}

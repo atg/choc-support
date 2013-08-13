@@ -1,0 +1,11 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "ValidRune"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any ValidRune ( int32 )"
+    ],
+    "prefix": "unicode."
+}

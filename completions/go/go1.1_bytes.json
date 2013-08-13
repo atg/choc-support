@@ -1,0 +1,13 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "TrimPrefix",
+        "TrimSuffix"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any TrimPrefix ( []uint8 , []uint8 )",
+        " any TrimSuffix ( []uint8 , []uint8 )"
+    ],
+    "prefix": "bytes."
+}

@@ -1,0 +1,17 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "Open",
+        "Register",
+        "IsScanValue",
+        "IsValue"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any Open ( string , string )",
+        " any Register ( string , driver.Driver) )",
+        " any IsScanValue ( interface{} )",
+        " any IsValue ( interface{} )"
+    ],
+    "prefix": "database."
+}

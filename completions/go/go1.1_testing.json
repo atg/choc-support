@@ -1,0 +1,13 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "AllocsPerRun",
+        "Verbose"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any AllocsPerRun ( int , func() )",
+        " any Verbose (  )"
+    ],
+    "prefix": "testing."
+}

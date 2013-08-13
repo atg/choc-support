@@ -1,0 +1,11 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "New"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any New ( []uint8 )"
+    ],
+    "prefix": "index."
+}

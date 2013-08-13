@@ -1,0 +1,19 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "ChanOf",
+        "MakeFunc",
+        "MapOf",
+        "Select",
+        "SliceOf"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any ChanOf ( ChanDir , Type )",
+        " any MakeFunc ( Type , func([]Value )",
+        " any MapOf ( Type , Type )",
+        " any Select ( []SelectCase )",
+        " any SliceOf ( Type )"
+    ],
+    "prefix": "reflect."
+}

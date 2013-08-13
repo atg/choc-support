@@ -1,0 +1,11 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "FileInfoHeader"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any FileInfoHeader ( os.FileInfo , string )"
+    ],
+    "prefix": "archive."
+}

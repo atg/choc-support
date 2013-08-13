@@ -1,0 +1,11 @@
+{
+    "extendedConfidence": false,
+    "items": [
+        "ParseInLocation"
+    ],
+    "icon": "function",
+    "prototypes": [
+        " any ParseInLocation ( string , string , *Location )"
+    ],
+    "prefix": "time."
+}
