@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["ScanBytes","ScanLines","ScanRunes","ScanWords"],"prototypes":[" any ScanBytes ( data []byte , atEOF bool )"," any ScanLines ( data []byte , atEOF bool )"," any ScanRunes ( data []byte , atEOF bool )"," any ScanWords ( data []byte , atEOF bool )"],"prefix":"bufio."}

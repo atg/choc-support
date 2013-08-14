@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["EscapeString","UnescapeString"],"prototypes":[" any EscapeString ( s string )"," any UnescapeString ( s string )"],"prefix":"html."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Alignof","Offsetof","Sizeof"],"prototypes":[" any Alignof ( v ArbitraryType )"," any Offsetof ( v ArbitraryType )"," any Sizeof ( v ArbitraryType )"],"prefix":"unsafe."}

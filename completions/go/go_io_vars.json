@@ -1,0 +1,1 @@
+{"icon":"variable","type":"variable","extendedConfidence":true,"items":["EOF","ErrClosedPipe","ErrNoProgress","ErrShortBuffer","ErrShortWrite","ErrUnexpectedEOF"],"prefix":"io."}
