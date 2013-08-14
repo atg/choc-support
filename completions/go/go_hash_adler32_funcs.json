@@ -1,1 +1,1 @@
-{"icon":"function","extendedConfidence":true,"items":["Checksum","New"],"prototypes":[" any Checksum ( data []byte )"," any New (  )"],"prefix":"hash."}
+{"icon":"function","extendedConfidence":true,"items":["Checksum","New"],"prototypes":[" any Checksum ( data []byte )"," any New (  )"],"prefix":"adler32."}

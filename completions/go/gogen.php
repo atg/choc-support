@@ -15,7 +15,7 @@ foreach ($packages as $package) {
 	
 	//Get Name
 	$name = explode("/", $package);
-	$name = $name[count($package) - 1];
+	$name = $name[count($name) - 1];
 	
 	$fname = "go_" . implode("_", explode("/", $package));
 	
@@ -24,12 +24,11 @@ foreach ($packages as $package) {
 		$pr = array();
 		foreach ($docs->funcs as $k => $v) {
 			array_push($functions, $k);
-			$v = explode(") ", $v);
+			$v = explode(") ", $v . " ", 2);
 			$v = $v[0];
 			
 			list($fn, $o) = explode("(", $v, 2);
 			$fp = implode(" , ", explode(", ", $o));
-			
 			array_push($pr, " any " . $k . " ( " . $fp . " )");
 		}
 		$fs = array(

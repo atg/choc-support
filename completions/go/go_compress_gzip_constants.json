@@ -1,1 +1,1 @@
-{"icon":"constant","type":"constant","extendedConfidence":true,"items":["NoCompression","BestSpeed","BestCompression","DefaultCompression"],"prefix":"compress."}
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["NoCompression","BestSpeed","BestCompression","DefaultCompression"],"prefix":"gzip."}
