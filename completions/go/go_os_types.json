@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["File","FileInfo","FileMode","LinkError","PathError","ProcAttr","Process","ProcessState","Signal","SyscallError"],"prefix":"os."}

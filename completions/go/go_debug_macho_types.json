@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["Cpu","Dylib","DylibCmd","Dysymtab","DysymtabCmd","File","FileHeader","FormatError","Load","LoadBytes","LoadCmd","Nlist32","Nlist64","Regs386","RegsAMD64","Section","Section32","Section64","SectionHeader","Segment","Segment32","Segment64","SegmentHeader","Symbol","Symtab","SymtabCmd","Thread","Type"],"prefix":"macho."}

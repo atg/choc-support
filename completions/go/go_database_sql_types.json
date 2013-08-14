@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["DB","NullBool","NullFloat64","NullInt64","NullString","RawBytes","Result","Row","Rows","Scanner","Stmt","Tx"],"prefix":"sql."}

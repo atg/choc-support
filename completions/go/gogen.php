@@ -43,6 +43,18 @@ foreach ($packages as $package) {
 		file_put_contents($fname . "_funcs.json", json_encode($fs));
 	}
 	
+	if (isset($docs->types)) {
+		$types = array(
+			"icon" => "class",
+			"extendedConfidence" => true,
+			"items" => $docs->types
+		);
+		if ($name != "builtin") {
+			$types["prefix"] = $name . ".";
+		}
+		file_put_contents($fname . "_types.json", json_encode($types));
+	}
+	
 	if (isset($docs->vars)) {
 		$vars = array(
 			"icon" => "variable",

@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["ByteReader","ByteScanner","ByteWriter","Closer","LimitedReader","PipeReader","PipeWriter","ReadCloser","ReadSeeker","ReadWriteCloser","ReadWriteSeeker","ReadWriter","Reader","ReaderAt","ReaderFrom","RuneReader","RuneScanner","SectionReader","Seeker","WriteCloser","WriteSeeker","Writer","WriterAt","WriterTo"],"prefix":"io."}

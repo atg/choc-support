@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["BlockProfileRecord","Error","Func","MemProfileRecord","MemStats","StackRecord","TypeAssertionError"],"prefix":"runtime."}

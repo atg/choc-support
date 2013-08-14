@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["Client","CloseNotifier","Cookie","CookieJar","Dir","File","FileSystem","Flusher","Handler","HandlerFunc","Header","Hijacker","ProtocolError","Request","Response","ResponseWriter","RoundTripper","ServeMux","Server","Transport"],"prefix":"http."}

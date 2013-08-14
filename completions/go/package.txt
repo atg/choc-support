@@ -23,5 +23,12 @@
 
 ---------------------------------------
 
+*/}}{{with .Types}}
+    "types": [{{range .}}
+        "{{.Name}}",{{end}}REMOVE_COMMA_END_OF_LINE
+    ],{{end}}{{/*
+
+---------------------------------------
+
 */}}REMOVE_COMMA_END_OF_LINE{{end}}{{end}}
 }
