@@ -1,0 +1,34 @@
+{ {{with .PDoc}}{{if $.IsMain}}{{else}}{{/*
+
+---------------------------------------
+
+*/}}{{with .Funcs}}
+    "funcs": { {{range .}}
+        "{{.Decl.Name}}": "{{node $ .Decl}}",{{end}}REMOVE_COMMA_END_OF_LINE
+    },{{end}}{{/*
+
+---------------------------------------
+
+*/}}{{with .Consts}}
+    "const": [{{range .}}{{range .Names}}
+        "{{.}}",{{end}}{{end}}REMOVE_COMMA_END_OF_LINE
+    ],{{end}}{{/*
+
+---------------------------------------
+
+*/}}{{with .Vars}}
+    "vars": [{{range .}}{{range .Names}}
+        "{{.}}",{{end}}{{end}}REMOVE_COMMA_END_OF_LINE
+    ],{{end}}{{/*
+
+---------------------------------------
+
+*/}}{{with .Types}}
+    "types": [{{range .}}
+        "{{.Name}}",{{end}}REMOVE_COMMA_END_OF_LINE
+    ],{{end}}{{/*
+
+---------------------------------------
+
+*/}}REMOVE_COMMA_END_OF_LINE{{end}}{{end}}
+}

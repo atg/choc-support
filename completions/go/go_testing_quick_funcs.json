@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Check","CheckEqual","Value"],"prototypes":[" any Check ( function interface{} , config *Config )"," any CheckEqual ( f , g interface{} , config *Config )"," any Value ( t reflect.Type , rand *rand.Rand )"],"prefix":"quick."}

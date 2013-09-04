@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["NewCipher"],"prototypes":[" any NewCipher ( key []byte )"],"prefix":"aes."}

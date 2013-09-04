@@ -1,0 +1,1 @@
+{"icon":"variable","type":"variable","extendedConfidence":true,"items":["IPv4bcast","IPv4allsys","IPv4allrouter","IPv4zero","IPv6zero","IPv6unspecified","IPv6loopback","IPv6interfacelocalallnodes","IPv6linklocalallnodes","IPv6linklocalallrouters","ErrWriteToConnected"],"prefix":"net."}

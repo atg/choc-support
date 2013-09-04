@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["FreeOSMemory","PrintStack","ReadGCStats","SetGCPercent","Stack"],"prototypes":[" any FreeOSMemory (  )"," any PrintStack (  )"," any ReadGCStats ( stats *GCStats )"," any SetGCPercent ( percent int )"," any Stack (  )"],"prefix":"debug."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Init","Pop","Push","Remove"],"prototypes":[" any Init ( h Interface )"," any Pop ( h Interface )"," any Push ( h Interface , x interface{} )"," any Remove ( h Interface , i int )"],"prefix":"heap."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["RegisterFormat"],"prototypes":[" any RegisterFormat ( name , magic string , decode func(io.Reader )"],"prefix":"image."}

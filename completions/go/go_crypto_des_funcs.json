@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["NewCipher","NewTripleDESCipher"],"prototypes":[" any NewCipher ( key []byte )"," any NewTripleDESCipher ( key []byte )"],"prefix":"des."}

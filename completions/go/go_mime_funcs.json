@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["AddExtensionType","FormatMediaType","ParseMediaType","TypeByExtension"],"prototypes":[" any AddExtensionType ( ext , typ string )"," any FormatMediaType ( t string , param map[string]string )"," any ParseMediaType ( v string )"," any TypeByExtension ( ext string )"],"prefix":"mime."}

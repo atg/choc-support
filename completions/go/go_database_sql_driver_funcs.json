@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["IsScanValue","IsValue"],"prototypes":[" any IsScanValue ( v interface{} )"," any IsValue ( v interface{} )"],"prefix":"driver."}

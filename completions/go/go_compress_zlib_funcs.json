@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["NewReader","NewReaderDict"],"prototypes":[" any NewReader ( r io.Reader )"," any NewReaderDict ( r io.Reader , dict []byte )"],"prefix":"zlib."}

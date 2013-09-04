@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Checksum","New","Update"],"prototypes":[" any Checksum ( data []byte , tab *Table )"," any New ( tab *Table )"," any Update ( crc uint64 , tab *Table , p []byte )"],"prefix":"crc64."}

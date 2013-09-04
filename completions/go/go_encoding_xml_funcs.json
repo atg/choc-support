@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Escape","EscapeText","Marshal","MarshalIndent","Unmarshal"],"prototypes":[" any Escape ( w io.Writer , s []byte )"," any EscapeText ( w io.Writer , s []byte )"," any Marshal ( v interface{} )"," any MarshalIndent ( v interface{} , prefix , indent string )"," any Unmarshal ( data []byte , v interface{} )"],"prefix":"xml."}

@@ -1,0 +1,1 @@
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["EI_CLASS","EI_DATA","EI_VERSION","EI_OSABI","EI_ABIVERSION","EI_PAD","EI_NIDENT","ARM_MAGIC_TRAMP_NUMBER","ELFMAG","Sym32Size","Sym64Size"],"prefix":"elf."}

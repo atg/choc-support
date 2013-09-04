@@ -1,0 +1,1 @@
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["ScanIdents","ScanInts","ScanFloats","ScanChars","ScanStrings","ScanRawStrings","ScanComments","SkipComments","GoTokens","EOF","Ident","Int","Float","Char","String","RawString","Comment","GoWhitespace"],"prefix":"scanner."}

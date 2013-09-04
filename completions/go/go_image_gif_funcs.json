@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Decode","DecodeConfig"],"prototypes":[" any Decode ( r io.Reader )"," any DecodeConfig ( r io.Reader )"],"prefix":"gif."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Request","RequestFromMap","Serve"],"prototypes":[" any Request (  )"," any RequestFromMap ( params map[string]string )"," any Serve ( handler http.Handler )"],"prefix":"cgi."}

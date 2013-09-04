@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Copy","CopyN","ReadAtLeast","ReadFull","WriteString"],"prototypes":[" any Copy ( dst Writer , src Reader )"," any CopyN ( dst Writer , src Reader , n int64 )"," any ReadAtLeast ( r Reader , buf []byte , min int )"," any ReadFull ( r Reader , buf []byte )"," any WriteString ( w Writer , s string )"],"prefix":"io."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Copy","DeepEqual","Select"],"prototypes":[" any Copy ( dst , src Value )"," any DeepEqual ( a1 , a2 interface{} )"," any Select ( cases []SelectCase )"],"prefix":"reflect."}

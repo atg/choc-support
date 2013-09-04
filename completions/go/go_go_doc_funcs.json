@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Examples","Synopsis","ToHTML","ToText"],"prototypes":[" any Examples ( files ...*ast.File )"," any Synopsis ( s string )"," any ToHTML ( w io.Writer , text string , words map[string]string )"," any ToText ( w io.Writer , text string , indent , preIndent string , width int )"],"prefix":"doc."}

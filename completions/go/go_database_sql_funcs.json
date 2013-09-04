@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Register"],"prototypes":[" any Register ( name string , driver driver.Driver )"],"prefix":"sql."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["NewDecoder","NewEncoder"],"prototypes":[" any NewDecoder ( enc *Encoding , r io.Reader )"," any NewEncoder ( enc *Encoding , w io.Writer )"],"prefix":"base32."}

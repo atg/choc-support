@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["NewLogger"],"prototypes":[" any NewLogger ( p Priority , logFlag int )"],"prefix":"syslog."}

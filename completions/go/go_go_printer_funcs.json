@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Fprint"],"prototypes":[" any Fprint ( output io.Writer , fset *token.FileSet , node interface{} )"],"prefix":"printer."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["RGBToYCbCr","YCbCrToRGB"],"prototypes":[" any RGBToYCbCr ( r , g , b uint8 )"," any YCbCrToRGB ( y , cb , cr uint8 )"],"prefix":"color."}

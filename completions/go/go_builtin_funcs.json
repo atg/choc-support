@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["append","close","delete","panic","recover"],"prototypes":[" any append ( slice []Type , elems ...Type )"," any close ( c chan<- Type )"," any delete ( m map[Type]Type1 , key Type )"," any panic ( v interface{} )"," any recover (  )"]}

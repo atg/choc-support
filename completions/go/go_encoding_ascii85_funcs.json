@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Decode","Encode","MaxEncodedLen","NewDecoder","NewEncoder"],"prototypes":[" any Decode ( dst , src []byte , flush bool )"," any Encode ( dst , src []byte )"," any MaxEncodedLen ( n int )"," any NewDecoder ( r io.Reader )"," any NewEncoder ( w io.Writer )"],"prefix":"ascii85."}

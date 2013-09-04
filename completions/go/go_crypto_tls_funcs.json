@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Listen","NewListener"],"prototypes":[" any Listen ( network , laddr string , config *Config )"," any NewListener ( inner net.Listener , config *Config )"],"prefix":"tls."}

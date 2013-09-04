@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Decode","DecodeRune","Encode","EncodeRune","IsSurrogate"],"prototypes":[" any Decode ( s []uint16 )"," any DecodeRune ( r1 , r2 rune )"," any Encode ( s []rune )"," any EncodeRune ( r rune )"," any IsSurrogate ( r rune )"],"prefix":"utf16."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Serve"],"prototypes":[" any Serve ( l net.Listener , handler http.Handler )"],"prefix":"fcgi."}

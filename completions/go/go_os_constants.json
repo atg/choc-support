@@ -1,0 +1,1 @@
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["O_RDONLY","O_WRONLY","O_RDWR","O_APPEND","O_CREATE","O_EXCL","O_SYNC","O_TRUNC","SEEK_SET","SEEK_CUR","SEEK_END","PathSeparator","PathListSeparator","DevNull"],"prefix":"os."}

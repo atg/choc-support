@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["SendMail"],"prototypes":[" any SendMail ( addr string , a Auth , from string , to []string , msg []byte )"],"prefix":"smtp."}

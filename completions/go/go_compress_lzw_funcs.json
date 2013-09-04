@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["NewReader","NewWriter"],"prototypes":[" any NewReader ( r io.Reader , order Order , litWidth int )"," any NewWriter ( w io.Writer , order Order , litWidth int )"],"prefix":"lzw."}

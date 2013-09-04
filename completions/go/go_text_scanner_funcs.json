@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["TokenString"],"prototypes":[" any TokenString ( tok rune )"],"prefix":"scanner."}

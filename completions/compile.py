@@ -15,6 +15,8 @@ subprocess.call("cd python && python modulegen.py", shell=True)
 print("Generating Ruby")
 subprocess.call("cd ruby && ruby rubyharvest.rb", shell=True)
 
+print("Generating Go")
+subprocess.call("cd go && php gogen.php", shell=True)
 
 # 1. Read all the files in languages/
 amalgs = []

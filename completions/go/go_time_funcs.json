@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["After","Sleep","Tick"],"prototypes":[" any After ( d Duration )"," any Sleep ( d Duration )"," any Tick ( d Duration )"],"prefix":"time."}
