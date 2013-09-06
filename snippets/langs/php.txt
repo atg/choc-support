@@ -1,74 +1,77 @@
-[php break]
+[^php break]
 break;{0}
 
-[php case]
+[^php case]
 case {1}:
 	{0}
 	break;
 
-[php catch]
+[^php catch]
 catch ({1}) {
 	{0}
 }
 
-[php class]
+[^php class]
 class {1} {
 	{0}
 }
 
-[php continue]
+[^php continue]
 continue;{0}
 
-[php declare]
+[^php declare]
 declare ({1}){0}
 
-[php default]
+[^php default]
 default:
 	{0}
 
-[php do]
+[^php do]
 do {
 	{0}
 } while ({1});
 
-[php echo]
+[^php echo]
 echo {1};{0}
 
-[php elseif]
+[^php else]
+else{0}
+
+[^php elseif]
 elseif{0}
 
-[php else if]
+[^php else if]
 else if ({1}){0}
 
-[php enddeclare]
+[^php enddeclare]
 enddeclare;{0}
 
-[php endfor]
+[^php endfor]
 endfor;{0}
 
-[php endforeach]
+[^php endforeach]
 endforeach;{0}
 
-[php endif]
+[^php endif]
 endif;{0}
 
-[php endswitch]
+[^php endswitch]
 endswitch;{0}
 
-[php endwhile]
+[^php endwhile]
 endwhile;{0}
 
-[php for]
+[^php for]
 for ({1}; {2}; {3}) {
 	{0}
 }
 
-[php foreach]
+[^php foreach]
 foreach ({1} as {2}) {
 	{0}
 }
 
-[php function]
+[^php function]
 function {1}({2}) {
 	{0}
 }
@@ -76,22 +79,22 @@ function {1}({2}) {
 [php f]
 function({2}) {{0}}
 
-[php global]
+[^php global]
 global {1};{0}
 
-[php goto]
+[^php goto]
 goto {1};{0}
 
-[php if]
+[^php if]
 if ({1}){0}
 
-[php include]
+[^php include]
 include '{1}';{0}
 
-[php include_once]
+[^php include_once]
 include_once '{1}';{0}
 
-[php interface]
+[^php interface]
 interface {1} {
 	{0}
 }
@@ -99,37 +102,37 @@ interface {1} {
 [php new]
 new {1}({2}){0}
 
-[php require]
+[^php require]
 require '{1}';{0}
 
-[php require_once]
+[^php require_once]
 require_once '{1}';{0}
 
-[php return]
+[^php return]
 return {1};{0}
 
-[php switch]
+[^php switch]
 switch ({1}) {
 {0}
 }
 
-[php throw]
+[^php throw]
 throw {1};{0}
 
-[php trait]
+[^php trait]
 trait {1} {
 	{0}
 }
 
-[php try]
+[^php try]
 try {1} {
 	{0}
 }
 
-[php var]
+[^php var]
 var {1};{0}
 
-[php while]
+[^php while]
 while ({1}) {
 	{0}
 }

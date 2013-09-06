@@ -1,79 +1,82 @@
-[c break]
+[^c break]
 break;{0}
 
-[c case]
+[^c case]
 case {1}:
 	{0}
 	break;
 
-[c continue]
+[^c continue]
 continue;{0}
 
-[c default]
+[^c default]
 default:
 	{0}
 
-[c do]
+[^c do]
 do {
 	{0}
 } while ({1});
 
-[c else if]
+[^c else]
+else{0}
+
+[^c else if]
 else if ({1}){0}
 
-[c enum]
+[^c enum]
 enum {1} {
 	{0}
 };
 
-[c typedef enum]
+[^c typedef enum]
 typedef enum {
 	{0}
 } {1};
 
-[c for]
+[^c for]
 for ({1}; {2}; {3}) {
 	{0}
 }
 
-[c goto]
+[^c goto]
 goto {1};{0}
 
-[c if]
+[^c if]
 if ({1}){0}
 
-[c return]
+[^c return]
 return {1};{0}
 
-[c struct]
+[^c struct]
 struct {1} {
 	{0}
 };
 
-[c typedef struct]
+[^c typedef struct]
 typedef struct {
 	{0}
 } {1};
 
-[c switch]
+[^c switch]
 switch ({1}) {
 {0}
 }
 
-[c typedef]
+[^c typedef]
 typedef {1} {0};
 
-[c union]
+[^c union]
 union {1} {
 	{0}
 };
 
-[c typedef union]
+[^c typedef union]
 typedef union {
 	{0}
 } {1};
 
-[c while]
+[^c while]
 while ({1}) {
 	{0}
 }

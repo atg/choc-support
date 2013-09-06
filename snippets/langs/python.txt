@@ -1,48 +1,48 @@
-[python assert]
+[^python assert]
 assert {0}
 
-[python class]
+[^python class]
 class {1}({2=object}):
 	{0}
 
-[python def]
+[^python def]
 def {1}({2}):
 	{0}
 
-[python del]
+[^python del]
 del {1}[{2}]{0}
 
-[python elif]
+[^python elif]
 elif {1}:
 	{0}
 
-[python else]
+[^python else]
 else:
 	{0}
 
-[python except]
+[^python except]
 except {1="Exception"}:
 	traceback.print_exc(){0}
 
-[python finally]
+[^python finally]
 finally:
 	{0}
 	
-[python for]
+[^python for]
 for {1} in {2}:
 	{0}
 
-[python from]
+[^python from]
 from {1} import {0}
 
-[python global]
+[^python global]
 global {0}
 
-[python if]
+[^python if]
 if {1}:
 	{0}
 
-[python import]
+[^python import]
 import {0}
 
 [python lambda]
@@ -51,20 +51,20 @@ lambda {1=x}: {0}
 [python not]
 not {0}
 
-[python raise]
+[^python raise]
 raise {0}
 
-[python return]
+[^python return]
 return {0}
 
-[python try]
+[^python try]
 try:
 	{0}
 
-[python while]
+[^python while]
 while {1}:
 	{0}
 
-[python with]
+[^python with]
 with {1}:
 	{0}

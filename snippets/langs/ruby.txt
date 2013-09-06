@@ -1,49 +1,49 @@
-[ruby begin]
+[^ruby begin]
 begin
 	{0}
 end
 
-[ruby case]
+[^ruby case]
 case {1}
 {0}
 end
 
-[ruby class]
+[^ruby class]
 class {1}
 	{0}
 end
 
-[ruby def]
+[^ruby def]
 def {1}
 	{0}
 end
 
-[ruby do]
+[^ruby do]
 do{1}
 	{0}
 end
 
-[ruby if]
+[^ruby if]
 if {1}
 	{0}
 end
 
-[ruby module]
+[^ruby module]
 module {1}
 	{0}
 end
 
-[ruby unless]
+[^ruby unless]
 unless {1}
 	{0}
 end
 
-[ruby until]
+[^ruby until]
 until {1}
 	{0}
 end
 
-[ruby while]
+[^ruby while]
 while {1}
 	{0}
 end
