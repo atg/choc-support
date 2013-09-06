@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Checksum","ChecksumIEEE","New","NewIEEE","Update"],"prototypes":[" any Checksum ( data []byte , tab *Table )"," any ChecksumIEEE ( data []byte )"," any New ( tab *Table )"," any NewIEEE (  )"," any Update ( crc uint32 , tab *Table , p []byte )"],"prefix":"crc32."}

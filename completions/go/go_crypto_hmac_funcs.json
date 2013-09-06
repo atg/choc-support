@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Equal","New"],"prototypes":[" any Equal ( mac1 , mac2 []byte )"," any New ( h func( )"],"prefix":"hmac."}

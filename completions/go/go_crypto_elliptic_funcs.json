@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["GenerateKey","Marshal","Unmarshal"],"prototypes":[" any GenerateKey ( curve Curve , rand io.Reader )"," any Marshal ( curve Curve , x , y *big.Int )"," any Unmarshal ( curve Curve , data []byte )"],"prefix":"elliptic."}

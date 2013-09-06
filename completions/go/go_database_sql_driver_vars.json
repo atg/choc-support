@@ -1,0 +1,1 @@
+{"icon":"variable","type":"variable","extendedConfidence":true,"items":["Bool","DefaultParameterConverter","ErrBadConn","ErrSkip","Int32","ResultNoRows","String"],"prefix":"driver."}

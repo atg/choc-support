@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Match","MatchReader","MatchString","QuoteMeta"],"prototypes":[" any Match ( pattern string , b []byte )"," any MatchReader ( pattern string , r io.RuneReader )"," any MatchString ( pattern string , s string )"," any QuoteMeta ( s string )"],"prefix":"regexp."}

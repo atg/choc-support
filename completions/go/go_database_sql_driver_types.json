@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["ColumnConverter","Conn","Driver","Execer","NotNull","Null","Queryer","Result","Rows","RowsAffected","Stmt","Tx","Value","ValueConverter","Valuer"],"prefix":"driver."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["QueryEscape","QueryUnescape"],"prototypes":[" any QueryEscape ( s string )"," any QueryUnescape ( s string )"],"prefix":"url."}

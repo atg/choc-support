@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["CertPool","Certificate","CertificateInvalidError","ConstraintViolationError","ExtKeyUsage","HostnameError","InvalidReason","KeyUsage","PEMCipher","PublicKeyAlgorithm","SignatureAlgorithm","SystemRootsError","UnhandledCriticalExtension","UnknownAuthorityError","VerifyOptions"],"prefix":"x509."}

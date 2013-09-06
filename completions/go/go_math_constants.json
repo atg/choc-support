@@ -1,0 +1,1 @@
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["E","Pi","Phi","Sqrt2","SqrtE","SqrtPi","SqrtPhi","Ln2","Log2E","Ln10","Log10E","MaxFloat32","SmallestNonzeroFloat32","MaxFloat64","SmallestNonzeroFloat64","MaxInt8","MinInt8","MaxInt16","MinInt16","MaxInt32","MinInt32","MaxInt64","MinInt64","MaxUint8","MaxUint16","MaxUint32","MaxUint64"],"prefix":"math."}

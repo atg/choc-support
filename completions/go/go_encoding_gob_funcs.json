@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Register","RegisterName"],"prototypes":[" any Register ( value interface{} )"," any RegisterName ( name string , value interface{} )"],"prefix":"gob."}

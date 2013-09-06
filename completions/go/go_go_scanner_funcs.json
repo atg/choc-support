@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["PrintError"],"prototypes":[" any PrintError ( w io.Writer , err error )"],"prefix":"scanner."}

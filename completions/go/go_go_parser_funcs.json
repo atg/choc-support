@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["ParseDir","ParseExpr","ParseFile"],"prototypes":[" any ParseDir ( fset *token.FileSet , path string , filter func(os.FileInfo )"," any ParseExpr ( x string )"," any ParseFile ( fset *token.FileSet , filename string , src interface{} , mode Mode )"],"prefix":"parser."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Encode","EncodeToMemory"],"prototypes":[" any Encode ( out io.Writer , b *Block )"," any EncodeToMemory ( b *Block )"],"prefix":"pem."}

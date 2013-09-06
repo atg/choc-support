@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["ArchChar","IsLocalImport"],"prototypes":[" any ArchChar ( goarch string )"," any IsLocalImport ( path string )"],"prefix":"build."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Do","Publish"],"prototypes":[" any Do ( f func(KeyValue) )"," any Publish ( name string , v Var )"],"prefix":"expvar."}

@@ -1,0 +1,1 @@
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["MaxVarintLen16","MaxVarintLen32","MaxVarintLen64"],"prefix":"binary."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Node","Source"],"prototypes":[" any Node ( dst io.Writer , fset *token.FileSet , node interface{} )"," any Source ( src []byte )"],"prefix":"format."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Draw","DrawMask"],"prototypes":[" any Draw ( dst Image , r image.Rectangle , src image.Image , sp image.Point , op Op )"," any DrawMask ( dst Image , r image.Rectangle , src image.Image , sp image.Point , mask image.Image , mp image.Point , op Op )"],"prefix":"draw."}

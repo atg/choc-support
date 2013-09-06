@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Int","Prime","Read"],"prototypes":[" any Int ( rand io.Reader , max *big.Int )"," any Prime ( rand io.Reader , bits int )"," any Read ( b []byte )"],"prefix":"rand."}

@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["CanonicalMIMEHeaderKey","TrimBytes","TrimString"],"prototypes":[" any CanonicalMIMEHeaderKey ( s string )"," any TrimBytes ( b []byte )"," any TrimString ( s string )"],"prefix":"textproto."}

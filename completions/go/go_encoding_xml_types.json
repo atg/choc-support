@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["Attr","CharData","Comment","Decoder","Directive","Encoder","EndElement","Name","ProcInst","StartElement","SyntaxError","TagPathError","Token","UnmarshalError","UnsupportedTypeError"],"prefix":"xml."}

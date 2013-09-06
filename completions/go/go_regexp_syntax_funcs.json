@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["IsWordChar"],"prototypes":[" any IsWordChar ( r rune )"],"prefix":"syntax."}

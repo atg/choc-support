@@ -1,0 +1,1 @@
+{"icon":"function","extendedConfidence":true,"items":["Marshal","Unmarshal","UnmarshalWithParams"],"prototypes":[" any Marshal ( val interface{} )"," any Unmarshal ( b []byte , val interface{} )"," any UnmarshalWithParams ( b []byte , val interface{} , params string )"],"prefix":"asn1."}

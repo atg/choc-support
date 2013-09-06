@@ -1,0 +1,1 @@
+{"icon":"class","extendedConfidence":true,"items":["Decoder","Encoder","InvalidUTF8Error","InvalidUnmarshalError","Marshaler","MarshalerError","Number","RawMessage","SyntaxError","UnmarshalFieldError","UnmarshalTypeError","Unmarshaler","UnsupportedTypeError","UnsupportedValueError"],"prefix":"json."}

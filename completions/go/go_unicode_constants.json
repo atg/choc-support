@@ -1,0 +1,1 @@
+{"icon":"constant","type":"constant","extendedConfidence":true,"items":["MaxRune","ReplacementChar","MaxASCII","MaxLatin1","UpperCase","LowerCase","TitleCase","MaxCase","UpperLower","Version"],"prefix":"unicode."}
