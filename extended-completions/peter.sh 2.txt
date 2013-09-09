@@ -1,0 +1,335 @@
+			-ms-accelerator	✩
+-wap-accesskey		
+-webkit-align-content			
+align-items	-webkit-align-items			
+align-self	-webkit-align-self			
+animation	-webkit-animation		animation	WD
+animation-delay	-webkit-animation-delay		animation-delay	WD
+animation-direction	-webkit-animation-direction		animation-direction	WD
+animation-duration	-webkit-animation-duration		animation-duration	WD
+animation-fill-mode	-webkit-animation-fill-mode		animation-fill-mode	ED
+animation-iteration-count	-webkit-animation-iteration-count		animation-iteration-count	WD
+animation-name	-webkit-animation-name		animation-name	WD
+animation-play-state	-webkit-animation-play-state		animation-play-state	WD
+animation-timing-function	-webkit-animation-timing-function		animation-timing-function	WD
+-webkit-app-region			
+-moz-appearance	-webkit-appearance			CR
+-webkit-aspect-ratio			
+backface-visibility	-webkit-backface-visibility		backface-visibility	WD
+-webkit-background-blend-mode			
+background-clip	-webkit-background-clip	background-clip	background-clip	WD
+-webkit-background-composite			
+-moz-background-inline-policy				✩
+background-origin	-webkit-background-origin	background-origin	background-origin	WD
+background-position-x		-ms-background-position-x	
+background-position-y		-ms-background-position-y	
+background-size	-webkit-background-size	background-size	background-size	WD
+-ms-behavior	
+-moz-binding				✩
+-webkit-blend-mode			
+-ms-block-progression	
+-webkit-border-after			ED
+-webkit-border-after-color			ED
+-webkit-border-after-style			ED
+-webkit-border-after-width			ED
+-webkit-border-before			ED
+-webkit-border-before-color			ED
+-webkit-border-before-style			ED
+-webkit-border-before-width			ED
+-moz-border-bottom-colors				✩
+border-bottom-left-radius	-webkit-border-bottom-left-radius ⓘ	border-bottom-left-radius	border-bottom-left-radius	WD
+border-bottom-right-radius	-webkit-border-bottom-right-radius ⓘ	border-bottom-right-radius	border-bottom-right-radius	WD
+-moz-border-end	-webkit-border-end			ED
+-moz-border-end-color	-webkit-border-end-color			ED
+-moz-border-end-style	-webkit-border-end-style			ED
+-moz-border-end-width	-webkit-border-end-width			ED
+-webkit-border-fit			
+-webkit-border-horizontal-spacing			
+border-image	-webkit-border-image	-o-border-image		WD
+-moz-border-left-colors				✩
+border-radius	-webkit-border-radius ⓘ	border-radius	border-radius	WD
+-moz-border-right-colors				✩
+-moz-border-start	-webkit-border-start			ED
+-moz-border-start-color	-webkit-border-start-color			ED
+-moz-border-start-style	-webkit-border-start-style			ED
+-moz-border-start-width	-webkit-border-start-width			ED
+-moz-border-top-colors				✩
+border-top-left-radius	-webkit-border-top-left-radius ⓘ	border-top-left-radius	border-top-left-radius	WD
+border-top-right-radius	-webkit-border-top-right-radius ⓘ	border-top-right-radius	border-top-right-radius	WD
+-webkit-border-vertical-spacing			
+-moz-box-align	-webkit-box-align			WD
+-webkit-box-decoration-break	box-decoration-break		WD
+-moz-box-direction	-webkit-box-direction			WD
+-moz-box-flex	-webkit-box-flex			WD
+-webkit-box-flex-group			WD
+-webkit-box-lines			WD
+-moz-box-ordinal-group	-webkit-box-ordinal-group			WD
+-moz-box-orient	-webkit-box-orient			WD
+-moz-box-pack	-webkit-box-pack			WD
+-webkit-box-reflect			
+box-shadow	-webkit-box-shadow	box-shadow	box-shadow	WD
+-moz-box-sizing	-webkit-box-sizing	box-sizing	box-sizing	CR
+caption-side	-epub-caption-side	caption-side	caption-side	
+clip-path	-webkit-clip-path	clip-path		
+-webkit-color-correction			
+-webkit-column-axis			
+-webkit-column-break-after			
+-webkit-column-break-before			
+-webkit-column-break-inside			
+-moz-column-count	-webkit-column-count	column-count	column-count	CR
+-moz-column-fill		column-fill	column-fill	CR
+-moz-column-gap	-webkit-column-gap	column-gap	column-gap	CR
+-webkit-column-progression			
+-moz-column-rule	-webkit-column-rule	column-rule	column-rule	CR
+-moz-column-rule-color	-webkit-column-rule-color	column-rule-color	column-rule-color	CR
+-moz-column-rule-style	-webkit-column-rule-style	column-rule-style	column-rule-style	CR
+-moz-column-rule-width	-webkit-column-rule-width	column-rule-width	column-rule-width	CR
+-webkit-column-span	column-span	column-span	CR
+-moz-column-width	-webkit-column-width	column-width	column-width	CR
+-moz-columns	-webkit-columns	columns	columns	CR
+-ms-content-zoom-chaining	
+-ms-content-zoom-limit	
+-ms-content-zoom-limit-max	
+-ms-content-zoom-limit-min	
+-ms-content-zoom-snap	
+-ms-content-zoom-snap-points	
+-ms-content-zoom-snap-type	
+-ms-content-zooming	
+-webkit-cursor-visibility			
+-webkit-dashboard-region ⓘ	-apple-dashboard-region		
+-o-device-pixel-ratio		
+filter ⓘ	-webkit-filter	filter ⓘ	-ms-filter ⓘ	
+flex	-webkit-flex		-ms-flex	
+-ms-flex-align	
+flex-basis	-webkit-flex-basis			
+flex-direction	-webkit-flex-direction		-ms-flex-direction	
+-webkit-flex-flow			
+flex-grow	-webkit-flex-grow			
+-ms-flex-order	
+-ms-flex-pack	
+flex-shrink	-webkit-flex-shrink			
+-webkit-flex-wrap		-ms-flex-wrap	
+-moz-float-edge				✩
+-webkit-flow-from		-ms-flow-from	
+-webkit-flow-into		-ms-flow-into	
+-o-focus-opacity		
+-moz-font-feature-settings	-webkit-font-feature-settings		font-feature-settings	
+font-kerning	-webkit-font-kerning			
+-moz-font-language-override				
+-webkit-font-size-delta			
+-webkit-font-smoothing			
+font-variant-ligatures	-webkit-font-variant-ligatures			
+-moz-force-broken-image-icon				
+-webkit-grid-auto-columns			
+-webkit-grid-auto-flow			
+-webkit-grid-auto-rows			
+-webkit-grid-column		-ms-grid-column ⓘ	WD
+-ms-grid-column-align ⓘ	WD
+-webkit-grid-column-end			
+-ms-grid-column-span ⓘ	WD
+-webkit-grid-column-start			
+-ms-grid-columns ⓘ	WD
+-webkit-grid-definition-columns			
+-webkit-grid-definition-rows			
+-webkit-grid-row		-ms-grid-row ⓘ	WD
+-ms-grid-row-align ⓘ	WD
+-webkit-grid-row-end			
+-ms-grid-row-span ⓘ	WD
+-webkit-grid-row-start			
+-ms-grid-rows ⓘ	WD
+-ms-high-contrast-adjust	
+-webkit-highlight			
+-webkit-hyphenate-character			WD
+-webkit-hyphenate-limit-after			
+-webkit-hyphenate-limit-before			
+-ms-hyphenate-limit-chars	
+-webkit-hyphenate-limit-lines		-ms-hyphenate-limit-lines	
+-ms-hyphenate-limit-zone	
+-moz-hyphens	-epub-hyphens		-ms-hyphens	WD
+-moz-image-region				✩
+ime-mode			-ms-ime-mode	
+-wap-input-format		
+-wap-input-required		
+-ms-interpolation-mode	
+-xv-interpret-as		
+justify-content	-webkit-justify-content			
+-ms-layout-flow	
+-ms-layout-grid	
+-ms-layout-grid-char	
+-ms-layout-grid-line	
+-ms-layout-grid-mode	
+-ms-layout-grid-type	
+-webkit-line-align			
+-webkit-line-box-contain			
+-webkit-line-break		line-break	
+-webkit-line-clamp			
+-webkit-line-grid			
+-webkit-line-snap			
+-o-link		
+-o-link-source		
+-webkit-locale			
+-webkit-logical-height			ED
+-webkit-logical-width			ED
+-webkit-margin-after			ED
+-webkit-margin-after-collapse			
+-webkit-margin-before			ED
+-webkit-margin-before-collapse			
+-webkit-margin-bottom-collapse			
+-webkit-margin-collapse			
+-moz-margin-end	-webkit-margin-end			ED
+-moz-margin-start	-webkit-margin-start			ED
+-webkit-margin-top-collapse			
+-webkit-marquee			
+-wap-marquee-dir		
+-webkit-marquee-direction			WD
+-webkit-marquee-increment			
+-wap-marquee-loop		WD
+-webkit-marquee-repetition			
+-webkit-marquee-speed	-wap-marquee-speed		WD
+-webkit-marquee-style	-wap-marquee-style		WD
+mask	-webkit-mask	mask		
+-webkit-mask-box-image			
+-webkit-mask-box-image-outset			
+-webkit-mask-box-image-repeat			
+-webkit-mask-box-image-slice			
+-webkit-mask-box-image-source			
+-webkit-mask-box-image-width			
+-webkit-mask-clip			
+-webkit-mask-composite			
+-webkit-mask-image			
+-webkit-mask-origin			
+-webkit-mask-position			
+-webkit-mask-position-x			
+-webkit-mask-position-y			
+-webkit-mask-repeat			
+-webkit-mask-repeat-x			
+-webkit-mask-repeat-y			
+-webkit-mask-size			
+-webkit-mask-source-type			
+-webkit-max-logical-height			
+-webkit-max-logical-width			ED
+-webkit-min-logical-height			ED
+-webkit-min-logical-width			ED
+-o-mini-fold		
+-webkit-nbsp-mode			✩
+object-fit	-o-object-fit		ED
+-o-object-position		ED
+opacity	-webkit-opacity ⓘ	opacity	opacity	WD
+order	-webkit-order			
+-moz-orient				
+-moz-osx-font-smoothing				
+-moz-outline-radius				✩
+-moz-outline-radius-bottomleft				✩
+-moz-outline-radius-bottomright				✩
+-moz-outline-radius-topleft				✩
+-moz-outline-radius-topright				✩
+-webkit-overflow-scrolling			
+-ms-overflow-style	CR
+overflow-x	overflow-x	overflow-x	-ms-overflow-x	WD
+overflow-y	overflow-y	overflow-y	-ms-overflow-y	WD
+-webkit-padding-after			ED
+-webkit-padding-before			ED
+-moz-padding-end	-webkit-padding-end			ED
+-moz-padding-start	-webkit-padding-start			ED
+perspective	-webkit-perspective		perspective	WD
+perspective-origin	-webkit-perspective-origin		perspective-origin	WD
+-webkit-perspective-origin-x			
+-webkit-perspective-origin-y			
+-xv-phonemes		
+-webkit-print-color-adjust			
+-ms-progress-appearance	
+-webkit-region-break-after			
+-webkit-region-break-before			
+-webkit-region-break-inside			
+-webkit-region-fragment			
+-webkit-rtl-ordering			✩
+-webkit-ruby-position		ruby-position	CR
+-moz-script-level ⓘ				
+-moz-script-min-size ⓘ				
+-moz-script-size-multiplier ⓘ				
+-ms-scroll-chaining	
+-ms-scroll-limit	
+-ms-scroll-limit-x-max	
+-ms-scroll-limit-x-min	
+-ms-scroll-limit-y-max	
+-ms-scroll-limit-y-min	
+-ms-scroll-rails	
+-ms-scroll-snap-points-x	
+-ms-scroll-snap-points-y	
+-ms-scroll-snap-type	
+-ms-scroll-snap-x	
+-ms-scroll-snap-y	
+-ms-scroll-translation	
+scrollbar-arrow-color	-ms-scrollbar-arrow-color	✩
+scrollbar-base-color	-ms-scrollbar-base-color	✩
+scrollbar-darkshadow-color	-ms-scrollbar-darkshadow-color	✩
+scrollbar-face-color	-ms-scrollbar-face-color	✩
+scrollbar-highlight-color	-ms-scrollbar-highlight-color	✩
+scrollbar-shadow-color	-ms-scrollbar-shadow-color	✩
+scrollbar-track-color	-ms-scrollbar-track-color	✩
+-webkit-shape-inside			
+-webkit-shape-margin			
+-webkit-shape-outside			
+-webkit-shape-padding			
+-moz-stack-sizing				✩
+-webkit-svg-shadow			
+-moz-tab-size	tab-size	-o-tab-size		
+-o-table-baseline		
+-webkit-tap-highlight-color ⓘ			✩
+-moz-text-align-last	-webkit-text-align-last		-ms-text-align-last	WD
+-ms-text-autospace	WD
+-epub-text-combine			
+text-decoration	-webkit-text-decoration	text-decoration	text-decoration	WD
+-moz-text-decoration-color	-webkit-text-decoration-color			
+-moz-text-decoration-line	-webkit-text-decoration-line			
+-moz-text-decoration-style	-webkit-text-decoration-style			
+-webkit-text-decorations-in-effect			
+-epub-text-emphasis			
+-epub-text-emphasis-color			
+-webkit-text-emphasis-position			
+-epub-text-emphasis-style			
+-webkit-text-fill-color			✩
+-webkit-text-justify		-ms-text-justify	WD
+-ms-text-kashida-space	✩
+text-orientation	-epub-text-orientation			
+text-overflow	text-overflow	text-overflow	-ms-text-overflow	WD
+-webkit-text-security			✩
+-moz-text-size-adjust				
+-webkit-text-stroke			✩
+-webkit-text-stroke-color			✩
+-webkit-text-stroke-width			✩
+text-transform	-epub-text-transform	text-transform	text-transform	
+-webkit-text-underline-position		-ms-text-underline-position	✩
+-ms-touch-action	
+-webkit-touch-callout ⓘ			✩
+-moz-transform	-webkit-transform	-o-transform	transform	WD
+transform-origin	-webkit-transform-origin	-o-transform-origin	transform-origin	WD
+-webkit-transform-origin-x			✩
+-webkit-transform-origin-y			✩
+-webkit-transform-origin-z			✩
+transform-style	-webkit-transform-style		transform-style	WD
+transition	-webkit-transition	-o-transition	transition	WD
+transition-delay	-webkit-transition-delay	-o-transition-delay	transition-delay	WD
+transition-duration	-webkit-transition-duration	-o-transition-duration	transition-duration	WD
+transition-property	-webkit-transition-property	-o-transition-property	transition-property	WD
+transition-timing-function	-webkit-transition-timing-function	-o-transition-timing-function	transition-timing-function	WD
+-webkit-user-drag			✩
+-moz-user-focus				✩
+-moz-user-input				✩
+-moz-user-modify	-webkit-user-modify			✩
+-moz-user-select	-webkit-user-select		-ms-user-select	✩
+-xv-voice-balance		
+-xv-voice-duration		
+-xv-voice-pitch		
+-xv-voice-pitch-range		
+-xv-voice-rate		
+-xv-voice-stress		
+-xv-voice-volume		
+-moz-window-shadow				✩
+word-break	-epub-word-break		-ms-word-break	WD
+word-wrap	word-wrap	word-wrap	-ms-word-wrap	WD
+-webkit-wrap-flow		-ms-wrap-flow	
+-ms-wrap-margin	
+-webkit-wrap-through		-ms-wrap-through	
+writing-mode	-epub-writing-mode	writing-mode	-ms-writing-mode	ED
+zoom		-ms-zoom	
