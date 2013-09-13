@@ -717,7 +717,7 @@
             "inherit", 
             "left"
         ]
-    }, 
+    },
     "text-decoration": {
         "values": [
             "none", 
@@ -734,7 +734,11 @@
             "<percentage>", 
             "<length>"
         ]
-    }, 
+    },
+    "text-shadow": {
+        "values": ["inherit"],
+        "snippet": "%{1=\"%{2=\"X\"}px %{3=\"Y\"}px %{4=\"S\"}px %{5=\"color\"}\"}"
+    },
     "text-transform": {
         "values": [
             "uppercase", 
