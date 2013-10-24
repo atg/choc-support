@@ -14,13 +14,24 @@ def parse(output):
     matches = re.findall(fullregex, output)
     display(map(parse_match, matches))
 
+def error_type(msg):
+    if 'error' in msg:
+        return 'error'
+    if 'syntax' in msg:
+        return 'error'
+    if 'unexpected' in msg:
+        return 'error'
+    if 'undefined name' in msg:
+        return 'error'
+    return 'warning'
+
 def parse_match(match):
     path = match[0]
     line = int(match[1])
     message = match[2]
     caret_outer = match[3]
     caret_inner = match[4]
-    
+
     column = -1
     if len(caret_outer) > 0:
         column = len(caret_inner) + 1
@@ -30,7 +41,7 @@ def parse_match(match):
         'line': line,
         'message': message,
         'column': column,
-        'type': 'error' if 'error' in message or 'syntax' in message or 'unexpected' in message else 'warning',
+        'type': error_type(message),
     }
 
 def display(output):
