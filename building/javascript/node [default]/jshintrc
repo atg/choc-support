@@ -10,6 +10,7 @@
 	"scripturl": true,
 	"smarttabs": true,
 	"supernew": true,
+	"expr": true,
 	
 	"undef": true,
 	"unused": true,
