@@ -14,4 +14,4 @@ if [[ "x$CHOC_RUN" -ne "x" ]]; then
 fi
 
 echo -e ">>> Running:\n>>>\tpython $CHOC_FILE\n"
-python $CHOC_FILE
+python "$CHOC_FILE"
