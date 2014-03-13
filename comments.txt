@@ -1,0 +1,111 @@
+c c++ objc objc++ actionscript csharp go java js lemon objj pike scala scss verilog
+    //
+    /* */
+
+ada
+    --
+
+applescript
+    --
+    (* *)
+
+asm clojure lisp
+    ;
+
+coffeescript
+    #
+    /// ///
+
+css
+    /* */
+
+d
+    //
+    /* */
+    /+ +/
+
+erlang latex tex postscript
+    %
+
+fortran
+    !
+
+fsharp
+    //
+    (* *)
+
+haml
+    -#
+
+haskell
+    --
+    {- -}
+
+html textile xml xslt
+    <!-- -->
+
+io
+    #
+    /* */
+
+lua
+    --
+    --[[ --]]
+
+ocaml
+    (* *)
+
+oz prolog
+    %
+    /* */
+
+pascal
+    //
+    { }
+
+perl r ragel shell tcl
+    #
+
+php
+    //
+    #
+    /* */
+
+python
+    #
+    """ """
+
+rexx
+    /* */
+
+ruby
+    #
+    =begin =end
+
+sass
+    //
+
+scheme
+    ;
+    #| |#
+
+selfml
+    #
+    {# #}
+
+smalltalk
+    " "
+
+sql
+    --
+    /* */
+
+vhdl
+    --
+
+furrow
+    --
+
+yaml
+    #
+

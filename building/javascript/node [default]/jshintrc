@@ -12,7 +12,7 @@
 	"supernew": true,
 	"expr": true,
 	
-	"undef": true,
+	"undef": false,
 	"unused": true,
 	"latedef": "nofunc",
 	"lastsemic": true,
