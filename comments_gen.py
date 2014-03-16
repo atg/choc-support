@@ -38,9 +38,16 @@ def matcher(lang):
     return 'MATCH_LANG(@"%s")' % lang
 
 def comments_header():
+    is_first = True
     for group in comments_gen():
         matchers = ' || '.join(map(matcher, group['languages']))
-        yield 'if (%s) {' % matchers
+        
+        if is_first:
+            yield 'if (%s) {' % matchers
+        else:
+            yield 'else if (%s) {' % matchers
+        
+        is_first = False
         
         for lc in group['line_comments']:
             yield '    MATCH_LINE_COMMENT(@"%s");' % escape(lc)

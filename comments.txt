@@ -41,9 +41,6 @@ haskell
     --
     {- -}
 
-html textile xml xslt
-    <!-- -->
-
 io
     #
     /* */
@@ -96,10 +93,6 @@ selfml
 smalltalk
     " "
 
-sql
-    --
-    /* */
-
 vhdl
     --
 
@@ -109,3 +102,9 @@ furrow
 yaml
     #
 
+sql
+    --
+    /* */
+
+html textile xml xslt
+    <!-- -->
