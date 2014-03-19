@@ -12,7 +12,7 @@ else if (MATCH_LANG(@"applescript")) {
 else if (MATCH_LANG(@"asm") || MATCH_LANG(@"clojure") || MATCH_LANG(@"lisp")) {
     MATCH_LINE_COMMENT(@";");
 }
-else if (MATCH_LANG(@"coffeescript")) {
+else if (MATCH_LANG(@"coffee")) {
     MATCH_LINE_COMMENT(@"#");
     MATCH_BLOCK_COMMENT(@"///", @"///");
 }
