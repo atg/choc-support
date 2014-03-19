@@ -12,7 +12,7 @@ applescript
 asm clojure lisp
     ;
 
-coffeescript
+coffee
     #
     /// ///
 
