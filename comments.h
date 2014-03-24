@@ -21,8 +21,8 @@ else if (MATCH_LANG(@"css")) {
 }
 else if (MATCH_LANG(@"d")) {
     MATCH_LINE_COMMENT(@"//");
-    MATCH_BLOCK_COMMENT(@"/*", @"*/");
     MATCH_BLOCK_COMMENT(@"/+", @"+/");
+    MATCH_BLOCK_COMMENT(@"/*", @"*/");
 }
 else if (MATCH_LANG(@"erlang") || MATCH_LANG(@"latex") || MATCH_LANG(@"tex") || MATCH_LANG(@"postscript")) {
     MATCH_LINE_COMMENT(@"%");
@@ -64,8 +64,8 @@ else if (MATCH_LANG(@"perl") || MATCH_LANG(@"r") || MATCH_LANG(@"ragel") || MATC
     MATCH_LINE_COMMENT(@"#");
 }
 else if (MATCH_LANG(@"php")) {
-    MATCH_LINE_COMMENT(@"//");
     MATCH_LINE_COMMENT(@"#");
+    MATCH_LINE_COMMENT(@"//");
     MATCH_BLOCK_COMMENT(@"/*", @"*/");
 }
 else if (MATCH_LANG(@"python")) {
