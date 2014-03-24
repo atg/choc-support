@@ -21,8 +21,8 @@ css
 
 d
     //
-    /* */
     /+ +/
+    /* */
 
 erlang latex tex postscript
     %
@@ -64,8 +64,8 @@ perl r ragel shell tcl
     #
 
 php
-    //
     #
+    //
     /* */
 
 python
