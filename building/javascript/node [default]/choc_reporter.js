@@ -24,7 +24,7 @@ module.exports = {
       output.push({
         path: '',
         line: error.line,
-        message: error.reason, // + ' (' + error.code + ')',
+        message: error.reason + ' (' + error.code + ')',
         column: '' + error.character,
         type: type
       });
