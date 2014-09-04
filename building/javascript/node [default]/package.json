@@ -1,0 +1,11 @@
+{
+  "name": "chocolat-support-diagnose",
+  "version": "1.0.0",
+  "dependencies": {
+    "jscs": "^1.6.1",
+    "jshint": "^2.5.5",
+    "minimist": "^1.1.0",
+    "vow": "~0.4.3",
+    "underscore": "1.6.x"
+  }
+}
