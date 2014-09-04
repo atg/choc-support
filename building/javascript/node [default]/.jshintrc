@@ -1,0 +1,40 @@
+{
+	"laxcomma": true,
+	"laxbreak": true,
+	"eqnull": true,
+	
+	"es5": true,
+	"esnext": true,
+	"iterator": true,
+	"multistr": true,
+	"scripturl": true,
+	"smarttabs": true,
+	"supernew": true,
+	"expr": true,
+	
+	"undef": false,
+	"unused": true,
+	"latedef": "nofunc",
+	"lastsemic": true,
+	"sub": true,
+	"proto": true,
+	"newcap": true,
+	"forin": true,
+	
+	"browser": true,
+	"couch": true,
+	"devel": true,
+	"dojo": true,
+	"jquery": true,
+	"mootools": true,
+	"node": true,
+	"nonstandard": true,
+	"phantom": true,
+	"prototypejs": true,
+	"rhino": true,
+	"worker": true,
+	"wsh": true,
+	"yui": true,
+	
+	"asi": true
+}
