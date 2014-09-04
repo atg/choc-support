@@ -13,14 +13,27 @@ if [[ ! $CHOC_APP_PATH && ${CHOC_APP_PATH-x} ]]; then
 	EOF)
 fi
 
-JSHINT_ASSET_DIR="$PWD"
-JSHINT_DEFAULT_CONFIG=""
+ASSET_DIR="$PWD"
+JSHINT_DEFAULT_CONFIG="$ASSET_DIR/.jshintrc"
+JSCS_DEFAULT_CONFIG="$ASSET_DIR/.jscsrc"
 
-if [[ ! -e "$HOME/.jshintrc" && ! -e "$CHOC_PROJECT_DIR/.jshintrc" ]]; then
-	JSHINT_DEFAULT_CONFIG="$JSHINT_ASSET_DIR/jshintrc"
+if [[ -e "$HOME/.jshintrc" ]]; then
+	JSHINT_DEFAULT_CONFIG="$HOME/.jshintrc"
+fi
+
+if [[ -e "$CHOC_PROJECT_DIR/.jshintrc" ]]; then
+	JSHINT_DEFAULT_CONFIG="$CHOC_PROJECT_DIR/.jshintrc"
+fi
+
+if [[ -e "$HOME/.jscsrc" ]]; then
+	JSCS_DEFAULT_CONFIG="$HOME/.jscsrc"
+fi
+
+if [[ -e "$CHOC_PROJECT_DIR/.jscsrc" ]]; then
+	JSCS_DEFAULT_CONFIG="$CHOC_PROJECT_DIR/.jscsrc"
 fi
 
 if [[ -e "$CHOC_APP_PATH" ]]; then
-	#echo "cd \"$CHOC_PROJECT_DIR\" && \"$CHOC_APP_PATH/Contents/MacOS/Chocolat\" --pretend-node \"$JSHINT_ASSET_DIR/node_modules/.bin/jshint\" --reporter \"$JSHINT_ASSET_DIR/choc_reporter.js\" --config \"$JSHINT_DEFAULT_CONFIG\" \"$CHOC_FILE\""
-	cd "$CHOC_PROJECT_DIR" && "$CHOC_APP_PATH/Contents/MacOS/Chocolat" --pretend-node "$JSHINT_ASSET_DIR/node_modules/.bin/jshint" --reporter "$JSHINT_ASSET_DIR/choc_reporter.js" --config "$JSHINT_DEFAULT_CONFIG" "$CHOC_FILE"
+	# echo "cd \"$CHOC_PROJECT_DIR\" && \"$CHOC_APP_PATH/Contents/MacOS/Chocolat\" --pretend-node \"$ASSET_DIR/diagnose.js\" --jshint-config \"$JSHINT_DEFAULT_CONFIG\" --jscs-config \"$JSCS_DEFAULT_CONFIG\" \"$CHOC_FILE\"" >> ./log2
+	cd "$CHOC_PROJECT_DIR" && "$CHOC_APP_PATH/Contents/MacOS/Chocolat" --pretend-node "$ASSET_DIR/diagnose.js" --jshint-config "$JSHINT_DEFAULT_CONFIG" --jscs-config "$JSCS_DEFAULT_CONFIG" "$CHOC_FILE"
 fi
