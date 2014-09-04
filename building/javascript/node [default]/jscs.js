@@ -1,8 +1,5 @@
 var Checker = require('jscs/lib/checker');
 var configFile = require('jscs/lib/cli-config');
-var preset = require('jscs/lib/options/preset');
-var fs = require('fs');
-var path = require('path');
 var vow = require('vow');
 var flatten = require('underscore').flatten;
 
@@ -21,7 +18,7 @@ var reporter = function(errorsCollection) {
   }));
 };
 
-var diagnose = function(filepath, configpath, fn){
+var diagnose = function(filepath, configpath, fn) {
   var checker = new Checker();
   var config = configFile.load(configpath);
   checker.registerDefaultRules();
@@ -31,7 +28,7 @@ var diagnose = function(filepath, configpath, fn){
     var diagnostics = [];
 
     try {
-      var diagnostics = reporter([].concat.apply([], results));
+      diagnostics = reporter([].concat.apply([], results));
     } catch (err) {
       return fn(err);
     }

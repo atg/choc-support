@@ -6,7 +6,7 @@ var reporter = function(fn) {
       var error = diagnostic.error;
       var type = 'warning';
 
-      switch(error.code.charAt(0)) {
+      switch (error.code.charAt(0)) {
         case 'W':
           type = 'warning'; break;
         case 'E':
@@ -33,7 +33,7 @@ var reporter = function(fn) {
   };
 };
 
-var diagnose = function(filepath, configpath, fn){
+var diagnose = function(filepath, configpath, fn) {
   jshint.run({
     args: [filepath],
     config: jshint.loadConfig(configpath),
