@@ -35,7 +35,6 @@
   "requireSpaceBeforeBinaryOperators": true,
   "requireSpaceAfterBinaryOperators": true,
   "requireCamelCaseOrUpperCaseIdentifiers": true,
-  "requireLineFeedAtFileEnd": true,
   "requireCapitalizedConstructors": true,
   "requireDotNotation": true,
   "requireCurlyBraces": [
@@ -54,7 +53,7 @@
     "catch",
     "typeof"
   ],
-  "safeContextKeyword": "_this",
+  "safeContextKeyword": ["self", "that"],
   "validateLineBreaks": "LF",
   "validateQuoteMarks": "'",
   "validateIndentation": 2
