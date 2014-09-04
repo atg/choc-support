@@ -1,5 +1,5 @@
 {
-  "name": "chocolat-support-diagnose",
+  "name": "choc-support-js",
   "version": "1.0.0",
   "dependencies": {
     "jscs": "^1.6.1",
