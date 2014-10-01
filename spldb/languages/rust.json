@@ -1,0 +1,9 @@
+{
+    "name": "Rust",
+
+    "extensions": ["rs", "rc"],
+
+    "comment.line": "//",
+    "comment.nested.start": "/*",
+    "comment.nested.end": "*/",
+}

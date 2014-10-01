@@ -1,0 +1,9 @@
+{
+    "name": "Furrow",
+
+    "extensions": ["fur"],
+
+    "comment.line": "//",
+    "comment.nested.start": "/*",
+    "comment.nested.end": "*/",
+}

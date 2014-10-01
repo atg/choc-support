@@ -1,0 +1,1 @@
+xcrun swift -sdk $(xcrun --show-sdk-path --sdk macosx) -i "$CHOC_FILE"

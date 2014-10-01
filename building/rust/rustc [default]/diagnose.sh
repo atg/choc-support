@@ -1,0 +1,1 @@
+python diagnose.py

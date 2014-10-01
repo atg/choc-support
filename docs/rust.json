@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Rust",
+    "home": "http://doc.rust-lang.org/std/",
+    "search": ["http://doc.rust-lang.org/std/index.html?search=%%"]
+  }
+]

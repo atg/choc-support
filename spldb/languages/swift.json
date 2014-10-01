@@ -1,0 +1,9 @@
+{
+    "name": "Swift",
+
+    "extensions": ["swift"],
+
+    "comment.line": "//",
+    "comment.nested.start": "/*",
+    "comment.nested.end": "*/",
+}
