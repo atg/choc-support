@@ -1,0 +1,59 @@
+[^rs trait]
+trait {1} {
+    {0}
+}
+
+[^rs struct]
+struct {1} {
+    {0}
+}
+
+[^rs enum]
+enum {1} {
+    {0}
+}
+
+[^rs for]
+for {1} in {2} {
+    {0}
+}
+
+[^rs fn]
+fn {1}({2}) {
+    {0}
+}
+
+[^rs impl]
+impl {1} {
+    {0}
+}
+
+[^rs mod]
+mod {1} {
+    {0}
+}
+
+[^rs type]
+type {1} = {0};
+
+[^rs main]
+fn main() {
+    {0}
+}
+
+[^rs while]
+while {1} {
+    {0}
+}
+
+[^rs match]
+match {1} {
+    {2} => {3},
+    {4="_"} => {0}
+}
+
+[^rs elif]
+else if {1} {
+    {0}
+}
+
