@@ -1,0 +1,141 @@
+[^swift for]
+for {1} {
+    {0}
+}
+
+[^swift forvar]
+for var {1="i"} = 0; {1} < {2}; ++{1} {
+    {0}
+}
+
+[^swift elif]
+else if {1} {
+    {0}
+}
+
+[^swift switch]
+switch {1} {
+case {2}:
+    {0}
+}
+
+[^swift dowhile]
+do {
+    {0}
+}
+while {1}
+
+[^swift func]
+func {1} {
+    {0}
+}
+
+[^swift overfunc]
+override func {1} {
+    {0}
+}
+
+[^swift fn]
+{ ({1}) in {0}}
+
+[^swift enum]
+enum {1} {
+    case {0}
+}
+
+[^swift struct]
+struct {1} {
+    {0}
+}
+
+[^swift class]
+class {1} {
+    {0}
+}
+
+[^swift lazyvar]
+lazy var {0}
+
+[^swift init]
+init({1}) {
+    {0}
+}
+
+[^swift failinit]
+init?({1}) {
+    {0}
+}
+
+[^swift reqinit]
+required init?({1}) {
+    {0}
+}
+
+[^swift convinit]
+convenience init({1}) {
+    {0}
+}
+
+[^swift overinit]
+override init({1}) {
+    {0}
+}
+
+[^swift overconvinit]
+override convenience init({1}) {
+    {0}
+}
+
+[^swift iflet]
+if let {1} {
+    {0}
+}
+
+[^swift deinit]
+deinit {
+    {0}
+}
+
+[^swift extension]
+extension {1} {
+    {0}
+}
+
+[^swift protocol]
+protocol {1} {
+    {0}
+}
+
+[^swift pub]
+public {1}
+
+[^swift priv]
+private {1}
+
+[^swift internal]
+internal {1}
+
+[^swift typealias]
+typealias {1}
+
+[^swift preop]
+prefix operator {1} {{2}}
+prefix func {1} ({3}) {
+    {0}
+}
+
+[^swift postop]
+postfix operator {1} {{0}}
+postfix func {1} ({3}) {
+    {0}
+}
+
+[^swift infixop]
+infix operator {1} {{0}}
+infix func {1} ({3}) {
+    {0}
+}
+
+
+
+

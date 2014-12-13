@@ -26,7 +26,7 @@ declare ({1}){0}
 default:
 	{0}
 
-[^php do]
+[^php dowhile]
 do {
 	{0}
 } while ({1});
@@ -37,10 +37,7 @@ echo {1};{0}
 [^php else]
 else{0}
 
-[^php elseif]
-elseif{0}
-
-[^php else if]
+[^php elif]
 else if ({1}){0}
 
 [^php enddeclare]

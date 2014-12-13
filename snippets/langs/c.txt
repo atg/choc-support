@@ -13,7 +13,7 @@ continue;{0}
 default:
 	{0}
 
-[^c do]
+[^c dowhile]
 do {
 	{0}
 } while ({1});
@@ -21,7 +21,7 @@ do {
 [^c else]
 else{0}
 
-[^c else if]
+[^c elif]
 else if ({1}){0}
 
 [^c enum]

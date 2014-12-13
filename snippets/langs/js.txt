@@ -24,7 +24,7 @@ default:
 [^js delete]
 delete {1};{0}
 
-[^js do]
+[^js dowhile]
 do {
 	{0}
 } while ({1});
@@ -32,7 +32,7 @@ do {
 [^js else]
 else{0}
 
-[^js else if]
+[^js elif]
 else if ({1}){0}
 
 [^js finally]
