@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SYSTEM_PYTHON=$(which python)
+SYSTEM_PYTHON=$(which python3 || which python)
 
 if [[ "x$CHOC_PROJECT_DIR" != "x" ]]; then
     echo -e ">>> Project in:\n>>>\t$CHOC_PROJECT_DIR"
@@ -47,6 +47,6 @@ if [[ "x$CHOC_PROJECT_DIR" != "x" ]]; then
 fi
 
 # Emit some potentially useful information about the Python we're checking against.
-echo -e ">>> $VERB against $(python -V 2>&1) from:\n>>>\t$(which python)"
+echo -e ">>> $VERB against $($SYSTEM_PYTHON -V 2>&1) from:\n>>>\t$SYSTEM_PYTHON"
 
-[[ "x$SETUP" != "x" && "x$VIRTUAL_ENV" != 'x' ]] && echo -e ">>> Registering package with virtualenv:\n>>>\tpython $SETUP develop" && python $SETUP develop > /dev/null
+[[ "x$SETUP" != "x" && "x$VIRTUAL_ENV" != 'x' ]] && echo -e ">>> Registering package with virtualenv:\n>>>\tpython $SETUP develop" && "$SYSTEM_PYTHON" "$SETUP" develop > /dev/null

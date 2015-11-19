@@ -14,4 +14,4 @@ if [[ "x$CHOC_DEBUG" -ne "x" ]]; then
 fi
 
 echo -e ">>> Running:\n>>>\tpython -m pdb $CHOC_FILE\n"
-python -m pdb $CHOC_FILE
+"$SYSTEM_PYTHON" -m pdb $CHOC_FILE

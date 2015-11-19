@@ -2,3551 +2,3551 @@
     "<all>": {
         "attributes": {
             "accesskey": {
-                "description": "Keyboard shortcut to activate or focus element", 
-                "name": "accesskey", 
-                "value-description": "Ordered set of unique space-separated tokens, case-sensitive, consisting of one Unicode code point in length", 
+                "description": "Keyboard shortcut to activate or focus element",
+                "name": "accesskey",
+                "value-description": "Ordered set of unique space-separated tokens, case-sensitive, consisting of one Unicode code point in length",
                 "values": []
-            }, 
+            },
             "class": {
-                "description": "Classes to which the element belongs", 
-                "name": "class", 
-                "value-description": "Set of space-separated tokens", 
+                "description": "Classes to which the element belongs",
+                "name": "class",
+                "value-description": "Set of space-separated tokens",
                 "values": []
-            }, 
+            },
             "contenteditable": {
-                "description": "Whether the element is editable", 
-                "name": "contenteditable", 
-                "value-description": "\"true\"; \"false\"", 
+                "description": "Whether the element is editable",
+                "name": "contenteditable",
+                "value-description": "\"true\"; \"false\"",
                 "values": [
-                    "true", 
+                    "true",
                     "false"
                 ]
-            }, 
+            },
             "contextmenu": {
-                "description": "The element's context menu", 
-                "name": "contextmenu", 
-                "value-description": "ID*", 
+                "description": "The element's context menu",
+                "name": "contextmenu",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "dir": {
-                "description": "The text directionality of the element", 
-                "name": "dir", 
-                "value-description": "\"ltr\"; \"rtl\"; \"auto\"", 
+                "description": "The text directionality of the element",
+                "name": "dir",
+                "value-description": "\"ltr\"; \"rtl\"; \"auto\"",
                 "values": [
-                    "ltr", 
-                    "rtl", 
+                    "ltr",
+                    "rtl",
                     "auto"
                 ]
-            }, 
+            },
             "draggable": {
-                "description": "Whether the element is draggable", 
-                "name": "draggable", 
-                "value-description": "\"true\"; \"false\"", 
+                "description": "Whether the element is draggable",
+                "name": "draggable",
+                "value-description": "\"true\"; \"false\"",
                 "values": [
-                    "true", 
+                    "true",
                     "false"
                 ]
-            }, 
+            },
             "dropzone": {
-                "description": "Accepted item types for drag-and-drop", 
-                "name": "dropzone", 
-                "value-description": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of accepted types and drag feedback*", 
+                "description": "Accepted item types for drag-and-drop",
+                "name": "dropzone",
+                "value-description": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of accepted types and drag feedback*",
                 "values": []
-            }, 
+            },
             "hidden": {
-                "description": "Whether the element is relevant", 
-                "name": "hidden", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the element is relevant",
+                "name": "hidden",
+                "value-description": "Boolean attribute",
                 "values": [
                     "hidden"
                 ]
-            }, 
+            },
             "id": {
-                "description": "The element's ID", 
-                "name": "id", 
-                "value-description": "Text*", 
+                "description": "The element's ID",
+                "name": "id",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "inert": {
-                "description": "Whether the element is inert", 
-                "name": "inert", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the element is inert",
+                "name": "inert",
+                "value-description": "Boolean attribute",
                 "values": [
                     "inert"
                 ]
-            }, 
+            },
             "itemid": {
-                "description": "Global identifier for a microdata item", 
-                "name": "itemid", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Global identifier for a microdata item",
+                "name": "itemid",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "itemprop": {
-                "description": "Property names of a microdata item", 
-                "name": "itemprop", 
-                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of valid absolute URLs, defined property names, or text*", 
+                "description": "Property names of a microdata item",
+                "name": "itemprop",
+                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of valid absolute URLs, defined property names, or text*",
                 "values": []
-            }, 
+            },
             "itemref": {
-                "description": "Referenced elements", 
-                "name": "itemref", 
-                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*", 
+                "description": "Referenced elements",
+                "name": "itemref",
+                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*",
                 "values": []
-            }, 
+            },
             "itemscope": {
-                "description": "Introduces a microdata item", 
-                "name": "itemscope", 
-                "value-description": "Boolean attribute", 
+                "description": "Introduces a microdata item",
+                "name": "itemscope",
+                "value-description": "Boolean attribute",
                 "values": [
                     "itemscope"
                 ]
-            }, 
+            },
             "itemtype": {
-                "description": "Item types of a microdata item", 
-                "name": "itemtype", 
-                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of valid absolute URL*", 
+                "description": "Item types of a microdata item",
+                "name": "itemtype",
+                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of valid absolute URL*",
                 "values": []
-            }, 
+            },
             "lang": {
-                "description": "Language of the element", 
-                "name": "lang", 
-                "value-description": "Valid BCP 47 language tag or the empty string", 
+                "description": "Language of the element",
+                "name": "lang",
+                "value-description": "Valid BCP 47 language tag or the empty string",
                 "values": []
-            }, 
+            },
             "spellcheck": {
-                "description": "Whether the element is to have its spelling and grammar checked", 
-                "name": "spellcheck", 
-                "value-description": "\"true\"; \"false\"", 
+                "description": "Whether the element is to have its spelling and grammar checked",
+                "name": "spellcheck",
+                "value-description": "\"true\"; \"false\"",
                 "values": [
-                    "true", 
+                    "true",
                     "false"
                 ]
-            }, 
+            },
             "style": {
-                "description": "Presentational and formatting instructions", 
-                "name": "style", 
-                "value-description": "CSS declarations*", 
+                "description": "Presentational and formatting instructions",
+                "name": "style",
+                "value-description": "CSS declarations*",
                 "values": []
-            }, 
+            },
             "tabindex": {
-                "description": "Whether the element is focusable, and the relative order of the element for the purposes of sequential focus navigation", 
-                "name": "tabindex", 
-                "value-description": "Valid integer", 
+                "description": "Whether the element is focusable, and the relative order of the element for the purposes of sequential focus navigation",
+                "name": "tabindex",
+                "value-description": "Valid integer",
                 "values": []
-            }, 
+            },
             "title": {
-                "description": "Advisory information for the element", 
-                "name": "title", 
-                "value-description": "Text", 
+                "description": "Advisory information for the element",
+                "name": "title",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "translate": {
-                "description": "Whether the element is to be translated when the page is localized", 
-                "name": "translate", 
-                "value-description": "\"yes\"; \"no\"", 
+                "description": "Whether the element is to be translated when the page is localized",
+                "name": "translate",
+                "value-description": "\"yes\"; \"no\"",
                 "values": [
-                    "yes", 
+                    "yes",
                     "no"
                 ]
             }
         }
-    }, 
+    },
     "a": {
         "attributes": {
             "download": {
-                "description": "Whether to download the resource instead of navigating to it, and its filename if so", 
-                "name": "download", 
-                "value-description": "Text", 
+                "description": "Whether to download the resource instead of navigating to it, and its filename if so",
+                "name": "download",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "href": {
-                "description": "Address of the hyperlink", 
-                "name": "href", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Address of the hyperlink",
+                "name": "href",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "hreflang": {
-                "description": "Language of the linked resource", 
-                "name": "hreflang", 
-                "value-description": "Valid BCP 47 language tag", 
+                "description": "Language of the linked resource",
+                "name": "hreflang",
+                "value-description": "Valid BCP 47 language tag",
                 "values": []
-            }, 
+            },
             "media": {
-                "description": "Applicable media", 
-                "name": "media", 
-                "value-description": "Valid media query", 
+                "description": "Applicable media",
+                "name": "media",
+                "value-description": "Valid media query",
                 "values": []
-            }, 
+            },
             "ping": {
-                "description": "URLs to ping", 
-                "name": "ping", 
-                "value-description": "Set of space-separated tokens consisting of valid non-empty URLs", 
+                "description": "URLs to ping",
+                "name": "ping",
+                "value-description": "Set of space-separated tokens consisting of valid non-empty URLs",
                 "values": []
-            }, 
+            },
             "rel": {
-                "description": "Relationship between the document containing the hyperlink and the destination resource", 
-                "name": "rel", 
-                "value-description": "Set of space-separated tokens*", 
+                "description": "Relationship between the document containing the hyperlink and the destination resource",
+                "name": "rel",
+                "value-description": "Set of space-separated tokens*",
                 "values": []
-            }, 
+            },
             "target": {
-                "description": "Browsing context for hyperlink navigation", 
-                "name": "target", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Browsing context for hyperlink navigation",
+                "name": "target",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Hint for the type of the referenced resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Hint for the type of the referenced resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing*", 
+            "flow",
+            "phrasing*",
             "interactive"
-        ], 
+        ],
         "children": [
             "transparent*"
-        ], 
-        "description": "Hyperlink", 
-        "interface": "HTMLAnchorElement", 
-        "kind": "inline", 
+        ],
+        "description": "Hyperlink",
+        "interface": "HTMLAnchorElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<a href=\"%{1}\">%{0}</a>"
-    }, 
+    },
     "abbr": {
         "attributes": {
             "title": {
-                "description": "Full term or expansion of abbreviation", 
-                "name": "title", 
-                "value-description": "Text", 
+                "description": "Full term or expansion of abbreviation",
+                "name": "title",
+                "value-description": "Text",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Abbreviation", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Abbreviation",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "address": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "Contact information for a page or article element", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Contact information for a page or article element",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "area": {
         "attributes": {
             "alt": {
-                "description": "Replacement text for use when images are not available", 
-                "name": "alt", 
-                "value-description": "Text*", 
+                "description": "Replacement text for use when images are not available",
+                "name": "alt",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "coords": {
-                "description": "Coordinates for the shape to be created in an image map", 
-                "name": "coords", 
-                "value-description": "Valid list of integers*", 
+                "description": "Coordinates for the shape to be created in an image map",
+                "name": "coords",
+                "value-description": "Valid list of integers*",
                 "values": []
-            }, 
+            },
             "download": {
-                "description": "Whether to download the resource instead of navigating to it, and its filename if so", 
-                "name": "download", 
-                "value-description": "Text", 
+                "description": "Whether to download the resource instead of navigating to it, and its filename if so",
+                "name": "download",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "href": {
-                "description": "Address of the hyperlink", 
-                "name": "href", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Address of the hyperlink",
+                "name": "href",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "hreflang": {
-                "description": "Language of the linked resource", 
-                "name": "hreflang", 
-                "value-description": "Valid BCP 47 language tag", 
+                "description": "Language of the linked resource",
+                "name": "hreflang",
+                "value-description": "Valid BCP 47 language tag",
                 "values": []
-            }, 
+            },
             "media": {
-                "description": "Applicable media", 
-                "name": "media", 
-                "value-description": "Valid media query", 
+                "description": "Applicable media",
+                "name": "media",
+                "value-description": "Valid media query",
                 "values": []
-            }, 
+            },
             "ping": {
-                "description": "URLs to ping", 
-                "name": "ping", 
-                "value-description": "Set of space-separated tokens consisting of valid non-empty URLs", 
+                "description": "URLs to ping",
+                "name": "ping",
+                "value-description": "Set of space-separated tokens consisting of valid non-empty URLs",
                 "values": []
-            }, 
+            },
             "rel": {
-                "description": "Relationship between the document containing the hyperlink and the destination resource", 
-                "name": "rel", 
-                "value-description": "Set of space-separated tokens*", 
+                "description": "Relationship between the document containing the hyperlink and the destination resource",
+                "name": "rel",
+                "value-description": "Set of space-separated tokens*",
                 "values": []
-            }, 
+            },
             "shape": {
-                "description": "The kind of shape to be created in an image map", 
-                "name": "shape", 
-                "value-description": "\"circle\"; \"default\"; \"poly\"; \"rect\"", 
+                "description": "The kind of shape to be created in an image map",
+                "name": "shape",
+                "value-description": "\"circle\"; \"default\"; \"poly\"; \"rect\"",
                 "values": [
-                    "circle", 
-                    "default", 
-                    "poly", 
+                    "circle",
+                    "default",
+                    "poly",
                     "rect"
                 ]
-            }, 
+            },
             "target": {
-                "description": "Browsing context for hyperlink navigation", 
-                "name": "target", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Browsing context for hyperlink navigation",
+                "name": "target",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Hint for the type of the referenced resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Hint for the type of the referenced resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Hyperlink or dead area on an image map", 
-        "interface": "HTMLAreaElement", 
-        "kind": "empty", 
+        ],
+        "description": "Hyperlink or dead area on an image map",
+        "interface": "HTMLAreaElement",
+        "kind": "empty",
         "parents": [
             "phrasing*"
         ]
-    }, 
+    },
     "article": {
         "categories": [
-            "flow", 
+            "flow",
             "sectioning"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Self-contained syndicatable or reusable composition", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Self-contained syndicatable or reusable composition",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "aside": {
         "categories": [
-            "flow", 
+            "flow",
             "sectioning"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Sidebar for tangentially related content", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Sidebar for tangentially related content",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "audio": {
         "attributes": {
             "autoplay": {
-                "description": "Hint that the media resource can be started automatically when the page is loaded", 
-                "name": "autoplay", 
-                "value-description": "Boolean attribute", 
+                "description": "Hint that the media resource can be started automatically when the page is loaded",
+                "name": "autoplay",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autoplay"
                 ]
-            }, 
+            },
             "controls": {
-                "description": "Show user agent controls", 
-                "name": "controls", 
-                "value-description": "Boolean attribute", 
+                "description": "Show user agent controls",
+                "name": "controls",
+                "value-description": "Boolean attribute",
                 "values": [
                     "controls"
                 ]
-            }, 
+            },
             "crossorigin": {
-                "description": "How the element handles crossorigin requests.", 
-                "name": "crossorigin", 
-                "value-description": "\"anonymous\"; \"use-credentials\"", 
+                "description": "How the element handles crossorigin requests.",
+                "name": "crossorigin",
+                "value-description": "\"anonymous\"; \"use-credentials\"",
                 "values": [
-                    "anonymous", 
+                    "anonymous",
                     "use-credentials"
                 ]
-            }, 
+            },
             "loop": {
-                "description": "Whether to loop the media resource", 
-                "name": "loop", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to loop the media resource",
+                "name": "loop",
+                "value-description": "Boolean attribute",
                 "values": [
                     "loop"
                 ]
-            }, 
+            },
             "mediagroup": {
-                "description": "Groups media elements together with an implicit MediaController", 
-                "name": "mediagroup", 
-                "value-description": "Text", 
+                "description": "Groups media elements together with an implicit MediaController",
+                "name": "mediagroup",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "muted": {
-                "description": "Whether to mute the media resource by default", 
-                "name": "muted", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to mute the media resource by default",
+                "name": "muted",
+                "value-description": "Boolean attribute",
                 "values": [
                     "muted"
                 ]
-            }, 
+            },
             "preload": {
-                "description": "Hints how much buffering the media resource will likely need", 
-                "name": "preload", 
-                "value-description": "\"none\"; \"metadata\"; \"auto\"", 
+                "description": "Hints how much buffering the media resource will likely need",
+                "name": "preload",
+                "value-description": "\"none\"; \"metadata\"; \"auto\"",
                 "values": [
-                    "none", 
-                    "metadata", 
+                    "none",
+                    "metadata",
                     "auto"
                 ]
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "embedded", 
+            "flow",
+            "phrasing",
+            "embedded",
             "interactive"
-        ], 
+        ],
         "children": [
-            "source*", 
+            "source*",
             "transparent*"
-        ], 
-        "description": "Audio player", 
-        "interface": "HTMLAudioElement", 
-        "kind": "inline", 
+        ],
+        "description": "Audio player",
+        "interface": "HTMLAudioElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<audio src=\"%{1}\">%{0}</audio>"
-    }, 
+    },
     "b": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Keywords", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Keywords",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "base": {
         "attributes": {
             "href": {
-                "description": "Document base URL", 
-                "name": "href", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Document base URL",
+                "name": "href",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "target": {
-                "description": "Default browsing context for hyperlink navigation and form submission", 
-                "name": "target", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Default browsing context for hyperlink navigation and form submission",
+                "name": "target",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "metadata"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Base URL and default target browsing context for hyperlinks and forms", 
-        "interface": "HTMLBaseElement", 
-        "kind": "empty", 
+        ],
+        "description": "Base URL and default target browsing context for hyperlinks and forms",
+        "interface": "HTMLBaseElement",
+        "kind": "empty",
         "parents": [
             "head"
         ]
-    }, 
+    },
     "bdi": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Text directionality isolation", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Text directionality isolation",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "bdo": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Text directionality formatting", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Text directionality formatting",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "blockquote": {
         "attributes": {
             "cite": {
-                "description": "Link to the source of the quotation or more information about the edit", 
-                "name": "cite", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Link to the source of the quotation or more information about the edit",
+                "name": "cite",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "sectioning root"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "A section quoted from another source", 
-        "interface": "HTMLQuoteElement", 
-        "kind": "block", 
+        ],
+        "description": "A section quoted from another source",
+        "interface": "HTMLQuoteElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "body": {
         "categories": [
             "sectioning root"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Document body", 
-        "interface": "HTMLBodyElement", 
-        "kind": "block", 
+        ],
+        "description": "Document body",
+        "interface": "HTMLBodyElement",
+        "kind": "block",
         "parents": [
             "html"
-        ], 
+        ],
         "snippet": "<body>\n%{0}\n</body>"
-    }, 
+    },
     "br": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Line break, e.g. in poem or postal address", 
-        "interface": "HTMLBRElement", 
-        "kind": "empty", 
+        ],
+        "description": "Line break, e.g. in poem or postal address",
+        "interface": "HTMLBRElement",
+        "kind": "empty",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "button": {
         "attributes": {
             "autofocus": {
-                "description": "Automatically focus the form control when the page is loaded", 
-                "name": "autofocus", 
-                "value-description": "Boolean attribute", 
+                "description": "Automatically focus the form control when the page is loaded",
+                "name": "autofocus",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autofocus"
                 ]
-            }, 
+            },
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "formaction": {
-                "description": "URL to use for form submission", 
-                "name": "formaction", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "URL to use for form submission",
+                "name": "formaction",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "formenctype": {
-                "description": "Form data set encoding type to use for form submission", 
-                "name": "formenctype", 
-                "value-description": "\"application/x-www-form-urlencoded\"; \"multipart/form-data\"; \"text/plain\"", 
+                "description": "Form data set encoding type to use for form submission",
+                "name": "formenctype",
+                "value-description": "\"application/x-www-form-urlencoded\"; \"multipart/form-data\"; \"text/plain\"",
                 "values": [
-                    "application/x-www-form-urlencoded", 
-                    "multipart/form-data", 
+                    "application/x-www-form-urlencoded",
+                    "multipart/form-data",
                     "text/plain"
                 ]
-            }, 
+            },
             "formmethod": {
-                "description": "HTTP method to use for form submission", 
-                "name": "formmethod", 
-                "value-description": "\"GET\"; \"POST\"", 
+                "description": "HTTP method to use for form submission",
+                "name": "formmethod",
+                "value-description": "\"GET\"; \"POST\"",
                 "values": [
-                    "GET", 
+                    "GET",
                     "POST"
                 ]
-            }, 
+            },
             "formnovalidate": {
-                "description": "Bypass form control validation for form submission", 
-                "name": "formnovalidate", 
-                "value-description": "Boolean attribute", 
+                "description": "Bypass form control validation for form submission",
+                "name": "formnovalidate",
+                "value-description": "Boolean attribute",
                 "values": [
                     "formnovalidate"
                 ]
-            }, 
+            },
             "formtarget": {
-                "description": "Browsing context for form submission", 
-                "name": "formtarget", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Browsing context for form submission",
+                "name": "formtarget",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of button", 
-                "name": "type", 
-                "value-description": "\"submit\"; \"reset\"; \"button\"", 
+                "description": "Type of button",
+                "name": "type",
+                "value-description": "\"submit\"; \"reset\"; \"button\"",
                 "values": [
-                    "submit", 
-                    "reset", 
+                    "submit",
+                    "reset",
                     "button"
                 ]
-            }, 
+            },
             "value": {
-                "description": "Value to be used for form submission", 
-                "name": "value", 
-                "value-description": "Text", 
+                "description": "Value to be used for form submission",
+                "name": "value",
+                "value-description": "Text",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "interactive", 
-            "listed", 
-            "labelable", 
-            "submittable", 
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
             "form-associated"
-        ], 
+        ],
         "children": [
             "phrasing*"
-        ], 
-        "description": "Button control", 
-        "interface": "HTMLButtonElement", 
-        "kind": "inline", 
+        ],
+        "description": "Button control",
+        "interface": "HTMLButtonElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "canvas": {
         "attributes": {
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
+            "flow",
+            "phrasing",
             "embedded"
-        ], 
+        ],
         "children": [
             "transparent"
-        ], 
-        "description": "Scriptable bitmap canvas", 
-        "interface": "HTMLCanvasElement", 
-        "kind": "inline", 
+        ],
+        "description": "Scriptable bitmap canvas",
+        "interface": "HTMLCanvasElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<canvas id=\"%{1}\" width=\"%{2}\" height=\"%{3}\">%{0}</canvas>"
-    }, 
+    },
     "caption": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "Table caption", 
-        "interface": "HTMLTableCaptionElement", 
-        "kind": "block", 
+        ],
+        "description": "Table caption",
+        "interface": "HTMLTableCaptionElement",
+        "kind": "block",
         "parents": [
             "table"
         ]
-    }, 
+    },
     "cite": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Title of a work", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Title of a work",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "code": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Computer code", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Computer code",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "col": {
         "attributes": {
             "span": {
-                "description": "Number of columns spanned by the element", 
-                "name": "span", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Number of columns spanned by the element",
+                "name": "span",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Table column", 
-        "interface": "HTMLTableColElement", 
-        "kind": "empty", 
+        ],
+        "description": "Table column",
+        "interface": "HTMLTableColElement",
+        "kind": "empty",
         "parents": [
             "colgroup"
         ]
-    }, 
+    },
     "colgroup": {
         "attributes": {
             "span": {
-                "description": "Number of columns spanned by the element", 
-                "name": "span", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Number of columns spanned by the element",
+                "name": "span",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "col"
-        ], 
-        "description": "Group of columns in a table", 
-        "interface": "HTMLTableColElement", 
-        "kind": "block", 
+        ],
+        "description": "Group of columns in a table",
+        "interface": "HTMLTableColElement",
+        "kind": "block",
         "parents": [
             "table"
         ]
-    }, 
+    },
     "command": {
         "attributes": {
             "checked": {
-                "description": "Whether the command or control is checked", 
-                "name": "checked", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the command or control is checked",
+                "name": "checked",
+                "value-description": "Boolean attribute",
                 "values": [
                     "checked"
                 ]
-            }, 
+            },
             "command": {
-                "description": "Command definition", 
-                "name": "command", 
-                "value-description": "ID*", 
+                "description": "Command definition",
+                "name": "command",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "icon": {
-                "description": "Icon for the command", 
-                "name": "icon", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Icon for the command",
+                "name": "icon",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "label": {
-                "description": "User-visible label", 
-                "name": "label", 
-                "value-description": "Text", 
+                "description": "User-visible label",
+                "name": "label",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "radiogroup": {
-                "description": "Name of group of commands to treat as a radio button group", 
-                "name": "radiogroup", 
-                "value-description": "Text", 
+                "description": "Name of group of commands to treat as a radio button group",
+                "name": "radiogroup",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "title": {
-                "description": "Hint describing the command", 
-                "name": "title", 
-                "value-description": "Text", 
+                "description": "Hint describing the command",
+                "name": "title",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of command", 
-                "name": "type", 
-                "value-description": "\"command\"; \"checkbox\"; \"radio\"", 
+                "description": "Type of command",
+                "name": "type",
+                "value-description": "\"command\"; \"checkbox\"; \"radio\"",
                 "values": [
-                    "command", 
-                    "checkbox", 
+                    "command",
+                    "checkbox",
                     "radio"
                 ]
             }
-        }, 
+        },
         "categories": [
-            "metadata", 
-            "flow", 
+            "metadata",
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Menu command", 
-        "interface": "HTMLCommandElement", 
-        "kind": "empty", 
+        ],
+        "description": "Menu command",
+        "interface": "HTMLCommandElement",
+        "kind": "empty",
         "parents": [
-            "head", 
+            "head",
             "phrasing"
         ]
-    }, 
+    },
     "data": {
         "attributes": {
             "value": {
-                "description": "Machine-readable value", 
-                "name": "value", 
-                "value-description": "Text*", 
+                "description": "Machine-readable value",
+                "name": "value",
+                "value-description": "Text*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Machine-readable equivalent", 
-        "interface": "HTMLDataElement", 
-        "kind": "inline", 
+        ],
+        "description": "Machine-readable equivalent",
+        "interface": "HTMLDataElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "datalist": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
-            "phrasing", 
+            "phrasing",
             "option"
-        ], 
-        "description": "Container for options for combo box control", 
-        "interface": "HTMLDataListElement", 
-        "kind": "inline", 
+        ],
+        "description": "Container for options for combo box control",
+        "interface": "HTMLDataListElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "dd": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Content for corresponding dt element(s)", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Content for corresponding dt element(s)",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "dl"
         ]
-    }, 
+    },
     "del": {
         "attributes": {
             "cite": {
-                "description": "Link to the source of the quotation or more information about the edit", 
-                "name": "cite", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Link to the source of the quotation or more information about the edit",
+                "name": "cite",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "datetime": {
-                "description": "Date and (optionally) time of the change", 
-                "name": "datetime", 
-                "value-description": "Valid date string with optional time", 
+                "description": "Date and (optionally) time of the change",
+                "name": "datetime",
+                "value-description": "Valid date string with optional time",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing*"
-        ], 
+        ],
         "children": [
             "transparent"
-        ], 
-        "description": "A removal from the document", 
-        "interface": "HTMLModElement", 
-        "kind": "inline", 
+        ],
+        "description": "A removal from the document",
+        "interface": "HTMLModElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "details": {
         "attributes": {
             "open": {
-                "description": "Whether the details are visible", 
-                "name": "open", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the details are visible",
+                "name": "open",
+                "value-description": "Boolean attribute",
                 "values": [
                     "open"
                 ]
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "sectioning root", 
+            "flow",
+            "sectioning root",
             "interactive"
-        ], 
+        ],
         "children": [
-            "summary*", 
+            "summary*",
             "flow"
-        ], 
-        "description": "Disclosure control for hiding details", 
-        "interface": "HTMLDetailsElement", 
-        "kind": "block", 
+        ],
+        "description": "Disclosure control for hiding details",
+        "interface": "HTMLDetailsElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "dfn": {
         "attributes": {
             "title": {
-                "description": "Full term or expansion of abbreviation", 
-                "name": "title", 
-                "value-description": "Text", 
+                "description": "Full term or expansion of abbreviation",
+                "name": "title",
+                "value-description": "Text",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing*"
-        ], 
-        "description": "Defining instance", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Defining instance",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "dialog": {
         "attributes": {
             "open": {
-                "description": "Whether the dialog box is showing", 
-                "name": "open", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the dialog box is showing",
+                "name": "open",
+                "value-description": "Boolean attribute",
                 "values": [
                     "open"
                 ]
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "sectioning root"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Dialog box or window", 
-        "interface": "HTMLDialogElement", 
-        "kind": "block", 
+        ],
+        "description": "Dialog box or window",
+        "interface": "HTMLDialogElement",
+        "kind": "block",
         "parents": [
-            "dt", 
-            "th", 
+            "dt",
+            "th",
             "flow"
         ]
-    }, 
+    },
     "div": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Generic flow container", 
-        "interface": "HTMLDivElement", 
-        "kind": "block", 
+        ],
+        "description": "Generic flow container",
+        "interface": "HTMLDivElement",
+        "kind": "block",
         "parents": [
             "flow"
-        ], 
+        ],
         "snippet": "<div class=\"%{1}\">%{0}</div>"
-    }, 
+    },
     "dl": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
-            "dt*", 
+            "dt*",
             "dd*"
-        ], 
-        "description": "Association list consisting of zero or more name-value groups", 
-        "interface": "HTMLDListElement", 
-        "kind": "block", 
+        ],
+        "description": "Association list consisting of zero or more name-value groups",
+        "interface": "HTMLDListElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "dt": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "Legend for corresponding dd element(s)", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Legend for corresponding dd element(s)",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "dl"
         ]
-    }, 
+    },
     "em": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Stress emphasis", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Stress emphasis",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "embed": {
         "attributes": {
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of embedded resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Type of embedded resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "embedded", 
+            "flow",
+            "phrasing",
+            "embedded",
             "interactive"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Plugin", 
-        "interface": "HTMLEmbedElement", 
-        "kind": "empty", 
+        ],
+        "description": "Plugin",
+        "interface": "HTMLEmbedElement",
+        "kind": "empty",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<embed type=\"%{1}\" src=\"%{2}\">"
-    }, 
+    },
     "fieldset": {
         "attributes": {
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "sectioning root", 
-            "listed", 
+            "flow",
+            "sectioning root",
+            "listed",
             "form-associated"
-        ], 
+        ],
         "children": [
-            "legend*", 
+            "legend*",
             "flow"
-        ], 
-        "description": "Group of form controls", 
-        "interface": "HTMLFieldSetElement", 
-        "kind": "block", 
+        ],
+        "description": "Group of form controls",
+        "interface": "HTMLFieldSetElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "figcaption": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Caption for figure", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Caption for figure",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "figure"
         ]
-    }, 
+    },
     "figure": {
         "categories": [
-            "flow", 
+            "flow",
             "sectioning root"
-        ], 
+        ],
         "children": [
-            "figcaption*", 
+            "figcaption*",
             "flow"
-        ], 
-        "description": "Figure with optional caption", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Figure with optional caption",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "footer": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "Footer for a page or section", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Footer for a page or section",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "form": {
         "attributes": {
             "accept-charset": {
-                "description": "Character encodings to use for form submission", 
-                "name": "accept-charset", 
-                "value-description": "Ordered set of unique space-separated tokens, ASCII case-insensitive, consisting of preferred MIME names of ASCII-compatible character encodings*", 
+                "description": "Character encodings to use for form submission",
+                "name": "accept-charset",
+                "value-description": "Ordered set of unique space-separated tokens, ASCII case-insensitive, consisting of preferred MIME names of ASCII-compatible character encodings*",
                 "values": []
-            }, 
+            },
             "action": {
-                "description": "URL to use for form submission", 
-                "name": "action", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "URL to use for form submission",
+                "name": "action",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "autocomplete": {
-                "description": "Prevent the user agent from providing autocompletions for the form control(s)", 
-                "name": "autocomplete", 
-                "value-description": "\"on\"; \"off\"", 
+                "description": "Prevent the user agent from providing autocompletions for the form control(s)",
+                "name": "autocomplete",
+                "value-description": "\"on\"; \"off\"",
                 "values": [
-                    "on", 
+                    "on",
                     "off"
                 ]
-            }, 
+            },
             "enctype": {
-                "description": "Form data set encoding type to use for form submission", 
-                "name": "enctype", 
-                "value-description": "\"application/x-www-form-urlencoded\"; \"multipart/form-data\"; \"text/plain\"", 
+                "description": "Form data set encoding type to use for form submission",
+                "name": "enctype",
+                "value-description": "\"application/x-www-form-urlencoded\"; \"multipart/form-data\"; \"text/plain\"",
                 "values": [
-                    "application/x-www-form-urlencoded", 
-                    "multipart/form-data", 
+                    "application/x-www-form-urlencoded",
+                    "multipart/form-data",
                     "text/plain"
                 ]
-            }, 
+            },
             "method": {
-                "description": "HTTP method to use for form submission", 
-                "name": "method", 
-                "value-description": "\"GET\"; \"POST\"; \"dialog\"", 
+                "description": "HTTP method to use for form submission",
+                "name": "method",
+                "value-description": "\"GET\"; \"POST\"; \"dialog\"",
                 "values": [
-                    "GET", 
-                    "POST", 
+                    "GET",
+                    "POST",
                     "dialog"
                 ]
-            }, 
+            },
             "name": {
-                "description": "Name of form to use in the document.forms API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form to use in the document.forms API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "novalidate": {
-                "description": "Bypass form control validation for form submission", 
-                "name": "novalidate", 
-                "value-description": "Boolean attribute", 
+                "description": "Bypass form control validation for form submission",
+                "name": "novalidate",
+                "value-description": "Boolean attribute",
                 "values": [
                     "novalidate"
                 ]
-            }, 
+            },
             "target": {
-                "description": "Browsing context for form submission", 
-                "name": "target", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Browsing context for form submission",
+                "name": "target",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "User-submittable form", 
-        "interface": "HTMLFormElement", 
-        "kind": "block", 
+        ],
+        "description": "User-submittable form",
+        "interface": "HTMLFormElement",
+        "kind": "block",
         "parents": [
             "flow"
-        ], 
+        ],
         "snippet": "<form action=\"%{1}\" method=\"%{2=\"post\"}\" accept-charset=\"utf-8\">\n\t%{0}\n\t<p><input type=\"submit\" value=\"Next\"></p>\n</form>"
-    }, 
+    },
     "h1": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Section heading", 
-        "interface": "HTMLHeadingElement", 
-        "kind": "inline", 
+        ],
+        "description": "Section heading",
+        "interface": "HTMLHeadingElement",
+        "kind": "inline",
         "parents": [
-            "hgroup", 
+            "hgroup",
             "flow"
         ]
-    }, 
+    },
     "h2": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Section heading", 
-        "interface": "HTMLHeadingElement", 
-        "kind": "inline", 
+        ],
+        "description": "Section heading",
+        "interface": "HTMLHeadingElement",
+        "kind": "inline",
         "parents": [
-            "hgroup", 
+            "hgroup",
             "flow"
         ]
-    }, 
+    },
     "h3": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Section heading", 
-        "interface": "HTMLHeadingElement", 
-        "kind": "inline", 
+        ],
+        "description": "Section heading",
+        "interface": "HTMLHeadingElement",
+        "kind": "inline",
         "parents": [
-            "hgroup", 
+            "hgroup",
             "flow"
         ]
-    }, 
+    },
     "h4": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Section heading", 
-        "interface": "HTMLHeadingElement", 
-        "kind": "inline", 
+        ],
+        "description": "Section heading",
+        "interface": "HTMLHeadingElement",
+        "kind": "inline",
         "parents": [
-            "hgroup", 
+            "hgroup",
             "flow"
         ]
-    }, 
+    },
     "h5": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Section heading", 
-        "interface": "HTMLHeadingElement", 
-        "kind": "inline", 
+        ],
+        "description": "Section heading",
+        "interface": "HTMLHeadingElement",
+        "kind": "inline",
         "parents": [
-            "hgroup", 
+            "hgroup",
             "flow"
         ]
-    }, 
+    },
     "h6": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Section heading", 
-        "interface": "HTMLHeadingElement", 
-        "kind": "inline", 
+        ],
+        "description": "Section heading",
+        "interface": "HTMLHeadingElement",
+        "kind": "inline",
         "parents": [
-            "hgroup", 
+            "hgroup",
             "flow"
         ]
-    }, 
+    },
     "head": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "metadata content*"
-        ], 
-        "description": "Container for document metadata", 
-        "interface": "HTMLHeadElement", 
-        "kind": "block", 
+        ],
+        "description": "Container for document metadata",
+        "interface": "HTMLHeadElement",
+        "kind": "block",
         "parents": [
             "html"
-        ], 
+        ],
         "snippet": "<head>\n\t<meta charset=\"utf-8\">\n\t<title>%{1}</title>\n\n\t<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">\n\n</head>"
-    }, 
+    },
     "header": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "Introductory or navigational aids for a page or section", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Introductory or navigational aids for a page or section",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "hgroup": {
         "categories": [
-            "flow", 
+            "flow",
             "heading"
-        ], 
+        ],
         "children": [
             "One or more h1, h2, h3, h4, h5, and/or h6"
-        ], 
-        "description": "heading group", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "heading group",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "hr": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Thematic break", 
-        "interface": "HTMLHRElement", 
-        "kind": "empty", 
+        ],
+        "description": "Thematic break",
+        "interface": "HTMLHRElement",
+        "kind": "empty",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "html": {
         "attributes": {
             "manifest": {
-                "description": "Application cache manifest", 
-                "name": "manifest", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Application cache manifest",
+                "name": "manifest",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
-            "head*", 
+            "head*",
             "body*"
-        ], 
-        "description": "Root element", 
-        "interface": "HTMLHtmlElement", 
-        "kind": "block", 
+        ],
+        "description": "Root element",
+        "interface": "HTMLHtmlElement",
+        "kind": "block",
         "parents": [
             "none*"
-        ], 
+        ],
         "snippet": "<html>\n<head>\n\t<meta charset=\"utf-8\">\n\t<title>%{1}</title>\n\n\t<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">\n\n</head>\n<body>\n%{0}\n</body>\n</html>"
-    }, 
+    },
     "i": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Alternate voice", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Alternate voice",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "iframe": {
         "attributes": {
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of nested browsing context", 
-                "name": "name", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Name of nested browsing context",
+                "name": "name",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
-            }, 
+            },
             "sandbox": {
-                "description": "Security rules for nested content", 
-                "name": "sandbox", 
-                "value-description": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of \"allow-forms\", \"allow-popups\", \"allow-same-origin\", \"allow-scripts and \"allow-top-navigation\"", 
+                "description": "Security rules for nested content",
+                "name": "sandbox",
+                "value-description": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of \"allow-forms\", \"allow-popups\", \"allow-same-origin\", \"allow-scripts and \"allow-top-navigation\"",
                 "values": [
-                    "allow-forms", 
-                    "allow-popups", 
-                    "allow-same-origin", 
+                    "allow-forms",
+                    "allow-popups",
+                    "allow-same-origin",
                     "allow-scripts and "
                 ]
-            }, 
+            },
             "seamless": {
-                "description": "Whether to apply the document's styles to the nested content", 
-                "name": "seamless", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to apply the document's styles to the nested content",
+                "name": "seamless",
+                "value-description": "Boolean attribute",
                 "values": [
                     "seamless"
                 ]
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "srcdoc": {
-                "description": "A document to render in the iframe", 
-                "name": "srcdoc", 
-                "value-description": "The source of an iframe srcdoc document*", 
+                "description": "A document to render in the iframe",
+                "name": "srcdoc",
+                "value-description": "The source of an iframe srcdoc document*",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "embedded", 
+            "flow",
+            "phrasing",
+            "embedded",
             "interactive"
-        ], 
+        ],
         "children": [
             "text*"
-        ], 
-        "description": "Nested browsing context", 
-        "interface": "HTMLIFrameElement", 
-        "kind": "inline", 
+        ],
+        "description": "Nested browsing context",
+        "interface": "HTMLIFrameElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<iframe src=\"%{1}\">%{0}</iframe>"
-    }, 
+    },
     "img": {
         "attributes": {
             "alt": {
-                "description": "Replacement text for use when images are not available", 
-                "name": "alt", 
-                "value-description": "Text*", 
+                "description": "Replacement text for use when images are not available",
+                "name": "alt",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "crossorigin": {
-                "description": "How the element handles crossorigin requests.", 
-                "name": "crossorigin", 
-                "value-description": "\"anonymous\"; \"use-credentials\"", 
+                "description": "How the element handles crossorigin requests.",
+                "name": "crossorigin",
+                "value-description": "\"anonymous\"; \"use-credentials\"",
                 "values": [
-                    "anonymous", 
+                    "anonymous",
                     "use-credentials"
                 ]
-            }, 
+            },
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "ismap": {
-                "description": "Whether the image is a server-side image map", 
-                "name": "ismap", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the image is a server-side image map",
+                "name": "ismap",
+                "value-description": "Boolean attribute",
                 "values": [
                     "ismap"
                 ]
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "usemap": {
-                "description": "Name of image map to use", 
-                "name": "usemap", 
-                "value-description": "Valid hash-name reference*", 
+                "description": "Name of image map to use",
+                "name": "usemap",
+                "value-description": "Valid hash-name reference*",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "embedded", 
+            "flow",
+            "phrasing",
+            "embedded",
             "interactive*"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Image", 
-        "interface": "HTMLImageElement", 
-        "kind": "empty", 
+        ],
+        "description": "Image",
+        "interface": "HTMLImageElement",
+        "kind": "empty",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "input": {
         "attributes": {
             "accept": {
-                "description": "Hint for expected file type in file upload controls", 
-                "name": "accept", 
-                "value-description": "Set of comma-separated tokens* consisting of valid MIME types with no parameters or audio/*, video/*, or image/*", 
+                "description": "Hint for expected file type in file upload controls",
+                "name": "accept",
+                "value-description": "Set of comma-separated tokens* consisting of valid MIME types with no parameters or audio/*, video/*, or image/*",
                 "values": []
-            }, 
+            },
             "alt": {
-                "description": "Replacement text for use when images are not available", 
-                "name": "alt", 
-                "value-description": "Text*", 
+                "description": "Replacement text for use when images are not available",
+                "name": "alt",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "autocomplete": {
-                "description": "Prevent the user agent from providing autocompletions for the form control(s)", 
-                "name": "autocomplete", 
-                "value-description": "\"on\"; \"off\"", 
+                "description": "Prevent the user agent from providing autocompletions for the form control(s)",
+                "name": "autocomplete",
+                "value-description": "\"on\"; \"off\"",
                 "values": [
-                    "on", 
+                    "on",
                     "off"
                 ]
-            }, 
+            },
             "autofocus": {
-                "description": "Automatically focus the form control when the page is loaded", 
-                "name": "autofocus", 
-                "value-description": "Boolean attribute", 
+                "description": "Automatically focus the form control when the page is loaded",
+                "name": "autofocus",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autofocus"
                 ]
-            }, 
+            },
             "checked": {
-                "description": "Whether the command or control is checked", 
-                "name": "checked", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the command or control is checked",
+                "name": "checked",
+                "value-description": "Boolean attribute",
                 "values": [
                     "checked"
                 ]
-            }, 
+            },
             "dirname": {
-                "description": "Name of form field to use for sending the element's directionality in form submission", 
-                "name": "dirname", 
-                "value-description": "Text*", 
+                "description": "Name of form field to use for sending the element's directionality in form submission",
+                "name": "dirname",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "formaction": {
-                "description": "URL to use for form submission", 
-                "name": "formaction", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "URL to use for form submission",
+                "name": "formaction",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "formenctype": {
-                "description": "Form data set encoding type to use for form submission", 
-                "name": "formenctype", 
-                "value-description": "\"application/x-www-form-urlencoded\"; \"multipart/form-data\"; \"text/plain\"", 
+                "description": "Form data set encoding type to use for form submission",
+                "name": "formenctype",
+                "value-description": "\"application/x-www-form-urlencoded\"; \"multipart/form-data\"; \"text/plain\"",
                 "values": [
-                    "application/x-www-form-urlencoded", 
-                    "multipart/form-data", 
+                    "application/x-www-form-urlencoded",
+                    "multipart/form-data",
                     "text/plain"
                 ]
-            }, 
+            },
             "formmethod": {
-                "description": "HTTP method to use for form submission", 
-                "name": "formmethod", 
-                "value-description": "\"GET\"; \"POST\"", 
+                "description": "HTTP method to use for form submission",
+                "name": "formmethod",
+                "value-description": "\"GET\"; \"POST\"",
                 "values": [
-                    "GET", 
+                    "GET",
                     "POST"
                 ]
-            }, 
+            },
             "formnovalidate": {
-                "description": "Bypass form control validation for form submission", 
-                "name": "formnovalidate", 
-                "value-description": "Boolean attribute", 
+                "description": "Bypass form control validation for form submission",
+                "name": "formnovalidate",
+                "value-description": "Boolean attribute",
                 "values": [
                     "formnovalidate"
                 ]
-            }, 
+            },
             "formtarget": {
-                "description": "Browsing context for form submission", 
-                "name": "formtarget", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Browsing context for form submission",
+                "name": "formtarget",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
-            }, 
+            },
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "list": {
-                "description": "List of autocomplete options", 
-                "name": "list", 
-                "value-description": "ID*", 
+                "description": "List of autocomplete options",
+                "name": "list",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "max": {
-                "description": "Maximum value", 
-                "name": "max", 
-                "value-description": "Varies*", 
+                "description": "Maximum value",
+                "name": "max",
+                "value-description": "Varies*",
                 "values": []
-            }, 
+            },
             "maxlength": {
-                "description": "Maximum length of value", 
-                "name": "maxlength", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Maximum length of value",
+                "name": "maxlength",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "min": {
-                "description": "Minimum value", 
-                "name": "min", 
-                "value-description": "Varies*", 
+                "description": "Minimum value",
+                "name": "min",
+                "value-description": "Varies*",
                 "values": []
-            }, 
+            },
             "multiple": {
-                "description": "Whether to allow multiple values", 
-                "name": "multiple", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to allow multiple values",
+                "name": "multiple",
+                "value-description": "Boolean attribute",
                 "values": [
                     "multiple"
                 ]
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "pattern": {
-                "description": "Pattern to be matched by the form control's value", 
-                "name": "pattern", 
-                "value-description": "Regular expression matching the JavaScript Pattern production", 
+                "description": "Pattern to be matched by the form control's value",
+                "name": "pattern",
+                "value-description": "Regular expression matching the JavaScript Pattern production",
                 "values": []
-            }, 
+            },
             "placeholder": {
-                "description": "User-visible label to be placed within the form control", 
-                "name": "placeholder", 
-                "value-description": "Text*", 
+                "description": "User-visible label to be placed within the form control",
+                "name": "placeholder",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "readonly": {
-                "description": "Whether to allow the value to be edited by the user", 
-                "name": "readonly", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to allow the value to be edited by the user",
+                "name": "readonly",
+                "value-description": "Boolean attribute",
                 "values": [
                     "readonly"
                 ]
-            }, 
+            },
             "required": {
-                "description": "Whether the control is required for form submission", 
-                "name": "required", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the control is required for form submission",
+                "name": "required",
+                "value-description": "Boolean attribute",
                 "values": [
                     "required"
                 ]
-            }, 
+            },
             "size": {
-                "description": "Size of the control", 
-                "name": "size", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Size of the control",
+                "name": "size",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "step": {
-                "description": "Granularity to be matched by the form control's value", 
-                "name": "step", 
-                "value-description": "Valid floating point number greater than zero, or \"any\"", 
+                "description": "Granularity to be matched by the form control's value",
+                "name": "step",
+                "value-description": "Valid floating point number greater than zero, or \"any\"",
                 "values": [
                     "any"
                 ]
-            }, 
+            },
             "type": {
-                "description": "Type of form control", 
-                "name": "type", 
-                "value-description": "input type keyword", 
+                "description": "Type of form control",
+                "name": "type",
+                "value-description": "input type keyword",
                 "values": []
-            }, 
+            },
             "value": {
-                "description": "Value of the form control", 
-                "name": "value", 
-                "value-description": "Varies*", 
+                "description": "Value of the form control",
+                "name": "value",
+                "value-description": "Varies*",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "interactive*", 
-            "listed", 
-            "labelable", 
-            "submittable", 
-            "resettable", 
+            "flow",
+            "phrasing",
+            "interactive*",
+            "listed",
+            "labelable",
+            "submittable",
+            "resettable",
             "form-associated"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Form control", 
-        "interface": "HTMLInputElement", 
-        "kind": "empty", 
+        ],
+        "description": "Form control",
+        "interface": "HTMLInputElement",
+        "kind": "empty",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<input name=\"%{1}\" type=\"%{0=\"text\"}\">"
-    }, 
+    },
     "ins": {
         "attributes": {
             "cite": {
-                "description": "Link to the source of the quotation or more information about the edit", 
-                "name": "cite", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Link to the source of the quotation or more information about the edit",
+                "name": "cite",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "datetime": {
-                "description": "Date and (optionally) time of the change", 
-                "name": "datetime", 
-                "value-description": "Valid date string with optional time", 
+                "description": "Date and (optionally) time of the change",
+                "name": "datetime",
+                "value-description": "Valid date string with optional time",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing*"
-        ], 
+        ],
         "children": [
             "transparent"
-        ], 
-        "description": "An addition to the document", 
-        "interface": "HTMLModElement", 
-        "kind": "inline", 
+        ],
+        "description": "An addition to the document",
+        "interface": "HTMLModElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "kbd": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "User input", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "User input",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "keygen": {
         "attributes": {
             "autofocus": {
-                "description": "Automatically focus the form control when the page is loaded", 
-                "name": "autofocus", 
-                "value-description": "Boolean attribute", 
+                "description": "Automatically focus the form control when the page is loaded",
+                "name": "autofocus",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autofocus"
                 ]
-            }, 
+            },
             "challenge": {
-                "description": "String to package with the generated and signed public key", 
-                "name": "challenge", 
-                "value-description": "Text", 
+                "description": "String to package with the generated and signed public key",
+                "name": "challenge",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "keytype": {
-                "description": "The type of cryptographic key to generate", 
-                "name": "keytype", 
-                "value-description": "Text*", 
+                "description": "The type of cryptographic key to generate",
+                "name": "keytype",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "interactive", 
-            "listed", 
-            "labelable", 
-            "submittable", 
-            "resettable", 
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
+            "resettable",
             "form-associated"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Cryptographic key-pair generator form control", 
-        "interface": "HTMLKeygenElement", 
-        "kind": "empty", 
+        ],
+        "description": "Cryptographic key-pair generator form control",
+        "interface": "HTMLKeygenElement",
+        "kind": "empty",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "label": {
         "attributes": {
             "for": {
-                "description": "Associate the label with form control", 
-                "name": "for", 
-                "value-description": "ID*", 
+                "description": "Associate the label with form control",
+                "name": "for",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "interactive", 
+            "flow",
+            "phrasing",
+            "interactive",
             "form-associated"
-        ], 
+        ],
         "children": [
             "phrasing*"
-        ], 
-        "description": "Caption for a form control", 
-        "interface": "HTMLLabelElement", 
-        "kind": "inline", 
+        ],
+        "description": "Caption for a form control",
+        "interface": "HTMLLabelElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<label for=\"%{1}\">%{0}</label>"
-    }, 
+    },
     "legend": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Caption for fieldset", 
-        "interface": "HTMLLegendElement", 
-        "kind": "inline", 
+        ],
+        "description": "Caption for fieldset",
+        "interface": "HTMLLegendElement",
+        "kind": "inline",
         "parents": [
             "fieldset"
         ]
-    }, 
+    },
     "li": {
         "attributes": {
             "value": {
-                "description": "Ordinal value of the list item", 
-                "name": "value", 
-                "value-description": "Valid integer", 
+                "description": "Ordinal value of the list item",
+                "name": "value",
+                "value-description": "Valid integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "List item", 
-        "interface": "HTMLLIElement", 
-        "kind": "block", 
+        ],
+        "description": "List item",
+        "interface": "HTMLLIElement",
+        "kind": "block",
         "parents": [
-            "ol", 
-            "ul", 
+            "ol",
+            "ul",
             "menu"
         ]
-    }, 
+    },
     "link": {
         "attributes": {
             "href": {
-                "description": "Address of the hyperlink", 
-                "name": "href", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the hyperlink",
+                "name": "href",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "hreflang": {
-                "description": "Language of the linked resource", 
-                "name": "hreflang", 
-                "value-description": "Valid BCP 47 language tag", 
+                "description": "Language of the linked resource",
+                "name": "hreflang",
+                "value-description": "Valid BCP 47 language tag",
                 "values": []
-            }, 
+            },
             "media": {
-                "description": "Applicable media", 
-                "name": "media", 
-                "value-description": "Valid media query", 
+                "description": "Applicable media",
+                "name": "media",
+                "value-description": "Valid media query",
                 "values": []
-            }, 
+            },
             "rel": {
-                "description": "Relationship between the document containing the hyperlink and the destination resource", 
-                "name": "rel", 
-                "value-description": "Set of space-separated tokens*", 
+                "description": "Relationship between the document containing the hyperlink and the destination resource",
+                "name": "rel",
+                "value-description": "Set of space-separated tokens*",
                 "values": []
-            }, 
+            },
             "sizes": {
-                "description": "Sizes of the icons (for rel=\"icon\")", 
-                "name": "sizes", 
-                "value-description": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of sizes*", 
+                "description": "Sizes of the icons (for rel=\"icon\")",
+                "name": "sizes",
+                "value-description": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of sizes*",
                 "values": []
-            }, 
+            },
             "title": {
-                "description": "Alternative style sheet set name", 
-                "name": "title", 
-                "value-description": "Text", 
+                "description": "Alternative style sheet set name",
+                "name": "title",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Hint for the type of the referenced resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Hint for the type of the referenced resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "metadata", 
-            "flow*", 
+            "metadata",
+            "flow*",
             "phrasing*"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Link metadata", 
-        "interface": "HTMLLinkElement", 
-        "kind": "empty", 
+        ],
+        "description": "Link metadata",
+        "interface": "HTMLLinkElement",
+        "kind": "empty",
         "parents": [
-            "head", 
-            "noscript*", 
+            "head",
+            "noscript*",
             "phrasing*"
-        ], 
+        ],
         "snippet": "<link href=\"%{1}\" rel=\"%{2=\"stylesheet\"}\" type=\"%{3=\"text/css\"}\">"
-    }, 
+    },
     "map": {
         "attributes": {
             "name": {
-                "description": "Name of image map to reference from the usemap attribute", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of image map to reference from the usemap attribute",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing*"
-        ], 
+        ],
         "children": [
-            "transparent", 
+            "transparent",
             "area*"
-        ], 
-        "description": "Image map", 
-        "interface": "HTMLMapElement", 
-        "kind": "inline", 
+        ],
+        "description": "Image map",
+        "interface": "HTMLMapElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "mark": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Highlight", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Highlight",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "menu": {
         "attributes": {
             "label": {
-                "description": "User-visible label", 
-                "name": "label", 
-                "value-description": "Text", 
+                "description": "User-visible label",
+                "name": "label",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of menu", 
-                "name": "type", 
-                "value-description": "\"context\"; \"toolbar\"", 
+                "description": "Type of menu",
+                "name": "type",
+                "value-description": "\"context\"; \"toolbar\"",
                 "values": [
-                    "context", 
+                    "context",
                     "toolbar"
                 ]
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "interactive*"
-        ], 
+        ],
         "children": [
-            "li*", 
+            "li*",
             "flow"
-        ], 
-        "description": "Menu of commands", 
-        "interface": "HTMLMenuElement", 
-        "kind": "block", 
+        ],
+        "description": "Menu of commands",
+        "interface": "HTMLMenuElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "meta": {
         "attributes": {
             "charset": {
-                "description": "Character encoding declaration", 
-                "name": "charset", 
-                "value-description": "Preferred MIME name of an encoding*", 
+                "description": "Character encoding declaration",
+                "name": "charset",
+                "value-description": "Preferred MIME name of an encoding*",
                 "values": []
-            }, 
+            },
             "content": {
-                "description": "Value of the element", 
-                "name": "content", 
-                "value-description": "Text*", 
+                "description": "Value of the element",
+                "name": "content",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "http-equiv": {
-                "description": "Pragma directive", 
-                "name": "http-equiv", 
-                "value-description": "Text*", 
+                "description": "Pragma directive",
+                "name": "http-equiv",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Metadata name", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Metadata name",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "metadata", 
-            "flow*", 
+            "metadata",
+            "flow*",
             "phrasing*"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Text metadata", 
-        "interface": "HTMLMetaElement", 
-        "kind": "empty", 
+        ],
+        "description": "Text metadata",
+        "interface": "HTMLMetaElement",
+        "kind": "empty",
         "parents": [
-            "head", 
-            "noscript*", 
+            "head",
+            "noscript*",
             "phrasing*"
         ]
-    }, 
+    },
     "meter": {
         "attributes": {
             "high": {
-                "description": "Low limit of high range", 
-                "name": "high", 
-                "value-description": "Valid floating point number*", 
+                "description": "Low limit of high range",
+                "name": "high",
+                "value-description": "Valid floating point number*",
                 "values": []
-            }, 
+            },
             "low": {
-                "description": "High limit of low range", 
-                "name": "low", 
-                "value-description": "Valid floating point number*", 
+                "description": "High limit of low range",
+                "name": "low",
+                "value-description": "Valid floating point number*",
                 "values": []
-            }, 
+            },
             "max": {
-                "description": "Upper bound of range", 
-                "name": "max", 
-                "value-description": "Valid floating point number*", 
+                "description": "Upper bound of range",
+                "name": "max",
+                "value-description": "Valid floating point number*",
                 "values": []
-            }, 
+            },
             "min": {
-                "description": "Lower bound of range", 
-                "name": "min", 
-                "value-description": "Valid floating point number*", 
+                "description": "Lower bound of range",
+                "name": "min",
+                "value-description": "Valid floating point number*",
                 "values": []
-            }, 
+            },
             "optimum": {
-                "description": "Optimum value in gauge", 
-                "name": "optimum", 
-                "value-description": "Valid floating point number*", 
+                "description": "Optimum value in gauge",
+                "name": "optimum",
+                "value-description": "Valid floating point number*",
                 "values": []
-            }, 
+            },
             "value": {
-                "description": "Current value of the element", 
-                "name": "value", 
-                "value-description": "Valid floating point number", 
+                "description": "Current value of the element",
+                "name": "value",
+                "value-description": "Valid floating point number",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
+            "flow",
+            "phrasing",
             "labelable"
-        ], 
+        ],
         "children": [
             "phrasing*"
-        ], 
-        "description": "Gauge", 
-        "interface": "HTMLMeterElement", 
-        "kind": "inline", 
+        ],
+        "description": "Gauge",
+        "interface": "HTMLMeterElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "nav": {
         "categories": [
-            "flow", 
+            "flow",
             "sectioning"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Section with navigational links", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Section with navigational links",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "noscript": {
         "categories": [
-            "metadata", 
-            "flow", 
+            "metadata",
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "varies*"
-        ], 
-        "description": "Fallback content for script", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Fallback content for script",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
-            "head*", 
+            "head*",
             "phrasing*"
         ]
-    }, 
+    },
     "object": {
         "attributes": {
             "data": {
-                "description": "Address of the resource", 
-                "name": "data", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "data",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of nested browsing context", 
-                "name": "name", 
-                "value-description": "Valid browsing context name or keyword", 
+                "description": "Name of nested browsing context",
+                "name": "name",
+                "value-description": "Valid browsing context name or keyword",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of embedded resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Type of embedded resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
-            }, 
+            },
             "typemustmatch": {
-                "description": "Whether the type attribute and the Content-Type value need to match for the resource to be used", 
-                "name": "typemustmatch", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the type attribute and the Content-Type value need to match for the resource to be used",
+                "name": "typemustmatch",
+                "value-description": "Boolean attribute",
                 "values": [
                     "typemustmatch"
                 ]
-            }, 
+            },
             "usemap": {
-                "description": "Name of image map to use", 
-                "name": "usemap", 
-                "value-description": "Valid hash-name reference*", 
+                "description": "Name of image map to use",
+                "name": "usemap",
+                "value-description": "Valid hash-name reference*",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "embedded", 
-            "interactive*", 
-            "listed", 
-            "submittable", 
+            "flow",
+            "phrasing",
+            "embedded",
+            "interactive*",
+            "listed",
+            "submittable",
             "form-associated"
-        ], 
+        ],
         "children": [
-            "param*", 
+            "param*",
             "transparent"
-        ], 
-        "description": "Image, nested browsing context, or plugin", 
-        "interface": "HTMLObjectElement", 
-        "kind": "inline", 
+        ],
+        "description": "Image, nested browsing context, or plugin",
+        "interface": "HTMLObjectElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "ol": {
         "attributes": {
             "reversed": {
-                "description": "Number the list backwards", 
-                "name": "reversed", 
-                "value-description": "Boolean attribute", 
+                "description": "Number the list backwards",
+                "name": "reversed",
+                "value-description": "Boolean attribute",
                 "values": [
                     "reversed"
                 ]
-            }, 
+            },
             "start": {
-                "description": "Ordinal value of the first item", 
-                "name": "start", 
-                "value-description": "Valid integer", 
+                "description": "Ordinal value of the first item",
+                "name": "start",
+                "value-description": "Valid integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "li"
-        ], 
-        "description": "Ordered list", 
-        "interface": "HTMLOListElement", 
-        "kind": "block", 
+        ],
+        "description": "Ordered list",
+        "interface": "HTMLOListElement",
+        "kind": "block",
         "parents": [
             "flow"
-        ], 
+        ],
         "snippet": "<ol>\n\t<li>%{0}</li>\n</ol>"
-    }, 
+    },
     "optgroup": {
         "attributes": {
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "label": {
-                "description": "User-visible label", 
-                "name": "label", 
-                "value-description": "Text", 
+                "description": "User-visible label",
+                "name": "label",
+                "value-description": "Text",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "option"
-        ], 
-        "description": "Group of options in a list box", 
-        "interface": "HTMLOptGroupElement", 
-        "kind": "block", 
+        ],
+        "description": "Group of options in a list box",
+        "interface": "HTMLOptGroupElement",
+        "kind": "block",
         "parents": [
             "select"
         ]
-    }, 
+    },
     "option": {
         "attributes": {
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "label": {
-                "description": "User-visible label", 
-                "name": "label", 
-                "value-description": "Text", 
+                "description": "User-visible label",
+                "name": "label",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "selected": {
-                "description": "Whether the option is selected by default", 
-                "name": "selected", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the option is selected by default",
+                "name": "selected",
+                "value-description": "Boolean attribute",
                 "values": [
                     "selected"
                 ]
-            }, 
+            },
             "value": {
-                "description": "Value to be used for form submission", 
-                "name": "value", 
-                "value-description": "Text", 
+                "description": "Value to be used for form submission",
+                "name": "value",
+                "value-description": "Text",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "text"
-        ], 
-        "description": "Option in a list box or combo box control", 
-        "interface": "HTMLOptionElement", 
-        "kind": "inline", 
+        ],
+        "description": "Option in a list box or combo box control",
+        "interface": "HTMLOptionElement",
+        "kind": "inline",
         "parents": [
-            "select", 
-            "datalist", 
+            "select",
+            "datalist",
             "optgroup"
         ]
-    }, 
+    },
     "output": {
         "attributes": {
             "for": {
-                "description": "Specifies controls from which the output was calculated", 
-                "name": "for", 
-                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*", 
+                "description": "Specifies controls from which the output was calculated",
+                "name": "for",
+                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*",
                 "values": []
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "listed", 
-            "labelable", 
-            "resettable", 
+            "flow",
+            "phrasing",
+            "listed",
+            "labelable",
+            "resettable",
             "form-associated"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Calculated output value", 
-        "interface": "HTMLOutputElement", 
-        "kind": "inline", 
+        ],
+        "description": "Calculated output value",
+        "interface": "HTMLOutputElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "p": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Paragraph", 
-        "interface": "HTMLParagraphElement", 
-        "kind": "inline", 
+        ],
+        "description": "Paragraph",
+        "interface": "HTMLParagraphElement",
+        "kind": "inline",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "param": {
         "attributes": {
             "name": {
-                "description": "Name of parameter", 
-                "name": "name", 
-                "value-description": "Text", 
+                "description": "Name of parameter",
+                "name": "name",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "value": {
-                "description": "Value of parameter", 
-                "name": "value", 
-                "value-description": "Text", 
+                "description": "Value of parameter",
+                "name": "value",
+                "value-description": "Text",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Parameter for object", 
-        "interface": "HTMLParamElement", 
-        "kind": "empty", 
+        ],
+        "description": "Parameter for object",
+        "interface": "HTMLParamElement",
+        "kind": "empty",
         "parents": [
             "object"
         ]
-    }, 
+    },
     "pre": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Block of preformatted text", 
-        "interface": "HTMLPreElement", 
-        "kind": "inline", 
+        ],
+        "description": "Block of preformatted text",
+        "interface": "HTMLPreElement",
+        "kind": "inline",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "progress": {
         "attributes": {
             "max": {
-                "description": "Upper bound of range", 
-                "name": "max", 
-                "value-description": "Valid floating point number*", 
+                "description": "Upper bound of range",
+                "name": "max",
+                "value-description": "Valid floating point number*",
                 "values": []
-            }, 
+            },
             "value": {
-                "description": "Current value of the element", 
-                "name": "value", 
-                "value-description": "Valid floating point number", 
+                "description": "Current value of the element",
+                "name": "value",
+                "value-description": "Valid floating point number",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
+            "flow",
+            "phrasing",
             "labelable"
-        ], 
+        ],
         "children": [
             "phrasing*"
-        ], 
-        "description": "Progress bar", 
-        "interface": "HTMLProgressElement", 
-        "kind": "inline", 
+        ],
+        "description": "Progress bar",
+        "interface": "HTMLProgressElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "q": {
         "attributes": {
             "cite": {
-                "description": "Link to the source of the quotation or more information about the edit", 
-                "name": "cite", 
-                "value-description": "Valid URL potentially surrounded by spaces", 
+                "description": "Link to the source of the quotation or more information about the edit",
+                "name": "cite",
+                "value-description": "Valid URL potentially surrounded by spaces",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Quotation", 
-        "interface": "HTMLQuoteElement", 
-        "kind": "inline", 
+        ],
+        "description": "Quotation",
+        "interface": "HTMLQuoteElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "rp": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Parenthesis for ruby annotation text", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Parenthesis for ruby annotation text",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "ruby"
         ]
-    }, 
+    },
     "rt": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Ruby annotation text", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Ruby annotation text",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "ruby"
         ]
-    }, 
+    },
     "ruby": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
-            "phrasing", 
-            "rt", 
+            "phrasing",
+            "rt",
             "rp*"
-        ], 
-        "description": "Ruby annotation(s)", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Ruby annotation(s)",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "s": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Inaccurate text", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Inaccurate text",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "samp": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Computer output", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Computer output",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "script": {
         "attributes": {
             "async": {
-                "description": "Execute script asynchronously", 
-                "name": "async", 
-                "value-description": "Boolean attribute", 
+                "description": "Execute script asynchronously",
+                "name": "async",
+                "value-description": "Boolean attribute",
                 "values": [
                     "async"
                 ]
-            }, 
+            },
             "charset": {
-                "description": "Character encoding of the external script resource", 
-                "name": "charset", 
-                "value-description": "Preferred MIME name of an encoding*", 
+                "description": "Character encoding of the external script resource",
+                "name": "charset",
+                "value-description": "Preferred MIME name of an encoding*",
                 "values": []
-            }, 
+            },
             "defer": {
-                "description": "Defer script execution", 
-                "name": "defer", 
-                "value-description": "Boolean attribute", 
+                "description": "Defer script execution",
+                "name": "defer",
+                "value-description": "Boolean attribute",
                 "values": [
                     "defer"
                 ]
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of embedded resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Type of embedded resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "metadata", 
-            "flow", 
+            "metadata",
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "script, data, or script documentation*"
-        ], 
-        "description": "Embedded script", 
-        "interface": "HTMLScriptElement", 
-        "kind": "block", 
+        ],
+        "description": "Embedded script",
+        "interface": "HTMLScriptElement",
+        "kind": "block",
         "parents": [
-            "head", 
+            "head",
             "phrasing"
         ]
-    }, 
+    },
     "section": {
         "categories": [
-            "flow", 
+            "flow",
             "sectioning"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Generic document or application section", 
-        "interface": "HTMLElement", 
-        "kind": "block", 
+        ],
+        "description": "Generic document or application section",
+        "interface": "HTMLElement",
+        "kind": "block",
         "parents": [
             "flow"
         ]
-    }, 
+    },
     "select": {
         "attributes": {
             "autofocus": {
-                "description": "Automatically focus the form control when the page is loaded", 
-                "name": "autofocus", 
-                "value-description": "Boolean attribute", 
+                "description": "Automatically focus the form control when the page is loaded",
+                "name": "autofocus",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autofocus"
                 ]
-            }, 
+            },
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "multiple": {
-                "description": "Whether to allow multiple values", 
-                "name": "multiple", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to allow multiple values",
+                "name": "multiple",
+                "value-description": "Boolean attribute",
                 "values": [
                     "multiple"
                 ]
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "required": {
-                "description": "Whether the control is required for form submission", 
-                "name": "required", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the control is required for form submission",
+                "name": "required",
+                "value-description": "Boolean attribute",
                 "values": [
                     "required"
                 ]
-            }, 
+            },
             "size": {
-                "description": "Size of the control", 
-                "name": "size", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Size of the control",
+                "name": "size",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "interactive", 
-            "listed", 
-            "labelable", 
-            "submittable", 
-            "resettable", 
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
+            "resettable",
             "form-associated"
-        ], 
+        ],
         "children": [
             "option, optgroup"
-        ], 
-        "description": "List box control", 
-        "interface": "HTMLSelectElement", 
-        "kind": "block", 
+        ],
+        "description": "List box control",
+        "interface": "HTMLSelectElement",
+        "kind": "block",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<select>\n\t<option>%{0}</option>\n</select>"
-    }, 
+    },
     "small": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Side comment", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Side comment",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "source": {
         "attributes": {
             "media": {
-                "description": "Applicable media", 
-                "name": "media", 
-                "value-description": "Valid media query", 
+                "description": "Applicable media",
+                "name": "media",
+                "value-description": "Valid media query",
                 "values": []
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of embedded resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Type of embedded resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Media source for video or audio", 
-        "interface": "HTMLSourceElement", 
-        "kind": "empty", 
+        ],
+        "description": "Media source for video or audio",
+        "interface": "HTMLSourceElement",
+        "kind": "empty",
         "parents": [
-            "video", 
+            "video",
             "audio"
-        ], 
+        ],
         "snippet": "<source src=\"%{0}\">"
-    }, 
+    },
     "span": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Generic phrasing container", 
-        "interface": "HTMLSpanElement", 
-        "kind": "inline", 
+        ],
+        "description": "Generic phrasing container",
+        "interface": "HTMLSpanElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
-        ], 
+        ],
         "snippet": "<span class=\"%{1}\">%{0}</span>"
-    }, 
+    },
     "strong": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Importance", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Importance",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "style": {
         "attributes": {
             "media": {
-                "description": "Applicable media", 
-                "name": "media", 
-                "value-description": "Valid media query", 
+                "description": "Applicable media",
+                "name": "media",
+                "value-description": "Valid media query",
                 "values": []
-            }, 
+            },
             "scoped": {
-                "description": "Whether the styles apply to the entire document or just the parent subtree", 
-                "name": "scoped", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the styles apply to the entire document or just the parent subtree",
+                "name": "scoped",
+                "value-description": "Boolean attribute",
                 "values": [
                     "scoped"
                 ]
-            }, 
+            },
             "title": {
-                "description": "Alternative style sheet set name", 
-                "name": "title", 
-                "value-description": "Text", 
+                "description": "Alternative style sheet set name",
+                "name": "title",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "type": {
-                "description": "Type of embedded resource", 
-                "name": "type", 
-                "value-description": "Valid MIME type", 
+                "description": "Type of embedded resource",
+                "name": "type",
+                "value-description": "Valid MIME type",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "metadata", 
+            "metadata",
             "flow"
-        ], 
+        ],
         "children": [
             "varies*"
-        ], 
-        "description": "Embedded styling information", 
-        "interface": "HTMLStyleElement", 
-        "kind": "block", 
+        ],
+        "description": "Embedded styling information",
+        "interface": "HTMLStyleElement",
+        "kind": "block",
         "parents": [
-            "head", 
-            "noscript*", 
+            "head",
+            "noscript*",
             "flow*"
-        ], 
+        ],
         "snippet": "<style>\n\n%{1} {\n\t%{0}\n}\n\n</style>"
-    }, 
+    },
     "sub": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Subscript", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Subscript",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "summary": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Caption for details", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Caption for details",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "details"
         ]
-    }, 
+    },
     "sup": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Superscript", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Superscript",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "table": {
         "attributes": {
             "border": {
-                "description": "Explicit indication that the table element is not being used for layout purposes", 
-                "name": "border", 
-                "value-description": "The empty string, or \"1\"", 
+                "description": "Explicit indication that the table element is not being used for layout purposes",
+                "name": "border",
+                "value-description": "The empty string, or \"1\"",
                 "values": [
                     "1"
                 ]
             }
-        }, 
+        },
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
-            "caption*", 
-            "colgroup*", 
-            "thead*", 
-            "tbody*", 
-            "tfoot*", 
+            "caption*",
+            "colgroup*",
+            "thead*",
+            "tbody*",
+            "tfoot*",
             "tr*"
-        ], 
-        "description": "Table", 
-        "interface": "HTMLTableElement", 
-        "kind": "block", 
+        ],
+        "description": "Table",
+        "interface": "HTMLTableElement",
+        "kind": "block",
         "parents": [
             "flow"
-        ], 
+        ],
         "snippet": "<table>\n\t<tr>%{0}</tr>\n</table>"
-    }, 
+    },
     "tbody": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "tr"
-        ], 
-        "description": "Group of rows in a table", 
-        "interface": "HTMLTableSectionElement", 
-        "kind": "block", 
+        ],
+        "description": "Group of rows in a table",
+        "interface": "HTMLTableSectionElement",
+        "kind": "block",
         "parents": [
             "table"
         ]
-    }, 
+    },
     "td": {
         "attributes": {
             "colspan": {
-                "description": "Number of columns that the cell is to span", 
-                "name": "colspan", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Number of columns that the cell is to span",
+                "name": "colspan",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
-            }, 
+            },
             "headers": {
-                "description": "The header cells for this cell", 
-                "name": "headers", 
-                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*", 
+                "description": "The header cells for this cell",
+                "name": "headers",
+                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*",
                 "values": []
-            }, 
+            },
             "rowspan": {
-                "description": "Number of rows that the cell is to span", 
-                "name": "rowspan", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Number of rows that the cell is to span",
+                "name": "rowspan",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "sectioning root"
-        ], 
+        ],
         "children": [
             "flow"
-        ], 
-        "description": "Table cell", 
-        "interface": "HTMLTableDataCellElement", 
-        "kind": "block", 
+        ],
+        "description": "Table cell",
+        "interface": "HTMLTableDataCellElement",
+        "kind": "block",
         "parents": [
             "tr"
         ]
-    }, 
+    },
     "textarea": {
         "attributes": {
             "autofocus": {
-                "description": "Automatically focus the form control when the page is loaded", 
-                "name": "autofocus", 
-                "value-description": "Boolean attribute", 
+                "description": "Automatically focus the form control when the page is loaded",
+                "name": "autofocus",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autofocus"
                 ]
-            }, 
+            },
             "cols": {
-                "description": "Maximum number of characters per line", 
-                "name": "cols", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Maximum number of characters per line",
+                "name": "cols",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
-            }, 
+            },
             "dirname": {
-                "description": "Name of form field to use for sending the element's directionality in form submission", 
-                "name": "dirname", 
-                "value-description": "Text*", 
+                "description": "Name of form field to use for sending the element's directionality in form submission",
+                "name": "dirname",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "disabled": {
-                "description": "Whether the form control is disabled", 
-                "name": "disabled", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the form control is disabled",
+                "name": "disabled",
+                "value-description": "Boolean attribute",
                 "values": [
                     "disabled"
                 ]
-            }, 
+            },
             "form": {
-                "description": "Associates the control with a form element", 
-                "name": "form", 
-                "value-description": "ID*", 
+                "description": "Associates the control with a form element",
+                "name": "form",
+                "value-description": "ID*",
                 "values": []
-            }, 
+            },
             "maxlength": {
-                "description": "Maximum length of value", 
-                "name": "maxlength", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Maximum length of value",
+                "name": "maxlength",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "name": {
-                "description": "Name of form control to use for form submission and in the form.elements API", 
-                "name": "name", 
-                "value-description": "Text*", 
+                "description": "Name of form control to use for form submission and in the form.elements API",
+                "name": "name",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "placeholder": {
-                "description": "User-visible label to be placed within the form control", 
-                "name": "placeholder", 
-                "value-description": "Text*", 
+                "description": "User-visible label to be placed within the form control",
+                "name": "placeholder",
+                "value-description": "Text*",
                 "values": []
-            }, 
+            },
             "readonly": {
-                "description": "Whether to allow the value to be edited by the user", 
-                "name": "readonly", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to allow the value to be edited by the user",
+                "name": "readonly",
+                "value-description": "Boolean attribute",
                 "values": [
                     "readonly"
                 ]
-            }, 
+            },
             "required": {
-                "description": "Whether the control is required for form submission", 
-                "name": "required", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether the control is required for form submission",
+                "name": "required",
+                "value-description": "Boolean attribute",
                 "values": [
                     "required"
                 ]
-            }, 
+            },
             "rows": {
-                "description": "Number of lines to show", 
-                "name": "rows", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Number of lines to show",
+                "name": "rows",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
-            }, 
+            },
             "wrap": {
-                "description": "How the value of the form control is to be wrapped for form submission", 
-                "name": "wrap", 
-                "value-description": "\"soft\"; \"hard\"", 
+                "description": "How the value of the form control is to be wrapped for form submission",
+                "name": "wrap",
+                "value-description": "\"soft\"; \"hard\"",
                 "values": [
-                    "soft", 
+                    "soft",
                     "hard"
                 ]
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "interactive", 
-            "listed", 
-            "labelable", 
-            "submittable", 
-            "resettable", 
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
+            "resettable",
             "form-associated"
-        ], 
+        ],
         "children": [
             "text"
-        ], 
-        "description": "Multiline text field", 
-        "interface": "HTMLTextAreaElement", 
-        "kind": "inline", 
+        ],
+        "description": "Multiline text field",
+        "interface": "HTMLTextAreaElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "tfoot": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "tr"
-        ], 
-        "description": "Group of footer rows in a table", 
-        "interface": "HTMLTableSectionElement", 
-        "kind": "block", 
+        ],
+        "description": "Group of footer rows in a table",
+        "interface": "HTMLTableSectionElement",
+        "kind": "block",
         "parents": [
             "table"
         ]
-    }, 
+    },
     "th": {
         "attributes": {
             "colspan": {
-                "description": "Number of columns that the cell is to span", 
-                "name": "colspan", 
-                "value-description": "Valid non-negative integer greater than zero", 
+                "description": "Number of columns that the cell is to span",
+                "name": "colspan",
+                "value-description": "Valid non-negative integer greater than zero",
                 "values": []
-            }, 
+            },
             "headers": {
-                "description": "The header cells for this cell", 
-                "name": "headers", 
-                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*", 
+                "description": "The header cells for this cell",
+                "name": "headers",
+                "value-description": "Unordered set of unique space-separated tokens, case-sensitive, consisting of IDs*",
                 "values": []
-            }, 
+            },
             "rowspan": {
-                "description": "Number of rows that the cell is to span", 
-                "name": "rowspan", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Number of rows that the cell is to span",
+                "name": "rowspan",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "scope": {
-                "description": "Specifies which cells the header cell applies to", 
-                "name": "scope", 
-                "value-description": "\"row\"; \"col\"; \"rowgroup\"; \"colgroup\"", 
+                "description": "Specifies which cells the header cell applies to",
+                "name": "scope",
+                "value-description": "\"row\"; \"col\"; \"rowgroup\"; \"colgroup\"",
                 "values": [
-                    "row", 
-                    "col", 
-                    "rowgroup", 
+                    "row",
+                    "col",
+                    "rowgroup",
                     "colgroup"
                 ]
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "flow*"
-        ], 
-        "description": "Table header cell", 
-        "interface": "HTMLTableHeaderCellElement", 
-        "kind": "block", 
+        ],
+        "description": "Table header cell",
+        "interface": "HTMLTableHeaderCellElement",
+        "kind": "block",
         "parents": [
             "tr"
         ]
-    }, 
+    },
     "thead": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "tr"
-        ], 
-        "description": "Group of heading rows in a table", 
-        "interface": "HTMLTableSectionElement", 
-        "kind": "block", 
+        ],
+        "description": "Group of heading rows in a table",
+        "interface": "HTMLTableSectionElement",
+        "kind": "block",
         "parents": [
             "table"
         ]
-    }, 
+    },
     "time": {
         "attributes": {
             "datetime": {
-                "description": "Machine-readable value", 
-                "name": "datetime", 
-                "value-description": "Valid month string, valid date string, valid yearless date string, valid time string, valid local date and time string, valid time-zone offset string, valid global date and time string, valid week string, valid non-negative integer, or valid duration string", 
+                "description": "Machine-readable value",
+                "name": "datetime",
+                "value-description": "Valid month string, valid date string, valid yearless date string, valid time string, valid local date and time string, valid time-zone offset string, valid global date and time string, valid week string, valid non-negative integer, or valid duration string",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Machine-readable equivalent of date- or time-related data", 
-        "interface": "HTMLTimeElement", 
-        "kind": "inline", 
+        ],
+        "description": "Machine-readable equivalent of date- or time-related data",
+        "interface": "HTMLTimeElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "title": {
         "categories": [
             "metadata"
-        ], 
+        ],
         "children": [
             "text"
-        ], 
-        "description": "Document title", 
-        "interface": "HTMLTitleElement", 
-        "kind": "inline", 
+        ],
+        "description": "Document title",
+        "interface": "HTMLTitleElement",
+        "kind": "inline",
         "parents": [
             "head"
         ]
-    }, 
+    },
     "tr": {
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
-            "th*", 
+            "th*",
             "td"
-        ], 
-        "description": "Table row", 
-        "interface": "HTMLTableRowElement", 
-        "kind": "block", 
+        ],
+        "description": "Table row",
+        "interface": "HTMLTableRowElement",
+        "kind": "block",
         "parents": [
-            "table", 
-            "thead", 
-            "tbody", 
+            "table",
+            "thead",
+            "tbody",
             "tfoot"
         ]
-    }, 
+    },
     "track": {
         "attributes": {
             "default": {
-                "description": "Enable the track if no other text track is more suitable.", 
-                "name": "default", 
-                "value-description": "Boolean attribute", 
+                "description": "Enable the track if no other text track is more suitable.",
+                "name": "default",
+                "value-description": "Boolean attribute",
                 "values": [
                     "default"
                 ]
-            }, 
+            },
             "kind": {
-                "description": "The type of text track", 
-                "name": "kind", 
-                "value-description": "\"subtitles\"; \"captions\"; \"descriptions\"; \"chapters\"; \"metadata\"", 
+                "description": "The type of text track",
+                "name": "kind",
+                "value-description": "\"subtitles\"; \"captions\"; \"descriptions\"; \"chapters\"; \"metadata\"",
                 "values": [
-                    "subtitles", 
-                    "captions", 
-                    "descriptions", 
-                    "chapters", 
+                    "subtitles",
+                    "captions",
+                    "descriptions",
+                    "chapters",
                     "metadata"
                 ]
-            }, 
+            },
             "label": {
-                "description": "User-visible label", 
-                "name": "label", 
-                "value-description": "Text", 
+                "description": "User-visible label",
+                "name": "label",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "srclang": {
-                "description": "Language of the text track", 
-                "name": "srclang", 
-                "value-description": "Valid BCP 47 language tag", 
+                "description": "Language of the text track",
+                "name": "srclang",
+                "value-description": "Valid BCP 47 language tag",
                 "values": []
             }
-        }, 
+        },
         "categories": [
             "none"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Timed text track", 
-        "interface": "HTMLTrackElement", 
-        "kind": "empty", 
+        ],
+        "description": "Timed text track",
+        "interface": "HTMLTrackElement",
+        "kind": "empty",
         "parents": [
-            "audio", 
+            "audio",
             "video"
         ]
-    }, 
+    },
     "u": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Keywords", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Keywords",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "ul": {
         "categories": [
             "flow"
-        ], 
+        ],
         "children": [
             "li"
-        ], 
-        "description": "List", 
-        "interface": "HTMLUListElement", 
-        "kind": "block", 
+        ],
+        "description": "List",
+        "interface": "HTMLUListElement",
+        "kind": "block",
         "parents": [
             "flow"
-        ], 
+        ],
         "snippet": "<ul>\n\t<li>%{0}</li>\n</ul>"
-    }, 
+    },
     "var": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "phrasing"
-        ], 
-        "description": "Variable", 
-        "interface": "HTMLElement", 
-        "kind": "inline", 
+        ],
+        "description": "Variable",
+        "interface": "HTMLElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "video": {
         "attributes": {
             "autoplay": {
-                "description": "Hint that the media resource can be started automatically when the page is loaded", 
-                "name": "autoplay", 
-                "value-description": "Boolean attribute", 
+                "description": "Hint that the media resource can be started automatically when the page is loaded",
+                "name": "autoplay",
+                "value-description": "Boolean attribute",
                 "values": [
                     "autoplay"
                 ]
-            }, 
+            },
             "controls": {
-                "description": "Show user agent controls", 
-                "name": "controls", 
-                "value-description": "Boolean attribute", 
+                "description": "Show user agent controls",
+                "name": "controls",
+                "value-description": "Boolean attribute",
                 "values": [
                     "controls"
                 ]
-            }, 
+            },
             "crossorigin": {
-                "description": "How the element handles crossorigin requests.", 
-                "name": "crossorigin", 
-                "value-description": "\"anonymous\"; \"use-credentials\"", 
+                "description": "How the element handles crossorigin requests.",
+                "name": "crossorigin",
+                "value-description": "\"anonymous\"; \"use-credentials\"",
                 "values": [
-                    "anonymous", 
+                    "anonymous",
                     "use-credentials"
                 ]
-            }, 
+            },
             "height": {
-                "description": "Vertical dimension", 
-                "name": "height", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Vertical dimension",
+                "name": "height",
+                "value-description": "Valid non-negative integer",
                 "values": []
-            }, 
+            },
             "loop": {
-                "description": "Whether to loop the media resource", 
-                "name": "loop", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to loop the media resource",
+                "name": "loop",
+                "value-description": "Boolean attribute",
                 "values": [
                     "loop"
                 ]
-            }, 
+            },
             "mediagroup": {
-                "description": "Groups media elements together with an implicit MediaController", 
-                "name": "mediagroup", 
-                "value-description": "Text", 
+                "description": "Groups media elements together with an implicit MediaController",
+                "name": "mediagroup",
+                "value-description": "Text",
                 "values": []
-            }, 
+            },
             "muted": {
-                "description": "Whether to mute the media resource by default", 
-                "name": "muted", 
-                "value-description": "Boolean attribute", 
+                "description": "Whether to mute the media resource by default",
+                "name": "muted",
+                "value-description": "Boolean attribute",
                 "values": [
                     "muted"
                 ]
-            }, 
+            },
             "poster": {
-                "description": "Poster frame to show prior to video playback", 
-                "name": "poster", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Poster frame to show prior to video playback",
+                "name": "poster",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "preload": {
-                "description": "Hints how much buffering the media resource will likely need", 
-                "name": "preload", 
-                "value-description": "\"none\"; \"metadata\"; \"auto\"", 
+                "description": "Hints how much buffering the media resource will likely need",
+                "name": "preload",
+                "value-description": "\"none\"; \"metadata\"; \"auto\"",
                 "values": [
-                    "none", 
-                    "metadata", 
+                    "none",
+                    "metadata",
                     "auto"
                 ]
-            }, 
+            },
             "src": {
-                "description": "Address of the resource", 
-                "name": "src", 
-                "value-description": "Valid non-empty URL potentially surrounded by spaces", 
+                "description": "Address of the resource",
+                "name": "src",
+                "value-description": "Valid non-empty URL potentially surrounded by spaces",
                 "values": []
-            }, 
+            },
             "width": {
-                "description": "Horizontal dimension", 
-                "name": "width", 
-                "value-description": "Valid non-negative integer", 
+                "description": "Horizontal dimension",
+                "name": "width",
+                "value-description": "Valid non-negative integer",
                 "values": []
             }
-        }, 
+        },
         "categories": [
-            "flow", 
-            "phrasing", 
-            "embedded", 
+            "flow",
+            "phrasing",
+            "embedded",
             "interactive"
-        ], 
+        ],
         "children": [
-            "source*", 
+            "source*",
             "transparent*"
-        ], 
-        "description": "Video player", 
-        "interface": "HTMLVideoElement", 
-        "kind": "inline", 
+        ],
+        "description": "Video player",
+        "interface": "HTMLVideoElement",
+        "kind": "inline",
         "parents": [
             "phrasing"
         ]
-    }, 
+    },
     "wbr": {
         "categories": [
-            "flow", 
+            "flow",
             "phrasing"
-        ], 
+        ],
         "children": [
             "empty"
-        ], 
-        "description": "Line breaking opportunity", 
-        "interface": "HTMLElement", 
-        "kind": "empty", 
+        ],
+        "description": "Line breaking opportunity",
+        "interface": "HTMLElement",
+        "kind": "empty",
         "parents": [
             "phrasing"
         ]

@@ -14,4 +14,4 @@ if [[ "x$CHOC_REPL" -ne "x" ]]; then
 fi
 
 echo -e ">>> Running:\n>>>\tpython -i $CHOC_FILE\n"
-python -i $CHOC_FILE
+"$SYSTEM_PYTHON" -i $CHOC_FILE

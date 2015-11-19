@@ -2,9 +2,9 @@ import csv, pprint, json, re
 
 isminified = False
 
-def uniq(input):
+def uniq(inpt):
     output = []
-    for x in input:
+    for x in inpt:
         if x not in output:
             output.append(x)
     return output

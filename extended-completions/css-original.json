@@ -1,847 +1,847 @@
 {
     "azimuth": {
         "values": [
-            "right", 
-            "center-left", 
-            "center", 
-            "<angle>", 
-            "right-side", 
-            "center-right", 
-            "far-left", 
-            "behind", 
-            "far-right", 
-            "leftwards", 
-            "inherit", 
-            "left-side", 
-            "rightwards", 
+            "right",
+            "center-left",
+            "center",
+            "<angle>",
+            "right-side",
+            "center-right",
+            "far-left",
+            "behind",
+            "far-right",
+            "leftwards",
+            "inherit",
+            "left-side",
+            "rightwards",
             "left"
         ]
-    }, 
+    },
     "background": {
         "values": [
-            "background-image", 
-            "background-repeat", 
-            "inherit", 
-            "background-attachment", 
-            "background-position", 
+            "background-image",
+            "background-repeat",
+            "inherit",
+            "background-attachment",
+            "background-position",
             "background-color"
         ]
-    }, 
+    },
     "background-attachment": {
         "values": [
-            "fixed", 
-            "scroll", 
+            "fixed",
+            "scroll",
             "inherit"
         ]
-    }, 
+    },
     "background-color": {
         "values": [
-            "<color>", 
-            "transparent", 
+            "<color>",
+            "transparent",
             "inherit"
         ]
-    }, 
+    },
     "background-image": {
         "values": [
-            "none", 
-            "<uri>", 
+            "none",
+            "<uri>",
             "inherit"
         ],
         "snippet": "%{1=\"url('%{2}')\"}"
-    }, 
+    },
     "background-position": {
         "values": [
-            "right", 
-            "center", 
-            "bottom", 
-            "top", 
-            "<length>", 
-            "inherit", 
-            "<percentage>", 
+            "right",
+            "center",
+            "bottom",
+            "top",
+            "<length>",
+            "inherit",
+            "<percentage>",
             "left"
         ]
-    }, 
+    },
     "background-repeat": {
         "values": [
-            "no-repeat", 
-            "repeat", 
-            "inherit", 
-            "repeat-x", 
+            "no-repeat",
+            "repeat",
+            "inherit",
+            "repeat-x",
             "repeat-y"
         ]
-    }, 
+    },
     "border": {
         "values": [
-            "inherit", 
-            "<border-style>", 
+            "inherit",
+            "<border-style>",
             "<border-width>"
         ],
         "snippet": "%{1=\"%{2=\"1px\"} %{3=\"#000\"} %{4=\"solid\"}\"}"
-    }, 
+    },
     "border-collapse": {
         "values": [
-            "collapse", 
-            "inherit", 
+            "collapse",
+            "inherit",
             "separate"
         ]
-    }, 
+    },
     "border-color": {
         "values": [
-            "<color>", 
-            "transparent", 
+            "<color>",
+            "transparent",
             "inherit"
         ]
-    }, 
+    },
     "border-spacing": {
         "values": [
-            "inherit", 
+            "inherit",
             "<length>"
         ]
-    }, 
+    },
     "border-style": {
         "values": [
-            "inherit", 
+            "inherit",
             "<border-style>"
         ]
-    }, 
+    },
     "border-top border-right border-bottom border-left": {
         "values": [
-            "inherit", 
-            "<border-style>", 
+            "inherit",
+            "<border-style>",
             "<border-width>"
         ],
         "snippet": "%{1=\"%{2=\"1px\"} %{3=\"#000\"} %{4=\"solid\"}\"}"
-    }, 
+    },
     "border-top-color border-right-color border-bottom-color border-left-color": {
         "values": [
-            "<color>", 
-            "transparent", 
+            "<color>",
+            "transparent",
             "inherit"
         ]
-    }, 
+    },
     "border-top-style border-right-style border-bottom-style border-left-style": {
         "values": [
-            "inherit", 
+            "inherit",
             "<border-style>"
         ]
-    }, 
+    },
     "border-top-width border-right-width border-bottom-width border-left-width": {
         "values": [
-            "inherit", 
+            "inherit",
             "<border-width>"
         ]
-    }, 
+    },
     "border-width": {
         "values": [
-            "inherit", 
+            "inherit",
             "<border-width>"
         ]
-    }, 
+    },
     "bottom": {
         "values": [
-            "auto", 
-            "<percentage>", 
-            "<length>", 
+            "auto",
+            "<percentage>",
+            "<length>",
             "inherit"
         ]
-    }, 
+    },
     "caption-side": {
         "values": [
-            "top", 
-            "inherit", 
+            "top",
+            "inherit",
             "bottom"
         ]
-    }, 
+    },
     "clear": {
         "values": [
-            "both", 
-            "none", 
-            "right", 
-            "inherit", 
+            "both",
+            "none",
+            "right",
+            "inherit",
             "left"
         ]
-    }, 
+    },
     "clip": {
         "values": [
-            "<rect>", 
-            "auto", 
+            "<rect>",
+            "auto",
             "inherit"
         ]
-    }, 
+    },
     "color": {
         "values": [
-            "<color>", 
+            "<color>",
             "inherit"
         ]
-    }, 
+    },
     "content": {
         "values": [
-            "none", 
-            "<string>", 
-            "close-quote", 
-            "attr", 
-            "normal", 
-            "no-close-quote", 
-            "inherit", 
-            "no-open-quote", 
-            "<uri>", 
-            "open-quote", 
-            "<identifier>", 
+            "none",
+            "<string>",
+            "close-quote",
+            "attr",
+            "normal",
+            "no-close-quote",
+            "inherit",
+            "no-open-quote",
+            "<uri>",
+            "open-quote",
+            "<identifier>",
             "<counter>"
         ]
-    }, 
+    },
     "counter-increment": {
         "values": [
-            "<integer>", 
-            "none", 
-            "<identifier>", 
+            "<integer>",
+            "none",
+            "<identifier>",
             "inherit"
         ]
-    }, 
+    },
     "counter-reset": {
         "values": [
-            "<integer>", 
-            "none", 
-            "<identifier>", 
+            "<integer>",
+            "none",
+            "<identifier>",
             "inherit"
         ]
-    }, 
+    },
     "cue": {
         "values": [
-            "cue-after", 
-            "cue-before", 
+            "cue-after",
+            "cue-before",
             "inherit"
         ]
-    }, 
+    },
     "cue-after": {
         "values": [
-            "none", 
-            "<uri>", 
+            "none",
+            "<uri>",
             "inherit"
         ]
-    }, 
+    },
     "cue-before": {
         "values": [
-            "none", 
-            "<uri>", 
+            "none",
+            "<uri>",
             "inherit"
         ]
-    }, 
+    },
     "cursor": {
         "values": [
-            "sw-resize", 
-            "n-resize", 
-            "s-resize", 
-            "help", 
-            "e-resize", 
-            "default", 
-            "auto", 
-            "w-resize", 
-            "move", 
-            "inherit", 
-            "nw-resize", 
-            "ne-resize", 
-            "<uri>", 
-            "text", 
-            "se-resize", 
-            "progress", 
-            "wait", 
-            "pointer", 
+            "sw-resize",
+            "n-resize",
+            "s-resize",
+            "help",
+            "e-resize",
+            "default",
+            "auto",
+            "w-resize",
+            "move",
+            "inherit",
+            "nw-resize",
+            "ne-resize",
+            "<uri>",
+            "text",
+            "se-resize",
+            "progress",
+            "wait",
+            "pointer",
             "crosshair"
         ]
-    }, 
+    },
     "direction": {
         "values": [
-            "ltr", 
-            "inherit", 
+            "ltr",
+            "inherit",
             "rtl"
         ]
-    }, 
+    },
     "display": {
         "values": [
-            "inline-table", 
-            "table-row-group", 
-            "table-header-group", 
-            "inline-block", 
-            "table-footer-group", 
-            "table-column", 
-            "none", 
-            "inherit", 
-            "table-cell", 
-            "list-item", 
-            "table-row", 
-            "table-caption", 
-            "table", 
-            "inline", 
-            "block", 
+            "inline-table",
+            "table-row-group",
+            "table-header-group",
+            "inline-block",
+            "table-footer-group",
+            "table-column",
+            "none",
+            "inherit",
+            "table-cell",
+            "list-item",
+            "table-row",
+            "table-caption",
+            "table",
+            "inline",
+            "block",
             "table-column-group"
         ]
-    }, 
+    },
     "elevation": {
         "values": [
-            "lower", 
-            "<angle>", 
-            "level", 
-            "inherit", 
-            "below", 
-            "above", 
+            "lower",
+            "<angle>",
+            "level",
+            "inherit",
+            "below",
+            "above",
             "higher"
         ]
-    }, 
+    },
     "empty-cells": {
         "values": [
-            "hide", 
-            "inherit", 
+            "hide",
+            "inherit",
             "show"
         ]
-    }, 
+    },
     "float": {
         "values": [
-            "none", 
-            "right", 
-            "inherit", 
+            "none",
+            "right",
+            "inherit",
             "left"
         ]
-    }, 
+    },
     "font": {
         "values": [
-            "font-size", 
-            "font-family", 
-            "menu", 
-            "status-bar", 
-            "inherit", 
-            "font-style", 
-            "caption", 
-            "message-box", 
-            "small-caption", 
-            "font-variant", 
-            "font-weight", 
-            "line-height", 
+            "font-size",
+            "font-family",
+            "menu",
+            "status-bar",
+            "inherit",
+            "font-style",
+            "caption",
+            "message-box",
+            "small-caption",
+            "font-variant",
+            "font-weight",
+            "line-height",
             "icon"
         ],
         "snippet": "%{1=\"%{2=\"style\"} %{3=\"size\"} %{4=\"family\"}\"}"
-    }, 
+    },
     "font-family": {
         "values": [
-            "<generic-family>", 
-            "<family-name>", 
+            "<generic-family>",
+            "<family-name>",
             "inherit"
         ]
-    }, 
+    },
     "font-size": {
         "values": [
-            "inherit", 
-            "<relative-size>", 
-            "<absolute-size>", 
-            "<percentage>", 
+            "inherit",
+            "<relative-size>",
+            "<absolute-size>",
+            "<percentage>",
             "<length>"
         ]
-    }, 
+    },
     "font-style": {
         "values": [
-            "oblique", 
-            "inherit", 
-            "italic", 
+            "oblique",
+            "inherit",
+            "italic",
             "normal"
         ]
-    }, 
+    },
     "font-variant": {
         "values": [
-            "small-caps", 
-            "inherit", 
+            "small-caps",
+            "inherit",
             "normal"
         ]
-    }, 
+    },
     "font-weight": {
         "values": [
-            "200", 
-            "900", 
-            "bold", 
-            "bolder", 
-            "normal", 
-            "300", 
-            "700", 
-            "inherit", 
-            "lighter", 
-            "400", 
-            "100", 
-            "800", 
-            "500", 
+            "200",
+            "900",
+            "bold",
+            "bolder",
+            "normal",
+            "300",
+            "700",
+            "inherit",
+            "lighter",
+            "400",
+            "100",
+            "800",
+            "500",
             "600"
         ]
-    }, 
+    },
     "height": {
         "values": [
-            "auto", 
-            "<percentage>", 
-            "<length>", 
+            "auto",
+            "<percentage>",
+            "<length>",
             "inherit"
         ]
-    }, 
+    },
     "left": {
         "values": [
-            "auto", 
-            "<percentage>", 
-            "<length>", 
+            "auto",
+            "<percentage>",
+            "<length>",
             "inherit"
         ]
-    }, 
+    },
     "letter-spacing": {
         "values": [
-            "inherit", 
-            "<length>", 
+            "inherit",
+            "<length>",
             "normal"
         ]
-    }, 
+    },
     "line-height": {
         "values": [
-            "inherit", 
-            "<number>", 
-            "<percentage>", 
-            "<length>", 
+            "inherit",
+            "<number>",
+            "<percentage>",
+            "<length>",
             "normal"
         ]
-    }, 
+    },
     "list-style": {
         "values": [
-            "list-style-type", 
-            "list-style-image", 
-            "inherit", 
+            "list-style-type",
+            "list-style-image",
+            "inherit",
             "list-style-position"
         ]
-    }, 
+    },
     "list-style-image": {
         "values": [
-            "none", 
-            "<uri>", 
+            "none",
+            "<uri>",
             "inherit"
         ],
         "snippet": "%{1=\"url('%{2}')\"}"
-    }, 
+    },
     "list-style-position": {
         "values": [
-            "inside", 
-            "outside", 
+            "inside",
+            "outside",
             "inherit"
         ]
-    }, 
+    },
     "list-style-type": {
         "values": [
-            "none", 
-            "square", 
-            "lower-roman", 
-            "lower-greek", 
-            "decimal", 
-            "decimal-leading-zero", 
-            "upper-alpha", 
-            "upper-latin", 
-            "lower-alpha", 
-            "disc", 
-            "lower-latin", 
-            "inherit", 
-            "circle", 
-            "upper-roman", 
-            "georgian", 
+            "none",
+            "square",
+            "lower-roman",
+            "lower-greek",
+            "decimal",
+            "decimal-leading-zero",
+            "upper-alpha",
+            "upper-latin",
+            "lower-alpha",
+            "disc",
+            "lower-latin",
+            "inherit",
+            "circle",
+            "upper-roman",
+            "georgian",
             "armenian"
         ]
-    }, 
+    },
     "margin": {
         "values": [
-            "inherit", 
+            "inherit",
             "<margin-width>"
         ],
         "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{5=\"left\"}\"}"
-    }, 
+    },
     "margin-right margin-left": {
         "values": [
-            "inherit", 
+            "inherit",
             "<margin-width>"
         ]
-    }, 
+    },
     "margin-top margin-bottom": {
         "values": [
-            "inherit", 
+            "inherit",
             "<margin-width>"
         ]
-    }, 
+    },
     "max-height": {
         "values": [
-            "inherit", 
-            "none", 
-            "<percentage>", 
+            "inherit",
+            "none",
+            "<percentage>",
             "<length>"
         ]
-    }, 
+    },
     "max-width": {
         "values": [
-            "inherit", 
-            "none", 
-            "<percentage>", 
+            "inherit",
+            "none",
+            "<percentage>",
             "<length>"
         ]
-    }, 
+    },
     "min-height": {
         "values": [
-            "inherit", 
-            "<percentage>", 
+            "inherit",
+            "<percentage>",
             "<length>"
         ]
-    }, 
+    },
     "min-width": {
         "values": [
-            "inherit", 
-            "<percentage>", 
+            "inherit",
+            "<percentage>",
             "<length>"
         ]
-    }, 
+    },
     "orphans": {
         "values": [
-            "<integer>", 
+            "<integer>",
             "inherit"
         ]
-    }, 
+    },
     "outline": {
         "values": [
-            "outline-color", 
-            "outline-style", 
-            "outline-width", 
+            "outline-color",
+            "outline-style",
+            "outline-width",
             "inherit"
         ]
-    }, 
+    },
     "outline-color": {
         "values": [
-            "<color>", 
-            "invert", 
+            "<color>",
+            "invert",
             "inherit"
         ]
-    }, 
+    },
     "outline-style": {
         "values": [
-            "inherit", 
+            "inherit",
             "<border-style>"
         ]
-    }, 
+    },
     "outline-width": {
         "values": [
-            "inherit", 
+            "inherit",
             "<border-width>"
         ]
-    }, 
+    },
     "overflow": {
         "values": [
-            "visible", 
-            "hidden", 
-            "scroll", 
-            "inherit", 
+            "visible",
+            "hidden",
+            "scroll",
+            "inherit",
             "auto"
         ]
-    }, 
+    },
     "padding": {
         "values": [
-            "<padding-width>", 
+            "<padding-width>",
             "inherit"
         ],
         "snippet": "%{1=\"%{2=\"top\"} %{3=\"right\"} %{4=\"bottom\"} %{5=\"left\"}\"}"
-    }, 
+    },
     "padding-top padding-right padding-bottom padding-left": {
         "values": [
-            "<padding-width>", 
+            "<padding-width>",
             "inherit"
         ]
-    }, 
+    },
     "page-break-after": {
         "values": [
-            "right", 
-            "auto", 
-            "avoid", 
-            "inherit", 
-            "always", 
+            "right",
+            "auto",
+            "avoid",
+            "inherit",
+            "always",
             "left"
         ]
-    }, 
+    },
     "page-break-before": {
         "values": [
-            "right", 
-            "auto", 
-            "avoid", 
-            "inherit", 
-            "always", 
+            "right",
+            "auto",
+            "avoid",
+            "inherit",
+            "always",
             "left"
         ]
-    }, 
+    },
     "page-break-inside": {
         "values": [
-            "auto", 
-            "avoid", 
+            "auto",
+            "avoid",
             "inherit"
         ]
-    }, 
+    },
     "pause": {
         "values": [
-            "inherit", 
-            "<time>", 
+            "inherit",
+            "<time>",
             "<percentage>"
         ]
-    }, 
+    },
     "pause-after": {
         "values": [
-            "inherit", 
-            "<time>", 
+            "inherit",
+            "<time>",
             "<percentage>"
         ]
-    }, 
+    },
     "pause-before": {
         "values": [
-            "inherit", 
-            "<time>", 
+            "inherit",
+            "<time>",
             "<percentage>"
         ]
-    }, 
+    },
     "pitch": {
         "values": [
-            "x-low", 
-            "medium", 
-            "<frequency>", 
-            "inherit", 
-            "high", 
-            "low", 
+            "x-low",
+            "medium",
+            "<frequency>",
+            "inherit",
+            "high",
+            "low",
             "x-high"
         ]
-    }, 
+    },
     "pitch-range": {
         "values": [
-            "<number>", 
+            "<number>",
             "inherit"
         ]
     },
     "play-during": {
         "values": [
-            "none", 
-            "repeat", 
-            "auto", 
-            "inherit", 
-            "mix", 
+            "none",
+            "repeat",
+            "auto",
+            "inherit",
+            "mix",
             "<uri>"
         ]
-    }, 
+    },
     "position": {
         "values": [
-            "relative", 
-            "fixed", 
-            "static", 
-            "inherit", 
+            "relative",
+            "fixed",
+            "static",
+            "inherit",
             "absolute"
         ]
-    }, 
+    },
     "quotes": {
         "values": [
-            "none", 
-            "<string>", 
+            "none",
+            "<string>",
             "inherit"
         ]
-    }, 
+    },
     "richness": {
         "values": [
-            "<number>", 
+            "<number>",
             "inherit"
         ]
-    }, 
+    },
     "right": {
         "values": [
-            "auto", 
-            "<percentage>", 
-            "<length>", 
+            "auto",
+            "<percentage>",
+            "<length>",
             "inherit"
         ]
-    }, 
+    },
     "speak": {
         "values": [
-            "none", 
-            "spell-out", 
-            "inherit", 
+            "none",
+            "spell-out",
+            "inherit",
             "normal"
         ]
-    }, 
+    },
     "speak-header": {
         "values": [
-            "always", 
-            "inherit", 
+            "always",
+            "inherit",
             "once"
         ]
-    }, 
+    },
     "speak-numeral": {
         "values": [
-            "digits", 
-            "continuous", 
+            "digits",
+            "continuous",
             "inherit"
         ]
-    }, 
+    },
     "speak-punctuation": {
         "values": [
-            "none", 
-            "code", 
+            "none",
+            "code",
             "inherit"
         ]
-    }, 
+    },
     "speech-rate": {
         "values": [
-            "slow", 
-            "x-slow", 
-            "x-fast", 
-            "fast", 
-            "medium", 
-            "inherit", 
-            "<number>", 
-            "slower", 
+            "slow",
+            "x-slow",
+            "x-fast",
+            "fast",
+            "medium",
+            "inherit",
+            "<number>",
+            "slower",
             "faster"
         ]
-    }, 
+    },
     "stress": {
         "values": [
-            "<number>", 
+            "<number>",
             "inherit"
         ]
-    }, 
+    },
     "table-layout": {
         "values": [
-            "auto", 
-            "fixed", 
+            "auto",
+            "fixed",
             "inherit"
         ]
-    }, 
+    },
     "text-align": {
         "values": [
-            "right", 
-            "justify", 
-            "center", 
-            "inherit", 
+            "right",
+            "justify",
+            "center",
+            "inherit",
             "left"
         ]
     },
     "text-decoration": {
         "values": [
-            "none", 
-            "inherit", 
-            "blink", 
-            "overline", 
-            "line-through", 
+            "none",
+            "inherit",
+            "blink",
+            "overline",
+            "line-through",
             "underline"
         ]
-    }, 
+    },
     "text-indent": {
         "values": [
-            "inherit", 
-            "<percentage>", 
+            "inherit",
+            "<percentage>",
             "<length>"
         ]
     },
     "text-shadow": {
         "values": ["inherit"],
-        "snippet": "%{1=\"%{2=\"X\"}px %{3=\"Y\"}px %{4=\"S\"}px %{5=\"color\"}\"}"
+        "snippet": "%{1=\"%{2=\"0\"}px %{3=\"Y\"}px %{4=\"S\"}px %{5=\"color\"}\"}"
     },
     "text-transform": {
         "values": [
-            "uppercase", 
-            "lowercase", 
-            "capitalize", 
-            "none", 
+            "uppercase",
+            "lowercase",
+            "capitalize",
+            "none",
             "inherit"
         ]
-    }, 
+    },
     "top": {
         "values": [
-            "auto", 
-            "<percentage>", 
-            "<length>", 
+            "auto",
+            "<percentage>",
+            "<length>",
             "inherit"
         ]
-    }, 
+    },
     "unicode-bidi": {
         "values": [
-            "embed", 
-            "inherit", 
-            "bidi-override", 
+            "embed",
+            "inherit",
+            "bidi-override",
             "normal"
         ]
-    }, 
+    },
     "vertical-align": {
         "values": [
-            "baseline", 
-            "bottom", 
-            "text-bottom", 
-            "top", 
-            "text-top", 
-            "<length>", 
-            "middle", 
-            "inherit", 
-            "<percentage>", 
-            "super", 
+            "baseline",
+            "bottom",
+            "text-bottom",
+            "top",
+            "text-top",
+            "<length>",
+            "middle",
+            "inherit",
+            "<percentage>",
+            "super",
             "sub"
         ]
-    }, 
+    },
     "visibility": {
         "values": [
-            "visible", 
-            "hidden", 
-            "collapse", 
+            "visible",
+            "hidden",
+            "collapse",
             "inherit"
         ]
-    }, 
+    },
     "voice-family": {
         "values": [
-            "<specific-voice>", 
-            "inherit", 
+            "<specific-voice>",
+            "inherit",
             "<generic-voice>"
         ]
-    }, 
+    },
     "volume": {
         "values": [
-            "medium", 
-            "silent", 
-            "loud", 
-            "x-loud", 
-            "inherit", 
-            "<number>", 
-            "<percentage>", 
-            "x-soft", 
+            "medium",
+            "silent",
+            "loud",
+            "x-loud",
+            "inherit",
+            "<number>",
+            "<percentage>",
+            "x-soft",
             "soft"
         ]
-    }, 
+    },
     "white-space": {
         "values": [
-            "pre", 
-            "pre-wrap", 
-            "normal", 
-            "inherit", 
-            "pre-line", 
+            "pre",
+            "pre-wrap",
+            "normal",
+            "inherit",
+            "pre-line",
             "nowrap"
         ]
-    }, 
+    },
     "widows": {
         "values": [
-            "<integer>", 
+            "<integer>",
             "inherit"
         ]
-    }, 
+    },
     "width": {
         "values": [
-            "auto", 
-            "<percentage>", 
-            "<length>", 
+            "auto",
+            "<percentage>",
+            "<length>",
             "inherit"
         ]
-    }, 
+    },
     "word-spacing": {
         "values": [
-            "inherit", 
-            "<length>", 
+            "inherit",
+            "<length>",
             "normal"
         ]
-    }, 
+    },
     "z-index": {
         "values": [
-            "auto", 
-            "inherit", 
+            "auto",
+            "inherit",
             "<integer>"
         ]
     }
