@@ -5,23 +5,30 @@
         "beforeOpeningCurlyBrace": true
     },
     "requirePaddingNewlinesInBlocks": true,
+    "requireSpacesInsideParentheses": "all",
     "requireSpacesInsideObjectBrackets": "all",
-    "requireSpacesInsideArrayBrackets": "allButNested",
+    "requireSpacesInsideBrackets": {
+        "allExcept": [ "[", "]" ]
+    },
     "requireSpaceBeforeBlockStatements": true,
+    "requireSpacesInForStatement": true,
+    "requireSpaceBeforeObjectValues":true,
+    "requireSpaceBetweenArguments": true,
     "disallowKeywords": [ "with" ],
     "requireLineFeedAtFileEnd": true,
     "validateLineBreaks": "LF",
     "validateIndentation": "\t",
-
-    "requireSpaceAfterPrefixUnaryOperators": ["++", "--"],
+    "requireSpaceAfterPrefixUnaryOperators": true,
     "requireSpaceBeforePostfixUnaryOperators": ["++", "--"],
-    "requireSpaceBeforeBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ],
-    "requireSpaceAfterBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ],
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceAfterBinaryOperators": true,
     "disallowSpaceBeforeBinaryOperators": [","],
     "requireSpacesInConditionalExpression": {
         "afterTest": true,
         "beforeConsequent": true,
         "afterConsequent": true,
         "beforeAlternate": true
-    }
+    },
+    "disallowTrailingWhitespace": true,
+    "disallowNewlineBeforeBlockStatements": true
 }
