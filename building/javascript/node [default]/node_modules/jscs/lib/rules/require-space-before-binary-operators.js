@@ -1,5 +1,44 @@
+/**
+ * Disallows sticking binary operators to the left.
+ *
+ * Types: `Array` or `Boolean`
+ *
+ * Values: Array of quoted operators or `true` to require space before all possible binary operators
+ * without comma operator, since it's rarely used with this rule
+ *
+ *
+ * #### Example
+ *
+ * ```js
+ * "requireSpaceBeforeBinaryOperators": [
+ *     "=",
+ *     ",",
+ *     "+",
+ *     "-",
+ *     "/",
+ *     "*",
+ *     "==",
+ *     "===",
+ *     "!=",
+ *     "!=="
+ *     // etc
+ * ]
+ * ```
+ *
+ * ##### Valid
+ *
+ * ```js
+ * x !== y;
+ * ```
+ *
+ * ##### Invalid
+ *
+ * ```js
+ * x!== y;
+ * ```
+ */
+
 var assert = require('assert');
-var tokenHelper = require('../token-helper');
 var allOperators = require('../../lib/utils').binaryOperators.filter(function(operator) {
     return operator !== ',';
 });
@@ -13,7 +52,7 @@ module.exports.prototype = {
 
         assert(
             Array.isArray(operators) || isTrue,
-            'requireSpaceBeforeBinaryOperators option requires array or true value'
+            this.getOptionName() + ' option requires array or true value'
         );
 
         if (isTrue) {
@@ -33,29 +72,14 @@ module.exports.prototype = {
     check: function(file, errors) {
         var operators = this._operatorIndex;
 
-        function errorIfApplicable(token, i, tokens, operator) {
-            var prevToken = tokens[i - 1];
-
-            if (prevToken && prevToken.range[1] === token.range[0]) {
-                var loc = token.loc.start;
-
-                errors.add(
-                    'Operator ' + operator + ' should not stick to preceding expression',
-                    loc.line,
-                    tokenHelper.getPointerEntities(loc.column, token.value.length)
-                );
-            }
-        }
-
         // Comma
         if (operators[',']) {
-            file.iterateTokensByType('Punctuator', function(token, i, tokens) {
-                var operator = token.value;
-                if (operator !== ',') {
-                    return;
-                }
-
-                errorIfApplicable(token, i, tokens, operator);
+            file.iterateTokensByTypeAndValue('Punctuator', ',', function(token) {
+                errors.assert.whitespaceBetween({
+                    token: file.getPrevToken(token),
+                    nextToken: token,
+                    message: 'Operator , should not stick to preceding expression'
+                });
             });
         }
 
@@ -63,23 +87,34 @@ module.exports.prototype = {
         file.iterateNodesByType(
             ['BinaryExpression', 'AssignmentExpression', 'VariableDeclarator', 'LogicalExpression'],
             function(node) {
-                var isDec = node.type === 'VariableDeclarator';
-                var operator = isDec ? '=' : node.operator;
+                var operator;
+                var expression;
 
-                if (!operators[operator]) {
+                if (node.type === 'VariableDeclarator') {
+                    expression = node.init;
+                    operator = '=';
+                } else {
+                    operator = node.operator;
+                    expression = node.right;
+                }
+
+                if (expression === null) {
                     return;
                 }
 
-                var range = (isDec ? node.id : node.left).range[1];
-                var part = tokenHelper.getTokenByRangeStartIfPunctuator(file, range, operator);
+                var operatorToken = file.findPrevOperatorToken(
+                    file.getFirstNodeToken(expression),
+                    operator
+                );
 
-                if (part) {
-                    var loc = part.loc.start;
-                    errors.add(
-                        'Operator ' + operator + ' should not stick to following expression',
-                        loc.line,
-                        tokenHelper.getPointerEntities(loc.column, operator.length)
-                    );
+                var prevToken = file.getPrevToken(operatorToken);
+
+                if (operators[operator]) {
+                    errors.assert.whitespaceBetween({
+                        token: prevToken,
+                        nextToken: operatorToken,
+                        message: 'Operator ' + operator + ' should not stick to preceding expression'
+                    });
                 }
             }
         );
