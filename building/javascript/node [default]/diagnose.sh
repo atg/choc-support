@@ -14,5 +14,5 @@ if [[ ! $CHOC_APP_PATH && ${CHOC_APP_PATH-x} ]]; then
 fi
 
 if [[ -e "$CHOC_APP_PATH" ]]; then
-	cd "$CHOC_PROJECT_DIR" && HOME=$HOME CHOC_PROJECT_DIR=$CHOC_PROJECT_DIR CHOC_FILE=$CHOC_FILE CHOC_PROJECT_FILE=$CHOC_PROJECT_FILE "$CHOC_APP_PATH/Contents/MacOS/Chocolat" --pretend-node $PWD
+	cd "$CHOC_PROJECT_DIR" && HOME=$HOME CHOC_PROJECT_DIR=$CHOC_PROJECT_DIR CHOC_FILE=$CHOC_FILE CHOC_PROJECT_FILE=$CHOC_PROJECT_FILE "$CHOC_APP_PATH/Contents/MacOS/Chocolat" --pretend-node ~/Library/Caches/com.chocolat.Chocolatapp/ohchoc/js-building
 fi
